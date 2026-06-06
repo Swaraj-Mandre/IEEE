@@ -1,0 +1,1595 @@
+[
+  {
+    "chunk_id": "79e937a9f889",
+    "text": "Work, Energy, and Simple Machines Chapter In earlier Chapters 4 and 6, you have learnt how forces change the motion of objects, and how kinematic equations and Newton’s laws can be used to analyse motion. But when forces change with time or act in complicated ways, applying these laws directly can become difficult",
+    "page_num": 1,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "4065b74a02ad",
+    "text": ". Is there a simpler and more powerful way to understand such situations? In this chapter, you will explore the ideas of work, energy and power, which often allow us to analyse motion and interactions more easily. You will also learn about simple machines, which help us perform tasks with less effort and more convenience. These form the building blocks of many everyday machines",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "3a1959ad6fac",
+    "text": ". These form the building blocks of many everyday machines. Energy, which is the capacity to do work, lies at the heart of all these ideas and of almost every activity in our daily life (Fig. 7.1). Fig",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 201,
+    "estimated_tokens": 50
+  },
+  {
+    "chunk_id": "e03c4294ed58",
+    "text": ". 7.1). Fig. 7.1: Energy required to carry out tasks comes from various sources Food provides energy to walk Electricity provides energy to rotate a fan Fuel provides energy to move a car We often use the words work, energy, and power in everyday conversations. As we learnt in Chapter 1, these terms have a precise meaning in science. Let us first understand how to define work",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "1270c94b39eb",
+    "text": ". Let us first understand how to define work. y What will be the magnitude of velocity of the child at the bottom of the blue slide? y Will two children of different masses reach the bottom of the same slide with the same velocity? y Which of the slides will result in the largest magnitude of velocity for the child at its bottom? Think It Over",
+    "page_num": 1,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "82310ed56c37",
+    "text": "Work, Energy, and Simple Machines 7.1 Work Done by a Constant Force Let us begin by doing some thinking based on our experience of lifting objects to a height. Consider a wheat bag of mass 5 kg kept on the floor (Fig. 7.2a). Gravitational force mg acts downwards on the bag, where m is the mass of the bag and g is the acceleration due to gravity",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "9a611222b277",
+    "text": ". To lift the bag slowly to a height of 1 m, you must apply an upward force equal to mg. The force applied by you acts upwards on the bag as the bag is displaced through a distance of 1 m in the direction of the force. In everyday language, you would say that you did some work. If you lift 3 such bags one after the other to the same height (Fig",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "ffce837e21d6",
+    "text": ". If you lift 3 such bags one after the other to the same height (Fig. 7.2b), you would have done 3 times more work than to lift 1 bag. If the bag is lifted to the same height by a machine using some fuel, it will require 3 times more fuel to lift 3 bags. Now, suppose you lift all the 3 bags together to the same height (Fig. 7.2c)",
+    "page_num": 2,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "144e8b19b38a",
+    "text": ". Now, suppose you lift all the 3 bags together to the same height (Fig. 7.2c). You would need to apply a force 3 times larger than that required for a single bag. Since, you have done the same task as in Fig. 7.2b, the work done by you would be 3 times the work required to lift 1 bag. This shows that applying a larger force over the same distance allows you to proportionally do more work",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "7aaf7ff41bbd",
+    "text": ". Next, consider lifting a single 5 kg bag of wheat but to a height of 3 m (Fig. 7.2d). You would have carried out 3 times more work as compared to the work required to lift the same bag by 1 m. Or if the same machine is used three times in succession to lift the bag by 1 m each time, it would require 3 times more fuel",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 320,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "1b0aca762bce",
+    "text": ". The work done by a constant force acting on an object in bringing about a certain displacement can be defined as: work done on an object by a constant force = force applied × displacement in the direction of the force (7.1) In the example that we discussed, the displacement was in the vertical direction, however, Eq",
+    "page_num": 2,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "528ad662da93",
+    "text": ". (7.1) can be used even if the force and displacement, both are in a horizontal direction, or any other direction for that matter. For example, consider an object upon which a constant force F is acting, and it undergoes a displacement s in the direction of force (Fig. 7.3). Then, the work done W by the force on the object is W = F × s (7.2) F (b) Fig",
+    "page_num": 2,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "9cabde2cebb3",
+    "text": ". Then, the work done W by the force on the object is W = F × s (7.2) F (b) Fig. 7.3: Work done by a force while displacing an object in (a) horizontal direction, and (b) vertical direction (a) s s F While describing the work done, it is important to specify the force (or agency) doing the work and the object on which the work is done. Note Fig",
+    "page_num": 2,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "1c7af2c41340",
+    "text": "Exploration|Grade 9 The SI unit of work done is joule which is represented by J. The SI unit of force is the newton (N) and the SI unit of displacement is the metre (m). Thus, using Eq. (7.2), 1 joule can be defined as 1 J = 1 N × 1 m That is, 1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "f3d7ef17504b",
+    "text": ". Since 1 N = 1 kg m s–2, note that 1 J = 1 kg m s–2 × 1 m = 1 kg m2 s–2 In the graph shown in Fig. 7.4, the force on an object is plotted on the Y-axis against the displacement in the direction of force on the X-axis",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 217,
+    "estimated_tokens": 54
+  },
+  {
+    "chunk_id": "5606431754f5",
+    "text": ". In this case, the work done on the object by the force is equal to the area of the shaded rectangle in the graph which is 10 N × 1 m = 10 J Even when the force is not constant, work done can still be calculated by finding the area under the force-displacement graph between the initial and the final positions. 7.1.1 When is work done equal to zero? From the definition of work done (Eq",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "bcabfc85f7f8",
+    "text": ". 7.1.1 When is work done equal to zero? From the definition of work done (Eq. 7.2), you can see that if the force acting on an object is zero, i.e., F = 0, then no work is done on the object. The work done on an object is also zero if there is no displacement of the object, i.e., s = 0, regardless of the force being applied on it",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "29ed8336cad4",
+    "text": ". For example, if you apply a force on an object, such as a rigid wall (Fig. 7.5), there is no displacement in the wall and you have done no work on the wall. This may seem odd because you feel tired. To apply a force, the muscles in your body repeatedly expand and contract, and use up the internal energy of your body",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "9c0445c061d2",
+    "text": ". Thus, you may feel tired even though, in a scientific sense, you have not done any work on the object. If a force acts in a direction perpendicular to the displacement of an object, the work done by that force is zero (Fig. 7.6) because there is no displacement in the direction of the force",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 293,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "bab9e8bde57f",
+    "text": ". 7.6) because there is no displacement in the direction of the force. For example, when a girl carries a box while walking, she applies an upward force to balance its weight, while the box moves horizontally. Since, the force and displacement are perpendicular to each other, no work is done by this force on the box",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "fe33de03b872",
+    "text": ". Ready to Go Beyond Force applied by the girl on the box Fig. 7.6: Carrying a box Displacement Next Level Up 7.1.2 Positive and negative work done The work done by a force on an object can either be positive or negative depending upon the relative directions of the force and the displacement",
+    "page_num": 3,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 293,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "03327b2457ff",
+    "text": ". When the displacement is in the same direction as the applied force, the work done by the force on the object is said to be positive. For example, Force (N) 0.2 0.4 0.6 0.8 1.0 Fig. 7.4: Force-displacement graph Displacement (m) Fig. 7.5: Pushing a wall Force and displacement have both magnitude and direction. Work, however, does not have a direction",
+    "page_num": 3,
+    "chunk_index": 9,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "2f525d7d0ee4",
+    "text": "Work, Energy, and Simple Machines when you push a wheelchair, the force applied by you on the wheelchair and its displacement are in the same direction (Fig. 7.7a). Thus, you do positive work on the wheelchair. When the displacement is in the direction opposite to that of the force, then the work done by the force on the object is negative",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "bc47c64828a8",
+    "text": ". For example, while stopping a ball, the goalkeeper applies a force in a direction opposite to the direction of motion of the football (Fig. 7.7b), and hence, opposite to the displacement. As a result, the goalkeeper does negative work on the ball. Fig",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 253,
+    "estimated_tokens": 63
+  },
+  {
+    "chunk_id": "98686c864aa4",
+    "text": ". As a result, the goalkeeper does negative work on the ball. Fig. 7.7: Examples of (a) positive, and (b) negative work done on object (a) Positive work done by the boy on the wheelchair Displacement Force (b) Negative work done by the goalkeeper on the ball Displacement Force Example 7.1: While exercising, a girl lifts a dumbbell and slowly lowers it down",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "cc15e08abe12",
+    "text": ". Identify when the girl does positive work on the dumbbell and when she does negative work on it. Answer: The girl applies a force equal to the weight of dumbbell to lift it up. When she moves the dumbbell up, the force is in the direction of displacement, so she does positive work on it",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "e4e82bb61188",
+    "text": ". When moving the dumbbell down, the force she applies to hold it is in a direction opposite to the displacement, so she does negative work on it. Example 7.2: While saving a goal (Fig. 7.7b), a goalkeeper’s hand moved back by 15 cm as she stopped a ball while applying a force of 200 N",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "64aafd454973",
+    "text": ". How much work did the goalkeeper do on the ball in stopping it? Answer: The goalkeeper applied a force opposite to the motion of the ball, so she did negative work on the ball. The displacement should be taken as negative because the ball moves in a direction opposite to the direction of the applied force",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 308,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "6ec82b8144f7",
+    "text": ". \u0007Work done by the goalkeeper on the ball = force × displacement of ball in the direction of force = 200 N × (– 0.15 m) = – 30 J 1. In the previous chapter, a weightlifter is shown holding a barbell steady in her hands (Fig. 6.8). Is she doing any work on the barbell while holding it steady? 2. Is the work done by friction on the stack of coins that travels on a rough surface (Fig",
+    "page_num": 4,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "31358e7dee96",
+    "text": ". 6.13c) — positive, negative or zero? Pause and Ponder Note The ball and the goalkeeper, both apply equal and opposite forces on each other. Both do work on each other. The ball does positive work on the goalkeeper, while goalkeeper does negative work on the ball.",
+    "page_num": 4,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 265,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "c38ef5ee7ed3",
+    "text": "Exploration|Grade 9 7.2 The Work-Energy Theorem We have seen that when a force is applied and an object is displaced, work is done on it. Does this cause the object to gain capacity to do further work? Consider some everyday life examples. A fielder throws a cricket ball towards the wicket (Fig. 7.8a). The moving ball hits the wicket, making it fall (Fig. 7.8b)",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "bbd63913d33b",
+    "text": ". 7.8a). The moving ball hits the wicket, making it fall (Fig. 7.8b). Similarly, a flowerpot raised to a height can damage an object below it if it falls (Fig. 7.8c). So, in each case, the ball or the pot has acquired a capacity to do some work. An object having the capacity to do work is said to possess energy",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "c39ce833adad",
+    "text": ". An object having the capacity to do work is said to possess energy. But how did the ball or the pot get their energy? The ball gained energy from the work done by the fielder in throwing it. The pot gained energy from the work done in raising it to a height. When positive work is done on an object, it gains energy",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "ff67a1c99eee",
+    "text": ". When positive work is done on an object, it gains energy. Subsequently, the object can use that energy to apply a force on another object and cause it to move, thereby transferring energy. For example, when the ball hits the wickets, it transfers its energy to the wickets, making them move. Thus, work done on an object and its energy are closely related to each other",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "93df770dfb13",
+    "text": ". Work done on an object appears as a change in its energy. The relation between the work done on an object and the change in its energy is called the work-energy theorem, which can be stated as work done on an object = change in its energy\b (7.3) This theorem also holds for a system of objects or even when the forces applied on an object are not constant",
+    "page_num": 5,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "ab37a234d9e9",
+    "text": ". This theorem can help us solve problems which we could not have done easily otherwise. The SI unit of energy is the same as the SI unit of work, the joule (J). Doing mechanical work is one way of transferring energy from one object to another. But that is not the only way! Energy can also be transferred as heat",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "74c07cef5aa1",
+    "text": ". But that is not the only way! Energy can also be transferred as heat. When two objects at different temperatures come in contact, energy flows from the hotter one to the colder one. Energy can also move without direct contact. For example, the Sun’s energy reaches the Earth through radiation",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 294,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "2424bf003075",
+    "text": ". For example, the Sun’s energy reaches the Earth through radiation. Energy is transferred in electric circuits, as well as via sound waves, and even in nuclear reactions that power the Sun. Ready to Go Beyond Example 7.3: In a game of carrom, a player played the shot shown in Fig. 7.9 to pocket the black coin. Identify who does work, and the changes in energy that occur at each collision",
+    "page_num": 5,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "a02508f1b8ea",
+    "text": ". Identify who does work, and the changes in energy that occur at each collision. Answer: The moving striker collides with the white coin, which in turn collides with the black coin. The moving striker applies force in the direction of displacement of the white coin. The striker, thus, does positive work on the white coin, increasing its energy",
+    "page_num": 5,
+    "chunk_index": 9,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "3a6473bd9d7f",
+    "text": ". The striker, thus, does positive work on the white coin, increasing its energy. By Newton’s third law, the white coin applies an opposite force and does negative work on the striker, decreasing its energy. Similarly, the white coin does positive work on the black coin increasing its energy, while the black coin does negative work on the white coin, decreasing its energy. (b) (c) (a) Fig",
+    "page_num": 5,
+    "chunk_index": 10,
+    "source_file": "iesc107.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "753e7b52ede1",
+    "text": ". (b) (c) (a) Fig. 7.8: (a) Throwing a cricket ball, (b) ball hitting the wickets, and (c) a flower pot falling from a height Fig. 7.9: A carrom shot Meet a Scientist The SI unit of work and energy, joule, is named after the scientist, James Prescott Joule. He studied how mechanical energy and thermal energy are related, and can be converted from one to the other",
+    "page_num": 5,
+    "chunk_index": 11,
+    "source_file": "iesc107.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "d7e3ee7fdfa2",
+    "text": "Work, Energy, and Simple Machines 3. When you pedal a bicycle on a flat road, your muscles supply energy. In what forms does this muscular energy appear as you ride? Pause and Ponder 7.3 Forms of Energy As we have seen, energy is the capacity to do work. The examples that we have discussed till now correspond to the mechanical energy. But energy can exist in many other forms as shown in Fig. 7.10",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9e54e2d02215",
+    "text": ". But energy can exist in many other forms as shown in Fig. 7.10. It is possible to change energy from one form to another. For example, electrical energy is converted into light energy in a bulb, and into thermal energy of the water in an electric water heater. The chemical energy in the food we eat powers our muscles and gets converted into mechanical energy",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "bc984584d2ab",
+    "text": ". Similarly, a ringing bell converts mechanical energy into sound energy. Among these, we will now look more closely at mechanical energy, since it is directly connected to the forces and motions you studied earlier. 7.4 Mechanical Energy Mechanical energy is the energy that an object possesses due to its motion or position. Let us try to quantify mechanical energy by using the concept of work",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "3f9a3de33f02",
+    "text": ". Let us try to quantify mechanical energy by using the concept of work. 7.4.1 Kinetic energy The energy possessed by an object due to its motion is called kinetic energy. All moving objects possess kinetic energy, such as a moving bicycle or a rolling ball",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 257,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "7d8be0be2768",
+    "text": ". How much is the energy possessed by an object by virtue of its motion? It is common to define an object that does not move to have zero kinetic energy. Consider an object that starts from rest and acquires a certain velocity under the influence of a force F (Fig. 7.11)",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 271,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "46a4cab9c1e4",
+    "text": ". 7.11). Then by the work-energy theorem, the work done by the force will equal to the energy gained by the object, which is the kinetic energy of the object in this case. Initial velocity = 0 Initial Kinetic energy = 0 F Work done by force W = F × s Final velocity = v Final Kinetic energy = K Displacement along the force = s Fig",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "75651633a8a6",
+    "text": ". 7.11: Calculating change in kinetic energy using the work-energy theorem Let us find a mathematical expression for the kinetic energy. For that, we will first find a general expression for work done by a force on an object of mass m , starting not from rest but from an initial velocity u",
+    "page_num": 6,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 290,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "9f2177c88970",
+    "text": ". Let v be its Grade 7 Curiosity Chapter 3 Grade 6 Curiosity Chapter 3 Mechanical energy Energy due to motion or position of objects Energy related to position or motion of charges Thermal energy Energy that makes things warm or hot Light energy Energy that allows us to see Sound energy Energy of vibrations of air or other molecules Energy stored in the nuclei of atoms Energy stored in fuels and",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "57b477615674",
+    "text": "Exploration|Grade 9 final velocity and it undergoes a displacement s. To simplify the situation, let us assume that the force F acting on the object is constant. In that case, the acceleration a is also constant, and the kinematic equations can be used. We can then write v 2 = u 2 + 2as or ( ) ( ) v u s a − = (7.4) From the definition of work (Eq",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "270754fd0b8b",
+    "text": ". 7.2), the work done W by the force is W = F × s Using Newton’s second law, F = ma, we get W = ma × s Substituting the value of s from Eq. (7.4), we obtain, ( ) ( ) − = × v u W ma a ( ) W m v u = − \b (7.5) From the work-energy theorem (Eq. 7.3), the work done by the force acting on the object translates into the change in the energy of the object. Thus, Eq",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 359,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "b9ef919220e9",
+    "text": ". Thus, Eq. (7.5) represents the change in the energy of the object. If the initial velocity of the object is u = 0, the change in the energy of the object is equal to its final kinetic energy. Thus, using Eq. (7.5), the kinetic energy of an object of mass m moving with a velocity v is K mv = (7.6) The SI unit of kinetic energy is the joule (J). The kinetic energy has no direction",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "e00d9981eb54",
+    "text": ". The kinetic energy has no direction. When positive work is done on the object and its velocity increases, its kinetic energy also increases. If negative work is done on the object and its velocity decreases, its kinetic energy will also decrease. If no work is done by the force on the object (W = 0) and its velocity does not change, then its kinetic energy remains constant",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "f5f3220d9ccc",
+    "text": ". Example 7.4: If the velocity of a vehicle doubles in magnitude, what will its kinetic energy be compared to its original value? Answer: Let the mass of the vehicle be m and its initial velocity be v. Its initial kinetic energy will be 2mv . If the vehicle travels with a velocity of 2v, its kinetic energy will be ( ) = × m v mv",
+    "page_num": 7,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "13acdbddf746",
+    "text": ". The new value of the kinetic energy will be 4 times the previous value. Example 7.5: In one of their fastest deliveries, an Indian cricketer bowled a cricket ball with an approximate mass of 0.2 kg at a velocity of about 154.8 km h–1. Calculate the kinetic energy of the ball at the time of its delivery",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 305,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "0364e04984cd",
+    "text": "Work, Energy, and Simple Machines Example 7.6: A jet aircraft of mass 15000 kg lands on the deck of an aircraft carrier (Fig. 7.12). To stop the aircraft within the short length of the deck a hook on the aircraft’s tail is caught in a wire stretched across the deck. The wire exerts an approximately constant backward force of 367500 N and stops the jet within 100 m",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "28bbee379b36",
+    "text": ". What was the velocity of the aircraft just before the wire caught the hook? Answer: Let the aircraft approach with a velocity v Initial kinetic energy of the aircraft 15000 kg K v = × × Final kinetic energy of the aircraft K = 0 J Change in the kinetic energy = 0 J 15000 kg v − × × From Eq. (7.3), Change in the kinetic energy = the work done by the wire",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "27ed6dea0784",
+    "text": ". (7.3), Change in the kinetic energy = the work done by the wire. The displacement of the aircraft and the force that the wire applies are in opposite directions. Therefore, the work done by the force applied by the wire will be negative. Using Eq. (7.2), the work done by the wire = F × s = 367500 N × (– 100 m) Substituting the values in Eq",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "b026993b21df",
+    "text": ". What is the ratio of the magnitude of velocities of A and B? 5. Does the kinetic energy of an object which moves with constant velocity change with its position? Pause and Ponder 7.4.2 Potential energy In Chapter 6, How Forces Affect Motion, you performed an activity (6.1) where you could move a stack of coins by releasing the stretched rubber band with which it was in contact",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "7c1cd6467ee6",
+    "text": ". Have you ever played with a slingshot (gulel)? In this case, when you release the stretched elastic band, the object in contact with it shoots in the forward direction (Fig. 7.13a). You might have also watched an archery competition. The archer pulls on the string of the bow bending its arms in the process",
+    "page_num": 8,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "6d1c29469b4f",
+    "text": ". The archer pulls on the string of the bow bending its arms in the process. When released, the bow comes back along with the string to its original position, and the arrow flies off the bow (Fig. 7.13b). In these examples, you notice that when the stretched band or the bent bow is released, it applies a force on the object in contact with it",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "16d70832c5c6",
+    "text": ". This sets the object in motion giving it kinetic energy. At the same time, the stretched band or bent bow comes back to its original shape. The stack of coins, ball and the arrow thus gain the kinetic energy they did not originally possess. This energy must have come from the stretched band and the bent bow, which have the capacity to do work due to their shape",
+    "page_num": 8,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "8d2b0038d6db",
+    "text": ". The work done by the force which was applied to cause these deformations was stored in the band or the bow. Fig. 7.12: A jet aircraft landing on an aircraft carrier Fig. 7.13: (b) Shooting an arrow using a bow Fig. 7.13: (a) A slingshot",
+    "page_num": 8,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 238,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "7f2dc240042d",
+    "text": "Exploration|Grade 9 Similarly, when you apply a force and stretch or compress a spring (Fig. 7.14a), you do work on the spring to change or deform its shape. In turn, the spring stores energy or gains a capacity to do work while it is in a deformed state (Fig. 7.14b). While held in this state, the energy of the spring is due to its configuration or shape",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "b66340385680",
+    "text": ". When the spring is released, it comes back to its original shape. In the process, the spring transfers its stored energy to the kinetic energy of the object in contact (Fig. 7.14c). You need to apply an external force to overcome the internal forces in the spring to deform it. Once you remove this external force, the internal forces undo the deformation, and in the process, it can carry out work",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "2203d8f72e86",
+    "text": ". Thus, internal forces allow energy to be stored in a deformed object. Ready to Go Beyond Energy can be stored not only by deforming an object, but also by changing the arrangement of objects in a system. You have learnt that like poles of the magnets repel each other, while unlike poles attract each other",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 308,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "145ec08b409e",
+    "text": ". You must have experienced that separating unlike poles of two magnets from each other requires applying a force. When unlike poles are separated from each other and released (Fig. 7.15a), they move towards each other and gain kinetic energy. In fact, a small pea kept in between the two strong magnets, could even be crushed by their kinetic energy",
+    "page_num": 9,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "aa90aba861f9",
+    "text": ". This shows that the system of two magnets when separated from each other, can store energy due to their relative positions. Fig. 7.15: A system of two (a) magnets, and (b) electric charges Magnetic Force Electrostatic Force + - (a) N S (b) In the same way, a system of electric charges separated by a distance (Fig. 7.15b) also possesses the stored energy which can do work when released",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "ad5ec8581ba4",
+    "text": ". 7.15b) also possesses the stored energy which can do work when released. Now, consider a ball lying on the surface of the Earth. The ball and the Earth together form a system. You have learnt earlier that the Earth and ball attract each other. A force is required to do work against the gravitational force to lift the ball to some height",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 340,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "563770ebef5e",
+    "text": ". But once the ball is lifted to a height and the force is removed, the ball and the Earth rush towards each other, and attain kinetic energy in the process (Fig. 7.16). So, the system of ball and the Earth when separated from each other, store energy due to their relative positions",
+    "page_num": 9,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "5457a38a20f0",
+    "text": ". More generally, whenever a system of objects interacts through forces, such as gravitational, electric or magnetic forces, the system can store energy due to the relative positions of the objects. The energy stored by an object as a result of its deformation or in a system of objects due to their relative positions is called the potential energy. Grade 8 Curiosity Chapter 5 Fig",
+    "page_num": 9,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "a8ac1bc8bf5d",
+    "text": ". Grade 8 Curiosity Chapter 5 Fig. 7.14: Spring (a) in its original shape, (b) in compressed shape, and (c) moving back to its original shape (a) (b) (c) Fig. 7.16: Earth ball system Gravitational Force Ground",
+    "page_num": 9,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 209,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "8d3068b8ab75",
+    "text": "Work, Energy, and Simple Machines Gravitational Potential Energy Among the various types of possible ways in which objects can have potential energy, we will look at the simplest case of the gravitational potential energy of Earth-ball system. The Earth is much more massive than the ball, and thus, it hardly moves towards the ball, as discussed in Example 6.8 of Chapter 6, How Forces Affect Motion",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "c408eb78ff42",
+    "text": ". Therefore, the stored energy of the Earth-ball system is often, simply referred to as the gravitational potential energy of the ball. Let us carry out an activity to learn more about the potential energy of the ball due to the gravitational force between the ball and the Earth. Henceforth, in this chapter, potential energy usually refers to the gravitational potential energy",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "54b6c7dbdf2d",
+    "text": ". Activity 7.1: Let us investigate 1. Take a heavy ball and a large container filled with loose sand. 2. Raise the ball over the sand bed to a height of about 1 m and drop it (Fig. 7.17). Is a depression created in the sand? Why does the ball create a depression? 3",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 265,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "381332a1ec53",
+    "text": ". Is a depression created in the sand? Why does the ball create a depression? 3. Now, raise the ball to the height of 2 m and release it at a slightly different position over the sand bed such that the depressions do not overlap. Repeat this step one more time. Compare the depths of the depressions",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "7bd869d98c61",
+    "text": ". Repeat this step one more time. Compare the depths of the depressions. Is there any difference? In which case is the depression deepest and in which case the shallowest? You find that the depression is deepest when the ball is dropped from the greatest height. Raising a ball to a greater height from the surface of the Earth requires more work",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "8947effec46b",
+    "text": ". Thus, the ball possesses more energy at greater height. When the ball is released from a greater height, this energy creates a deeper depression. Thus, the greater the height of the ball above the Earth’s surface, the greater is its potential energy. We can arrive at an expression for the potential energy of an object by using the work-energy theorem",
+    "page_num": 10,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "fec58c9fc7f4",
+    "text": ". Consider an object of mass m lying on the ground (Fig. 7.18). We can define the potential energy to be zero in this configuration. To raise the object gradually from the surface of the Earth to a height h , we need to apply a force equal to the force mg between the Earth and the object",
+    "page_num": 10,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 288,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "63f144c20d52",
+    "text": ". The work done W by this applied force on the object is W = force × displacement W = mg × h = mgh (7.7) According to the work-energy theorem (Eq. 7.3), the work done on the object appears as a change in its potential energy",
+    "page_num": 10,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 224,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "24f8d071ab8d",
+    "text": ". 7.3), the work done on the object appears as a change in its potential energy. Thus, the potential energy U of the object at a height h is given by U = mgh (7.8) The unit of potential energy is the joule (J), which is the same as the unit of work done or that of kinetic energy. Fig. 7.17: Depressions created by a ball in sand dropped from different heights Fig",
+    "page_num": 10,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "9f93014ea2cd",
+    "text": "Exploration|Grade 9 Example 7.7: After taking a catch, a fielder threw the cricket ball of mass 200 g high up in the air about 10 m above the ground in celebration. How much potential energy does the ball have when the ball reaches its maximum height? Assume g = 10 m s–2. Answer: Using Eq. (7.8), the potential energy of the ball will be equal to mgh = 0.2 kg × 10 m s–2 × 10 m = 20 J 6",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "2e3cd2523d93",
+    "text": ". Does the potential energy of an object near the surface of the Earth change if it moves with constant velocity in the horizontal direction? What if the object is gradually raised in the vertical direction? Pause and Ponder Work done on a system against its internal forces, such as gravitational, electric or magnetic forces, can result in a gain of the potential energy of the system",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "21a16cc9e87d",
+    "text": ". But this is not true for all internal forces. For example, work done against friction does not lead to a storage of energy. You will learn how to identify such forces in higher grades. Ready to Go Beyond Next Level Up 7.4.3 Conservation of mechanical energy The sum of the kinetic energy and the potential energy of the object is called its mechanical energy",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 360,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "341b070dba2a",
+    "text": ". Let us find the mechanical energy of an object at different points as it falls freely due to the gravitational force. Once again, consider an object with mass m which has been lifted to a Point A at height h and dropped (Fig. 7.19). Its initial velocity u is equal to zero. Thus, at point A (using Eqs",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 303,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "13ac5b52616b",
+    "text": ". 7.19). Its initial velocity u is equal to zero. Thus, at point A (using Eqs. 7.6 and 7.8): potential energy of the object = mgh (7.9a) kinetic energy of the object = 0 (7.9b) mechanical energy = 0 + mgh = mgh (7.9c) As the object falls due to the gravitational force (mg) for a time t till point B, its velocity increases to a value v",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 336,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "f2fc61a995de",
+    "text": ". 7.8) for the potential energy of an object at height h is valid only near the Earth’s surface. Further away from the Earth’s surface, the gravitational acceleration g decreases. You will learn about the gravitational potential energy of objects far from the Earth in higher grades. Ready to Go Beyond Next Level Up",
+    "page_num": 11,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 316,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "8a44e63c7cab",
+    "text": "Work, Energy, and Simple Machines As the object falls down with time t , its potential energy decreases while its kinetic energy increases. Comparing Eq. (7.9) and Eq. (7.10), you find that at time t , the increase in the kinetic energy is equal to 2 2 2mg t , which is also equal to the decrease in the potential energy, 2 2 2mg t",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "2697ab285a80",
+    "text": ". This shows that the lost potential energy of the object is converted into kinetic energy during motion, while its mechanical energy remains constant and equal to mgh . As an object moves due to the gravitational force, its mechanical energy remains the same, i.e., the mechanical energy of the object is conserved if no other external forces act on it",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "927c630e5eb4",
+    "text": ". This is called the conservation of mechanical energy. Let us conduct an activity to understand this. Do you remember experimenting with a simple pendulum earlier? Let us use that simple pendulum again to experiment further. Activity 7.2: Let us experiment 1. Set up a simple pendulum as you have learnt in Grade 7. 2. Paste a white sheet of paper on a wall behind the pendulum",
+    "page_num": 12,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "d1fb4b659cd7",
+    "text": ". 2. Paste a white sheet of paper on a wall behind the pendulum. Draw a horizontal line above the position of the bob when it is not oscillating (Fig. 7.20). 3. Take the bob to one side to a point P, which is at the level of the horizontal line and let it go. Observe it at the extreme points of the first couple of oscillations",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 328,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "37c6ed9d53de",
+    "text": ". Observe it at the extreme points of the first couple of oscillations. Does the bob almost reach the level of the horizontal line? At point P, the pendulum bob has the potential energy equal to mgh, where h is the height from the bottom-most point. At point Q, the potential energy is zero, but the pendulum has kinetic energy",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "98055c8d1935",
+    "text": ". At point Q, the potential energy is zero, but the pendulum has kinetic energy. Finally at point R, on the other side of the pendulum where it stops, the kinetic energy is zero but the pendulum bob regains its potential energy. The pendulum bob reaches almost the same height it started with. This demonstrates that the mechanical energy of the bob remains constant",
+    "page_num": 12,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "bace9586e1ab",
+    "text": ". This demonstrates that the mechanical energy of the bob remains constant. However, in real life, the pendulum slows down and eventually stops because of energy loss due to friction at the support and air resistance. The conservation of mechanical energy can often be useful in solving several real-life problems. Ready to Go Beyond Mechanical energy is just one part of a bigger picture",
+    "page_num": 12,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "b93f831e2bf3",
+    "text": ". Ready to Go Beyond Mechanical energy is just one part of a bigger picture. In nature, energy can appear in many different forms. Scientists have discovered that the total energy of an object or system of objects which is not acted upon by any external forces, stays constant. Grade 7 Curiosity Chapter 8 Fig",
+    "page_num": 12,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "09248fe3b1b6",
+    "text": "Exploration|Grade 9 Example 7.8: What will be the magnitude of velocity of the child on reaching the bottom of the slide of height h ? Answer: Potential energy of the child at the top of the slide = mgh Let the magnitude of velocity of the child on reaching the bottom of the slide be v. Then, the kinetic energy of the child at the bottom of the slide =",
+    "page_num": 13,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "5991fdbf8dd6",
+    "text": ". Then, the kinetic energy of the child at the bottom of the slide = . mv The potential energy of the child at the top of the slide gets converted entirely to the child’s kinetic energy at the bottom of the slide (neglecting the effects of friction)",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 249,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "852e6122e91a",
+    "text": ". Thus, equating the two, we obtain = mv mgh ( ) = v gh As this velocity of the child at the bottom of the slide depends only upon the height h , the shape of the slide or the mass of the child should not matter. Example 7.9: Escape ramps (Fig. 7.21) are inclined planes filled with sand or gravel that help stop trucks when their brakes fail on a highway",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "190068694eb2",
+    "text": ". If the sand exerts a force of 50000 N opposite to truck’s motion, what is the minimum length of the ramp to be able to stop such a truck? Take g = 10 m s–2 (Hint: For a 30° incline, the truck rises 1 m vertically for every 2 m it travels along the ramp)",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 255,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "1faf047d79f7",
+    "text": ". Answer: Velocity of the truck = 72 km h–1 = 20 m s–1 ( ) Initial kinetic energy of the truck 10000kg 20ms 2000000 J − = = × × = mv Initial potential energy of truck = 0 J Total initial energy of truck = \u0007Initial kinetic energy + \u0007Initial potential energy = 2000000 J + 0 J = 2000000 J Let us assume that the truck travels a distance d along the ramp",
+    "page_num": 13,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "3c8d00a848e9",
+    "text": ". Then, Height gained by the truck on ramp = d (using hint given in the question) Final kinetic energy of truck = 0 J Final potential energy of truck 10000kg 10ms 50000N d d mg d − = × = × × = × Total final energy = 0 J + 50000 N × d Change in total energy of the truck = Final energy – Initial energy = (50000 N × d ) – 2000000 J Work done by sand on truck = – 50000 N × d Using work-energy theorem,",
+    "page_num": 13,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9b47eda7deb6",
+    "text": ". 7.21: Escape ramp Solving problems directly through Newton’s laws can become cumbersome in many cases. Conservation of mechanical energy may offer a simpler route. By keeping track of the total mechanical energy, we can often find the final speed or the position of an object without working through all the detailed steps of the intermediate motion of an object. Threads of Curiosity",
+    "page_num": 13,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "ba24bd55838b",
+    "text": ". 8. \u0007You may have seen an exhibit like that in Fig. 7.22 in a science park, where a ball is released from the highest point. Describe how the kinetic energy and potential energy change at points A, B and C. Why do subsequent points, such as C, D and E, usually have lower heights compared to the previous ones? Could it have anything to do with the energy lost due to friction? Pause and Ponder Fig",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "39a9e2396d6c",
+    "text": ". 7.22: Ball roller coaster in a science park A B C D 7.5 Power Suppose you carry your bag up a flight of stairs to your classroom. Running up the stairs in one minute feels very different than walking up slowly in five minutes, even though the same work is done in both cases. This difference is described by a physical quantity called power. Power is defined as the rate at which work is done",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "576d6474f464",
+    "text": ". Power is defined as the rate at which work is done. Mathematically, the average power P is the work done W, divided by the time taken t , i.e., = W P t \b (7.11) To do more work in the same time interval, requires more power. To do the same amount of work but in a shorter time interval also requires more power",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "3901faa886d8",
+    "text": ". Example 7.10: A weightlifter lifts a 75 kg mass by 2 m in 5 seconds. How much power would she require for this task? Answer: The work done would be equal to mgh = 75 kg × 10 m s–2 × 2 m = 1500 J Thus, the power required will be 1500 J = 300 W 5 s Example 7.11: A car of mass 1000 kg starts from rest and reaches a speed of 72 km h–1 in 10 seconds",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "fa261fda923c",
+    "text": ". Calculate the power of the engine required to achieve this start. Answer: Final velocity, v = 72 km h–1 72000 m = 20 ms 3600 s − = while initial velocity u = 0 m s–1 E You may have heard about another unit called horsepower (hp) used to measure power, especially for car engines, or pumps used to lift water. One horsepower is equal to 746 W",
+    "page_num": 14,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "d8b4cf610a61",
+    "text": ". One horsepower is equal to 746 W. In the early days, when engines were newly discovered, the powers of engines were compared to the power of actual horses which were used to drive carriages. Threads of Curiosity",
+    "page_num": 14,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 213,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "5c4e0fd614bb",
+    "text": "Exploration|Grade 9 Work done by the engine in 10 s = final kinetic energy – initial kinetic energy = 2 mv mu − ( ) = 1000 kg 20 ms 0 J = 200000 J − × × − work 200000 J Power = = = 20000 W time 10 s 7.6 Simple Machines In everyday life, we often need to do work against gravity or other forces, such as lifting or moving heavy objects",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "3279f033b4c3",
+    "text": ". Although the total work required for a task cannot be reduced, it can be made easier by changing the magnitude or direction of the force that needs to be applied. The devices that help us do this are called simple machines. In this section, we will study three simple machines — a pulley, an inclined plane and a lever — to understand how these make the task feel easier",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "d327a3a9c61a",
+    "text": ". The force we apply to a machine is called the effort, and force that needs to be overcome is called the load. To describe how a machine changes the magnitude of the applied force, we define mechanical advantage as the ratio of the load to the effort",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 251,
+    "estimated_tokens": 63
+  },
+  {
+    "chunk_id": "53e7a8a40682",
+    "text": ". It can be written as load mechanical advantage = effort (7.12) 7.6.1 Pulley You may have seen a flag or a load being raised where a rope is pulled in the downward direction, while the flag or the load move in the upward direction. This is done with the help of a pulley fixed at the top. A pulley is a wheel with a groove that guides a rope (Fig. 7.23)",
+    "page_num": 15,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "38461fa791e1",
+    "text": ". A pulley is a wheel with a groove that guides a rope (Fig. 7.23). A fixed pulley does not reduce the magnitude of the force required, it only changes its direction. It is easier for us to pull downward than to lift a load by applying an upward force directly (Figs. 7.24a and 7.24b). Thus, the pulley provides convenience by changing the direction of the effort",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "c8a16da5fa5d",
+    "text": ". Thus, the pulley provides convenience by changing the direction of the effort. Since the effort and the load are equal in magnitude, the mechanical advantage of a fixed pulley is 1 (Eq. 7.12). Movable pulleys or a system of pulleys (Fig. 7.25) can have a mechanical advantage greater than 1 and can lift much heavier objects with much smaller effort",
+    "page_num": 15,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "a0886dff8c34",
+    "text": ". In a movable pulley system, the load is attached to the movable pulley. One end of the rope is fixed to a point, while the other end is free to apply effort. Pulleys are widely used in real life, such as in elevators and cranes given the convenience they provide us. Ready to Go Beyond Fig. 7.25: A system of pulleys Rigid support Movable pulley Fixed pulley Effort Load Fig",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "ba5a04098666",
+    "text": ". 7.23: Pulley The unit of power, watt is named in the honour of James Watt. He invented an efficient steam engine that could generate rotational motion and move wheels. Meet a Scientist Fig. 7.24: Pulling up a load (a) directly, and (b) using a pulley Load Effort (a) Load Effort (b) Pulley",
+    "page_num": 15,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 291,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "bd264f683a22",
+    "text": "Work, Energy, and Simple Machines 7.6.2 Inclined plane Suppose, you want to lift a heavy box onto a platform. Lifting it up vertically (Fig. 7.26a) requires an upward force F equal to its weight. But what if the box is too heavy for you to lift directly? Fig",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 258,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "717dcd491def",
+    "text": ". But what if the box is too heavy for you to lift directly? Fig. 7.26: A box being (a) lifted vertically up, and (b) pushed up the ramp (a) (b) You can place the box on a smooth inclined plank as shown in (Fig. 7.26b), and push the box up the plank to the platform. Does this method require a smaller force? Activity 7.3: Let us experiment 1",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "ff9b0ef37abe",
+    "text": ". Does this method require a smaller force? Activity 7.3: Let us experiment 1. Take a smooth plank (say a cardboard piece) about 1.5 m long, a toy car (or the cart that you used in Activity 6.3) and a spring balance. Attach the spring balance to the cart. Arrange an elevated surface, such as the top of a low stool or a pile of books, at about 0.5 m height from the floor. 2",
+    "page_num": 16,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "dcd1871bf93b",
+    "text": ". 2. First, lift the cart vertically, slowly and steadily, from the floor to the top of the pile of books or stool, and note the reading of the spring balance scale. This reading indicates the force required to lift the cart vertically which is equal to the weight of the cart. 3. Next, place the plank against the top of the pile of books or stool as shown in Fig. 7.27a",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "13633257e958",
+    "text": ". 7.27a. Pull the cart along the plank slowly and steadily. Is the reading of the spring balance (the force required) smaller than that of step 2? 4. Now, reduce the angle between the plank and the base as shown in Fig. 7.27b, and repeat the step 3. Observe how the force required changes as the plank becomes less steep",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 320,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "767c38a83164",
+    "text": ". Observe how the force required changes as the plank becomes less steep. The force required to pull up the cart upto the height of the pile of books or stool decreases as the plank becomes less steep. However, you have to apply the force over a larger distance to bring it to the same height. (b) (a) Fig",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 305,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "595aaa19d268",
+    "text": "Exploration|Grade 9 Fig. 7.28: A load being lifted up (a) vertically, (b) along an inclined plane, and (c) along an inclined plane of larger length (a) h F ′ Small distance Large force (c) h L F ′ Larger distance Smaller force (b) h F ′ L Large distance Small force An inclined plane is a simple machine that helps move a heavy load to a higher (or lower) level",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "49c1bc496583",
+    "text": ". Let us now find its mechanical advantage. Let the mass of the object be m . Then, the load is the weight mg of the object to be lifted. Let F ′ be the force required to raise the object to a height h (Fig. 7.28a). Then, F ′ is the effort. Let the length of the inclined plane be L (Fig. 7.28b). If you move the object at constant speed up the inclined plane, then using Eq",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "269970ee89fc",
+    "text": ". If you move the object at constant speed up the inclined plane, then using Eq. (7.2), total work done by you on the object = F ′ × L And using Eq. (7.8), potential energy gained by the object = mgh Thus, from the work-energy theorem (Eq. 7.3), we obtain (ignoring friction) F ′ × L = mgh Or, = mg L F' h Now, mg is the load and F ′ is the effort, so using Eq",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 360,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "00386e7c1f80",
+    "text": ". (7.12), we obtain load mechanical advantage = = = effort mg L F' h (7.13) Since L is larger than h , the force F ′ is less than mg and the mechanical advantage of inclined plane is greater than 1. By further increasing L , for example, by making the inclined plane longer with a shallower angle (Fig. 7.28c), we can further reduce the effort F ′ required to move the object",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "d0652e16e722",
+    "text": ". 7.28c), we can further reduce the effort F ′ required to move the object. Example 7.12: A person uses an inclined ramp to raise an object over a step 30 cm high. The ramp has a width of 40 cm. What is the mechanical advantage of the ramp that helps the person achieve the task? Answer: As shown in Fig",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 303,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "e0b5e93da070",
+    "text": ". 7.29, when the height AB is 30 cm and the width BC is 40 cm, the length AC of the ramp is 50 cm (right-angled triangle property). Using Eq. (7.13), 50 cm mechanical advantage = = = 1.67 30 cm L h 9. \u0007Explain why roads on hills are built to wind around in gentle slopes rather than going straight up (Fig. 4.26)? 10",
+    "page_num": 17,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 316,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "b3262dcf06c5",
+    "text": ". 4.26)? 10. \u0007To reach a higher floor, we find climbing an inclined ladder easier in comparison to climbing a vertical ladder (Fig. 7.30). Explain why. Pause and Ponder Fig. 7.30: Climbing ladders 40 cm A B C 30 cm 50 cm Fig. 7.29 Note The work done, that is the product of force and displacement, is the same in all cases",
+    "page_num": 17,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 322,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "7103e56d7623",
+    "text": "Work, Energy, and Simple Machines 7.6.3 Lever Activity 7.4: Let us investigate 1. Take a 30 cm long scale, a pencil, 2 – 3 erasers and a stapler (or a similar object). 2. Place the scale over the pencil such that the pencil is closer to one end of the scale as shown in Fig. 7.31. On the end of the scale closer to the pencil, place the stapler. 3. On the other end of the scale, place one eraser",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "8ebd0e72bc99",
+    "text": ". 3. On the other end of the scale, place one eraser. Does the stapler lift up? If not, add one more eraser. You may have noticed that a much heavier object (like a stapler) could be lifted by a much lighter eraser. This was made possible by using a scale as a simple machine called a lever",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 290,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "d73e8c62d17a",
+    "text": ". This was made possible by using a scale as a simple machine called a lever. A lever is a rigid bar (such as your scale) that can rotate about a fixed point (such as the point of contact of the scale with the pencil). In everyday life, levers are often used to lift heavy objects. A lever has three main parts (Fig",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "b4cd27988864",
+    "text": ". A lever has three main parts (Fig. 7.32): (i) Fulcrum: a fixed point about which the lever rotates, (ii) Load: the force to be overcome, and (iii) Effort: the force applied. The distance of the load from the fulcrum is called the load arm, and the distance of the effort from the fulcrum is called the effort arm",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "2d3a4a0c010b",
+    "text": ". By applying a small force at one end of the lever, a larger force can be applied on the object on the other end of the lever. How is this possible? The end of the lever on which the smaller force (F1) is applied, moves a larger distance (d1), while the other end which applies a larger force (F2) to lift a heavier object, moves a smaller distance (d2)",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "9289fca6cafa",
+    "text": ". The work done on one end of the lever is transferred to the other end. Thus, using Eq. (7.1) F1 × d1 = F2 × d2 (7.14) Thus, by increasing the effort arm, the lever applies a larger force F2 to the load compared to the applied effort F1. Let us do an activity with a beam balance which is an example of a lever. Activity 7.5: Let us experiment 1",
+    "page_num": 18,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "3d81e3354a5d",
+    "text": ". Activity 7.5: Let us experiment 1. Take a long scale (50 cm or larger), a piece of string, two paper cups (to act as pans), adhesive tape or a piece of thread, and identical coins (to act as weights). 2. Tie the string tightly around the scale at its midpoint. This string will act as the fulcrum. Hang the scale from this string using a stand or hook, so that it can swing freely",
+    "page_num": 18,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "3146f9ba74f8",
+    "text": ". This scale will now act as a beam (Fig. 7.33). 3. Fix paper cups to both ends of the beam using thread. These cups act as the pans of a balance. Check whether the beam is levelled. If it is tilted, adjust the hanging points of the pans until both sides balance equally. Fig. 7.33: Balancing cups hung on a scale Fig. 7.31: Lifting a heavier object with lighter object Fig",
+    "page_num": 18,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 373,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "a6728bcd6565",
+    "text": ". 7.31: Lifting a heavier object with lighter object Fig. 7.32: A lever used to lift a heavy rock Fulcrum Effort arm Effort Load arm Load F1 F2 d1 d2 Note A lever reduces the force required to perform a task but not the total work done.",
+    "page_num": 18,
+    "chunk_index": 8,
+    "source_file": "iesc107.pdf",
+    "char_count": 236,
+    "estimated_tokens": 59
+  },
+  {
+    "chunk_id": "26927d9f0842",
+    "text": "Exploration|Grade 9 Fig. 7.34: A seesaw A B C D E 4. Place 1 coin in the left pan (call it effort) and 1 identical coin in the right pan (call it load). Observe that the beam stays horizontal. 5. Add one more coin to the right pan, so that it contains 2 coins. The beam tilts. Move the heavier pan closer to the centre of the beam to balance the beam. Measure its distance from the centre. 6",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "d8d09945b221",
+    "text": ". Measure its distance from the centre. 6. Repeat step 5 with 4 coins and then 8 coins in the right pan. Each time, note its distance from the centre that balances the beam. 7. Record all observations and measurements, and complete the Table 7.1 by adding more rows",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 265,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "737a931d147d",
+    "text": ". Table 7.1: Number of coins in the left pan and its distance from the fulcrum Number of Coins in left pan, n1 (Effort) Distance of left pan from the fulcrum, L1 (cm) Number of coins in right pan, n2 (Load) Distance of right pan from the fulcrum, L2 (cm) By analysing the values recoded in Table 7.1, you can conclude that the beam balances when n1 × L1 = n2 × L2 Or, effort × effort arm = load ×",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "8b4704c17671",
+    "text": ". You can calculate the mechanical advantage of the lever by using Eq. (7.12). Thus, load effort arm mechanical advantage = = effort load arm \b (7.16) Hence, by increasing the effort arm, the lever applies a larger force F2 to the load than the effort F1. The lever thus allows us to gain a mechanical advantage equal to the ratio of the distances, i.e., L L",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "fed40c5e7ac9",
+    "text": ". With the use of a lever, the effort required is generally smaller but it has to move by a larger distance such that the total work done by the agency applying effort remains the same. Example 7.13: For a seesaw having four seats A, B, D, E and fulcrum at C (Fig. 7.34), AC = EC = 2 m and BC = DC = 1 m",
+    "page_num": 19,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 303,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "f8a70e454d9f",
+    "text": ". 7.34), AC = EC = 2 m and BC = DC = 1 m. On which seats should children of masses 15 kg and 30 kg sit to make the seesaw balanced? Answer: Suppose the child of mass 15 kg sits on seat A and the other child sits at a distance L from the fulcrum. Using Eq. (7.15), we obtain 15 kg × 2 m = 30 kg × L L = 1 m Thus, the other child should sit at seat D.",
+    "page_num": 19,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 349,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "7a11723d66c2",
+    "text": ". Table 7.2: Classes of Levers Levers Class I Class II Class III Fulcrum in between Load in between Effort in between Fulcrum Load Effort Fulcrum Load Effort Fulcrum Effort Load Tongs, scissors, crowbar, pliers, balance scale, seesaw Lemon squeezer, wheel barrow, bottle opener Tongs, tweezers, broom, hammer, oar Ready to Go Beyond Many machines used in daily life are made up of two or more simple",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "a99b1d81f61f",
+    "text": ". The next time you see a machine, try to identify the simple machines within them. In all cases, the conservation of mechanical energy holds. The work we put in is equal to the useful work done on the load, ignoring friction. Machines do not create energy, they only help us use it more effectively. 11. \u0007Why is it easier to open the lid of a can by using a spoon as shown in Fig. 7.35? 12",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "1ac6dfd09628",
+    "text": ". 7.35? 12. \u0007Why do you push an object closer to scissors fulcrum when you want to cut an object which is hard? 13. \u0007Throughout history, many designs of perpetual machines (using wheels, weights or magnets) have been proposed but none actually work. Why do all real machines eventually slow down and stop? Explain in terms of work and energy. Pause and Ponder Fig",
+    "page_num": 20,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "3477e127350b",
+    "text": ". Pause and Ponder Fig. 7.35: Opening the lid by using a spoon it were possible to build a perpetual motion machine, which once started, could continue doing useful work forever, without any fuel or electricity? What If ...",
+    "page_num": 20,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 223,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "36f7fa559405",
+    "text": "Exploration|Grade 9 1. State whether True or False. (i) Work is said to be done when a force is applied, even if the object does not move. (ii) Lifting a bucket vertically upward results in positive work done on the bucket. (iii) The SI unit for both work and energy is joule (J). (iv) A motionless stretched rubber band has kinetic energy. (v) Energy can change from one form to another",
+    "page_num": 21,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "72b3b5eef4ce",
+    "text": ". (v) Energy can change from one form to another. Revise, Reflect, Refine Bridging Science and Society Fig. 7.36: A watermill (gharat or panchakki) A B C In the Himalayan region, water flowing downhill converts its potential energy into kinetic energy. Traditionally, this energy was used in devices, such as the gharat or panchakki — a water mill used to grind grain (Fig. 7.36)",
+    "page_num": 21,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "f19cf4be9129",
+    "text": ". 7.36). These can still be found in hilly regions. The water starts from the top with potential energy. This potential energy gets converted to kinetic energy as it comes down the pipe (A). The kinetic energy of the water drives the wheel (B) and sets it into rotational motion. The wheel is connected to the grinding stone at the top (C)",
+    "page_num": 21,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 339,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "cf75d420d57c",
+    "text": ". The wheel is connected to the grinding stone at the top (C). In modern times, the potential energy of the water stored in dams is similarly converted into kinetic energy to generate electricity. At a Glance y Work is done by a force on an object, when the force displaces the object in the direction of the force. y An object having capacity to do work is said to possess energy",
+    "page_num": 21,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "bb2fd45eed66",
+    "text": ". y An object having capacity to do work is said to possess energy. y Work-energy theorem: Work done on an object or a system, is equal to the change in its energy. y The energy possessed by an object due to its motion is called kinetic energy. y The energy stored by an object as a result of its deformation or in a system of objects due to their relative positions is called potential energy",
+    "page_num": 21,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "8cbf96704aa3",
+    "text": ". y Power is defined as the rate at which work is done. y Simple machines are devices that make work easier by changing the magnitude or direction of the force that needs to be applied, though they do not reduce total work.",
+    "page_num": 21,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 223,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "86fb912395ae",
+    "text": "Work, Energy, and Simple Machines 2. Fill in the blanks. (i) Work done = ______ × ______ (in the direction of force). (ii) 1 joule of work is done when a force of ______ newton displaces an object by 1 metre in the direction of the force. (iii) The expression for kinetic energy of a body of mass m and velocity v is ______",
+    "page_num": 22,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "f3d78576bc2a",
+    "text": ". (iv) The potential energy of an object of mass m at a small height h from the Earth’s surface is ______. (v) Power is defined as the ______ at which work is done. 3. When a ball thrown upwards reaches its highest point, tick which of the following statement(s) are correct? (i) The force acting on the ball is zero. (ii) The acceleration of the ball is zero. (iii) Its kinetic energy is zero",
+    "page_num": 22,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "8b98ee27aab7",
+    "text": ". 4. For each of the following situations, identify the energy transformation that takes place: (i) a truck moving uphill, (ii) unwinding of a watch spring, (iii) photosynthesis in green leaves, (iv) water flowing from a dam, (v) burning of a matchstick, (vi) explosion of a fire cracker, (vii) speaking into a microphone, (viii) a glowing electric bulb, and (ix) a solar panel. 5",
+    "page_num": 22,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "7bab3ad6f4ad",
+    "text": ". 5. A student is slowly lifted straight up in an elevator from the ground level to the top floor of a building. Later, the same student climbs the staircase, all the way to the top. Given that the height of the building is h = 72.5 m, acceleration due to gravity is g = 10 m s–2, and student’s mass is m = 50 kg",
+    "page_num": 22,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "0514830d91b9",
+    "text": ". (i) Find the gain in the potential energy if the student is lifted straight up to the top. (ii) Find the gain in the potential energy when the student climbs the stairs to the same top. (iii) What do you conclude about the dependence of the potential energy on the path taken? 6. A crane lifts a mass m to the 10th floor of a building in a certain time",
+    "page_num": 22,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "f628c0ce827b",
+    "text": ". A crane lifts a mass m to the 10th floor of a building in a certain time. It then raises the same mass to the 20th floor of the same building in double the time. How much more energy and power are required? Assume that the height of all floors is equal. 7",
+    "page_num": 22,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 257,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "0948b2d8f269",
+    "text": ". 7. Which factors determine the energy required to raise a flag from the ground to the top of a tall flagpole using a pulley? Does raising the flag slowly or quickly change the amount of work done? If the speed at which the flag is raised is doubled, how does the power requirement change? Explain your answers. 8. A man of mass 60 kg rides a scooter of mass 100 kg",
+    "page_num": 22,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "18b519f1a8e3",
+    "text": ". The next day, his son with a mass of 40 kg joins him as a passenger. If the scooter reaches the same speed on both days in the same time interval, what is the ratio of the fuel of the tank used on the two days? Assume that the energy transfer to the scooter happens entirely due to fuel, and no other losses occur due to air resistance and friction.",
+    "page_num": 22,
+    "chunk_index": 9,
+    "source_file": "iesc107.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "b745d329d163",
+    "text": "Exploration|Grade 9 9. On a seesaw with sliding seats, a child is sitting on one side and an adult on the other side. The adult weighs twice that of the child. The seesaw however is balanced. Draw a figure which depicts this situation showing the distances from the fulcrum where the child and the adult are seated. 10. A ball of mass 2 kg is thrown up with a velocity of 20 m s–1",
+    "page_num": 23,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "663c533f7225",
+    "text": ". 10. A ball of mass 2 kg is thrown up with a velocity of 20 m s–1. (i) Identify the sign of the work done by gravity on the ball during its upward motion and its downward motion. (ii) If the ball reaches a height of 19.4 m, how much work was done by air resistance (assume g = 10 m s–2). 11. A 10.0 kg block is moving on horizontal floor with negligible friction. As shown in the Fig",
+    "page_num": 23,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "fb7eff19b59f",
+    "text": ". As shown in the Fig. 7.37, a variable force is applied on the block in its direction of motion from its position at 0 m till 4 m. If the block had a kinetic energy of 180 J when it was at 0 m, find the block’s speed (i) at 0 m, and (ii) at 4 m. Does the block have negative acceleration in any portion of its motion? 12",
+    "page_num": 23,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "26e164b1c1d3",
+    "text": ". Does the block have negative acceleration in any portion of its motion? 12. The gravitational attraction on the surface of the Moon (lunar surface) is about 1 th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon? 13",
+    "page_num": 23,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "a4139147a4f8",
+    "text": ". A 1000 kg car is moving along a road at a constant speed. Suddenly, the driver notices some obstruction ahead and applies the brakes to come to a complete stop. The graphical representation of motion of the car starting from the instant the driver spots the traffic ahead is shown in Fig. 7.38. (i) Describe how the car moves between positions A and B",
+    "page_num": 23,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "648888cd5c4b",
+    "text": ". 7.38. (i) Describe how the car moves between positions A and B. (ii) Calculate the kinetic energy of the car at A. (iii) State the work done by the brakes in bringing the car to a halt between B and C. (iv) What does the kinetic energy of the car transform into? 14. The potential energy-displacement graph of a 0.5 kg ball moving along a frictionless track is shown in Fig. 7.39",
+    "page_num": 23,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "0dc89a9cafd7",
+    "text": ". 7.39. At O, the velocity of the ball is 0 m s–1 and potential energy is 30 J. Calculate the velocity of the ball at P, Q and R. 15. A coconut of mass 1.5 kg falls from the top of a coconut tree onto the wet sand on a beach. The height of the tree is 10 m. On impact, the coconut comes to rest by making a depression in the sand",
+    "page_num": 23,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "ed3cc501dc91",
+    "text": ". On impact, the coconut comes to rest by making a depression in the sand. (i) Calculate the velocity of the coconut just before it hits the sand. (ii) Assume that the average resistive force of sand is 3000 N and all of the coconut’s energy is used to create the depression in the sand. Calculate the depth of the depression the coconut makes in the sand. Assume g = 10 m s–2. Force (N) Fig",
+    "page_num": 23,
+    "chunk_index": 7,
+    "source_file": "iesc107.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "0319a9c146d3",
+    "text": "Work, Energy, and Simple Machines The Journey Beyond y Remove both the ends from a pen so that the refill can slide freely through the barrel (Fig. 7.40). Fix the pen cap to the side of the barrel and attach a rubber band to the clip of the cap. Connect the free end of the rubber band to the refill using a safety pin. Stretch and release the rubber band",
+    "page_num": 24,
+    "chunk_index": 0,
+    "source_file": "iesc107.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "2e315c50ede5",
+    "text": ". Stretch and release the rubber band. The refill shoots out, showing the conversion of elastic potential energy into kinetic energy. Repeat with different amounts of stretch, and observe how the distance travelled changes",
+    "page_num": 24,
+    "chunk_index": 1,
+    "source_file": "iesc107.pdf",
+    "char_count": 222,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "7bc2d5113bcb",
+    "text": ". Is there a relationship between the stretch and the distance travelled? y Construct one or more simple machines, or a combination of them (lever, pulley, and inclined plane) using easily available materials, such as cardboard, wooden strips or rulers, pencils or bolts (to act as a fulcrum), thread or rope, small pulleys (or two bottle caps stuck together), and paper cups to hold small weights",
+    "page_num": 24,
+    "chunk_index": 2,
+    "source_file": "iesc107.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "66833f1d6645",
+    "text": ". Be imaginative in your design. Use your model to lift or move a small load, measure the effort and the load, and calculate the mechanical advantage. y Computer simulations can help in visualising physical quantities that are difficult to observe directly",
+    "page_num": 24,
+    "chunk_index": 3,
+    "source_file": "iesc107.pdf",
+    "char_count": 256,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "83e12728ac9f",
+    "text": ". The PhET simulations (https:// phet.colorado.edu) provide interactive models, such as Energy Skate Park, Energy Forms and Changes, Pendulum Lab, and Masses and Springs. Use these to explore how different forms of energy change as parameters, such as mass, height, and friction are varied. (a) (b) (a) Fig. 7.40 The Quest Continues ..",
+    "page_num": 24,
+    "chunk_index": 4,
+    "source_file": "iesc107.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "dad6c7fb012e",
+    "text": ". (a) (b) (a) Fig. 7.40 The Quest Continues ... For long, scientists have known that the Universe is expanding, and surprisingly this expansion is accelerating. To explain this, scientists have proposed a new and rather mysterious form of energy called dark energy. There is no way to exchange dark energy with other forms of energy",
+    "page_num": 24,
+    "chunk_index": 5,
+    "source_file": "iesc107.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "4befde24e196",
+    "text": ". There is no way to exchange dark energy with other forms of energy. Scientists try to study the effects of dark energy since it may govern the fate of the Universe, billions of years into the future.",
+    "page_num": 24,
+    "chunk_index": 6,
+    "source_file": "iesc107.pdf",
+    "char_count": 201,
+    "estimated_tokens": 50
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_id": "064cec96dea6",
+    "text": "First Edition April 2026 Chaitra 1948 PD 500T BS ©National Council of Educational Research and Training, 2026 ALL RIGHTS RESERVED No part of this publication may be reproduced, stored in a retrieval system or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording or otherwise without the prior permission of the publisher",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "4d5a275e3087",
+    "text": ". This book is sold subject to the condition that it shall not, by way of trade, be lent, re-sold, hired out or otherwise disposed of without the publisher’s consent, in any form of binding or cover other than that in which it is published",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 240,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "9ce63653359d",
+    "text": ". OFFICES OF THE PUBLICATION DIVISION, NCERT NCERT Campus Sri Aurobindo Marg New Delhi 110 016 Phone : 011-26562708 108, 100 Feet Road Hosdakere Halli Extension Banashankari III Stage Bengaluru 560 085 Phone : 080-26725740 Navjivan Trust Building P.O.Navjivan Ahmedabad 380 014 Phone : 079-27541446 CWC Campus Opp",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "0b3d87891754",
+    "text": ". Srinivasan Division Chief Editor : Bijnan Sutar Chief Business : Amitabh Kumar Manager Chief Production : Deepak Jaiswal Officer (In charge) Production Assistant : Ashwani Machra Cover, layout and illustrations Fajruddin Junaid Digital Arts Printed on 80 GSM paper with NCERT watermark Published at the Publication Division by the Secretary, National Council of Educational Research and Training,",
+    "page_num": 2,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "56dd6247c588",
+    "text": "Foreword The National Education Policy (NEP) 2020 envisions an education system that is firmly rooted in India’s cultural and intellectual wisdom, values, and ethical traditions. The rich intellectual heritage simultaneously enables learners to engage meaningfully with the complexities and possibilities of a rapidly changing world",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "eced1385efd4",
+    "text": ". The National Curriculum Framework for School Education (NCF-SE) 2023 provides concrete expression to this vision by laying out a coherent curricular pathway across various stages of schooling that nurtures critical thinking, creativity and sensitivity, along with the values and dispositions that are needed for responsible citizenship in an interconnected global society",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 373,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "ed68ec257b64",
+    "text": ". Learners have progressed through the foundational, preparatory and middle stages, where their inherent potential has been nurtured holistically. Now, they enter the secondary stage with enhanced capacity for reflection, reasoning, enquiry, and self-expression",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 261,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "b4a82683de4e",
+    "text": ". Spanning across Grades 9 to 12, also known as the adolescent stage, it marks a crucial period in the intellectual and personal growth of the students. It prepares them to engage with abstract ideas, complex social realities, ethical dilemmas and the expanding universe of knowledge, while deepening their understanding of the self and the world around them",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "b999ec7115c3",
+    "text": ". The NCF-SE 2023 recommends that the curriculum for Grades 9 – 10 equips students with the skills that are needed to grow as they advance in their lives. Students can use these skills for reasoning, argumentation, and effective communication. It endeavours to enhance their analytical and descriptive capabilities to prepare them for the challenges and opportunities that await them",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "8ad54eaeffc2",
+    "text": ". A diverse curriculum, covering ten subjects; three languages — including at least two languages native to India, Science, Mathematics, Social Science, Art Education, Physical Education and Well-being, Individuals in Society or Environmental Education, and Vocational Education promotes their holistic development",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "e3698464b77d",
+    "text": ". As per the NCF-SE 2023, science education at this stage aims to develop scientific temper, critical thinking, and problem-solving skills. It emphasises connecting scientific concepts to everyday life enabling students to understand and apply knowledge meaningfully",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 266,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "0979616a52e2",
+    "text": ". The framework promotes inquiry-based learning, environmental awareness, and values, such as curiosity, objectivity, and respect for evidence making science learning engaging, relevant, and learner-centred. Exploration, the textbook of science for Grade 9, aligns with the NEP 2020 and the NCF-SE 2023 by promoting experiential and inquiry-based learning",
+    "page_num": 3,
+    "chunk_index": 7,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "cc0894d106ca",
+    "text": "iv an evolving body of knowledge shaped by collective effort and continuous refinement. By integrating concepts from physics, chemistry, biology, and earth science, it fosters a holistic understanding of science, and highlights the interrelationship between science, technology and society",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "0eca738e911b",
+    "text": ". Through hands-on activities, real-life examples, and collaborative learning experiences, the textbook strengthens creativity, logical reasoning, and decision-making skills. It nurtures curiosity, cooperation, respect for life, and concern for the environment",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 260,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "8842e0947f00",
+    "text": ". While Exploration serves as a central learning resource, it also invites students to engage with a broader world of books, media, digital archives, libraries, and community knowledge. The role of teachers, parents, and school libraries is, therefore, pivotal in nurturing a rich culture of reading, dialogue, and independent exploration at this stage",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "aa059edc159d",
+    "text": ". The textbook integrates technology through the use of QR codes in each unit, which provide additional reading material and resources. The National Council of Educational Research and Training acknowledges the contributions of the Textbook Development Team, subject experts, pedagogues, practising teachers, reviewers, and all others who have supported the development of this textbook",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "6e51cdb24a6a",
+    "text": ". We hope Exploration inspires learners to think critically, communicate with confidence, and participate thoughtfully in the intellectual and social life of our nation and the world. We welcome suggestions and feedback from all its users for further improvement in the subsequent editions",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "9d9d78b37771",
+    "text": "You may have enjoyed learning science through your textbooks Curiosity during the middle stage. You may have realised that science is not just about answers; it begins with questions. This indicates that you have begun to develop an interest in learning and exploring science",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 275,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "d6c28f20a3f3",
+    "text": ". As you continue this journey, this ongoing cycle of questioning and discovery becomes a natural part of how you grow and understand the world. By the end of Grade 8, you would have successfully developed all the competencies outlined in the NCF-SE 2023 for the middle stage",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 275,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "5ba8dd7114d1",
+    "text": ". Building on this strong foundation, the Grade 9 science textbook has been developed in alignment with the NEP 2020 and the NCF-SE 2023 to support a deep understanding and sustained interest in science. Exploration, the title of the science textbook for Grade 9, means investigating the unknown by observing, posing questions, and experimenting to understand and discover the world around us",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "237bb1a8e8a4",
+    "text": ". This textbook is designed to help you learn topics related to the world of matter, its interactions and properties at the atomic level; the physical world, and the scientific principles and laws that govern it; the structure and function of the living world at the cellular level, and the interconnectedness between organisms and their environment",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 349,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "e3020d41f3a3",
+    "text": ". The main aim of the science textbook, Exploration, is to engage you in understanding the processes of science and discovering new information. The emphasis is on integrating topics from biology, chemistry, physics, earth science, and other curricular areas, such as environmental education, value education, and inclusive education",
+    "page_num": 5,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 333,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "f8345f0f0b29",
+    "text": ". The goal is to help you learn through real experiences and not by simply memorising facts. After going through this book, we hope you will become a responsible and sensitive member of society. Exploration contains 13 chapters. Each chapter includes engaging activities, thought-provoking questions, and clear illustrations to support your learning",
+    "page_num": 5,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 349,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "17737a942072",
+    "text": ". The design, layout, and cover page visually communicate curiosity, exploration, and the nature of science. It provides a visual overview of the scientific concepts that may be covered in the textbook. The first chapter, ‘Exploration: Entering the World of Secondary Science’, provides guidance on examining scientific concepts more closely and carefully",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "54bbde0e06ac",
+    "text": ". It makes you aware of scientific language, scientific ideas, and their appropriate use for clear, unambiguous communication. It also helps to understand the world around us more systematically through experimentation. This chapter encourages you to appreciate how science connects naturally with mathematics, technology, arts, and social sciences",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "2d2c9e38f27d",
+    "text": "vi out simple experiments to help answer them, and use your observation, exploration, and investigation skills to understand that Science is not merely a subject, but a way of looking at the world. This chapter provides a friendly introduction to your science journey at the secondary stage. The page numbers of the textbook have been thoughtfully designed, framed by a magnifying glass and a compass",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "fd4c845f4f25",
+    "text": ". What might these symbols represent? Try to guess — but their meaning will be revealed in the first chapter. Each chapter begins with a thought-provoking image related to the title of the chapter, designed to capture your attention and connect the scientific concepts you learn with everyday life. It encourages you to think, explore, and uncover its meaning as you read.",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "dccb3bdfac58",
+    "text": "vii Let us take a look at the approach used in this textbook. It is activity-based. These activities are designed to reflect how science works, offering both intellectual and hands-on experiences. They promote teamwork and are inclusive",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 236,
+    "estimated_tokens": 59
+  },
+  {
+    "chunk_id": "77b287922e48",
+    "text": ". They promote teamwork and are inclusive. You are expected to explore concepts by performing activities and seeking guidance from teachers, especially during experiments involving heating devices, corrosive chemicals, microscopes, and similar equipments",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 254,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "1181aed450df",
+    "text": ". In some activities, Safety first or precautions are provided to ensure you work safely, particularly when using flammable, corrosive, hot, sharp, or breakable materials. These precautions help prevent accidents, ensuring that everyone can enjoy the activities while learning safely",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "62355dd60696",
+    "text": ". Teachers are expected to pay special attention while supporting children with special needs and to encourage peer interaction. Notes are added at various places to provide additional information, explorations, or clarifications without interrupting the main text. They may help you better understand the content",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "f5abc4c4767a",
+    "text": ". They may help you better understand the content. Each chapter includes a few Think It Over questions that encourage you to reflect deeply and explore new ideas. Some of these questions are open-ended and thought-provoking, often framed as why, what, or how questions, to promote critical thinking and curiosity",
+    "page_num": 7,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "9e506979c3e2",
+    "text": ". You may not find immediate answers to all of them, but do not worry; you will be able to explore these questions as you progress through the chapter. These questions help deepen your curiosity and provide insight into the process of science. In fact, several questions may arise in your mind and we hope that you may find answers as you go through the chapters",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "960c69d2ed66",
+    "text": ". Think It Over At various places in the text, you may find Grade of the textbook, Name of the textbook, Chapter number as an icon, which helps you remember what you already know and link it to new concepts. Next Level Up will make you aware that there is still more to know about the topic, which you will learn in higher grades",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "98b9009b1c40",
+    "text": ". Several concepts bridge science with other subjects and these interconnections can be explored by accessing the textbooks of different subjects through the provided website link: https://ncert.nic.in/textbook.php Questions are provided after each section or sub-section for self-assessment. These questions help you assess your understanding and reflect how much you have learnt",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "684dda3eaf0e",
+    "text": ". Many of them encourage critical thinking, reflection on your own ideas, and critical analysis of concepts. In addition, solved numerical examples are included wherever necessary to clarify concepts. Pause and Ponder Grade 8 Curiosity Chapter 8 Next Level Up",
+    "page_num": 7,
+    "chunk_index": 8,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 259,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "769b114a3dba",
+    "text": "viii Some challenging ideas, additional information, interesting facts, and other enriching content are featured in boxes labelled Threads of Curiosity. These boxes are designed to encourage curiosity through interesting observations, thought-provoking questions, and fascinating insights. These boxes contain advanced concepts that explore the topic in more depth",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "cda975a95dd6",
+    "text": ". These boxes contain advanced concepts that explore the topic in more depth. The information in these boxes also applies scientific principles and knowledge to real-world contexts, showing how science has contributed to societal development",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 241,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "d3faf1c8f864",
+    "text": ". The intention is to present you with an opportunity to think and explore somewhat beyond the text, and you may feel the urge to continue your scientific expedition at higher levels. Threads of Curiosity Ready to Go Beyond Bridging Science and Society highlights how science has helped solve real-world problems",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "43620f8fcc2a",
+    "text": ". This includes improving health, protecting the environment, advancing technology, and enhancing the overall quality of life. By understanding these, you may learn how scientific concepts can be used to become responsible and informed citizens",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 244,
+    "estimated_tokens": 61
+  },
+  {
+    "chunk_id": "5f02dfd9df0c",
+    "text": ". It traces how individuals and institutions have nurtured scientific temper, showcasing achievements that have shaped society from ancient times to the present. Bridging Science and Society In most of the chapters, you will find Think as a Scientist boxes, where you can explore the experiment further by making modifications or trying different approaches",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "db2057ab28e5",
+    "text": ". It will help you investigate more deeply and allow new questions to emerge. These boxes connect theory with real-world applications by using models to make complex ideas easier to understand. India’s Scientific Contributions Think as a Scientist",
+    "page_num": 8,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 247,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "bb2997506570",
+    "text": "ix It presents hypothetical situations or open-ended questions, which may encourage you to think creatively and apply scientific concepts to new situations. Such questions may also involve ethical issues, helping you reflect on the social responsibility and values associated with scientific developments",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 304,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "25272b0622b3",
+    "text": ". It highlights unanswered questions where current scientific understanding is still being explored. It will give you an idea that science is an ongoing process, and that scientists are still actively exploring and seeking answers to these questions. This section provides a summary of the chapter, offering an overview of its main points and reinforcing the key ideas discussed",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "0ee166e37987",
+    "text": ". The chapters also feature a section called Meet a Scientist, where you can learn about the contributions of Indian and international scientists related to the topic. These sections include brief biographies and show how scientists have made a difference",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 255,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "e8ed0420512c",
+    "text": ". What if … The Quest Continues … Meet a Scientist At a Glance Each chapter also includes Keywords embedded within the text that highlight important concepts, helping you understand ideas clearly and think critically. These keywords also outline procedures used in scientific activities",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "9d0065b3d8a9",
+    "text": ". These keywords also outline procedures used in scientific activities. Revise, Reflect, Refine The exercises at the end of each chapter, titled Revise, Reflect, Refine, include a variety of questions of different forms and formats, offering a challenging and engaging learning experience. These questions also help to assess the competencies learners developed in each chapter",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "245528b22f8b",
+    "text": "x The Journey Beyond A key feature of the book is The Journey Beyond, which includes activities and projects designed to encourage positive interaction with classmates, experts, teachers, parents, and the community. These activities motivate you to gather information from diverse sources and draw your own conclusions",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 318,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "ef0402945315",
+    "text": ". This approach makes science more interesting, challenging, meaningful, and closely connected to real life. Some activities and projects may require prior preparation. Special care has been taken to simplify the language without losing the rigour of science, so that the concepts can be understood easily. The textbook is one way to learn, but you should also explore and observe your surroundings",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "b79752cf9828",
+    "text": ". Information and Communication Technology (ICT) can further enhance learning when used appropriately. Quick Response (QR) codes and hyperlinks in the textbook provide access to interactive resources allowing learners to explore at their own pace. Friends! Science is full of wonders and there is always more to explore",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "05ae69c28814",
+    "text": ". Friends! Science is full of wonders and there is always more to explore. That is why Exploration motivates you to keep searching, investigating, and discovering new ideas and knowledge. Textbook Development Team These steps help you stay safe. Protect your information online! \u0007Use strong passwords that include letters, numbers, and symbols",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "0d47fd06e15e",
+    "text": ". \u0007Never share your passwords with anyone, not even friends. \u0007Avoid clicking on unknown links and pop-up advertisements. \u0007Do not download applications or files from unknown or untrusted websites. \u0007Never share personal details, such as your phone number or address. \u0007Always log out after using email or other online accounts",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "f7dba840cf09",
+    "text": ". \u0007Always log out after using email or other online accounts. \u0007Inform your teacher or a trusted elder in your family if you come across anything online that makes you feel unsafe. How to stay safe while exploring and gathering information from the internet? The last page (epilogue), Ready for New Horizons? revisits key ideas and looks ahead to the exciting science of Grade 10.",
+    "page_num": 10,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "5e99d67195aa",
+    "text": "National Syllabus and Teaching Learning Material Committee (NSTC) 1. M. C. Pant, Chancellor, National Institute of Educational Planning and Administration (NIEPA), (Chairperson) 2. Manjul Bhargava, Professor, Princeton University, (Co-Chairperson) 3. Sudha Murty, Acclaimed Writer and Educationist 4",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "b7ea0adede10",
+    "text": ". Sudha Murty, Acclaimed Writer and Educationist 4. Shekhar Mande, Former Director General, CSIR; Distinguished Professor, Savitribai Phule Pune University, Pune 5. Sujatha Ramdorai, Professor, University of British Columbia, Canada 6. Shankar Mahadevan, Music Maestro, Mumbai 7. U. Vimal Kumar, Director, Prakash Padukone Badminton Academy, Bengaluru 8",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "940137b0e5b3",
+    "text": ". U. Vimal Kumar, Director, Prakash Padukone Badminton Academy, Bengaluru 8. Surina Rajan, IAS (Retd.), Haryana; Former Director General, HIPA 9. Chamu Krishna Shastri, Chairperson, Bharatiya Bhasha Samiti, Ministry of Education 10. Sanjeev Sanyal, Member, Economic Advisory Council to the Prime Minister (EAC – PM) 11. Gajanan Londhe, Head, Programme Office, NSTC 12",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "3223ec067aa4",
+    "text": ". Gajanan Londhe, Head, Programme Office, NSTC 12. Rabin Chhetri, Director, SCERT, Sikkim 13. Pratyusa Kumar Mandal, Professor in History and Dean Instruction, RIE, Mysuru 14. Dinesh Kumar, Professor in Zoology and Dean Research, NCERT, New Delhi 15. Kirti Kapur, Former Professor, Department of Education in Languages, NCERT, New Delhi 16",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 339,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "1ded680c69bf",
+    "text": "CONSTITUTION OF INDIA Part III (Articles 12 – 35) (Subject to certain conditions, some exceptions and reasonable restrictions) guarantees these Fundamental Rights Right to Equality before law and equal protection of laws; irrespective of religion, race, caste, sex or place of birth; of opportunity in public employment; by abolition of untouchability and titles",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "97fc3460e57b",
+    "text": ". Right to Freedom of expression, assembly, association, movement, residence and profession; of certain protections in respect of conviction for offences; of protection of life and personal liberty; of free and compulsory education for children between the age of six and fourteen years; of protection against arrest and detention in certain cases",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "251dcfc743ff",
+    "text": ". Right to Freedom of Religion freedom of conscience and free profession, practice and propagation of religion; freedom to manage religious affairs; freedom as to payment of taxes for promotion of any particular religion; freedom as to attendance at religious instruction or religious worship in certain educational institutions",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "f872f5415eef",
+    "text": ". Cultural and Educational Rights for protection of interests of minorities; for minorities to establish and administer educational institutions; saving of certain Laws 31A–31D. Right to Constitutional Remedies by issuance of directions or orders or writs by the Supreme Court and High Courts for enforcement of these Fundamental Rights.",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "77090afa1c47",
+    "text": ". Mande, FNA, FASc, FNASc, Former Director General, CSIR; Distinguished Professor, Bioinformatics Centre, Savitribai Phule Pune University; Honorary Distinguished Scientist, National Centre for Cell Science, Pune (Chairperson, Curricular Area Group: Science) Arnab Bhattacharya, Centre Director, Homi Bhabha Centre for Science Education (HBCSE), Tata Institute of Fundamental Research (TIFR), Mumbai;",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9ee335675b72",
+    "text": "Education (HBCSE), Tata Institute of Fundamental Research (TIFR), Mumbai; Senior Professor, Department of Condensed Matter Physics and Material Science, TIFR, Mumbai (Team Leader and Leader, Physics Sub-group) R",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 211,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "537161f8aeb2",
+    "text": ". Shankar, Adviser, International Geoscience Education Organisation, Coordinator, International Earth Science Olympiad; Former Professor, Mangalore University, Mangaluru (Leader, Earth Science Sub-group) Saroj Ghaskadbi, Former Senior Professor, Savitribai Phule Pune University, Pune (Leader, Biology Sub-group) Uday Maitra, Honorary Professor and INSA Senior Scientist, Indian Institute of Science,",
+    "page_num": 13,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "a453f9770eaa",
+    "text": "Honorary Professor and INSA Senior Scientist, Indian Institute of Science, Bengaluru (Leader, Chemistry Sub-group) Anjni Koul, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi (Member Convenor, Curricular Area Group: Science and Coordinator, Chemistry Sub-group) Rachna Garg, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "9789fbf40fd2",
+    "text": ". Koireng, Professor, Department of Curriculum Studies and Development, NCERT, New Delhi (Coordinator, Earth Science Sub-group) Sunita Farkya, Professor and Head, Department of Education in Science and Mathematics, NCERT, New Delhi (Coordinator, Biology Sub-group) Abhay Kumar, Associate Professor, Central Institute of Educational Technology, NCERT, New Delhi Adithi Muralidhar, Scientific Officer,",
+    "page_num": 13,
+    "chunk_index": 7,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "1486cab3579d",
+    "text": "Educational Technology, NCERT, New Delhi Adithi Muralidhar, Scientific Officer, Homi Bhabha Centre for Science Education, TIFR, Mumbai Amit Bhattacharya, Associate Professor, Ramjas College, University of Delhi, Delhi Anand Arya, Associate Professor, Regional Institute of Education, NCERT, Ajmer Animesh Kumar Mohapatra, Former Professor, Department of Education in Science and Mathematics, RIE,",
+    "page_num": 13,
+    "chunk_index": 8,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "8a03a5db4008",
+    "text": "Former Professor, Department of Education in Science and Mathematics, RIE, NCERT, Bhubaneswar Apala Chakraborty, Principal, The Future Scholars Academy CBSE School, Kolkata, West Bengal Arun Pratap Sikarwar, Associate Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Textbook Development Team",
+    "page_num": 13,
+    "chunk_index": 9,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "55075d93c6a9",
+    "text": ". Shimray, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Charu Maini, Principal, DAV Public School, Sector 49, Gurugram, Haryana Divya Haridas, Professor, Department of Physics, Keshav Mahavidyalaya, University of Delhi, Delhi Fanindra Sharma, Educator and Consultant, Chanakya University, Bengaluru Gauri Roy, PGT (Physics), Demonstration Multipurpose School,",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "f07f7cb0aa96",
+    "text": ". Swaminathan, Teacher Developer, Royal Society of Chemistry, Bengaluru Karthick Balasubramanian, Scientist E, Agharkar Research Institute, Pune Linto Alappat, Assistant Professor, Christ College Autonomous, Irinjalakuda, Thrissur, Kerala Mayuri Rege, Reader, Homi Bhabha Centre for Science Education, TIFR, Mumbai Mridula Arora, Principal, Navyug School, Sarojini Nagar, New Delhi Munindra Ruwali,",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "ca91183eee15",
+    "text": "Arora, Principal, Navyug School, Sarojini Nagar, New Delhi Munindra Ruwali, Associate Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Neeraja Dashaputre, Principal Technical Officer (Education), Indian Institute of Science Education and Research, Pune P",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 285,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "8b43a94eefc0",
+    "text": ". Raghavendra, Associate Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Pankaj Jain, Director, Academic and Operations, Seed2Sapling Education Foundation, Bengaluru Pooja Gokhale Sinha, Assistant Professor, Sri Venkateswara College, University of Delhi, New Delhi Poonam Katyal, Former TGT, Zeenat Mahal Sarvodaya Kanya Vidyalaya, Jafrabad, Delhi Praveen Pathak,",
+    "page_num": 14,
+    "chunk_index": 7,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "ee95b2836555",
+    "text": "TGT, Zeenat Mahal Sarvodaya Kanya Vidyalaya, Jafrabad, Delhi Praveen Pathak, Scientific Officer, Homi Bhabha Centre for Science Education, TIFR, Mumbai Puja Goyal, PGT (Chemistry), Government Model Senior Secondary School, Chandigarh Pushpa Tyagi, Former Head of Department (Physics), Sanskriti School, Chanakyapuri, New Delhi Pushp Lata Verma, Professor, Department of Education in Science and",
+    "page_num": 14,
+    "chunk_index": 8,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "39fd6718ba1f",
+    "text": "New Delhi Pushp Lata Verma, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Ravijot Sandhu, PGT (Chemistry), Navyug School, Laxmibai Nagar, New Delhi Ravindra Kumar Parashar, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi",
+    "page_num": 14,
+    "chunk_index": 9,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "7a0214843ba3",
+    "text": "xv Ruchi Verma, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Sarita Kumar, Professor, Acharya Narendra Dev College, University of Delhi, Delhi Sarita Vig, Professor, Indian Institute of Space Science and Technology (IIST), Thiruvananthapuram Sekar Venkatraman, Head of Department, Isha Home School, Coimbatore Shashibhal Pandey, Associate Professor, CHM College,",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "47187fab03be",
+    "text": "Home School, Coimbatore Shashibhal Pandey, Associate Professor, CHM College, Ullasnagar Shirish Pathare, Scientific Officer, Homi Bhabha Centre for Science Education, TIFR, Mumbai Smita Chaturvedi, Assistant Professor, Interdisciplinary School of Science, Savitribai Phule Pune University, Pune Sudesh Kumar, Associate Professor, Department of Education in Science and Mathematics, NCERT, New Delhi",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "e7bfe2925532",
+    "text": ". Arya, Assistant Professor, Regional Institute of Education, NCERT, Ajmer Vijay Singh, Former Professor, Homi Bhabha Centre for Science Education, TIFR, Mumbai Reviewers Manjul Bhargava, Professor, Princeton University; Co-Chairperson, NSTC Anurag Behar, CEO, Azim Premji Foundation; Member, National Curriculum Framework Oversight Committee Gajanan Londhe, Head, Programme Office, NSTC Ankush",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "be084403e99a",
+    "text": ". K. Sharma, Former Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Charu Dogra, Professor, Ramjas College, University of Delhi, Delhi Dinesh Kumar, Professor, Department of Education in Science and Mathematics, NCERT, New Delhi Ginni Singh, Consultant, Programme Office, NSTC K. K. Arora, Former Professor, Zakir Husain Delhi College, University of Delhi, Delhi K. V",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "f111464faf79",
+    "text": "xvi Monika Koul, Professor, Hansraj College, University of Delhi, Delhi Mrinal Shah, Director, Curriculum and Assessment, Seed2Sapling Education Foundation, Bengaluru M. S. Sriram, Former Professor and Head, Department of Theoretical Physics, University of Madras, Chennai and President, K.V. Sarma Research Foundation, Chennai P. C",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "c50acbfc9640",
+    "text": ". C. Agarwal, Professor and Joint Director, National Council of Educational Research and Training, New Delhi Preeti Khanna, Rehabilitation Professional (Visual Impairment), National Association for the Blind, New Delhi Saket Bahuguna, Assistant Professor (Linguistics), Central Institute of Hindi, Delhi Centre, Ministry of Education, Government of India Sanjay P",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "b4d9951fc29e",
+    "text": ". Sane, Professor, National Centre for Biological Sciences, TIFR, Bengaluru Sanjiv Kumar, Former Professor, School of Sciences, Indira Gandhi National Open University, New Delhi Santosh Gharpure, Professor, Indian Institute of Technology Bombay, Mumbai Sarthak Parikh, Assistant Professor, Department of Physics, Indian Institute of Technology, New Delhi Satyajit Rath, Visiting Professor, Indian",
+    "page_num": 16,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "ba0c596957e5",
+    "text": "Institute of Technology, New Delhi Satyajit Rath, Visiting Professor, Indian Institute of Science Education and Research, Pune Savita Ladage, Former Professor, Homi Bhabha Centre for Science Education, TIFR, Mumbai Shubha Tole, Distinguished Professor, Department of Biological Sciences, TIFR, Mumbai Sujata Bhargava, Former Professor, Savitribai Phule Pune University, Pune Surendra Ghaskadbi,",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "ab4ef62a178a",
+    "text": "Former Professor, Savitribai Phule Pune University, Pune Surendra Ghaskadbi, Former Scientist G, Agharkar Research Institute, Pune Vijay Sarda, Former Associate Professor, Zakir Husain Delhi College, University of Delhi, Delhi V",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 228,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "4f5d01c59fea",
+    "text": ". B. Bhatia, Former Professor, Department of Physics and Astrophysics, University of Delhi, Delhi Viswajanani J. Sattigeri, Head, CSIR-Traditional Knowledge Digital Library Unit, New Delhi Yukti Sharma, Professor, Department of Education (CIE), University of Delhi, Delhi",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 271,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "3e74539d3557",
+    "text": "Acknowledgements The National Council of Educational Research and Training (NCERT) acknowledges the guidance and support of the esteemed Chairperson and members of the National Curriculum Framework Oversight Committee for their invaluable contributions in overseeing the translation of the NCF-SE 2023 perspectives into the textbook",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "937b9eae5c8f",
+    "text": ". The NCERT is also grateful to the Chairperson, Co-Chairperson, and members of the National Syllabus and Teaching Learning Material Committee for their continuous guidance and thorough review of the textbook",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 208,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "f3c74f1b4ffe",
+    "text": ". Furthermore, NCERT extends its heartfelt thanks to the Chairperson and members of the Curricular Area Group (CAG): Science, as well as other relevant CAGs, for their support and guidelines on the cross-cutting themes. The Council gratefully acknowledges P. C. Agarwal, Professor and Joint Director, NCERT, New Delhi; Himanshu Gupta, Secretary, NCERT, New Delhi; Amarendra P",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "d2c4e202e249",
+    "text": ". Behera, Professor and Joint Director, CIET, NCERT, New Delhi; Ranjana Arora, Professor and Head, DCS&D, NCERT, New Delhi; Sunita Farkya, Professor and Head, DESM, NCERT, New Delhi; and Ashutosh Kedarnath Wazalwar, Professor and Head, PMD, NCERT, New Delhi, for their academic, administrative, and technical support",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 316,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "b15e17869373",
+    "text": ". The Council is thankful to Sarita Vig, Professor, IIST, Thiruvananthapuram; Shubha Tole, Distinguished Professor, TIFR; and Surhud More, Professor, IUCAA, Pune, for reviewing some chapters with meticulous care and providing invaluable, iterative feedback that substantially enhanced the quality of these chapters; Anupama Souri Das, Research Associate, Harsha Malhotra, Research Scholar, Mukul",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "a802a8df3817",
+    "text": "Anupama Souri Das, Research Associate, Harsha Malhotra, Research Scholar, Mukul Mhaskey, Project Scientific Officer, HBCSE, Mumbai; Krishnendu Kundu, Ramanujan Fellow, HBCSE, Mumbai; and Uma Ramakrishnan, Professor, NCBS, for their critical reading of some chapters; Puneet Sharma, Assistant Professor, DESM, NCERT, New Delhi, for reviewing Chapter 12; and Uday Y., Assistant Professor, ESD, NCERT,",
+    "page_num": 17,
+    "chunk_index": 5,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "31f228a5ae2e",
+    "text": ". Thanks are also due to Arnab Bhattacharya, Textbook Team Leader, for providing some images in Chapters 1, 13, and Epilogue; Akshat Singhal, Visiting Fellow, HBCSE, TIFR, Mumbai, for preparing some illustrations of Chapter 10; Adithi Muralidhar, Scientific Officer, HBCSE, TIFR, Mumbai, for providing many images for some chapters; Linto Alappat, Assistant Professor, Christ College Autonomous,",
+    "page_num": 17,
+    "chunk_index": 8,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "794e14325388",
+    "text": "some chapters; Linto Alappat, Assistant Professor, Christ College Autonomous, Irinjalakuda, Thrissur, Kerala; and Kangabam Bikram Singh, Wild Life Photographer, and Enterpreneur, Manipur, for providing photographs for Chapter 5 and Chapter 12 respectively; Pratap Raychaudhuri, Professor, TIFR, Mumbai, for the STM image; Bhagyashree Chalke, Scientific Officer, TIFR, for the SEM images; Mohamed",
+    "page_num": 17,
+    "chunk_index": 9,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "94b8a864b71e",
+    "text": "xviii Science Media Centre for providing several images across chapters; and Secretary, Department of Atomic Energy, Government of India, for providing images of nuclear power plants. The NCERT appreciates the contributions of M",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 228,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "a05b887c663e",
+    "text": ". The NCERT appreciates the contributions of M. Pramod Kumar and Purva Bhatt, Senior Consultants, Programme Office, NSTC; Yadunath Deshpande, Member, Programme Office, NSTC; and other members of the Programme Office, NSTC, for their valuable inputs",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 248,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "a96b63eabd42",
+    "text": ". The Council acknowledges the dedicated efforts of Archana, Dharmendra Kumar, Gonmei Zenus Piuthaimei, Monal, Monika Lamoria, and Tamanna Kapoor, Senior Research Associates, DESM, NCERT, New Delhi; Neha, Junior Project Fellow, DESM, NCERT, New Delhi; Nitika Rani, Course Administrator, DESM, NCERT, New Delhi, throughtout for the development process of the textbook",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "11f059593215",
+    "text": ". Acknowledgements are also due to Preeti Sharma, Senior Research Associate, DESM, NCERT, New Delhi; Brijesh, Himani, Kunal Rajoria and Nitin, Graphic Designers, DESM, NCERT, New Delhi; Sachin Tanwar, DTP Operator, NCERT, New Delhi; Amar Kumar and Naveen, Laboratory Assistants, DESM, NCERT, New Delhi, for their support in the development of the textbook",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "b8ff08a2fc36",
+    "text": ". The NCERT is thankful to Ankeeta Bezboruah, freelance language editor, for her meticulous editing of the textbook manuscript. The Council sincerely appreciates the support provided by the APC office and the administrative staff of DESM. The Council acknowledges the efforts of Ilma Nasir, Editor (Contractual), for editing this textbook",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "c94ffb015116",
+    "text": ". The efforts of Pawan Kumar Barriar, In-charge, DTP Cell, Publication Division, NCERT; Mohan Singh, Anita Kumari, and Manoj Kumar, DTP Operators (Contractual) are appreciated for their unwavering commitment throughout the publication process.",
+    "page_num": 18,
+    "chunk_index": 6,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 243,
+    "estimated_tokens": 61
+  },
+  {
+    "chunk_id": "fc365b57781f",
+    "text": "Foreword iii About this Book\b v Chapter 1 Exploration: Entering the World of Secondary Science\b Chapter 2 Cell: The Building Block of Life\b Chapter 3 Tissues in Action\b Chapter 4 Describing Motion Around Us\b Chapter 5 Exploring Mixtures and their Separation\b Chapter 6 How Forces Affect Motion\b Chapter 7 Work, Energy, and Simple Machines\b Chapter 8 Journey Inside the Atom \b Chapter 9 Atomic",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "e8ea90e46c62",
+    "text": "and Simple Machines\b Chapter 8 Journey Inside the Atom \b Chapter 9 Atomic Foundations of Matter\b Chapter 10 Sound Waves: Characteristics and Applications\b Chapter 11 Reproduction: How Life Continues\b Chapter 12 Patterns in Life: Diversity and Classification\b Chapter 13 Earth as a System: Energy, Matter, and Life\b Answer Key Contents",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "iesc1ps.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  }
+]

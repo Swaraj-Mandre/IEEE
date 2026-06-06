@@ -1,0 +1,1253 @@
+[
+  {
+    "chunk_id": "97fdc0ac6a0d",
+    "text": "Journey Inside the Atom Chapter Everything that you see or observe, or feel around is matter. You have learnt that matter consists of tiny particles called atoms. Take a closer look at the picture given above",
+    "page_num": 1,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 208,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "9896e45a0766",
+    "text": ". Take a closer look at the picture given above. What do you observe? Do you notice that both living beings, like us, and non-living things, like a house, are ultimately composed of atoms? These atoms are so tiny that they cannot be seen with the naked eye",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 256,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "a85a904e701c",
+    "text": ". You may be wondering — Is an atom truly the smallest unit of matter, or can it be divided even further? Scientists, too, have been exploring whether atoms are divisible. If so, what are their constituents and how are these arranged? Let us examine how the concept of atoms emerged and how it has been evolved since then",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "78710786d182",
+    "text": ". Grade 8 Curiosity Chapter 7 Atoms Si N O H P C Human Body Organ Tissue Cell Silicates Brick Wall Room House Protein Cell Think It Over y Are atoms the smallest indivisible particles? y Why do electrons not fall into the nucleus even though they are attracted to protons in it? y Why did scientists keep modifying atomic models?",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "f05af1a3a2d6",
+    "text": "Journey Inside the Atom 8.1 Rediscovering the Roots of Atomic Theory Let us embark on a journey that takes us back more than 2,000 years, to the intellectual landscapes of ancient India and ancient Greece",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 204,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "b839eca30b69",
+    "text": ". In these distant yet remarkably parallel civilisations, profound thinkers, such as Acharya Kanada in India, and Leucippus and Democritus in Greece, pondered over the same fundamental question that has continued to inspire human inquiry across centuries — What is everything made up of? Acharya Kanada suggested that if matter (dravya) is divided repeatedly, you will reach a stage where you would",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "c62829edcfc4",
+    "text": ". He called these particles parmanus. His ideas are recorded in the Sanskrit text Vaisesika Sutras. A parmanu is infinitely small and cannot be perceived by the senses. Combinations of these forms dyads (groups of two parmanus) and triads (groups of three parmanus), and so on. It is out of these combinations that the whole of the material universe, including the bodies of living beings, is created",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "506fab67aed6",
+    "text": ". However, this description does not specify the proportions in which parmanus combine to form different substances. The Greek philosophers Leucippus and Democritus also proposed a similar idea. They called these indivisible particles atomos (in Greek, atomos means indivisible). You must remember that the concept of ‘atom’ originated as an imaginary idea rather than from experimental observations",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "27b9841ad8bd",
+    "text": ". Many centuries later, in 1808, John Dalton proposed his atomic theory. It was based on scientific experiments of that time. He proposed that all matter is composed of indivisible particles called atoms. That is, the atoms are the fundamental building blocks of matter that cannot be broken down into smaller parts. Dalton’s atomic theory was the first scientific description of how matter is made",
+    "page_num": 2,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "0a2e3fa54744",
+    "text": ". Following Dalton’s theory, scientists were curious to know the answers of the questions: y What are atoms made up of ? y What would atoms look like if we could see them? y What makes the atoms of one element different from the atoms of another element? 8.2 A Short Historical Journey Through Atomic Models More than a hundred years ago, scientists tried to imagine what atoms might look like by",
+    "page_num": 2,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "dafd3d5879fb",
+    "text": ". As new experiments were performed and new evidence came to light, these models were changed and improved. Although we now know that the early models were not fully correct, they are still important because they show how science moves forward — one step at a time, driven by curiosity, questioning, and experimentation",
+    "page_num": 2,
+    "chunk_index": 9,
+    "source_file": "iesc108.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "59d95b36d25c",
+    "text": ". Until the late 19th century, atoms were thought to be the smallest, indivisible units of matter. However, scientists discovered that certain elements emit invisible energy and particles called radiation,",
+    "page_num": 2,
+    "chunk_index": 10,
+    "source_file": "iesc108.pdf",
+    "char_count": 205,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "daa9b906b310",
+    "text": "Exploration|Grade 9 Fig. 8.1: A line diagram of cathode ray tube High voltage power supply Vacuum pump Cathode (–) Anode (+) – + It was found that the nature of cathode rays was independent of the material of the cathode and the gas filled in the cathode ray tube. It showed that electrons are a fundamental component of all atoms, present in every element",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "a020492925b1",
+    "text": ". 8.2.1 Thomson’s model of an atom When J. J. Thomson discovered tiny negatively charged particles called electrons, he faced a puzzle — atoms are neutral, so where is the positive charge present? To solve this, Thomson proposed the atom to be a sphere of positive charge with electrons distributed throughout it (Fig. 8.2)",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "f2d7fad5b6ba",
+    "text": ". 8.2). This model was compared to a pudding with plums embedded in it, called the plum pudding model. A more familiar picture would be that of a watermelon (Fig. 8.3), where the red pulp represents the positively charged matter, and the seeds represent electrons distributed throughout the atom",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 295,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "3cf13c8dec55",
+    "text": ". This simple picture, though later replaced, was the first genuine attempt to describe how the atom’s positive and negative charges stay balanced. Fig. 8.3: Watermelon a phenomenon known as radioactivity. This showed that atoms must be composed of smaller particles, proving that they were not indivisible as previously believed. In 1897, J. J",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "022755626ed4",
+    "text": ". In 1897, J. J. Thomson studied the conduction of electric current through gases at a very low pressure. He used a glass tube with two electrodes and applied a high voltage. He observed rays moving from the cathode (negative electrode) to the anode (positive electrode) (Fig. 8.1). These were called cathode rays",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "b2ad10016f96",
+    "text": ". 8.1). These were called cathode rays. By studying these cathode rays in electric and magnetic fields, he concluded that they are streams of negatively charged particles, with a much smaller mass than atoms. These particles, later called electrons, were emitted from atoms, indicating that atoms are composed of smaller subatomic components. Electron Positive sphere Fig",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "6731e9450aab",
+    "text": ". Electron Positive sphere Fig. 8.2: Thomson’s model of an atom Note Atoms do not show any colour. The colours depicted in the diagrams are for illustrative purposes only. J. J. Thomson’s most significant discovery was that of the electron, the first subatomic particle to be identified and a part of every atom",
+    "page_num": 3,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "f8a29bd2df0c",
+    "text": ". He received the Nobel Prize in Physics in 1906 for his studies of the electrical conductivity of gases. This research led him to discover electrons. As the head of the famous Cavendish Laboratory in Cambridge, he guided and inspired many scientists, including Ernest Rutherford. Meet a Scientist",
+    "page_num": 3,
+    "chunk_index": 8,
+    "source_file": "iesc108.pdf",
+    "char_count": 297,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "39bb98233877",
+    "text": ". What will happen if: (i) the positive charge on the clay is lesser than the total negative charge of the beads? (ii) by mistake, the clay itself carries a bit of negative charge? Would your model still represent a neutral atom? 2. Could an orange or a lemon, which also contain seeds inside soft pulp, be a good comparison? In what ways does it match Thomson’s idea and where does it fall short? 3",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "85aa18e28218",
+    "text": ". Why did Thomson conclude that electrons are present in all atoms? Pause and Ponder 8.2.2 \u0007Testing Thomson’s model: The gold foil experiment In 1911, Geiger and Marsden, working under Ernest Rutherford, tested Thomson’s model of the atom through what became famous as the gold foil experiment. They aimed a narrow beam of alpha particles at an extremely thin sheet of gold foil",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "f045c4d4f808",
+    "text": ". Alpha (symbol α) particles are tiny, positively charged particles emitted from certain radioactive elements. Later in this chapter, you will learn that an alpha particle is actually a nucleus of a helium atom containing two protons and two neutrons. According to Thomson’s model, the positive charge in the atom was spread out evenly",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "ecc2ed177d7b",
+    "text": ". So they expected the alpha particles to pass straight through the gold foil or be deflected only slightly. But to their surprise, while most particles passed through undeflected, some were sharply deflected (Fig. 8.4), and a few even bounced back. This deflection from the straight path is called scattering. Hence, the gold foil experiment is also called an α-ray scattering experiment. Fig",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "b405b9656a56",
+    "text": ". Fig. 8.4: Schematic view of the gold foil experiment Beam of α-particles Thin gold foil T homson’s model failed to explain the results of the gold foil experiment, particularly the deflection of some α-particles through large angles and that most of the α-particles passed undeflected.",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 287,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "4cf65264458c",
+    "text": "Exploration|Grade 9 A. Rutherford’s model of an atom From the gold foil experiment, Rutherford concluded that the positive charge of an atom is not spread throughout but remains concentrated in an extremely small region called the nucleus. He proposed that: y Most of an atom is empty space, as most α-particles passed through the gold foil without any deflection",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "b77fa6685d1c",
+    "text": ". y The nucleus is dense, contains all the positive charge and most of the mass of an atom. y The electrons revolve around the nucleus, somewhat like planets orbiting the Sun. Hence, this model is called the planetary model of the atom (Fig. 8.5). Rutherford found that the nucleus is extremely small — about 105 (one lakh) times smaller than the atom",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "b34efb3192fa",
+    "text": ". You can imagine that if an atom were of the size of a cricket ground (about 100 m across), the nucleus would be just a tiny black pepper grain (a few mm) at the centre! Can you calculate how many atoms would be needed to make a sheet of paper that is 0.1 mm thick, like the one in your textbook? If the diameter of one atom is about 10–10 m, and the sheet is 0.1 mm (10–4 m) thick, number of atoms",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "dec2f408a247",
+    "text": ". That is about one million atoms need to be stacked together! When these atoms come together, they form the solid materials we see and touch. What feels like a simple sheet is actually a vast assembly of tiny building blocks, all neatly arranged. It’s amazing how the unseen atomic world shapes everything we see and use every day! Ready to Go Beyond Observe Fig. 8.4 of the gold foil experiment",
+    "page_num": 5,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "6ad530e04988",
+    "text": ". 8.4 of the gold foil experiment. Predict the observations you would expect if the gold foil in the experiment were made thicker. Also, draw a simple diagram to show the observations you expect. Hint: Compare thin foil vs thick foil. How does the thickness affect the chances of hitting a nucleus? Think as a Scientist 4",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "c5b5e3a7a228",
+    "text": ". What do you think would happen if α-particles were replaced with negatively charged particles in Rutherford’s gold foil experiment? 5. Rutherford found that a few α-particles bounced back sharply. How does this single surprising result completely rule out Thomson’s ʻplum pudding modelʼ of the atom? 6. If you could ask Rutherford one question about his work, what would it be? Pause and Ponder Fig",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "4f7788109aec",
+    "text": "Journey Inside the Atom Rutherford’s atomic model was better than Thomson’s atomic model in explaining the results of the gold foil experiment. However, it had a limitation. It could not explain the stability of the atom. B. Limitations of Rutherford’s model While the idea of a central nucleus was a major step forward, Rutherford’s model could not explain why atoms are stable",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "17430b9b111c",
+    "text": ". As you have learnt in Chapter 4, Describing Motion Around Us, a particle moving in a circular path is constantly changing direction, which means it is accelerating. If a negatively charged electron keeps accelerating around the nucleus, it should lose energy. Losing energy would make it spiral inward and eventually fall into the positively charged nucleus (Fig. 8.6)",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "379861e6ea32",
+    "text": ". 8.6). If that really happened, atoms would collapse and would not exist! But in reality, atoms are stable that is why matter around us stays intact. This meant that Rutherford’s model was not completely correct, and a new explanation was needed to describe how electrons remain in motion without collapsing into the nucleus",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "a2c738bf2644",
+    "text": ". But before we come to that, you need to know about another subatomic particle, the proton, discovered and named by Rutherford. C. Discovery of the proton Rutherford showed that the nucleus carries positive charge which comes from the particles called protons. Protons are much heavier than electrons and possess a charge equal and opposite to that of electrons",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "d949782c4379",
+    "text": ". For an atom to be electrically neutral, the number of protons must be equal to the number of electrons. For example, a helium atom has 2 protons and 2 electrons, while a sodium atom has 11 protons and 11 electrons. Since the total positive charge equals the total negative charge, the helium or the sodium atoms are also electrically neutral. Similarly, all the atoms are electrically neutral. 7",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "781cdb5f734d",
+    "text": ". Similarly, all the atoms are electrically neutral. 7. Assertion (A): Rutherford concluded that most of the mass of an atom is concentrated in a small region at the centre called the nucleus. Reason (R): According to Thomson’s model, electrons are embedded in a uniformly distributed positive charge sphere. Choose the correct option: (i) Both A and R are true, and R is the correct explanation of A",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "5db8c89e8cd2",
+    "text": ". (ii) Both A and R are true, but R is not the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true. Pause and Ponder Fig. 8.6: Spiral path followed by a charged particle on losing energy Born in New Zealand, Ernest Rutherford moved to Cambridge to work with J. J. Thomson and later became known as the Father of Nuclear Physics",
+    "page_num": 6,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "d011ee7620c2",
+    "text": ". J. Thomson and later became known as the Father of Nuclear Physics. He discovered the atomic nucleus and explained how some elements naturally break down, for which he won the 1908 Nobel Prize in Chemistry. In 1911, he proposed the nuclear model of the atom. His portrait now appears on New Zealand’s $100 banknote. Meet a Scientist",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "334371972ca4",
+    "text": "Exploration|Grade 9 8.2.3 Bohr’s model of the atom To explain why atoms are stable, Niels Bohr proposed a new model of the atom in 1913. According to Bohr: y Electrons do not move randomly around the nucleus but follow fixed circular paths called stationary states, orbits, or shells. In each shell, an electron has a definite amount of energy, so these shells are also called energy levels",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "b01baf2242e5",
+    "text": ". y These shells are represented by the letters K, L, M, N, ... or by the numbers n = 1, 2, 3, 4, ... (Fig. 8.7). y Electrons can revolve only in these allowed shells, and not in between them. While moving in a fixed shell, an electron does not lose energy. y The first energy level K (n = 1) is the one closest to the nucleus (Fig. 8.7) and has the least energy",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "29bb009a120b",
+    "text": ". 8.7) and has the least energy. y The energy of these levels increases as we move away from the nucleus. That is, the energy of an electron in the L-shell (n = 2) is more than that of an electron in the K-shell (n = 1). The farther away a shell is from the nucleus, the higher is its energy",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 291,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "b1c20ed98a15",
+    "text": ". The farther away a shell is from the nucleus, the higher is its energy. y An electron can move to another shell by absorbing or releasing a fixed amount of energy equal to the difference between the energies of the two levels. y Each shell can hold only a certain number of electrons",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 285,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "08c17e8c37f9",
+    "text": ". y Each shell can hold only a certain number of electrons. You may be wondering, how does Bohr’s model explain stability? In Bohr’s model, electrons also move in circular paths around the positively charged nucleus, as in Rutherford’s model. But why don’t they lose energy while doing so? Bohr addressed this by introducing the concept of stationary states as a postulate",
+    "page_num": 7,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "992bd2785cec",
+    "text": ". In a stationary state, the energy of an electron remains constant, even though it is in motion around the nucleus. Bohr’s model could explain many experimental observations and marked a major step in understanding the atomic structure. Why are Bohr’s shells called K, L, M, N..",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 279,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "15485583725e",
+    "text": ". Why are Bohr’s shells called K, L, M, N... and not, A, B, C, D? The naming came from early X‑ray experiments by the physicist, Charles Barkla, who called the first observed X-ray line K. He didn’t start naming from A to leave room for possible discovery of a series earlier than the K series, although none were ever found. Bohr adopted the same notation for atomic shells",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "958227c8adda",
+    "text": ". Bohr adopted the same notation for atomic shells. Threads of Curiosity Later, even Bohr’s model was found to have limitations, and yet another model, the quantum mechanical model, was proposed. You will learn about it in higher grades. Next Level Up Fig",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 255,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "c6b54078870c",
+    "text": ". You will learn about it in higher grades. Next Level Up Fig. 8.7: Energy levels in an atom K-shell (n=1) Nucleus L-shell (n=2) M-shell (n=3) N-shell (n=4) Meet a Scientist Niels Bohr was a professor of physics at Copenhagen University, Denmark. He was curious about how atoms exist because the old models could not explain why electrons stay around the nucleus without collapsing",
+    "page_num": 7,
+    "chunk_index": 8,
+    "source_file": "iesc108.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "91db8bbfa5b5",
+    "text": "Journey Inside the Atom 8.3 What Components Contribute to the Mass of an Atom? Rutherford’s model showed that most of the mass of an atom is concentrated in its nucleus. Electrons that revolve around the nucleus are so light that their mass can be ignored. However, something puzzling appeared early in the 20th century",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "9efa77822b9e",
+    "text": ". However, something puzzling appeared early in the 20th century. For instance, a hydrogen atom has one proton, whereas a helium atom has two protons, yet the mass of a helium atom is about four times that of a hydrogen atom, not double",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 236,
+    "estimated_tokens": 59
+  },
+  {
+    "chunk_id": "d5d93910c367",
+    "text": ". This led scientists to wonder whether besides protons, is there something else in the nucleus adding mass without affecting its charge? 8.3.1 Discovery of the Neutron In 1932, this problem was solved by James Chadwick (a student of Ernest Rutherford). He discovered a new subatomic particle with a mass nearly equal to that of a proton but no electrical charge",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "5f3dfdfee8f6",
+    "text": ". This neutral particle was named as neutron and is usually represented by the symbol ‘n’. The neutrons are found in the nucleus of all atoms except hydrogen. Thus, the mass of an atom comes mainly from its protons and neutrons packed tightly in the nucleus. This also explains why atoms are heavier than the mass of their total number of protons",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "0df9d057480c",
+    "text": ". Table 8.1 shows the symbols and relative charges of subatomic particles. Table 8.1: Symbols and relative charges of subatomic particles S.No. Subatomic particle Symbol Relative charge 1. Electron e – –1 2. Proton p+ +1 3. Neutron n0 Lighter atoms often have an equal number of protons and neutrons (like carbon with six each or oxygen with eight each)",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "f64741f60044",
+    "text": ". You may wonder that since all the protons with like charges are squished together in a nucleus why do they not push each other away? Think of it this way — every proton inside the nucleus repels every other proton because they all carry positive charge",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 254,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "65350640b98f",
+    "text": ". Neutrons being neutral help reduce this repulsion by intervening and increasing the distance between protons, and also by strengthening the force, called the nuclear force, that binds all particles together. So, heavier atoms need many more neutrons to hold everything in the nucleus tightly bound",
+    "page_num": 8,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "b0991a5a9726",
+    "text": ". Threads of Curiosity Meet a Scientist James Chadwick, working under Rutherford at the famous Cavendish Laboratory at the University of Cambridge, solved a key puzzle in 1932, when he discovered the neutron. This breakthrough explained atomic mass and earned him the Nobel Prize in Physics in 1935",
+    "page_num": 8,
+    "chunk_index": 8,
+    "source_file": "iesc108.pdf",
+    "char_count": 298,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "108151c9d6de",
+    "text": ". The neutron immediately transformed research, enabling scientists to probe nuclear secrets, and sparked a chain of discoveries in understanding and harnessing atomic energy. Ready to Go Beyond The discovery of the neutron opened a new era in atomic physics",
+    "page_num": 8,
+    "chunk_index": 9,
+    "source_file": "iesc108.pdf",
+    "char_count": 258,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "4a178c83a873",
+    "text": ". Neutrons, being uncharged, can easily penetrate nuclei, leading to breakthroughs, such as the creation of artificial radioactive elements and the splitting of uranium atoms. This gave birth to the ʻatomic ageʼ, allowing the development of both nuclear power and nuclear weapons. What if ... an atom had no empty space? How would this have affected the size of various objects?",
+    "page_num": 8,
+    "chunk_index": 10,
+    "source_file": "iesc108.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "4a89d0132a5b",
+    "text": "Exploration|Grade 9 The Bhabha Atomic Research Centre (BARC, Fig. 8.8), Mumbai, leads advanced neutron-scattering experiments using reactors, such as Dhruva. This has revealed key insights into materials like superconductors, battery electrodes, and drug molecules, helping develop better medicines, energy storage, and industrial alloys right here in India",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "74f5328644c7",
+    "text": ". Research and explore more about Dhruva! India's Scientific Contributions Fig. 8.8: Bhabha Atomic Research Centre By 1869, scientists knew about 69 elements, most of which were found naturally on the Earth. Today, we know about 118 unique chemical elements. Some of these are artificially made, and the search for even more continues",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "08bc70ea81c1",
+    "text": ". Some of these are artificially made, and the search for even more continues. Now, let us explore how elements began to be represented for the sake of simplicity. 8.4 Symbols of Elements John Dalton realised the need for a standard way to represent elements and compounds to make the study of chemistry easier. In 1803, he introduced the first pictorial symbols to represent the known elements",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "aa854afd50eb",
+    "text": ". The Fig. 8.9 shows some of the symbols. Fig. 8.9: Symbols of some elements given by Dalton Hydrogen Phosphorus Carbon Oxygen Copper Sulphur Lead Iron Gold Platina Silver Mercury In 1813, Berzelius suggested that the symbols of elements should be derived from their Latin names. Thus, came alphabetic chemical symbols",
+    "page_num": 9,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 318,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "a4d070b6b084",
+    "text": ". Thus, came alphabetic chemical symbols. Nowadays, the International Union of Pure and Applied Chemistry (IUPAC), an international scientific organisation, approves the names and symbols of elements. Some of the norms of writing these symbols are: y Many symbols are the first letter or the first two letters of the name of the element",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 336,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "e115c3c2256f",
+    "text": ". y The first letter of a symbol is always written as a capital letter (uppercase) while the second letter (if there is one) is written as a small letter (lowercase). For example, hydrogen, H; aluminium, Al (not AL); cobalt, Co (not CO), etc. y Symbols of some elements are formed from the first letter of the name and a letter other than the second letter in the name",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 368,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "b5ad1a49cc82",
+    "text": "Journey Inside the Atom y Symbols of some elements come from their Latin, Greek, or German names rather than English. For example, the symbol for iron is Fe (from Latin ferrum), for mercury is Hg (from Greek hydrargyros), and for tungsten is W (from German wolfram). y Names and symbols of some commonly used elements are given in Table 8.2",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 340,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "535e7079adeb",
+    "text": ". Table 8.2: Names of some common elements and their symbols Name of the element Symbol Name of the element Symbol Name of the element Symbol Aluminium Al Copper (Cuprum) Cu Nitrogen N Argon Ar Fluorine F Oxygen O Barium Ba Gold (Aurum) Au Potassium (Kalium) K Boron B Hydrogen H Silicon Si Bromine Br Iodine I Silver (Argentum) Ag Calcium Ca Iron (Ferrum) Fe Sodium (Natrium) Na Carbon C Lead",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "5fb81e25dc74",
+    "text": "(Argentum) Ag Calcium Ca Iron (Ferrum) Fe Sodium (Natrium) Na Carbon C Lead (Plumbum) Pb Sulfur S Chlorine Cl Magnesium Mg Uranium U Cobalt Co Neon Ne Zinc Zn Scientists use these symbols instead of full names because they are internationally recognised and allow scientists worldwide to communicate clearly, regardless of language barriers",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 340,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "f52f5258e5dd",
+    "text": ". 9. What problems could arise if every scientist used different symbols for the same element? Pause and Ponder 8.5 Atomic Number You have learnt that the atoms of an element are all alike but different from the atoms of other elements. They differ in the number of electrons and protons in them. The number of protons in the nucleus of an atom of an element is known as its atomic number",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "13cc69d105f7",
+    "text": "Exploration|Grade 9 Since the atom as a whole is neutral, the number of protons in it equals the number of electrons orbiting the nucleus. For example, hydrogen has one proton and one electron, so its atomic number is 1. Helium, with atomic number 2, has 2 protons and 2 electrons",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 280,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "8069beb810a9",
+    "text": ". Helium, with atomic number 2, has 2 protons and 2 electrons. Can you now say that elements with different atomic numbers are distinct from each other, and the atomic number uniquely identifies an element? Observe Fig. 8.10",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 224,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "8970f97116f6",
+    "text": ". 8.10. How many neutrons and protons are present in a lithium atom, and what is its atomic number? 8.6 Mass Number As stated earlier, helium has two protons, but its mass is about four times that of a proton. The total number of protons and neutrons present in the nucleus of an atom is called its mass number, and is denoted by A. The protons and neutrons present in the nucleus are called nucleons",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "c88fd7f0a2b6",
+    "text": ". The protons and neutrons present in the nucleus are called nucleons. Mass number = Number of protons + Number of neutrons Since, the mass of a neutron is roughly equal to that of a proton, the mass of a helium atom can be accounted by two protons and two neutrons. A few examples are given in Table 8.3",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 304,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "c78fa021cb5b",
+    "text": ". A few examples are given in Table 8.3. Table 8.3: Mass number of different elements Element Protons (p+) Neutrons (n0) Mass number (A) Hydrogen Helium Lithium The electron, in comparison, has almost negligible mass, and hence, can be ignored in calculations",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 259,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "553f84565cff",
+    "text": ". In the standard notation for an atom, the symbol, the atomic number (Z) and mass number (A) of the element are written as — Symbol of element Mass Number Atomic Number For example, the symbol for carbon is C, its atomic number is 6, and its mass number is 12",
+    "page_num": 11,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 260,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "1987e9a8ffe8",
+    "text": ". In notation, it would be written as — 6 C So far, you know that protons and neutrons are located in the nucleus of an atom, while electrons move around the nucleus. Now, let us explore how electrons are arranged around the nucleus. Fig. 8.10: Neutrons and protons in the nucleus Nucleus Lithium atom Lithium atoms Electron A piece of lithium metal Neutrons and protons Pause and Ponder 10",
+    "page_num": 11,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "aa1a6d118840",
+    "text": ". An atom with an atomic number of 26 has 56 nucleons. Find out its number of electrons, protons and neutrons. 11. The nucleus of an atom contains 20 protons. If its mass number is 41, find the number of neutrons in it. 12. An atom has 18 neutrons and an atomic number of 17. What is its mass number? 13. An atom 23A has electrons. Find the number of neutrons in it.",
+    "page_num": 11,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "38f40344f88b",
+    "text": "Journey Inside the Atom 8.7 How Are Electrons Distributed in Different Energy Levels? Bohr and Bury suggested the following rules: y The maximum number of electrons present in a shell is given by the formula 2n², where ‘n’ is the number of the shell (Fig. 8.7). Hence, K-shell (n = 1) 2×1² = 2, can accommodate 2 electrons, L-shell (n = 2) 2×2² = 8 electrons, and M-shell (n = 3) 2×3² = 18 electrons",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "847067ac146f",
+    "text": ". y The maximum number of electrons that can be accommodated in the outermost shell is 8 (the first shell can accommodate a maximum of two electrons). y Electrons are filled in these shells in a stepwise manner, starting from the one closest to the nucleus and moving outward, i.e., in the order K, L, M, N, … The L-shell will be filled only after the K-shell is complete, and so on",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "9add2469c1ca",
+    "text": ". To understand the placement of electrons in atoms, let us begin with hydrogen (atomic number 1). The only electron in it has to be in the K-shell. The electron distribution for hydrogen (H) is depicted in Fig. 8.11. Helium contains two protons in its nucleus and two electrons",
+    "page_num": 12,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 278,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "91789b22f31c",
+    "text": ". 8.11. Helium contains two protons in its nucleus and two electrons. In which way will the two electrons be arranged in its atomic shell? 8.7.1 Building up atoms Let us create two-dimensional (2-D) atomic structures for various elements by adding one electron to the appropriate energy level each time atomic number is increased by 1",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "e3f93ad909a2",
+    "text": ". The distribution of electrons among various shells is known as the electronic configuration of the atom (Fig. 8.11). Table 8.4 lists the symbols, atomic numbers, number of protons, number of neutrons, number of electrons, and the electron distribution in the shells of the first eighteen elements. Na Mg Al Si P S Cl Ar Fig",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "04109d7e99aa",
+    "text": "Exploration|Grade 9 Table 8.4: Symbols, atomic numbers, number of protons, number of neutrons, number of electrons, and the electronic distribution of atoms of the first eighteen elements Name of the element Symbol Atomic number Number of protons Number of neutrons Number of electrons Distribution K L M N Hydrogen H - - - - Helium He - - - Lithium Li - - Beryllium Be - - Boron B - - Carbon C - -",
+    "page_num": 13,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "3dd4156d24c0",
+    "text": "- - - Helium He - - - Lithium Li - - Beryllium Be - - Boron B - - Carbon C - - Nitrogen N - - Oxygen O - - Fluorine F - - Neon Ne - - Sodium Na - Magnesium Mg - Aluminium Al - Silicon Si - Phosphorus P - Sulfur S - Chlorine Cl - Argon Ar - 14",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 242,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "3096f6f37ba3",
+    "text": ". Identify the number of electrons in the outermost shell of the following elements: (i) 6 C (ii) 9 F (iii) 28 14 Si 15. Write the electronic configuration of the elements having atomic numbers 12, 16 and 18. 16. Solve this riddle: I am an atom with a mass number of 23 and 11 protons. I am a soft metal and react vigorously with water",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "cdccf6f423cf",
+    "text": "Journey Inside the Atom 8.8 Combining Capacity of an Atom: Valency You have learnt that atoms of the same or different elements can combine to form molecules. The number of atoms of hydrogen or chlorine with which one atom of an element can combine to form a compound is called its combining capacity. It is expressed in terms of hydrogen and chlorine because both possess a combining capacity of one",
+    "page_num": 14,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "fe4e48e0a997",
+    "text": ". For example, in H2O (water), oxygen combines with two hydrogen atoms, so the combining capacity of oxygen is two. In NH3 (ammonia) and MgCl2 (magnesium chloride), what will be the combining capacities of nitrogen and magnesium respectively? These examples show how the combining capacity of elements is determined by the number of hydrogen or chlorine atoms they combine with",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "c83f44bdedfe",
+    "text": ". Let us learn how the combining capacity of an atom is decided by its electronic configuration. The outermost shell containing electrons of an atom is known as its valence shell. The electrons present in it are known as valence electrons. If the outermost shell of an atom has 8 electrons, it is called an octet",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "01893515b50c",
+    "text": ". If the outermost shell of an atom has 8 electrons, it is called an octet. It has been observed that elements with complete octet of electrons (8 electrons), or 2 electrons in the case of helium in their valence shell are largely unreactive and more stable. On the other hand, atoms with incomplete valence shells are usually more reactive",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 340,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "4d03949a744c",
+    "text": ". Such elements lose, gain, or share electrons to complete their octet. The number of electrons gained, lost, or shared to complete the octet is called the valency of the element. Generally, if the element has fewer than four electrons in its valence shell, it tends to lose electrons to complete its octet and become stable",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 324,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "82306a27e04d",
+    "text": ". On the other hand, if the number of valence electrons is more than four, it tends to gain electrons to complete its octet. For example, the electronic configuration of sodium is 2, 8, 1. It can get an octet by losing one electron. Therefore, its valency or combining capacity is 1. On the other hand, oxygen has an electronic configuration of 2, 6. It has six valence electrons",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "c09832e1ccb7",
+    "text": ". It has six valence electrons. Therefore, it can gain two electrons to attain an octet, its valency is 2. The electronic configuration of carbon is 2, 4. Carbon has four valence electrons and cannot easily gain or lose them. Therefore, it can share four electrons with other atoms to complete its octet. Thus, the valency of carbon is 4",
+    "page_num": 14,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 337,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "3e061610d8ef",
+    "text": ". Thus, the valency of carbon is 4. Some compounds appear to violate the usual valency rule, about which you will learn in higher grades. Can you predict what happens to the atoms that already have eight electrons in their outermost shell (except the elements with one shell only, where only two electrons are possible)? Will they still try to lose or gain electrons? Examine Table 8.4",
+    "page_num": 14,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "2c48ee8d8c18",
+    "text": ". Add one more column to it, and write down the common valency of each element. You have learnt that all the atoms of an element have the same number of electrons and protons, which is equal to its atomic number. Can you say the same regarding the number of neutrons too? Scientists have observed that atoms of the same element can have different numbers of neutrons",
+    "page_num": 14,
+    "chunk_index": 8,
+    "source_file": "iesc108.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "604169c547b2",
+    "text": "Exploration|Grade 9 8.9 A Deeper Look into Atomic Structure 8.9.1 Isotopes Dalton proposed that all atoms of an element are identical and have the same mass. But scientists later discovered that there were atoms of the same element that could have the same number of protons (atomic number, Z) yet could have different numbers of neutrons, and thus, different mass numbers (A = p+ + n0)",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "7f43c5a3b739",
+    "text": ". These ʻtwin atomsʼ with the same atomic number but different mass numbers are called isotopes. Let us take hydrogen as an example. Naturally occurring hydrogen is a mixture of three different isotopes: 1 1 H (protium, ~99.98%), 2 1 H (deuterium, ~0.015%), and 1 H (tritium, in traces) (Fig. 8.12)",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 298,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "52cc77fd57f3",
+    "text": ". 8.12). All of these contain one proton each, whereas deuterium contains one neutron, and tritium contains two neutrons. Can you guess how many electrons each of these isotopes have? Fig. 8.12: Schematic representation of isotopes of hydrogen Protium Deuterium Tritium The chemical properties of isotopes are similar",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "19a9ef3aae70",
+    "text": ". Do you know why? It is so because they have the same number of electrons and the same electronic configuration. As you have learnt, chemical properties depend mainly on the number of valence electrons. All the isotopes will have the same chemical properties although they differ in their physical properties, for example, boiling and melting points",
+    "page_num": 15,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "a7cefa303654",
+    "text": ". Similarly, carbon has three isotopes: 6 C, 6 C, and 6 C (Fig. 8.13). Each of these has six protons and six electrons. 6 C is the most abundant isotope in nature. You may note that these three isotopes differ in terms of the number of neutrons in them. Carbon – 12 Carbon – 13 Carbon – 14 Fig",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 293,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "6cef4ae72b90",
+    "text": ". Carbon – 12 Carbon – 13 Carbon – 14 Fig. 8.13: Schematic representation of isotopes of carbon Let us learn about the essential uses of some isotopes in our daily lives. Ready to Go Beyond Atoms are too tiny to be weighed in kilograms or grams like everyday objects",
+    "page_num": 15,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 266,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "6fe6866b6aad",
+    "text": ". Just as it is easier to weigh a grain of wheat in milligrams rather than kilograms, scientists use a special unit called the unified atomic mass unit (u) to measure the mass of atoms. This is because a kilogram is too large for such small particles. Earlier, atomic mass was expressed in atomic mass unit (abbreviated as ‘amu’).",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "9e32c32930d5",
+    "text": "Journey Inside the Atom Some isotopes have special properties that are useful in various fields. Some of the applications of isotopes are: y 92 U, an isotope of uranium, is used as a fuel in a nuclear reactor to generate electricity in a nuclear power plant (Fig. 8.14). y 27 Co, a radioactive isotope of cobalt, is used in radiation treatment for cancer",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "9333ac192a0f",
+    "text": ". y 53 I , an isotope of iodine, is used to treat goitre and thyroid cancer. y 6 C , an isotope of carbon, is used in archaeology and geology to determine the age of ancient fossils and artefacts. Bridging Science and Society Fig. 8.14: A nuclear power plant A. Average atomic mass Chlorine occurs in nature in two isotopic forms. One isotope has a mass of 35 u, and the other has a mass of 37 u",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "3edd893a36b7",
+    "text": ". They occur in the ratio 3:1. This raises an interesting question — should we consider the mass of a chlorine atom to be 35 u or 37 u? If the atomic mass of a natural element is taken as the average mass of all its naturally occurring isotopes, it would be the simple arithmetic mean of the masses of its isotopes, calculated without accounting for the relative abundances of each isotope",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "4602f7341337",
+    "text": ". For chlorine, with isotopes ³⁵ Cl and ³⁷ Cl, the simple average would be — Average atomic mass = +       = 36 u However, this does not accurately reflect nature, since isotopes do not occur in equal ratios. The more common isotope is ³⁵ Cl, which constitutes about 75% while the other isotope, ³⁷ Cl makes up about 25%",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "602d8151f51e",
+    "text": ". The accurate average atomic mass can be calculated by considering their natural abundances. This is called a weighted average atomic mass, which can be calculated by multiplying the mass of each isotope by its percent relative abundance and then adding the two values, as explained below. Mathematically,   = × + ×     u   = +     142 u = 35.5 u =",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "114bd714cf9b",
+    "text": "Exploration|Grade 9 This does not mean that any one atom of chlorine has a fractional mass of 35.5 u. It means that if you take, say 1 million chlorine atoms, they will contain 7.5 lakh 35 17 Cl and 2.5 lakh 37 17 Cl atoms with a weighted average atomic mass of 35.5 u",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 268,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "1925985b826b",
+    "text": ". This comparison shows that the simple average ignores abundance, whereas the weighted average accurately reflects the mass of the element as it occurs in nature. 17. Two different atoms have 11 protons each, but one has 12 neutrons, and the other has 13 neutrons. How do their atomic numbers and mass numbers compare? Are they the same element or different elements? 18",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "55e6eafaafe6",
+    "text": ". If a bromine atom is available in the form of, say two isotopes, 35 Br (49.7%) and 35 Br (50.3%), calculate the average atomic mass of the bromine atom. Pause and Ponder You have learnt that the two atoms that have the same atomic number but different mass numbers are called isotopes",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "8b1e163f5b7f",
+    "text": ". What if they have the same mass number but different atomic numbers? What are such atoms called? Let us find out! 8.9.2 Isobars Let us consider three elements — calcium (atomic number 20), potassium (atomic number 19), and argon (atomic number 18). These elements have different numbers of protons, yet each has a mass number of 40",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 333,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "8991369c190a",
+    "text": ". This shows that the total number of nucleons in their atoms is the same, even though they are different elements. When atoms of different elements have the same mass number, but different atomic numbers, they are called isobars. As we end our journey into the structure of the atom, it is important to know that the story does not end here",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "b27b58e4f949",
+    "text": ". The exploration of the structure of the atom is still being discovered (Fig. 8.16). Later, scientists discovered that even Bohr’s model was not entirely correct. Electrons do not follow well-defined paths like the fixed Bohr orbits. Today, we understand that they exist as ʻelectron cloudsʼ around the nucleus. We can predict regions where they are most likely to be, not exactly where they are",
+    "page_num": 17,
+    "chunk_index": 5,
+    "source_file": "iesc108.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "d1c032225673",
+    "text": ". You will learn all these details in higher grades. The journey of exploring the mysteries of the atom is far from over, and exciting discoveries still lie ahead! Ready to Go Beyond Electron microscopes, such as Scanning Tunnelling Microscopes (STMs) and Transmission Electron Microscopes (TEMs) can produce images of materials with atomic-level details. STMs mainly study surfaces (Fig",
+    "page_num": 17,
+    "chunk_index": 6,
+    "source_file": "iesc108.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "43aafde69f87",
+    "text": ". STMs mainly study surfaces (Fig. 8.15), while TEMs reveal how atoms are arranged inside very thin samples. Fig. 8.15: STM image showing individual atoms on a surface Meet a Scientist Homi Jehangir Bhabha was an Indian physicist. He is known as the father of the Indian nuclear programme. He made a pioneering contribution to the development of atomic energy in India",
+    "page_num": 17,
+    "chunk_index": 7,
+    "source_file": "iesc108.pdf",
+    "char_count": 368,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "366faa8561d5",
+    "text": ". He made a pioneering contribution to the development of atomic energy in India. He established key institutions like the Tata Institute of Fundamental Research (TIFR) and the Bhabha Atomic Research Centre (BARC), for peaceful uses of atomic energy to generate electricity, support agriculture, and advanced medical treatments. Next Level Up",
+    "page_num": 17,
+    "chunk_index": 8,
+    "source_file": "iesc108.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "b65ac30c0c3e",
+    "text": "Journey Inside the Atom Fig. 8.16: Journey of the development of atomic models Dalton’s Atomic Model Atom as indivisible particle Thomson’s Atomic Model Positive and negative charges Rutherford’s Atomic Model The nuclear model Bohr’s Atomic Model Energy levels Modern Atomic Model Quantum mechanical model Still being discovered y Atoms are the building blocks of matter. y J. J",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "3051ddf7000a",
+    "text": ". y J. J. Thomson proposed that in an atom, electrons are embedded in a positively charged sphere. y Rutherford’s model described the atom as mostly empty space, with a dense, positively charged nucleus at its centre and electrons orbiting it. y Niels Bohr’s model proposed that electrons move in fixed energy levels (shells) around the nucleus",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "e5be1dd938a5",
+    "text": ". y The shells of an atom are named as K, L, M, N, and so on. y James Chadwick discovered the presence of neutrons in the atom. y The three subatomic particles of an atom are electrons, protons, and neutrons. y If the outermost shell of an atom has an octet of electrons (or two electrons in case of helium), the atom is stable and largely unreactive. y Valency is the combining capacity of an atom",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "71369eb5f6f4",
+    "text": ". y Valency is the combining capacity of an atom. It is equal to the number of electrons which can be gained, lost or shared by an atom to achieve a stable configuration. y The atomic number of an element is equal to the number of protons in its nucleus. y The mass number of an atom is equal to the total number of nucleons (protons and neutrons) in its nucleus",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "87ea9f4b576a",
+    "text": ". y Isotopes are atoms of same element that have the same atomic number but different mass numbers. y The average atomic mass of an element is calculated based on the relative abundance of its isotopes in nature. y Isobars are atoms of different elements with the same mass number but different atomic numbers. At a Glance",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 322,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "c298eec6e7cb",
+    "text": "Exploration|Grade 9 1. Choose the correct options and explain the reason for the correct and incorrect options in the context of Ernest Rutherford’s gold foil experiment: (i) The experiment clearly showed the existence of neutrons in the nucleus. (ii) The results disproved the plum pudding model and led to the idea of a nucleus at the centre of the atom",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "3664076abd98",
+    "text": ". (iii) The large deﬂection of a few alpha particles indicated that most of the mass of the atom and positive charge are packed into a tiny centre. (iv) The way alpha particles were deﬂected showed that electrons move around the nucleus. 2. Which of the following statements are correct or incorrect according to the Bohr’s atomic model? Give a reason for each statement",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "9c25077bb14f",
+    "text": ". (i) Electrons lose energy while moving in fixed orbits and slowly fall into the nucleus. (ii) Electrons can exist anywhere around the nucleus with no fixed energy. (iii) Electrons revolve around the nucleus in orbits of fixed energy without losing energy. (iv) Electrons can be found between energy levels as they move around the nucleus. 3",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "7d3ad5ffbcd0",
+    "text": ". 3. The composition of the nuclei of three atomic species X, Y, and Z are given as follows. X Y Z Number of protons Number of neutrons Explain the relation between the following: (i) Y and Z (ii) Z and X 4",
+    "page_num": 19,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 206,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "df5d5b025d5f",
+    "text": ". What conclusion did Rutherford draw about the position and characteristics of the atom’s positively charged part based on the few alpha particles that bounced back or were deflected at large angles in the gold foil experiment? Revise, Reflect, Refine",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 252,
+    "estimated_tokens": 63
+  },
+  {
+    "chunk_id": "20caec9c0a3d",
+    "text": "Journey Inside the Atom 5. Explain and arrange the following statements in the correct chronological order to show how atomic models have evolved over time. (i) Bohr’s model proposed that electrons move in fixed orbits around the nucleus, each with a definite energy. (ii) Thomson’s model depicted the atom as a ʻplum puddingʼ with electrons embedded in a sphere of positive charge",
+    "page_num": 20,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "c5fb6a41fcae",
+    "text": ". (iii) Rutherford’s model proposed that atoms have a dense central nucleus. (iv) Dalton’s model described atoms as indivisible particles. 6. Electrons move around the nucleus in orbits. Why do they not fly away from the atom? Explain what keeps them attracted to the nucleus. 7. Assertion (A): The discovery of subatomic particles helped in understanding the atomic structure",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "faad397f0fbb",
+    "text": ". Reason (R): The number of electrons is equal to the number of protons in an atom. Choose the correct option: (i) Both A and R are true, and R is the correct explanation of A. (ii) Both A and R are true, but R is not the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true. 8. Magnesium is essential for many biological processes, including muscle contraction",
+    "page_num": 20,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "0fcb704c4714",
+    "text": ". For an atom of magnesium with a mass number of 24 and atomic number 12, determine the number of (i) protons, (ii) neutrons, (iii) electrons, and also illustrate the arrangement of electrons in a magnesium atom. 9. Find the following information for the elements shown in Fig",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 276,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "9be3510bba33",
+    "text": ". 9. Find the following information for the elements shown in Fig. 8.17: (i) Name of the element (ii) Symbol (iii) Total number of electrons (iv) Number of valence electrons (v) Valency of the element (vi) Number of protons (vii) Atomic number Fig. 8.17 (a) (b) (c) (d)",
+    "page_num": 20,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 269,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "052d9b99a80d",
+    "text": "Exploration|Grade 9 10. Both Rutherford’s and Bohr’s models have electrons orbiting the nucleus. Why did Rutherford’s model fail to explain atomic stability, while Bohr’s model succeeded? 11. An atom 70 X has 31 electrons. How many neutrons are there in its nucleus? 12. An atom has 79 protons and a mass number of 197. Calculate (i) the number of neutrons, and (ii) the number of electrons. 13",
+    "page_num": 21,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "03d7aa8433c8",
+    "text": ". Calculate (i) the number of neutrons, and (ii) the number of electrons. 13. Complete the Table 8.5: Table 8.5 Atomic number Mass number Number of neutrons Number of protons Number of electrons Name of the elements – – – – – – – Nitrogen – – – – – – – – – – – – 14. Aman was discussing the structure of atom with his classmates",
+    "page_num": 21,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 328,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "422a4def0481",
+    "text": ". Aman was discussing the structure of atom with his classmates. During the discussion, he learnt that an element X has a mass number of 35 and contains 18 neutrons. Based on this information, answer the following questions: (i) How many electrons and protons does element X have? (ii) What is its atomic number? (iii) Identify the element X. (iv) Write its electronic configuration",
+    "page_num": 21,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "886c2611a04f",
+    "text": ". (iv) Write its electronic configuration. (v) How many valence electrons does it have? (vi) What will be the mass number if two neutrons are added to its nucleus? (vii) What will be the relation of X with the new atom? 15. In an atom, there are 12 protons and 12 neutrons in the nucleus",
+    "page_num": 21,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 287,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "e584eb526075",
+    "text": ". In an atom, there are 12 protons and 12 neutrons in the nucleus. Now, imagine that all the electrons are replaced with some hypothetical particles that have the same charge as electrons but are 500 times heavier. What effect will this replacement have on the atom’s: (i) Atomic number (ii) Atomic mass (iii) Mass number (iv) Overall charge",
+    "page_num": 21,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "75e8059c54c5",
+    "text": "Journey Inside the Atom y Create an ‘Atomic Prediction Board’ game based on atomic number, mass number, number of electrons, protons, neutrons and valency. Students may predict elements using atomic clues. y Prepare a report on how the properties of atoms impact us in everyday life across fields, such as healthcare, energy, agriculture and technology",
+    "page_num": 22,
+    "chunk_index": 0,
+    "source_file": "iesc108.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "7d5aefd4c1c0",
+    "text": ". y Create a role-play, stage play or story about the ‘Journey Inside the Atom’, and the scientists who discovered and contributed to the identification of atomic structure. y Use selected software or digital tools and try to create animations or simulations of various atomic models, and share them in the class",
+    "page_num": 22,
+    "chunk_index": 1,
+    "source_file": "iesc108.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "2b22c09aeced",
+    "text": ". y Watch a film or documentary about the structure of the atom and write a report answering the following questions:  Which film or documentary did you watch, and what was its main idea or topic?  What did the film or documentary teach you about the structure of the atom and the atomic model(s)?  Which scientists were mentioned in the film or documentary, and what were their contributions? ",
+    "page_num": 22,
+    "chunk_index": 2,
+    "source_file": "iesc108.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "51edc25d3c33",
+    "text": "were mentioned in the film or documentary, and what were their contributions?  What part of the film or documentary did you find most interesting, and what question do you still have? y Draw a bar graph showing the number of electrons in each energy level for any three elements",
+    "page_num": 22,
+    "chunk_index": 3,
+    "source_file": "iesc108.pdf",
+    "char_count": 279,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "0c6f2ae5c99c",
+    "text": ". y To learn more about atoms, you can explore the links given below:  https://phet.colorado.edu/en/simulations/rutherford-scattering  https://phet.colorado.edu/en/simulations/isotopes-and-atomic-mass The Quest Continues ... Is it possible to completely understand everything that happens inside an atom? The Journey Beyond",
+    "page_num": 22,
+    "chunk_index": 4,
+    "source_file": "iesc108.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  }
+]

@@ -1,0 +1,1271 @@
+[
+  {
+    "chunk_id": "e69f025582d4",
+    "text": "Tissues in Action Life begins when a single cell divides itself several times to give rise to a large number of cells. These cells gradually form the skin (protection), muscles (movement), bones (support), nerves (control and coordination), and all other organs. This process is so intricate that it is considered one of nature’s greatest engineering marvels",
+    "page_num": 1,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "1bebc67c125a",
+    "text": ". Researchers have been trying to understand, replicate and modify this process for human welfare. To do so, it is essential to understand the natural biological processes that govern growth and development in plants and animals",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 228,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "e032cfd53521",
+    "text": ". What makes cells group together to form tissues? Why do some tissues grow throughout life while others do not? In Chapter 2, Cell: The Building Block of Life, you have learnt that the cell is the basic unit of life. Many cells come together to form a multicellular organism. In all multicellular organisms, there is a hierarchy of organisation",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "d4a8d58f46b0",
+    "text": ". In all multicellular organisms, there is a hierarchy of organisation. Cells of similar type performing similar function group together to form a tissue, more than one type of tissues form organs, different organs form organ systems and organ systems form an organism. In unicellular organisms, such as amoeba, a single cell performs all functions of life",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "29685ad0edd4",
+    "text": ". In multicellular organisms like plants and animals, different groups of cells perform different functions. A tissue is a group of cells (similar in structure) that work together to perform a specific function. The formation of different types of tissues leads to the division of labour, which increases the efficiency of the body and enables it to carry out complex life processes",
+    "page_num": 1,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "c85ae124f7a9",
+    "text": ". For example, Think It Over y How is the study of cells and tissues significant for understanding the life processes and human welfare? y How are tissues in plants and animals different, and why? y How is the division of labour at various levels of organisation in multicellular organisms correlated with their structure and function? Chapter",
+    "page_num": 1,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "b54fdf15088b",
+    "text": "Tissues in Action in animals, muscle tissue enables movement and nervous tissue carries messages to different parts of the body. In plants, conducting tissues, such as xylem transports water and minerals, while phloem transports food",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 233,
+    "estimated_tokens": 58
+  },
+  {
+    "chunk_id": "bf8aef91128f",
+    "text": ". 3.1 Why are Plant and Animal Tissues Different? In Chapter 2, Cell: The Building Block of Life, you compared plant and animal cells, and studied the major differences between them. Most plants are fixed in one place and do not move from place to place like animals. They need support to stay firm and upright. Plant cells have a cell wall that provides rigidity and strength",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "db20d2d39cda",
+    "text": ". Plant cells have a cell wall that provides rigidity and strength. In general, animals can move (although some, such as sponges, are immobile). Without a rigid cell wall, animal cells can change shape easily. This cellular flexibility eventually helps make their bodies suitable for locomotion. Another major difference between plants and animals is their mode of nutrition",
+    "page_num": 2,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "d4b3d488909d",
+    "text": ". Another major difference between plants and animals is their mode of nutrition. Animals have tissues that help them digest food obtained from different food sources, while plants have tissues that help them utilise solar energy for synthesising the food components through photosynthesis. Plants and animals have distinct tissues for transporting food and water to different parts of the body",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "152ae376cd12",
+    "text": ". The growth patterns in plants and animals also vary because the tissues responsible for growth differ in structure and function. In this chapter, we will learn how the structures of plant and animal tissues relate to their specific functions",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 243,
+    "estimated_tokens": 61
+  },
+  {
+    "chunk_id": "7996a5b85cb8",
+    "text": ". 3.2 Tissues for Growth in Plants You must have observed that a small seedling grows into a tall tree, roots grow deep into the soil, stems become thicker with time and grass grows again after being eaten by grazing animals",
+    "page_num": 2,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 224,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "d4bb5b9761f9",
+    "text": ". Which tissues are responsible for these changes? Plants grow in different ways — y increase in length (height of stem and depth of roots), y increase in girth (thickness of stem), and y regrowth after cutting the branches or grazing by animals. This growth require actively dividing cells that together form a tissue called a meristematic tissue",
+    "page_num": 2,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 347,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "c844572abdff",
+    "text": ". Let us explore different kinds of meristematic tissues. 3.2.1. Apical meristem — How do plants grow in length? Let us study the growth of roots in an onion bulb. Activity 3.1: Let us design experiments 1. Take two glass jars or couplin jars and fill them with water. 2. Now, take two onion bulbs and place one in each jar, as shown in Fig. 3.1. 3",
+    "page_num": 2,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "df9b80732fca",
+    "text": ". Now, take two onion bulbs and place one in each jar, as shown in Fig. 3.1. 3. Observe the growth of roots in both bulbs for a few days. 4. Measure the length of roots on days 1, 2 and 3. 5. On day 3, cut the root tips of the onion bulb in Jar B by about 1 cm. After this, observe the growth of roots in both the jars, measure their lengths Fig",
+    "page_num": 2,
+    "chunk_index": 8,
+    "source_file": "iesc103.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "468e71532a7d",
+    "text": ". 3.1: Experimental set-up to observe the growth of roots (a) Jar A (b) Jar B Meet a Scientist B. G. L. Swamy was a renowned Indian botanist known for his contributions to the area of plant morphology and anatomy. His book, Hasuru Honnu, is a popular book in Kannada language. It is a blend of science, satire and culture",
+    "page_num": 2,
+    "chunk_index": 9,
+    "source_file": "iesc103.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "6edb01c030f6",
+    "text": ". It is a blend of science, satire and culture. The book describes the botanical excursion in the forests of Western Ghats and is a treasure of plant descriptions, utilisation, conservation practices, botanical folklores and myths. The book won the Kendra Sahitya Akademi Award in 1978.",
+    "page_num": 2,
+    "chunk_index": 10,
+    "source_file": "iesc103.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "b1a6179eaba2",
+    "text": "Exploration|Grade 9 shoots to grow in length. Thus, we conclude that plants have growth zones at the tips of their roots and shoots, called the apical meristems, which help the plants grow in length (Fig. 3.3). 3.2.2 Lateral meristem — How do plants grow in girth? Look at your surroundings",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 290,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "d7a9fc4e4212",
+    "text": ". You must have observed that the stems of dicot plants not only grow in length but also increase in diameter or girth over time. What causes this increase in girth? One possible explanation may be the activity of meristematic tissues. If you have visited a timber yard or observed the cut trunk of a tree, you may have noticed several ring-like patterns on the cut surface of the wood (Fig. 3.4)",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "188b7dbf356a",
+    "text": ". 3.4). These are annual growth rings. Some annual rings are wide and some are narrow, reflecting the favourable or unfavourable growth conditions during a particular year. By counting these annual rings, scientists can estimate the age of a tree and also understand the climatic conditions under which it grew. for four more days (day 4 onwards), and record your observations in Table 3.1",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "a7e7aa4649eb",
+    "text": ". for four more days (day 4 onwards), and record your observations in Table 3.1. Table 3.1: Experimental data Experimental Jars Length of onion root (cm) from the base of the bulb Day 1 Day 2 Day 3 Day 4 Day 5 Day 6 Day 7 A B What trend do you observe in the data you recorded in Table 3.1? Are your observations similar to those presented in the graphical representation (Fig",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "bdd364f94abb",
+    "text": ". 3.2)? What do you infer? y Roots in Jar A continue to grow in length. y Roots in Jar B stop growing after the tips are cut. This shows that roots grow only from their tips. The tips consist of cells which divide continuously. You may recall observing mitosis in onion root tips in Chapter 2, Cell: The Building Block of Life. This observation confirms that root tips contain actively dividing cells",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "5693d0dcbd9a",
+    "text": ". This observation confirms that root tips contain actively dividing cells. Similarly, shoot tips also contain actively dividing cells that help the Fig. 3.4: T.S. of a tree trunk showing annual growth rings Fig. 3.3: Location of apical meristem in a sapling Shoot apical meristem Root apical meristem Days Fig",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 310,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "9a7c39f1fb3b",
+    "text": "Tissues in Action The increase in girth occurs due to the presence of actively dividing cells arranged in a ring in the stem. These cells divide and produce new cells inside and outside in a concentric manner, leading to an increase in diameter of stem. This meristematic tissue is called the lateral meristem",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "a9cde054d159",
+    "text": ". This meristematic tissue is called the lateral meristem. 3.2.3 Intercalary meristem — How do plants grow after being cut? We have learnt that meristematic tissues are present at the tips of roots and shoots. What do you think happens to the growth of the plant if the tip of a young stem is cut? The stem stops growing in length but new branches arise from the the nodes of stem (Fig. 3.5)",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "e3d5c1e30569",
+    "text": ". 3.5). The intercalary meristem is located at the base of internode or just above the node. The node is point on plant stem where branches or leaves arise. The part of stem between the two nodes is called internode. You may also have observed that when the hedge around a garden is cut, after sometime more branches appear again, giving the hedge a bushy appearance",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "c241000500fa",
+    "text": ". Grass also appear after sometime being mowed (Fig. 3.6) and/or grazed by animals. This happens because of the presence of intercalary meristem at the nodes of its stem. These meristematic tissues are called intercalary meristems. Thus, plants have three types of meristematic tissues — apical, lateral and intercalary. The apical meristem, located at the root and shoot tips, increases its length",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "d3b8868e44b0",
+    "text": ". The apical meristem, located at the root and shoot tips, increases its length. The lateral meristem located along the circumference of stems increases girth. The intercalary meristem located at the base of certain plants, such as grasses, helps them regenerate after cutting. Together, these meristems account for growth in length, girth and branching in plants",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "64ef945ceec9",
+    "text": ". The cells of the meristematic tissues are small, have thin cell walls, a large and prominent nucleus, and dense cytoplasm with many organelles. Vacuoles are generally absent and the cells are tightly packed with little or no intercellular space. These characteristics of meristematic tissue allow them continuous and rapid cell division",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "f0f3d1071502",
+    "text": ". Why do you think that the cell of meristematic tissues lack vacuoles? Due to continuous cell division, meristematic tissue adds new cells to the plant body. Some of the newly formed cells remain meristematic while others lose the ability to divide. The cells that loose the ability to divide undergo changes in structure and function, and become permanent tissues",
+    "page_num": 4,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "5b91490fbca7",
+    "text": ". These cells become specialised to perform specific functions, such as support, transport or storage. This process, by which meristematic tissue becomes specialised to perform specific functions, is called differentiation. Meristemetic tissue becomes permanent by the process of differentiation",
+    "page_num": 4,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 295,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "73b0df8a4892",
+    "text": ". Meristemetic tissue becomes permanent by the process of differentiation. 3.2.4 Permanent tissues Examine the Transverse Section(s) (T.S.) of the root and/or stem, and/ or the Vertical Section (V.S.) of the leaf of any herbaceous plant under a microscope. The internal structure of a T.S. of a sunflower stem as seen under a microscope is shown in Fig. 3.7",
+    "page_num": 4,
+    "chunk_index": 8,
+    "source_file": "iesc103.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "ad331c41f71b",
+    "text": ". of a sunflower stem as seen under a microscope is shown in Fig. 3.7. What do you observe? Are all the cells similar in shape and size? How many different types of tissues can you identify? What differences do you notice among them? What might be Fig. 3.5: New branches arising from the node of a stem New branch New branch Fig. 3.6: Lawn mowing",
+    "page_num": 4,
+    "chunk_index": 9,
+    "source_file": "iesc103.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "ad5aeee845d5",
+    "text": "Exploration|Grade 9 might be the reason for the presence of different types of cells and tissues? You can see that different groups of cells are present in the T.S. of sunflower stem and each tissue is specialised to perform a specific function. These are permanent tissues. Permanent tissues can be simple (composed of only one type of cell) or complex (composed of more than one types of cells)",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "6b4c250f5ca9",
+    "text": ". Observe the types of tissues given in Fig. 3.7 based on pointers provided as follows: (i) Protective tissue — Epidermis What protects plants from mechanical injury, water loss, harmful microorganisms and extreme environmental conditions? The epidermis forms the outermost layer of the plant body. It consists of a tightly packed, single layer of flat and rectangular cells",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "7b7b986555e2",
+    "text": ". It consists of a tightly packed, single layer of flat and rectangular cells. It protects all parts of the plants. These cells are covered with a waxy layer of cutin called cuticle. In some plants, living in very dry habitat, the epidemis may be covered by a thick layer of cuticle to reduce the water loss in the process of transpiration by stomata",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "18e787583f1d",
+    "text": ". The cuticle also provides protection against mechenical injury and invasion by prasites. In many plants, hair-like projections arise from epidermal cells. In roots, these projections are called root hair, which increase the surface area for absorption of water and minerals from the soil",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "0191183655aa",
+    "text": ". In leaves, the epidermis contains pores called stomata, which apart from gaseous exchange helps in transpiration, i.e., evaporation of water vapours through stomata. Thus, transpiration helps in water transportation by creating a transpiration pull in xylem. Transpiration also helps in elimination of wastes from the plant body",
+    "page_num": 5,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "9edb82c2dc99",
+    "text": ". Transpiration also helps in elimination of wastes from the plant body. (ii) Supporting tissue — Simple permanent tissues What keeps a plant upright? Why does a fresh twig bend but a dry twig break? Why are seed coats hard and how do aquatic plants float? These functions are carried out by supporting tissues",
+    "page_num": 5,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 310,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "32642c499851",
+    "text": ". There are three types of supporting tissues or simple permanent tissues — parenchyma, collenchyma and sclerenchyma. Each differs in structure and performs supporting functions. a. Parenchyma Parenchyma consists of living cells with thin walls (Fig. 3.8a). These cells are loosely packed with intercellular spaces",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "04838d917925",
+    "text": ". 3.8a). These cells are loosely packed with intercellular spaces. Parenchyma mainly stores food but also performs photosynthesis in the green parts of the plants. In aquatic plants, specialised parenchyma forms air spaces, which help them float. b",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 248,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "3bb7a9058eb9",
+    "text": ". b. Collenchyma Collenchyma consists of living cells with unevenly thickened corners due to pectin (a chemical that gives flexibility like rubber) deposition (Fig. 3.8b). (a) Parenchyma Thin walls (b) Collenchyma Thick walls Fig",
+    "page_num": 5,
+    "chunk_index": 8,
+    "source_file": "iesc103.pdf",
+    "char_count": 229,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "cb9abee58e8a",
+    "text": ". 3.8b). (a) Parenchyma Thin walls (b) Collenchyma Thick walls Fig. 3.8: Various types of simple permanent tissues Thick lignified walls (c) Sclerenchyma Epidermal hair Epidermis Cuticle Phloem Ground tissue Lateral meristem Xylem Sclerenchyma Stem Vascular tissue T.S. of the stem Parenchyma Collenchyma Fig. 3.7: Internal structure of a sunflower stem Sunflower (Helianthus annuus) Ground tissue",
+    "page_num": 5,
+    "chunk_index": 9,
+    "source_file": "iesc103.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "011ff450e956",
+    "text": "Tissues in Action This tissue provides support and flexibility, allowing parts of the plant like stems and tendrils to bend without breaking. c. Sclerenchyma Sclerenchyma cells have thick walls (Fig. 3.8c) due to deposition of lignin, making them hard and strong (forms the woody structure). Most of these cells are dead",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 320,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "fd57be7c683c",
+    "text": ". (iii) Conducting tissues — Complex permanent tissues How does water reach the leaves of tall trees? How does food prepared in leaves reach other parts of the plant? Plants have specialised conducting tissues called xylem and phloem, together known as complex permanent tissues, because they are made up of different types of cells working together. Xylem (Fig",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "fe59d70f81fc",
+    "text": ". Xylem (Fig. 3.9a) is the tissue that transports water and minerals from the roots to other parts of the plant. It also provides strength to the plant. Xylem consists of tracheids, vessels, xylem parenchyma and xylem fibres. Tracheids and vessels are tubular and thick-walled",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 276,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "12ce041f26eb",
+    "text": ". Tracheids and vessels are tubular and thick-walled. Xylem parenchyma are the only living component of xylem while trachieds, vessels, and xylem fibres are primarily sclerenchymatous. Unlike the xylem, phloem is mostly made up of living cells (Fig. 3.9b). It consists of sieve tubes, companion cells, phloem parenchyma and phloem fibres",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 337,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "2b4e1e7c8adb",
+    "text": ". Some cells are long and tubular, joined end to end by perforated walls. These cells form sieve tubes. Sieve tubes transport food from leaves to other parts of the plant. The cellular functions of the sieve tube cells are regulated by companion cells. Companion cells are specialised parenchyma cells. Main function of companion cells is to monitor loading and unloading of sugars in sieve tubes",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "1fb19729d211",
+    "text": ". Phloem parenchyma store food materials, and resin, tannins and latex. The sieve tubes are also supported by phloem fibres which are primarily schlerenchymatous and provide strength. So far, we have studied different types of plant tissues based on their functions — protection, support and conduction. In a plant body, these tissues do not work alone",
+    "page_num": 6,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "901a662424b2",
+    "text": ". In a plant body, these tissues do not work alone. They are organised together into larger groups called tissue systems. Plant tissues are organised into three tissue systems (Fig. 3.10) — 1. Dermal tissue system: This forms the outer covering of the plant. It protects the inner parts and reduces water loss",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "9672de863841",
+    "text": ". It protects the inner parts and reduces water loss. Xylem Xylem Phloem Phloem Phloem Epidermal tissue Epidermal tissue Ground tissue Ground tissue Epidermal tissue Xylem Fig. 3.10: Tissue systems in plants Fig. 3.9: Vascular tissue: (a) xylem, and (b) phloem Tracheid Xylem fibre Vessel Xylem parenchyma Sieve pore Companion cell Phloem parenchyma Sieve tube (b) (a) 1",
+    "page_num": 6,
+    "chunk_index": 8,
+    "source_file": "iesc103.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "cb74d99e0326",
+    "text": "Exploration|Grade 9 2. \u0007Ground tissue system: This forms the main body of a plant between the dermal and conducting tissues. It includes parenchyma, collenchyma and sclerenchyma. 3. \u0007Vascular tissue system: This consists of conducting tissues — xylem and phloem. Pause and Ponder 2",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 281,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "53781dc76561",
+    "text": ". Pause and Ponder 2. \u0007Why do you think that a thick cuticle on the outer wall of epidermis is advantageous for a plant living in the desert but disadvantageous for a plant living underwater? 3. \u0007Once water is absorbed by plant roots, it has to travel against gravity through xylem",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 281,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "d733fb7b1262",
+    "text": ". How do the ‘dead’ cells of the xylem work together with the living cells of leaves at the top to keep the water moving? 4. \u0007What do you think will happen if there were no stomata in the epidermis of the stem or leaves? 3.3 Animal Tissues Like plants, animal cells also group together and specialised in performing different functions. These groups of similar cells form animal tissues",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "fa380e78c502",
+    "text": ". These groups of similar cells form animal tissues. Let us perform a few simple activities — y Blink your eyes quickly. y Clench and open your fist. y Take a deep breath. y Touch something warm or cold",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 202,
+    "estimated_tokens": 50
+  },
+  {
+    "chunk_id": "e04fd9d0cf4d",
+    "text": ". y Touch something warm or cold. Now think, which tissue helps you move? Which tissue enables you to sense heat or cold? Which tissue allows oxygen to enter the blood? Which tissue holds the body together so that the skin does not fall off? Many such questions can be asked but the answers lie in the diversity of animal tissues, which are specially adapted to perform different functions",
+    "page_num": 7,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "55aaee2a5c04",
+    "text": ". It is interesting to understand how the structure of an animal tissue suits its specific function. Let us explore different kinds of animal tissues. Each tissue performs a specific function. 3.3.1 Epithelial tissues — Structure and functions Epithelial tissue forms the outer covering of the body (skin) and also lines the internal organs, such as the mouth, lungs, blood vessels and intestine",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "3dae168fea94",
+    "text": ". It is composed of closely packed cells with very little space between them. This structure prevents the entry of the germs, reduces Meet the Scientists Sipra Guha Mukherjee in collaboration with S. C. Maheshwari made a breakthrough discovery in the area of plant tissue culture",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 279,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "4d6c977c37ef",
+    "text": ". Maheshwari made a breakthrough discovery in the area of plant tissue culture. Their research led to the development of a complete plant through anther culture, using an artificial nutrient medium under controlled laboratory conditions. This pioneering work greatly contributed to crop improvement and brought significant progress in modern agriculture",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "3d3779eca883",
+    "text": ". Ready to Go Beyond In young plants, the outer protective layer is a single-layered epidermis. As plants grow older, some cells below the epidermis of the stem develop the ability to divide, act as lateral meristematic cells and form the cork cambium. The division of cork cambium cells gives rise to cork cells",
+    "page_num": 7,
+    "chunk_index": 8,
+    "source_file": "iesc103.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "7f121e7d4551",
+    "text": ". The division of cork cambium cells gives rise to cork cells. Cork cells are dead, compactly arranged, and contain a substance which makes them impermeable to water and gases. This forms the bark of the tree.",
+    "page_num": 7,
+    "chunk_index": 9,
+    "source_file": "iesc103.pdf",
+    "char_count": 209,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "adaa384e169b",
+    "text": "Tissues in Action water loss, and also helps in the absorption, secretion and movement of substances. Different types of epithelial tissues are structurally adapted to perform different functions (Table 3.2). Study Table 3.2 along with the corresponding diagrams shown in Fig. 3.11 to understand how structure and function of epithelial tissues are related",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "bb873495c68a",
+    "text": ". Table 3.2: Characteristics of functionally and structurally different epithelial tissues Function Structure Location in the body Exchange: Helps in rapid diffusion of liquids and gases Single layer of thin, flat cells (Fig",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 224,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "0961cd4c7cb1",
+    "text": ". 3.11a) Lining of the tissue in the blood vessels and lungs Protection: Protects underlying tissues from mechanical injury, friction and entry of microbes Many layers of cells; the outer cells are flat and tightly packed (Fig",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 226,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "152ae082441f",
+    "text": ". 3.11b) Skin, mouth and oesophagus Secretion: Production and secretion of mucus, enzymes, hormones, sweat saliva Cells specialised for producing and releasing substances; may be cuboidal or columnar (Fig. 3.11c) Salivary glands, sweat glands and stomach lining Sensory functions: Smell, taste, sound and balance Specialised receptor cells having hair like cilia (Fig",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "26b1658f79aa",
+    "text": ". 3.11d) Nostrils, taste buds and inner ear Absorption: Efficient uptake of nutrients, water, etc. Single layer of tall, pillar- like cells, often with hair-like structure (Fig. 3.11e) Lining of small intestine 3.3.2 How are various parts connected in our body? You have read that blood connects different parts of the body by transporting nutrients, gases, hormones, etc",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "47271fcb98aa",
+    "text": ". In the same way, bones connect and support the body from head to toe. A tissue that connects and supports other tissues is called a connective tissue. Both blood and bones are connective tissues. Though both are connective tissues, they differ in composition and consistency. Blood is fluid, while bone is hard",
+    "page_num": 8,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "d4cd6ccdbd87",
+    "text": ". Blood is fluid, while bone is hard. This difference is due to the matrix, which is watery, soft and jelly‑like in blood but hard, solid, and rigid in bones (Fig. 3.12a). Fig. 3.11: Types of epithelial tissues in different parts of the body (c) (b) (d) (a) (e) Grade 7 Curiosity Chapter 9",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "f6f75c2bffdc",
+    "text": "Exploration|Grade 9 Activity 3.2: Let us understand further y Recall everyday experiences given in the first column of Table 3.3. y Write your observations and questions in your notebook. y Compare your observations with the observations given in Table 3.3",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 256,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "4752f30fc5a0",
+    "text": ". y Compare your observations with the observations given in Table 3.3. Table 3.3: Your experiences, observations and questions from daily life Experiences Observations Questions When you get a small cut on your skin Red blood oozes out from the cut. A clot is formed after some time. What causes blood to clot? When you get a skin infection The area turns red and perhaps slightly swollen",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "7f3c5435ebfd",
+    "text": ". You may have a fever. When you exercise or run You breathe faster. Your face may turn red. The everyday experiences mentioned above are related to blood and its components. 1. The red colour of blood is due to haemoglobin, an iron-rich protein in the Red Blood Cells (RBCs). RBCs live for about 4 months and are replaced regularly. 2. Platelets help in blood clotting at the site of the injury. 3",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "4652c72e2669",
+    "text": ". 2. Platelets help in blood clotting at the site of the injury. 3. During exercise or running, muscles need more oxygen, so breathing becomes faster and blood flow increases (face appears red). 4. White Blood Cells (WBCs) collect at infected areas, causing pus formation and inflammation (causing redness and swelling, and possible pus formation at the infected area). Fig",
+    "page_num": 9,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 373,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "1f00f0de9d5e",
+    "text": ". Fig. 3.12: Types of connective tissues (c) Arrangement of tissues at a joint Tendon Cartilage Ligament (b) Types of bones Collar bone Long bone Kneecap (a) Components of blood WBC RBCs Platelets Plasma (55% of total volume) Formed elements (45% of total volume)",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 263,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "e108d84c92aa",
+    "text": "Tissues in Action Functions of other connective tissues as experienced through different actions. Activity 3.3: Let us perform 1. Perform the actions given in Table 3.4. 2. Record your experiences and compare them with the experiences given in Table 3.4. 3. Study their functions and identify the connective tissues (Fig. 3.12)",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "db124c224c86",
+    "text": ". 3. Study their functions and identify the connective tissues (Fig. 3.12). Table 3.4: Connective tissues Action Experience Function Identified connective tissue Touch your elbow gently A hard and rigid structure Gives strength, support and protection Bone (Fig",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 261,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "f321816eac72",
+    "text": ". 3.12b) Press and fold your ear or gently press your nose and stop A soft and flexible structure that retains shape again Provides flexibility and cushions the ends of bones for shock absorption Cartilage (Fig. 3.12c) Touch your forearm muscles and wiggle your fingers Feel movement in the forearm even though fingers are far away Connects muscle to bone, and thus, brings about movement Tendon (Fig",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "ae92f827fb30",
+    "text": ". 3.12c) Sit on a chair and move your leg upwards till your knee allows The joint does not go beyond a limit Connects bone to bone and provides stability, limits movement, and helps prevent dislocation Ligament (Fig. 3.12c) Bones have a rigid matrix containing calcium and phosphorus compounds, giving them strength and rigidity",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 328,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "8497d0e815d6",
+    "text": ". In contrast, cartilage has a soft, jelly-like matrix, and provides flexibility and cushioning. Other connective tissues include tendons and ligaments. Tendons connect muscles to bones, while ligaments connect bones to bones and prevent excessive movement (Fig. 3.12c)",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 269,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "70afcf3b00d6",
+    "text": ". 3.12c). 3.3.3 Can we control movement in our body? Some movements are under our conscious control, such as running, writing or lifting objects. These are called voluntary movements and are carried out by skeletal muscles (Fig. 3.13), which are attached to the skeleton",
+    "page_num": 10,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 270,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "76c73dd0d554",
+    "text": ". 3.13), which are attached to the skeleton. They are made up of bundles of long, cylindrical cells called muscle fibres, which are unbranched, multinucleate (having many nuclei) and striated (showing light and dark bands)",
+    "page_num": 10,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 222,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "5ddca54c3be0",
+    "text": ". Are there involuntary movements in the body? Yes, many body movements occur automatically without conscious control, for example the movement of food in the intestine and the beating of the heart. These are called involuntary movements. The muscles responsible for these",
+    "page_num": 10,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 272,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "dcda117d2d50",
+    "text": "Exploration|Grade 9 movements include smooth muscles (Fig. 3.13), which are found in organs like the stomach and intestines. Their cells are spindle-shaped, have a single nucleus and lack striations. They help in slow, continuous movements like digestion. The cardiac muscles (Fig. 3.13) are found only in the heart",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "624a23f6242d",
+    "text": ". The cardiac muscles (Fig. 3.13) are found only in the heart. Their fibres are cylindrical and branched with a single nucleus, and have faint striations. Cardiac muscles work tirelessly and rhythmically, enabling the heart to beat throughout life without fatigue",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 263,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "875323ae1948",
+    "text": ". 3.3.4 How does the body sense, communicate and respond? Have you noticed how quickly you pull your hand away from something hot, or how you remember the lyrics of a song learned long ago? These actions are controlled by nervous tissue, which forms the body’s control and coordination network. The brain acts as the control centre; coordinating activities, memory and responses across the body",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "eb8e481eb96b",
+    "text": ". Muscles, both voluntary and involuntary, cannot function independently. They receive instructions from the nervous tissue. For example, during exercise, the brain signals the heart to beat faster to meet the body’s increased oxygen demand. The cells of nervous tissue are called neurons (Fig. 3.14) or nerve cells, which are specialised to receive, process and transmit messages",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "c931e589aef0",
+    "text": ". Each neuron has three main parts — the cell body, which contains the nucleus and controls cell activities; dendrites, which receive signals from other neurons; and an axon, a long fibre that carries messages from the cell and ends at axon terminals. The axon terminals transmit the messages to other cells. 3.4 The Musculoskeletal System The musculoskeletal system (Fig",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "0dabd93d2d3d",
+    "text": ". 3.4 The Musculoskeletal System The musculoskeletal system (Fig. 3.15) is made up of bones, muscles, joints, cartilage, tendons and ligaments. This system helps us stand upright, move, maintain posture and protect delicate organs. The musculoskeletal system functions under the control of the nervous system. Muscles pull on bones to produce movement",
+    "page_num": 11,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "aa2d5fafe908",
+    "text": ". Muscles pull on bones to produce movement. They are attached to bones by strong, flexible bands called tendons (Fig. 3.15). When a muscle contracts, the tendon transmits this force to the bone, resulting in movement at a joint",
+    "page_num": 11,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 228,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "a41f86322feb",
+    "text": ". Have you wondered how much of your body weight comes from bones? On an average, the adult human skeleton makes up about 12 – 15 per cent of body weight, though this can vary with age, gender and body composition. Fig. 3.15: Musculoskeletal system in human body Tendon Ligament Muscles Cartilage Bones Joint Fig. 3.13: Different types of muscles Skeletal muscle Cardiac muscle Smooth muscle Fig",
+    "page_num": 11,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "75dfee20f6f0",
+    "text": "Tissues in Action Activity 3.4: Let us investigate What percentage of total body weight comes from bones and muscles? 1. \u0007Step on a weighing scale and record your total body weight. 2. \u0007Use online references or health resources to find average bone and muscle mass percentage for your age, gender, and an Indian body type (these may vary by ethnicity)",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "d3d3df430bc9",
+    "text": ". For example, on average, adult males have about 40 – 50 per cent muscle, and adult females have ~30 – 40 per cent muscle, although bone mass is about 12 – 15 per cent for all adults. 3. \u0007Multiply your total body weight by the bone percentage and muscle percentage to estimate the weight of your bones and muscles. 4",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "9dc625c1d72e",
+    "text": ". Discuss why do bone and muscle mass differ between individuals, and how do they contribute to the overall body weight? 3.4.1 The musculoskeletal system in action Activity 3.5: Let us observe Move different parts of your body and observe what movement(s) it can make",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 267,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "14c67d6e1ada",
+    "text": ". Table 3.5: Different types of movements our body can make Body parts Complete rotation Partial rotation Bending Turning, side-raising, up-down or any other movement Elbow No No Yes Shoulder Knee Neck Fingers Toes Wrist You may have noticed that some parts of our body can move easily in many directions, while others move only in a single direction",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "807420a63482",
+    "text": ". Why does this happen? The difference is due to the types of joints present. A joint is a junction between two or more bones. Joints allow movement but they cannot move the bones on their own. So, what actually causes the bones to move?",
+    "page_num": 12,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 237,
+    "estimated_tokens": 59
+  },
+  {
+    "chunk_id": "1f724f4305a9",
+    "text": "Exploration|Grade 9 3.5 Types of Joints 3.5.1 Ball and socket joint The shoulder joint allows free movement of the arm (Table 3.5). This is because the rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone, forming the ball and socket joint (Fig. 3.16). Together with the collarbone, the shoulder forms the shoulder girdle, which connects the arm to the skeleton",
+    "page_num": 13,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "0e719b863bbb",
+    "text": ". This joint allows forward, backwards, sideways and circular movements. 3.5.2 Hinge joint Unlike the shoulder, the elbow bends and straightens in one direction only like a door hinge (Table 3.5). This type of joint is called a hinge joint. A similar hinge joint is present in the knee, where a small bone called the kneecap protects the joint",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "3abf09bde155",
+    "text": ". 3.5.3 Pivot joint Now, try shaking your head ‘no.’ Place your hand at the back of your neck and feel the gentle movement. How does the neck move so freely? The skull is connected to the backbone through a pivot joint, which allows the head to move side to side like a doorknob turning in its socket",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 300,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "3a0129c1a4d0",
+    "text": ". 3.5.4 Fixed joints The skull is a hard case of flat bones joined together to protect the brain, eyes and ears. The bones of the skull are connected by fixed joints, which means the bones of the skull cannot move. This keeps the brain safe even when the body moves. Fig. 3.16: Types of joints Fixed joint Hinge joints Ball and socket joints Pivot joint Pause and Ponder 5",
+    "page_num": 13,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "0ca4735b1b2c",
+    "text": ". \u0007Look at the picture given below (Fig. 3.17). Carefully observe the various poses of classical and folk dances of India. Can you identify which joints are involved? Also, what type of movement each joint allows? Fig. 3.17: Poses of classical and folk dances of India Ready to Go Beyond Stem cells in the bone marrow are special cells that can divide and make new cells",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "9294f3090fa7",
+    "text": "Tissues in Action 3.6 Skeletal System The skeletal system consists of a framework of bones that provides strength and protects delicate internal organs. It includes the skull, vertebral column and rib cage. From the base of the skull, it extends a flexible column called the backbone or vertebral column (spine), made up of a series of small bones called vertebrae",
+    "page_num": 14,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "95d0a1b2b96b",
+    "text": ". It supports the body and helps us stand upright. Between each vertebra is a cartilage disc, which acts as a cushion and allows flexibility, so we can bend and twist without injuring the internal spinal cord. Can you feel the bones under your chest? These are your ribs. You have 12 pairs of ribs and together they form the rib cage",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 333,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "4a48b7104308",
+    "text": ". You have 12 pairs of ribs and together they form the rib cage. The rib cage acts like a protective cage to protect vital organs, such as the heart and lungs. But you may wonder, “How can such a strong cage move? And why does it need to move?”. The ribs are attached to the spine at the back and to the breast bone (sternum) in the front. They are joined by flexible cartilage",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "41609b58a648",
+    "text": ". They are joined by flexible cartilage. This flexibility allows the rib cage to expand and contract during breathing. This movement increases and decreases space in the chest, allowing air to move in and out of the lungs. Injury to the ribs can make breathing painful and difficult",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 282,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "3c954f13c5fd",
+    "text": ". Injury to the ribs can make breathing painful and difficult. Bridging Science and Society Yoga, described in ancient Indian texts includes physical postures, breathing and meditation. Research shows it improves flexibility, posture and breathing, reduces stress, and helps prevent lifestyle diseases",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "4daca29e0266",
+    "text": ". Every year, 21st June is observed as the International Yoga Day to promote role of Yoga in health and well-being. Maintaining correct posture, proper nutrition, regular exercise and yoga keeps our bones strong, muscles fit, joints flexible, and protects the body from stiffness. Fig. 3.18: Poses of Surya Namaskar",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "3ab5956f32ae",
+    "text": "Exploration|Grade 9 Think as a Scientist From one cell to an organism: Totipotency In 1958, F. C. Steward demonstrated that even single cells from vascular phloem of carrot retain the ability to regenerate whole plants. He was the first person to do so! He and his team conducted an experiment using the phloem cells of carrot",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "10b900b7ebe4",
+    "text": ". He grew these cells in a nutrient medium containing simple sugars and hormones under appropriate conditions. He observed that these phloem cells divided to form a mass of cells, which gradually divided and differentiated into a complete plant. It shows that cells of phloem first dedifferentiated (cells regain the ability to divide) to form an undifferentiated mass of unspecialised cells",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "18d675c89709",
+    "text": ". These, when grown in appropriate conditions, supplemented with nutrients and growth chemicals, further divided and redifferentiated to form roots, shoot, and eventually the complete plant. Thus, some mature plant cells have the ability to undifferentiate, divide and redifferentiate to develop into a new plant under specific conditions",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "f9b923effb14",
+    "text": ". Cross section of carrot root Fragments were cultured in nutrient medium; stirring caused single cells to shear off into the liquid Single cells free in suspension began to divide Embryonic plant developed from a cultured single cell Plantlet was cultured on agar medium, and later planted in soil Adult plant 2-mg fragments Fig",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "cf187c2f21d8",
+    "text": ". Table 3.6: Effect of light, air and nutrient medium on growth of the cultured plant cells Conditions Composition of nutrient medium Increase in fresh weight (mg) of the cells from intial weight Light Air   Solid medium + nutrients reduced   Liquid medium + nutrients 20% increased   Liquid medium + nutrients reduced Based upon Table 3.6, think about these questions: (a) What do you conclude",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "4c8744db3cef",
+    "text": "Based upon Table 3.6, think about these questions: (a) What do you conclude about the characteristics of phloem cells of carrot? (b) \u0007In which of the three combinations would you obtain the highest and lowest biomass? What could be the possible reason(s) for this observation? (c) \u0007Will you get the same results if you culture animal cells instead of carrot cells? (d) Think and mention any two",
+    "page_num": 15,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "56dda0684157",
+    "text": "Tissues in Action Bridging Science and Society In nature, plant pathologists have observed a disease in plants called crown gall disease (Fig. 3.20). In this disease, tumour-like swellings develop on the stems due to rapid and uncontrolled cell division. The disease is caused by a bacterium called Agrobacterium tumefaciens",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 324,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "d203e6ff3620",
+    "text": ". The disease is caused by a bacterium called Agrobacterium tumefaciens. Instead of only trying to cure this disease, scientists studied how a bacterium transfers its genetic material into plant cells. This knowledge was later used in plant tissue culture and genetic engineering",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 279,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "9740ae5c0dbd",
+    "text": ". This knowledge was later used in plant tissue culture and genetic engineering. Today, Agrobacterium is used as a tool to introduce useful genes into plants for the production of valuable phytochemicals, improved crops and disease-resistant varieties. Fig. 3.20: Crown gall disease y Tissues are groups of similar cells that work together to perform specific functions",
+    "page_num": 16,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 369,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "e9b545035f45",
+    "text": ". y Different tissues coordinate with one another to perform life processes in plants and animals. y Plant tissues are broadly classified into meristematic and permanent tissues, depending on their ability to divide. y Functionally, plant tissues can be categorised as protecting tissue, supporting tissue and conducting tissue",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "078c1fb0b058",
+    "text": ". y Permanent tissues may be simple (made-up of one type of cell) or complex (made-up of more than one type of cell). y Simple permanent tissues include parenchyma, collenchyma and schlerenchyma. y Complex permanent tissues include xylem and phloem that transport water and food respectively to all parts of the plant",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "84022cde2017",
+    "text": ". y Animal tissues are mainly of four types; epithelial, connective, muscular and nervous tissues. y Epithelial tissue forms the outer covering of the body or protective lining to internal organs to provide protection and other functions. y Connective tissue connects and supports various organs and tissues of the body",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "ac8634e37e24",
+    "text": ". y Muscular tissue produces voluntary and involuntary movements for locomotion, and other movements in the body. y Nervous tissue consists of neurons to receive and transmit impulses, and helps regulate body activities. y Skeletal system protects organs and provides support",
+    "page_num": 16,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 275,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "a3eba1e06afa",
+    "text": ". y Skeletal system protects organs and provides support. y In our body, movement occurs by the coordination of muscles and bones (musculoskeletal system), under the control of the nervous system. At a Glance",
+    "page_num": 16,
+    "chunk_index": 7,
+    "source_file": "iesc103.pdf",
+    "char_count": 208,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "87108c278d18",
+    "text": "Exploration|Grade 9 Revise, Reflect, Refine 1. Meristematic tissues divide repeatedly. What property of their cells allows them to do this? (i) They have thick walls for protection. (ii) They contain large vacuoles that store nutrients. (iii) They have thin walls, dense cytoplasm and large prominent nucleus. (iv) They are functionally differentiated cells. 2",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 360,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "ec9b8e818c53",
+    "text": ". (iv) They are functionally differentiated cells. 2. If a plant is unable to transport food from leaves to roots which tissue is malfunctioning? (i) Xylem (ii) Phloem (iii) Epidermis (iv) Sclerenchyma 3. Why are the epithelial tissues that line an animal’s internal organs usually only one or a few cells thick? (i) To store food efficiently. (ii) To provide maximum strength",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "f04fc986671d",
+    "text": ". (ii) To provide maximum strength. (iii) To allow quick exchange of materials across them. (iv) To reduce friction. 4. You can perform these two jumps (Fig. 3.21): Straight-leg jump — keep knees and ankles stiff. Normal jump — bend knees and ankles naturally. How did your ankle, knee and hip positions differ between the two jumps? 5",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "307cce061ffa",
+    "text": ". How did your ankle, knee and hip positions differ between the two jumps? 5. Which type of joint is involved when you bend your knees and ankles? (i) Ball and socket (ii) Hinge (iii) Pivot 6. In each of the following cases (A, B, C and D), choose the correct option as given below: (i) Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "8e2438f1afeb",
+    "text": ". (ii) Both (A) and (R) are true, but (R) is not the correct explanation of (A). (iii) (A) is true, but (R) is false. (iv) (A) is false, but (R) is true. A. Assertion: Epithelium is well-suited for gas exchange in the lungs. Reason: It consists of multiple layers of tall cells that slow down diffusion. B. Assertion: Cardiac muscle can contract continuously without fatigue",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "5460325d036a",
+    "text": "Tissues in Action C. Assertion: Tendons connect bone to bone and allow joint movement. Reason: Tendons are made of tough connective tissue that transmits force from muscle to bone. D. Assertion: In a hinge joint, movement occurs primarily in one plane. Reason: The bone ends are shaped to allow sliding in all directions. 7",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "521826254466",
+    "text": ". Reason: The bone ends are shaped to allow sliding in all directions. 7. Plot a graph between the age of a tree (in years) on the x-axis and the diameter of the tree (in cm) along with the number of annual rings formed over time on the y-axis, using the data given in the Table 3.7",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 282,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "0e89173b16b8",
+    "text": ". Table 3.7: Data related to the age of a teak tree, and corresponding increase in the diameter of stem and number of annual rings S. No. Age of the teak tree (Years) DBH (Diameter at Breast Height) of tree (cm) Number of annual rings formed 1. 2. 3. 4. 5. 6. (i) Analyse the graph in terms of the diameter of the stem over time and share the interpretation",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "cddabf91ff9e",
+    "text": ". (ii) What is the relation between the diameter of the teak tree to the annual rings formed? (iii) Which specialised tissue is responsible for the girth of the stem and where is it located? 8. In a forest, it was observed that one of the trees was severely debarked by an elephant to meet its food requirements, as the bark is a rich source of nutrients (Fig. 3.22)",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "6b50218205d8",
+    "text": ". Based on your learning, answer the following: (i) Which function(s) of the tree is/are hampered by debarking? (ii) Which plant tissue would be affected by further damage to the tree trunk even after debarking? (iii) Which function of the tree would be hampered if the tissues beneath the bark were severely damaged? (iv) What assumptions are you making to answer the questions above? How would the",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "f14ae935aa1a",
+    "text": "Exploration|Grade 9 9. Aamrapali observed that a young mango sapling’s stem bends flexibly during monsoon winds and does not break. Which tissue is responsible for this flexibility? Predict and provide your explanation of the impact if the existing tissue was replaced by sclerenchyma. 10. Sohan designed an experiment for the regeneration of sugarcane, where he used cuttings to grow sugarcane",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "086a09bfc273",
+    "text": ". (i) Why were the type ‘B’ cuttings able to grow as sugarcane but type ‘A’ could not? (ii) What difference was present in type ‘B’ compared to type ‘A’? (iii) What observation or measurement was made to determine whether this change had an effect? (iv) What parameters should be kept the same for both types of cuttings to ensure a fair comparison? 11",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "2716c0854234",
+    "text": ". During the discussion in class, Rohan gives a statement that, “A tissue is a group of similar cells performing similar functions”. But Rajiv counter argues that, “this is true in case of simple tissues but little different in case of complex tissues”. Provide your explanation in view of the discussion in class. 12. Coconut husk fibres are used for mats which are tough and fibrous",
+    "page_num": 19,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "21a8a9161008",
+    "text": ". 12. Coconut husk fibres are used for mats which are tough and fibrous. Which tissue has structural features suitable for providing this strength? Explain why living parenchyma couldn’t serve the same purpose. 13. Vibha claims to her friend Neha that, “Meristematic cells are located only at the root and shoot apices”",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "f3a202474a86",
+    "text": ". What do you think about this statement? What question can Neha ask Vibha to help her understand further if the statement is incorrect? 14. A plant cell and an animal cell are of the same size. (i) Which cell will have a larger vacuole? Give reasons. (ii) What assumptions are you making to answer the question above? 15. A textbook states, “Each plant tissue performs only one specific function”",
+    "page_num": 19,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "fdd806c02b2e",
+    "text": ". A textbook states, “Each plant tissue performs only one specific function”. What questions would you ask to critically examine the correctness of this statement? What examples of tissues would you take to find out the answers to these questions? (A) (B) Fig. 3.23",
+    "page_num": 19,
+    "chunk_index": 6,
+    "source_file": "iesc103.pdf",
+    "char_count": 265,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "ecdeae6ee0d2",
+    "text": "Tissues in Action The Journey Beyond y Visit a doctor and find out what happens in ligament rupture, cartilage rupture and fracture of bones. How can we reduce the risk by changing our lifestyle and nutritional balance? y Perform the following activity. (i) Sit with your feet flat on the floor. (ii) Place your fingers on the back of your ankle just above the heel (Fig. 3.24)",
+    "page_num": 20,
+    "chunk_index": 0,
+    "source_file": "iesc103.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "42400d1bffeb",
+    "text": ". 3.24). (iii) Point your toes down and up, and you will feel the tendon moving. \u0007Tendons are designed to withstand huge pulling forces. Try exploring other tendons in your body around the different joints. y Reflect on any of the physical practices you are familiar with, such as yoga, kabaddi, etc",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "iesc103.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "3f29a6cbaf40",
+    "text": ". How would it support bone and muscle health? y Reflect on any gardening methods you know, such as pruning, grafting, irrigation or crop rotation. How does each practice support the healthy functioning of plant tissues like meristems, conducting tissues or supporting tissues? y Turn a nature walk into a research project",
+    "page_num": 20,
+    "chunk_index": 2,
+    "source_file": "iesc103.pdf",
+    "char_count": 322,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "edc318aa4455",
+    "text": ". (i) Observe different leaves and study their adaptations for various environments, such as desert, very moist or aquatic habitats. (ii) Consult an elder community resource persons about their knowledge on different plant leaves, such as leaves that remain fresh for a long time, repel water or deter insects",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "iesc103.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "f453281068a0",
+    "text": ". Find out their traditional uses, such as making plates, preparing cooling wraps or functioning as insect repellents. y Study various dance forms of different tribal communities across the country. Each student learn and experience at least five steps. Observe the joint movements involved in performing these steps and then develop a dance or drama on the concept of joint movements",
+    "page_num": 20,
+    "chunk_index": 4,
+    "source_file": "iesc103.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "bfb42b21da6f",
+    "text": ". Perform this at the school’s annual function so that students from different grades can learn from it. Fig. 3.25 Fig. 3.24 Will it be possible to obtain a complete animal from an animal cell like plants? If yes, what would be the advantages and challenges of this development? The Quest Continues…",
+    "page_num": 20,
+    "chunk_index": 5,
+    "source_file": "iesc103.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "file": "iesc101.pdf",
+    "total_pages": 7,
+    "valid_pages": 7,
+    "total_chunks": 57,
+    "avg_tokens": 79
+  },
+  {
+    "file": "iesc102.pdf",
+    "total_pages": 20,
+    "valid_pages": 20,
+    "total_chunks": 148,
+    "avg_tokens": 83
+  },
+  {
+    "file": "iesc103.pdf",
+    "total_pages": 20,
+    "valid_pages": 20,
+    "total_chunks": 141,
+    "avg_tokens": 83
+  },
+  {
+    "file": "iesc104.pdf",
+    "total_pages": 24,
+    "valid_pages": 24,
+    "total_chunks": 158,
+    "avg_tokens": 84
+  },
+  {
+    "file": "iesc105.pdf",
+    "total_pages": 22,
+    "valid_pages": 22,
+    "total_chunks": 147,
+    "avg_tokens": 84
+  },
+  {
+    "file": "iesc106.pdf",
+    "total_pages": 22,
+    "valid_pages": 22,
+    "total_chunks": 168,
+    "avg_tokens": 84
+  },
+  {
+    "file": "iesc107.pdf",
+    "total_pages": 24,
+    "valid_pages": 24,
+    "total_chunks": 177,
+    "avg_tokens": 84
+  },
+  {
+    "file": "iesc108.pdf",
+    "total_pages": 22,
+    "valid_pages": 22,
+    "total_chunks": 139,
+    "avg_tokens": 85
+  },
+  {
+    "file": "iesc109.pdf",
+    "total_pages": 22,
+    "valid_pages": 22,
+    "total_chunks": 133,
+    "avg_tokens": 86
+  },
+  {
+    "file": "iesc110.pdf",
+    "total_pages": 24,
+    "valid_pages": 24,
+    "total_chunks": 157,
+    "avg_tokens": 86
+  },
+  {
+    "file": "iesc111.pdf",
+    "total_pages": 20,
+    "valid_pages": 20,
+    "total_chunks": 158,
+    "avg_tokens": 85
+  },
+  {
+    "file": "iesc112.pdf",
+    "total_pages": 24,
+    "valid_pages": 24,
+    "total_chunks": 171,
+    "avg_tokens": 85
+  },
+  {
+    "file": "iesc113.pdf",
+    "total_pages": 21,
+    "valid_pages": 20,
+    "total_chunks": 148,
+    "avg_tokens": 84
+  },
+  {
+    "file": "iesc1ps.pdf",
+    "total_pages": 20,
+    "valid_pages": 18,
+    "total_chunks": 100,
+    "avg_tokens": 84
+  }
+]

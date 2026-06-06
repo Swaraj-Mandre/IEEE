@@ -1,0 +1,1334 @@
+[
+  {
+    "chunk_id": "d37da932e018",
+    "text": "It is widely accepted amongst the scientific community that life originated in water. Some researchers believe that life may have originated in small water pools with changing environmental conditions rather than in the oceans. Hot springs are examples of such environments",
+    "page_num": 1,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 273,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "61555f645e2c",
+    "text": ". Hot springs are examples of such environments. In India, the hot springs of Puga Valley in Ladakh maintain very high temperatures (nearly at the boiling point of water) even in a cold climate. These environmental conditions seem to be similar to those on the early Earth, about 3.5 billion years ago",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "ec0200a8d631",
+    "text": ". The organisms living in these hot springs are mostly heat-loving bacteria called thermophiles, which are unicellular. Scientists from the Birbal Sahni Institute of Palaeosciences, Lucknow, studied these hot springs and found that calcium carbonate formed rapidly around them",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 276,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "53c755c3305c",
+    "text": ". These deposits may have protected early organic molecules from harmful radiation and extreme conditions, and they may have also helped in the formation of the first protective membrane — the barrier that defines a cell. All living organisms are made up of cells. The cell represents the basic level at which life exists",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "3a7896e9d23a",
+    "text": ". The cell represents the basic level at which life exists. Some organisms, such as bacteria or yeast consist of only one cell (unicellular), while others like plants, fish, birds or humans are made up of millions of cells (multicellular) that work together",
+    "page_num": 1,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 257,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "724036485265",
+    "text": ". A group of similar cells performing similar Cell: The Building Block of Life Chapter y Where does a cell come from? y \u0007How have technological interventions facilitated the creation of new knowledge in understanding the world beyond the naked eye? y How is the cell structural and functional unit of life? y How does a cell multiply? Think It Over",
+    "page_num": 1,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "4cb6f1143178",
+    "text": "Cell: The Building Block of Life functions forms tissues. Different tissues are organised to form an organ and several organs work together to form organ systems. Such as, nasal pores, nasal cavity, trachea and lungs form respiratory system. Even when cells are organised into tissues, organs, and organ systems the cell remains the fundamental unit of structure and function in all living organisms",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "7caf9a3c4166",
+    "text": ". What are the different components of a cell? How do cells in our body communicate with each other? Do cells live forever, or do they die? In this chapter, we will explore the answers to these questions as we enter the fascinating world of cells! 2.1 How to Study Cells? What do we call the ability of the human eye to see two very close objects as separate and distinct? Imagine two tiny dots drawn",
+    "page_num": 2,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "61482504b092",
+    "text": ". As the dots are moved closer, there comes a point at which they can no longer be seen as separate. When viewed from about 25 cm (the near point of human eye), two points separated by about 0.1 mm can be seen as distinct; otherwise, they appear as a single point. This is called the limit of resolution of the human eye, which is 0.1 mm",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 337,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "354642e5d98a",
+    "text": ". This is called the limit of resolution of the human eye, which is 0.1 mm. A cell is usually too small to be seen by the unaided eye (Fig. 2.1). This raises an important question — how have cell biologists studied the structure and function of cells that are much smaller than the limit of resolution of the human eye? You have learnt about convex lens",
+    "page_num": 2,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "b0d83b43d2c3",
+    "text": ". A convex lens or a combination of lenses, i.e., an objective lens and an eyepiece are used for the magnification of an object (Fig. 2.1) to make it appear larger. Robert Hooke was the first person to observe a cell in 1665 using a self-designed microscope (capable of about 200–300X magnification)",
+    "page_num": 2,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "1f74bb81561b",
+    "text": ". In school laboratories, light microscopes are used to observe objects using Grade 8 Curiosity Chapter 10 1 km 100 m Human height Rocket Chicken egg Fish egg Most plant and animal cells Nucleus Most bacteria Mitochondrion Smallest bacteria Ribosomes Viruses Proteins Lipids Small molecules Atoms 10 m 1 m 0.1 m 1 cm 1 mm 100 µm 10 µm 1 µm 10 nm 100 nm 1 nm 0.1 nm Unaided eye Light microscope",
+    "page_num": 2,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "853741dd1c94",
+    "text": "Exploration|Grade 9 different objective lenses (e.g., 10X, 40X) to achieve better magnification and resolution under visible light. Explore different parts of a microscope (Fig. 2.2) in your school laboratory and use it to observe fine structures of various materials. Under the microscope, you will see a magnified image of an object",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 334,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "df6c16d4f995",
+    "text": ". Under the microscope, you will see a magnified image of an object. Can you estimate its actual size? Activity 2.1: Let us estimate the size of a cell 1. Take a transparent ruler with millimetre (mm) markings. 2. Place the ruler on the stage of microscope, focus on it using the adjustment knob and observe the diameter of the circular field of view through the eyepiece and measure it in mm. 3",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "fd02c4c77f56",
+    "text": ". 3. Convert the diameter from mm to micrometre (µm). Suppose the diameter of the visible field is 5 mm, meaning 5 × 1000 = 5000 µm. 4. Remove the ruler and place an onion peel slide on the stage of the microscope. 5. Focus on the slide and count the number of cells present along the diameter of the field of view in one straight line. 6",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "c69ee84cbce2",
+    "text": ". 6. Estimate the real size of the cell using the formula: Unit conversion: 1 millimetre (mm) = 1000 micrometre (µm) Estimated size of the onion peel cell = Diameter of the visible field in micrometre Number of cells along the diameter Fig",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 239,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "476fb5fdd05f",
+    "text": ". 2.2: Structure of a light microscope Eye piece Body tube Objective lens Stage Mirror Course adjustment knob Fine adjustment knob Handle Base Suppose, 25 cells are seen along the diameter. In that case, the size of one onion cell would be 5000 µm/25 = 200 µm",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 259,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "9698705329ec",
+    "text": ". In that case, the size of one onion cell would be 5000 µm/25 = 200 µm. If the estimated size of an onion peel cell is 200 µm, how much does a light microscope magnify this cell? The total magnification of a microscope depends on its magnifying power of the eyepiece and the objective lens",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 290,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "9e80bbad4728",
+    "text": ". If both the eyepiece and the objective lens have the magnifying power of 10X, then the total magnification will be 100X. This means that a cell with an estimated size of 200 µm will appear 100 times larger. Thus, a microscope allows us to see very small structures clearly and is an essential tool for studying the cell structure",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "addade5e47aa",
+    "text": ". Over the years, scientists have improved the microscope by improving its three main features — resolution (measure of clarity), contrast (the difference in brightness between various Ready to Go Beyond Fig. 2.3: An electron microscope Apart from light microscopes, scientists also use powerful electron microscopes that reveal the fine details of a cell structure",
+    "page_num": 3,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "082e857caeb0",
+    "text": ". These instruments use a beam of electrons instead of light to produce highly magnified images, allowing us to see cell structure at the nanometre scale with remarkable clarity (a nanometre is one-billionth of a metre). Grade 8 Curiosity Chapter 9",
+    "page_num": 3,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 248,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "950b2633d0bd",
+    "text": "Cell: The Building Block of Life parts of an object), and magnification. These improvements have turned microscope into a powerful tool for studying cells. You can see a picture of the lower surface of Colocasia leaf observed under a Scanning Electron Microscope (Fig. 2.4)",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 273,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "8ea076f6ec98",
+    "text": ". 2.4). 2.2 Structure of a Cell You have learnt that cells are organised into specialised tissues and organs, and collectively perform specific function. For these cells to function as units, they must be able to interact with one another and with their surroundings. These interactions occur at the cell boundary, where substances move between the cells and their external environment",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "36466c8e54c7",
+    "text": ". Even single-celled organisms exchange materials and respond to their environment through cell membrane. 2.2.1 Cell membrane — The universal feature of a cell The cell membrane is a thin boundary that surrounds a cell and protects its contents. It defines the individuality of a cell and is also called the plasma membrane",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "962b100035a4",
+    "text": ". It defines the individuality of a cell and is also called the plasma membrane. The cell membrane is selectively permeable, which means it allows some substances to pass through it while blocking others. You have learnt how oxygen and carbon dioxide move across the membranes of alveoli in the lungs",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 300,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "d0f3119aef4d",
+    "text": ". How does the structure of the cell membrane in the cells of alveoli control the movement of substances across it? Activity 2.2: Let us experiment 1. With the help of a kitchen knife, carefully cut a potato into two pieces of roughly equal size (Fig. 2.5). 2. Measure and record the initial weight of both the pieces using a weighing balance. 3",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "dc27b7568b18",
+    "text": ". 3. Put one piece of the potato in Beaker A with plain water. 4. Put the other piece of the potato in Beaker B with 20 per cent salt or sugar solution. 5. Leave them undisturbed for about an hour or until you notice a visible change in the size of the pieces. 6. Measure and record the final weight of each piece. 7. Calculate the difference between the initial and their final weights",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "cdb734817040",
+    "text": ". 7. Calculate the difference between the initial and their final weights. What do you observe? You may observe that — Beaker A — The potato piece swells. Beaker B — The potato piece shrinks. Grade 7 Curiosity Chapter 9 Fig",
+    "page_num": 4,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 223,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "db84d0a4c6fd",
+    "text": ". Beaker B — The potato piece shrinks. Grade 7 Curiosity Chapter 9 Fig. 2.5: Experimental set-up, and initial and final states of potato pieces in (a) plain water, and (b) 20 per cent salt solution Initial (b) (a) Beaker B Beaker A Experimental set-up Final (b) (a) Fig. 2.4: Electron micrograph of lower surface of a Colocasia leaf showing stomata Stomata",
+    "page_num": 4,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "73bd70cf4a6b",
+    "text": "Exploration|Grade 9 What do you infer? What do you expect in terms of changes in their weight? The weight of the potato piece in Beaker A has increased, while the weight of the potato piece in Beaker B has decreased. This happens because the cell membrane allows water to move in and out of the cell but not the sugar or salt molecules",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "baa155647a15",
+    "text": ". Water moves from an area with more water and less solute (dilute solution) to an area with less water and more solute (concentrated solution) until the concentrations in the two areas become equal. This movement of water through a selectively permeable membrane is called osmosis",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 281,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "ea7f3a62c76d",
+    "text": ". You have learnt in Activities 7.8 (dye spreading in water) and 7.9 (fragrance spreading in air) in Grade 8 that particles of matter intermix, due to a difference in their concentrations, also called a concentration gradient. Diffusion is the net movement of particles from a higher to a lower concentration (which occurs even without a membrane)",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 347,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "30e2b36dcd2d",
+    "text": ". a cell is kept in salt or sugar solutions of different concentrations? Solute concentration of extracellular medium = Solute concentration of intracellular medium — Isotonic solution Isotonic Solute concentration of extracellular medium < Solute concentration of intracellular medium — Hypotonic solution Hypotonic Solute concentration of extracellular medium > Solute concentration of",
+    "page_num": 5,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "a9baa0f44850",
+    "text": ". 2.6: Effect of solutions of different concentrations on a cell solution solution solution What if ... Structurally, the cell membrane is extremely thin, about 7 to 10 nanometres (nm) thick (1 nanometre = 0.000001 mm). It is made up of lipids (fats) and proteins. The fluid-mosaic model explains its structure (Fig",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "bd6279e5c32a",
+    "text": ". The fluid-mosaic model explains its structure (Fig. 2.7) : y The membrane has a lipid bilayer (two layers of special fat molecules with water attracting heads outwards and water repelling tails inwards) with proteins embedded in them. y The molecules can move sideways, flip and rotate within the membrane. Hence, it is fluid",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "7e9b781183e9",
+    "text": ". Hence, it is fluid. y Proteins in the membrane act like gatekeepers in helping substances pass through. Fig. 2.7: Structure of a cell membrane Lipid bilayer Various types of proteins mung bean seeds are kept in a concentrated solution after soaking in water for 12 hours? What will happen to them? What if ... Grade 8 Curiosity Chapter 7",
+    "page_num": 5,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 339,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "e15bead9ebab",
+    "text": "Cell: The Building Block of Life y Since the molecules are arranged like tiles in a mosaic, it is called the ‘mosaic’ model. All living cells communicate with their surroundings and their neighbouring cells through the cell membrane. However, cells of plant, fungi, and bacteria have an additional layer around the cell membrane, called the cell wall",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "b8823d82b770",
+    "text": ". What do you think is the necessity of the cell wall in these cells? Activity 2.3: Let us investigate 1. Prepare temporary slides of a thin peel of an onion leaf or a Rhoeo (Cradle lily) leaf and mount it with safranin using cover slip to observe plant cells under a microscope. 2",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 281,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "7f90e690566e",
+    "text": ". 2. Similarly, prepare a temporary slide of cheek cells by gently scraping the inner side of your cheek with a cotton swab or the blunt end of a toothpick. 3. Spread the cheek cells on a clean glass slide. 4. Add a drop of water followed by a few drops of methylene blue stain and carefully place a coverslip. 5. Observe both the slides under a microscope. What do you observe? Onion peel cells (Fig",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "37bc65869a3a",
+    "text": ". What do you observe? Onion peel cells (Fig. 2.8a) or Rhoeo leaf peel cells are box-shaped and regularly arranged, whereas cheek cells are irregularly arranged (Fig. 2.8b). Why do you think this difference exists? Prepare two slides of a Rhoeo leaf peel and human cheek cells again, and put 20 per cent sugar solution on them. Observe them under a microscope after half an hour",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "75021393e2fd",
+    "text": ". Observe them under a microscope after half an hour. What do you observe? You must have observed that the boundaries of the plant cells remain the same but their inner content shrinks, and the space between the inner and outer boundaries increases (Fig. 2.9a and b). You may observe that the cheek cells, on the other hand, have shrunk considerably",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 349,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "222532924dbc",
+    "text": ". 2.2.2 Cell wall — The outer covering of cells In general, plants cannot move from place to place, so they need a rigid structure to withstand environmental stresses like wind and rain. Therefore, plant cells have an additional covering outside the cell membrane called a cell wall. The cell wall also helps leaves and flowers remain firm, and maintain their shapes and help plants stay upright",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "045c5164ae93",
+    "text": ". Although rigid the cell wall is permeable, which means water and some dissolved minerals can pass through it. Along with the selective permeability of the cell membrane, the permeability of the cell wall helps plant roots absorb water and nutrients from the soil. When we place a Rhoeo leaf or an onion peel in a concentrated sugar solution the plant cells lose water due to osmosis",
+    "page_num": 6,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "5f41f071e924",
+    "text": ". However, the cells do not shrink in size because their rigid cell wall maintains their shape. The inner content of a cell shrinks as the cell membrane pulls away from the cell wall. This shows that the cell wall helps plant cells remain firm in their original shape. Animal cells, such as cheek cells do not have a cell wall",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "c734fdd0a416",
+    "text": ". Animal cells, such as cheek cells do not have a cell wall. Therefore, when placed in a concentrated sugar solution, they lose water and shrink. Fig. 2.8: (a) The onion peel cells, and (b) human cheek cells (a) (b) Fig. 2.9: Cradle lily leaf peel cells (a) in water, and (b) in 20 per cent sugar solution (a) (b)",
+    "page_num": 6,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "3dd7bd013ce8",
+    "text": "Exploration|Grade 9 Without a rigid cell wall, animal cells can change shape easily. This cellular flexibility supports the overall movement and functioning of animal tissues. The plant cell wall is primarily made of cellulose, a type of carbohydrate formed by many glucose units linked together. Cellulose in our diet acts as roughage, helping in digestion",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "8ecf9c37e84a",
+    "text": ". Cellulose in our diet acts as roughage, helping in digestion. Some microorganisms, like fungi and bacteria also have a cell wall to provide protection and structural support to their cells. 1. What argument would you give for the necessity of a cell wall in plants usually fixed in one place versus in animals usually moving from one place to the other? 2",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "aed488a5a202",
+    "text": ". Why is it important to cut the two potato pieces in roughly equal size and measure their initial weight before placing them in different liquids? Pause and Ponder 2.3 \u0007The Cell Interior — A Coordinated Working System You have learnt that most cells have three basic parts: y a selectively permeable membrane called the plasma membrane, y a semi-fluid, jelly-like substance called the cytoplasm, and",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "83e6c0a60ec2",
+    "text": ". In addition to the nucleus, the cytoplasm contains several sub-cellular components called organelles, along with other substances present in it, most of which are only visible with an electron microscope",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 205,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "b06e046f3e45",
+    "text": ". Activity 2.4: Let us study Cell wall Mitochondria Golgi body Endoplasmic reticulum Ribosome Ribosome Ribosome Cytoplasm Cytoplasm Nucleolus Chloroplast Cell membrane Vacuole Vacuole Nucleoid Appendage for locomotion (a) (b) (c) Nucleus Fig. 2.10: (a) A typical bacterial cell, (b) a typical plant cell, and (c) a typical animal cell Lysosome 1",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "cd9ccc28fcbf",
+    "text": ". Study the given diagrams of a bacterial cell, a plant cell, and an animal cell (Fig. 2.10a, b and c). 2. Observe the different structures present in each of them. 3. Record your observations in Table 2.1. A bacterial cell lacks a well-defined nucleus and membrane-bound organelles (organelles surrounded by their own membranes)",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "2a2edb44cc6f",
+    "text": "Cell: The Building Block of Life nucleus). In prokaryotic cells, most cellular activities take place directly in the cytoplasm. In contrast, plant and animal cells have a well-defined nucleus and several membrane-bound organelles. Such cells are called eukaryotic cells (eu means true, and karyon means nucleus)",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "88dfa5950393",
+    "text": ". More details of the characterstics of prokaryotic and eukaryotic cells is given in Table 2.2. Table 2.1: Comparison of different kinds of cells based on their structure S. No. Cell structures Bacterial cell Plant cell Animal cell 1. Cell membrane 2. Cell wall 3. Cytoplasm 4. Well-defined nucleus (genetic material enclosed by a membrane) 5",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "2af49e816aaf",
+    "text": ". Membrane-bound organelles Table 2.2: Comparison between prokaryotic and eukaryotic cells Characteristics Prokaryotic cell Eukaryotic cell Primitive nucleus Present Absent Diameter of a typical cell 1 to 10 µm 10 to 100 µm Number of cells in an organism Usually unicellular Can be unicellular or multicellular Membrane-bound organelles Absent Present Membrane-bound nucleus Absent Present Which of",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "3f815ddd6f1b",
+    "text": ". 2.10 fall under the categories of prokayotic and eukaryotic cells? In eukaryotic cells, a network of fine fibres forms the cytoskeleton, which provides structural support, maintains cell shape, and enables cell movement and internal transport. It is visible only under an electron microscope as a separate entity",
+    "page_num": 8,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "4fab56eb2811",
+    "text": ". It is visible only under an electron microscope as a separate entity. The cytoplasm may also store starch (in plant cells), or crystals of calcium oxalate or silica (in some plant cells). These are known as cell inclusions. Ready to Go Beyond Ready to Go Beyond Viruses, viroids, and prions are acellular (no cells) infectious agents that are too small to be seen under a light microscope",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "8bff60c95867",
+    "text": "Exploration|Grade 9 2.3.1 Why do eukaryotic cells need these organelles? Eukaryotic cells carry out various life processes in different cell organelles independently at the same time. Cell organelles help in building new materials, removing waste, and providing energy to the cell. They work together to perform all functions of a cell",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "d963d0a97903",
+    "text": ". They work together to perform all functions of a cell. In other words, a cell is like a tiny living factory, with each of its part doing a specific job. Let us explore these specialised structures present inside a cell",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 220,
+    "estimated_tokens": 55
+  },
+  {
+    "chunk_id": "740e2e2849c1",
+    "text": ". Let us explore these specialised structures present inside a cell. Nucleus — House of coded instructions The nucleus has a double-layered covering called the nuclear membrane, which has pores that allow the transfer of material between the nucleus and the cytoplasm. The nucleolus is the dense round body in the nucleus, where synthesis of ribosomal subunits take place",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "be1318659af1",
+    "text": ". These subunits then exit the nucleus to cytoplasm where one large and one small subunits assemble to form ribosome (Fig. 2.11). The nucleus contains chromosomes, which are visible as rod-shaped structures only when the cell is about to divide. Chromosomes contain information for inheritance of characters from parents to the next generation in the form of DNA (Deoxyribonucleic acid) molecules",
+    "page_num": 9,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "e3a5b2ad6d99",
+    "text": ". Chromosomes are composed of DNA and specific proteins. DNA molecules contain the genetic information. The functional segments of DNA are called genes. In a non-dividing cell, this DNA is present as part of chromatin material. Chromatin material is visible as an entangled mass of thread-like structures",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 304,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "fc928dc10723",
+    "text": ". Chromatin material is visible as an entangled mass of thread-like structures. Whenever the cell is about to divide, the chromatin material gets organised into chromosomes (Fig. 2.12). Threads of Curiosity Some cells are specialised to perform specific functions. For example, mature Red Blood Cells (RBCs) in humans do not have a nucleus (enucleate)",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "caeafe02f034",
+    "text": ". The absence of a nucleus provides more space for haemoglobin, allowing it to transport a larger amount of oxygen to all cells of the body. Since they lack a nucleus, they cannot repair or divide themselves. As a result, their lifespan is short and they survive approximately for 120 days. Do you know any other cells without nucleus? Prokaryotic cells do not have a well-defined nucleus",
+    "page_num": 9,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "4c35abd6877e",
+    "text": ". Their DNA is present as a single circular molecule associated with specific proteins. The region containing this genetic material is called the nucleoid. Fig. 2.12: From cell to DNA Nucleus Chromatin Chromosome DNA Fig. 2.11: Structure of a nucleus Nuclear pore Double-layered nuclear membrane Chromatin Nucleolus Nucleus",
+    "page_num": 9,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "354b6bf1342d",
+    "text": "Cell: The Building Block of Life Ribosomes — The protein factories These are tiny structures may be present either freely in the cytoplasm or attached to the endoplasmic reticulum. Ribosomes are the sites of protein synthesis. Endoplasmic Reticulum (ER) — Manufacturing factory The Endoplasmic Reticulum (ER) is a large organelle that spreads like a network within the cytoplasm of the cell",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "a04db67fd645",
+    "text": ". The ER is continuous with the outer membrane of nuclear envelop. The ER plays a key role in the synthesis and transport of proteins, fats (lipids), and some hormones in some of the specialised cell. The structure of the ER in a cell varies depending on its function",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 267,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "f7634179fbd7",
+    "text": ". The structure of the ER in a cell varies depending on its function. There are two types of ER: y Rough Endoplasmic Reticulum (RER): It looks rough under an electron microscope because it has ribosomes attached to its surface, and is mainly involved in protein synthesis and protein secretion (for example, in gland cells, such as pancreatic cells)",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 349,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "fc4b24f5e9f2",
+    "text": ". y Smooth Endoplasmic Reticulum (SER): It does not have ribosomes on its surface, and therefore, looks smooth. It is involved in the synthesis, and storage of fats and hormones (Fig. 2.13). Golgi apparatus — The packaging and shipping centres If you carefully look at the diagram of a cell (Fig. 2.10b and c), you will notice stacks of flattened, sac-like structures",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "afa64fa7c481",
+    "text": ". 2.10b and c), you will notice stacks of flattened, sac-like structures. Together, these stacks form the Golgi apparatus (Fig. 2.13). It is functionally linked to the ER, the cell membrane and the other cell organelles. The Golgi apparatus acts like the cell’s post office. It modifies, sorts, and packages proteins and/or lipids into vesicles for transport, secretion, or lysosome formation",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "e1c52006618e",
+    "text": ". How does the cell prevent these wastes from accumulating inside it? Lysosomes are single membrane-bound sacs filled with enzymes, which can break down unwanted proteins, carbohydrates, fats, and even Meet a Scientist The Golgi apparatus was first observed in 1898 by an Italian scientist, Camillo Golgi, in the nerve cells of a barn owl",
+    "page_num": 10,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "b824bad856ae",
+    "text": ". Using special staining techniques, he observed a thread-like network. Early microscopes could not resolve it clearly, therefore, many doubted its existence. However, electron microscope observations confirmed it decades later. When the structure was clearly seen and confirmed, it was named the ‘Golgi apparatus’ in his honour. Fig",
+    "page_num": 10,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 333,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "a2d536450fbf",
+    "text": ". Fig. 2.13: Endoplasmic reticulum and Golgi apparatus — pathway for protein processing and secretion Ribosome Rough endoplasmic reticulum Smooth endoplasmic reticulum Golgi apparatus Vesicles Plasma membrane",
+    "page_num": 10,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 208,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "100898eb4edc",
+    "text": "Exploration|Grade 9 damaged parts of the cell, keeping it clean and healthy. The products formed by the breakdown are released into the cytoplasm, where they may be reused in other cellular processes. Threads of Curiosity Human sperm cells contain lysosomal enzymes. When a sperm meets an egg, these enzymes help break down the outer layer of the egg, allowing fertilisation to take place",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "f97a377921fa",
+    "text": ". You will learn about the human sperm cells later in Chapter 11. Mitochondria — The powerhouse of the cell Mitochondria are often called the ‘powerhouses of the cell’ because they supply the energy needed for most cellular activities. Each mitochondrion (Fig. 2.14) is surrounded by two membranes : y The outer membrane is smooth and porous",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "5dc32f9e1da7",
+    "text": ". y The inner membrane is folded into finger-like projections called cristae, which increase the surface area for chemical reactions and facilitate energy production. In mitochondria, the glucose and other molecules are broken down to release energy during a process called cellular respiration. You have already studied about it",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "f36f7b04e1d1",
+    "text": ". You have already studied about it. The energy released is stored in the form of a molecule called Adenosine Triphosphate (ATP), which acts as the energy currency and is used for most of the cellular activities. Plastids — Centre for food synthesis in the plant cells and beyond You have learnt that mitochondria provide energy to the cell that comes from food",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "dba10cceda7a",
+    "text": ". Animals can obtain food from their surroundings, however, plants synthesise food in the presence of sunlight. But where do plants Grade 7 Curiosity Chapter 9 synthesise their food and obtain energy for cellular activities? Plants use special organelles called plastids for food synthesis and storage",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "4340f268f40a",
+    "text": ". As you have learnt, plants prepare their food by the process of photosynthesis in the presence of sunlight. A green pigment called chlorophyll, which is present in the chloroplast (a type of plastid) absorbs sunlight. Chloroplasts are double-membrane-bound organelles, like mitochondria. Inside the chloroplast (Fig. 2.15) there is a semi-fluid substance called the stroma",
+    "page_num": 11,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "c17a656f9467",
+    "text": ". 2.15) there is a semi-fluid substance called the stroma. Within the stroma are disc-shaped membrane structures that contain chlorophyll. Light energy is absorbed Grade 7 Curiosity Chapter 9 Fig. 2.14: Structure of a mitochondrion Outer membrane Inner membrane Intermembrane space Ribosomes DNA Cristae Fig. 2.15: Structure of a chloroplast Stroma Ribosomes Inner membrane DNA Outer membrane",
+    "page_num": 11,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "e8fc6efbba00",
+    "text": "Cell: The Building Block of Life by them during photosynthesis. The sugars synthesised in this process are stored in stroma, along with the starch granules. Mitochondria and plastids have some features that are similar to certain bacteria. For example, they both have their own DNA and ribosomes, and thus, they can make some of their own proteins",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 347,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "33fbfc76020f",
+    "text": ". These characteristics suggest that both mitochondria and plastids share an evolutionary history with these single-celled organisms. Are there any other plastids in plant cells that contain any pigments other than the green pigments? How do flowers, fruits, and vegetables acquire varied colours? In flower petals and fruits, plastids contain pigments other than chlorophyll",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "026dc2d03b97",
+    "text": ". These plastids are called chromoplasts (in Greek, chroma means colour). Their pigments (may be yellow, orange or red) are the source of bright colours in such flowers and fruits. Such bright colours help in attracting pollinators for pollination and fruit-eating animals that help in seed dispersal. Some plastids lack pigments and are thus, colourless",
+    "page_num": 12,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "6123dc280067",
+    "text": ". Some plastids lack pigments and are thus, colourless. These are called leucoplasts (in Greek, leukos means white). Leucoplasts store food material, such as starch, oils or proteins and are classified based on the type of food they store. For example, some leucoplasts in potato and taro (Colocasia) cells store starch",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "6c89fc4d23dd",
+    "text": ". Other plastids, such as leucoplasts help in storing food. But where are water, minerals, and waste materials stored in the cell? Why do plants look wilted when they do not get enough water? In a mature plant cell, there is usually one large central vacuole surrounded by a single selectively permeable membrane. The vacuole is filled with a watery fluid called cell sap",
+    "page_num": 12,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "3f38bd1886db",
+    "text": ". The vacuole is filled with a watery fluid called cell sap. The vacuole stores water, minerals, sugars and waste material. By storing large amounts of water, the vacuole helps maintain pressure inside the cell, which keeps a plant cell firm. When a plant does not get enough water, the vacuole loses water, the cells become less firm, and the plant gets wilted",
+    "page_num": 12,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "00fab10f3f50",
+    "text": ". In animal cells, vacuoles are sometimes present. Although they are not as large as plant vacuoles, they help in the temporary storage of materials. 4. Do white flowers contain any pigment? Give reasons. 5. Draw a well-labelled schematic diagram of a plant or an animal cell using these clues — (i) Nucleus appears as a dark and round body inside the cell",
+    "page_num": 12,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "4cc75f23931b",
+    "text": "Exploration|Grade 9 Threads of Curiosity In 2010, scientist J. Craig Venter and his team made an important discovery in the field of synthetic biology. They first studied the complete DNA sequence of a simple bacterium called Mycoplasma mycoides using a computer programming. Then, they chemically synthesised (in the laboratory) an exact copy of this DNA",
+    "page_num": 13,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "c01acb496b7e",
+    "text": ". Next, they took another closely related bacterium and removed its DNA, but kept the rest of the cell (such as the cytoplasm and the cell membrane) intact. They inserted the synthetic DNA into this cell. After this, the cell started to grow and divide, following the instructions from the newly inserted synthetic DNA. This experiment showed that DNA controls the structure and activities of a cell",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "7486025ac38f",
+    "text": ". However, scientists did not create a completely new cell from scratch. Only the DNA was synthetic. The other parts of the cell were taken from an already existing living cell. 2.4 How do Normal Cells Grow and Divide? When you get a small cut on your skin, it heals after a few days. When hair fall out, new hair grow back",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "242d4274c174",
+    "text": ". When hair fall out, new hair grow back. How does this happen? It happens because cells in our body can grow and divide to replace the old, dead, or damaged cells. When our body grows, it is not just because cells get bigger. Cells can grow only up to a certain size but growth happens because cells divide to form new cells",
+    "page_num": 13,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "4b604ad6b329",
+    "text": ". Let us study freshly growing root tips of an onion to understand how cells divide (Fig. 2.16). Activity 2.5: Let us enhance our skills 1. Take a jar and fill it up with plain water. 2. Now, place an onion bulb over the jar in such a way that its base bearing roots, is immersed in the water. 3. Leave the setup for 5–6 days and observe",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 337,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "97d5d3c2332a",
+    "text": ". 3. Leave the setup for 5–6 days and observe. Do you observe the roots growing? Cut 2–3 cm of the freshly grown roots and transfer them to freshly prepared aceto-alcohol (glacial acetic acid:ethanol :: 1:3). Keep the root tips in aceto-alcohol for 24 hours and then transfer them to 70 per cent ethanol (for preservation). 4",
+    "page_num": 13,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "f80f2ed1954e",
+    "text": ". 4. Take one or two preserved roots, wash them in water and then, place them on a clean slide. 5. Put one drop of dilute Hydrochloric acid (HCl) on the root tips to soften the tissue. Rinse the roots after 10–15 minutes. Then add 2–3 drops of aceto-carmine stain on them. 6. Leave the slide for 5–10 minutes and then, gently warm it (with caution) over a spirit lamp. 7",
+    "page_num": 13,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "f3be41e87040",
+    "text": ". 7. Cut the tip portion of the root on the slide and put a coverslip. Gently squash the coverslip with your thumb to spread the cells on the slide. 8. Observe the slide under a microscope. Fig. 2.16: Growing roots of an onion in a jar containing water",
+    "page_num": 13,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 252,
+    "estimated_tokens": 63
+  },
+  {
+    "chunk_id": "fa23f01daece",
+    "text": "Cell: The Building Block of Life What do you observe? Do you observe the cells of the onion root tip? Are they similar in structure? Do you find any structural differences in these cells? If yes, why is it so? This is because the cells of a growing tip of root of onion divide continuously. This process is called cell division. Fig. 2.17 shows various stages of cell division",
+    "page_num": 14,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "72d0af51876d",
+    "text": ". Fig. 2.17 shows various stages of cell division. Therefore, these cells exhibit different structures corresponding to different stages of cell division. Can you identify which stage comes first during cell division? Every day, an estimated hundreds of billions of cells in our body are replaced, which is almost 1 per cent of the total number of cells in our body",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "f0b2e0d4ab68",
+    "text": ". Both prokaryotic and eukaryotic cells divide, but eukaryotic cells divide in a more controlled and orderly manner by a process called the cell cycle. You will learn about the stages of cell division in higher grades. Fig. 2.17: Different stages of cell division in onion root tip cells 2.4.1 Cell division Cell division is the process by which new cells are formed from pre‑existing cells",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "e360f16001d9",
+    "text": ". It allows living organisms to grow, repair damaged tissues and reproduce. Some cells, such as skin cells divide continuously to replace cells that are lost regularly. There are two major types of cell division — mitosis and meiosis",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 233,
+    "estimated_tokens": 58
+  },
+  {
+    "chunk_id": "0c2a9dd51581",
+    "text": ". There are two major types of cell division — mitosis and meiosis. Mitosis is important for normal growth, repair, maintenance and asexual reproduction, while meiosis is important for sexual reproduction for creation of genetic diversity. Mitosis Every human begins life as a single fertilised egg. This one cell divides repeatedly to form trillions of cells in the body",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "d85cf67ba5a7",
+    "text": ". This one cell divides repeatedly to form trillions of cells in the body. Cells increase in number through mitosis, which is the most common type of cell division (Fig. 2.18). Mitosis produces two genetically identical daughter cells from one parent cell. Each new cell gets the same DNA and the same number of chromosomes as the parent cell",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "7780a1ff3793",
+    "text": "Exploration|Grade 9 Meiosis Meiosis is a type of cell division that produces gametes and occurs only in the cells of reproductive organs. Gametes produced for sexual reproduction create variations and diversity among living organisms. Therefore, children resemble their parents but are not exactly the same",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 306,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "f8a1c99ce8dc",
+    "text": ". Therefore, children resemble their parents but are not exactly the same. In animals including humans, meiosis occurs only in the cells of testes of males to produce sperm and ovaries of females to produce eggs. In plants, meiosis occurs in the anthers (male parts) to form pollen grains (that later produce sperm cells) and the ovaries (female parts) to produces egg cells",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "fcd3bb1df229",
+    "text": ". In meiosis, the parent cell divides twice, one after the other, to form four daughter cells (Fig. 2.19). During the first division, the cells divide into two daughter cells and the number of chromosomes in each daughter cell is reduced to half. The second division is similar to mitosis where each daughter cell divides into two thus, forming four daughter cells with half the number of chromosomes",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9d9ef373cbce",
+    "text": ". As a result, each gamete has half the number of DNA compared to the parent cell. During fertilisation, when gametes from two individuals combine, the original chromosome number is restored. You will learn about this process in detail in Chapter 11. Scientists have developed methods to grow plant and animal cells outside the body in special conditions. This is called cell culture",
+    "page_num": 15,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "65b87c38daea",
+    "text": ". This is called cell culture. In this process, cells are taken from an organism and placed in a nutrient-rich medium that allows them to grow and multiply. To keep the culture safe, the right temperature, acidic or alkaline conditions and moisture under sterile conditions are maintained",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 288,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "96bb15dccfb4",
+    "text": ". Cell culture is crucial for studying how cells work and for the production of biochemicals, food, medicines, vaccines, and more. Bridging Science and Society The processes of mitosis and meiosis must occur in a proper and controlled manner",
+    "page_num": 15,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 241,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "81be25fb7b5a",
+    "text": ". What happens if meiosis and mitosis do not happen properly? If there is any error in these processes, it can lead to various problems in the body of an organism. Errors in mitosis lead to uncontrolled cell divisions. This can lead to the formation of tumours and abnormal number of chromosomes in body cells",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "93837c9558e2",
+    "text": ". Errors in meiosis may result in genetic disorders, which may be associated with developmental problems or distinctive physical features. Faulty meiosis may also cause early pregnancy loss or reduced fertility. Next Level Up Meet a Scientist Arun Kumar Sharma was a famous Indian scientist known for his work on chromosomes",
+    "page_num": 15,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 324,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "2f140bcff30e",
+    "text": ". As a botanist, he is known for his work in the area of plant taxonomy, evolution and development. He also invented many useful lab methods to study chromosomes in plants. For his contributions to botany, he received many honours, including the Shanti Swarup Bhatnagar award and Padma Bhushan. Pause and Ponder 6",
+    "page_num": 15,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "c52e82c8a70c",
+    "text": ". Pause and Ponder 6. Instead of many small ones, why does a cell not have a single giant mitochondrion? How does this relate to the concept of surface area? 7. If the skin cells start dividing by meiosis instead of mitosis, what do you think will happen to a cut on the skin? Fig. 2.19: Meiosis is a two-step process that produces four gametes",
+    "page_num": 15,
+    "chunk_index": 9,
+    "source_file": "iesc102.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "2f5468cbf6f2",
+    "text": "Cell: The Building Block of Life 2.5 Cell Theory — The Unifying Principle of Biology An important observation about living organisms is that all organisms are made up of cells. In 1838, a German botanist named Matthias Schleiden reported that all plants are made up of cells. In 1839, German zoologist Theodor Schwann, found that all animals are also made up of cells",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "641a1486d613",
+    "text": ". Later, in 1855, a German scientist named Rudolf Virchow, further expanded the Cell Theory by stating that new cells are formed only from pre-existing cells. Together, their work led to the formulation of the Cell Theory. According to the classical Cell Theory: y All living organisms are made up of one or more cells. y The cell is the basic unit of structure and function in living beings",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "20b631aa08ec",
+    "text": ". y The cell is the basic unit of structure and function in living beings. y All cells arise from pre-existing cells. This unifies all biology, from bacteria to humans, and explains life’s continuity through cell division",
+    "page_num": 16,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 221,
+    "estimated_tokens": 55
+  },
+  {
+    "chunk_id": "941ff4c75119",
+    "text": ". 2.5.1 Do cells grow and reproduce forever? Cells grow and divide in a controlled way, stay in the right place, carry out their functions, and eventually die when they are no longer needed. Dead cells are replaced by new cells that carry out the same function. Thus, every cell has a definite life span. If cells do not die when they should or if they die too early problems can arise in the body",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "1e45a8b57c9d",
+    "text": ". In many animal cells, cell division usually stops when cells come in contact with neighbouring cells. This process is called contact inhibition. However, cancer cells lose this control and keep dividing uncontrollably, leading to the formation of tumours. Plant cells grow differently",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "2aeedd829a86",
+    "text": ". Plant cells grow differently. Due to their rigid cell walls plant cells do not show contact inhibition and follow a different pattern of growth. Even though cells are extremely tiny they perform remarkable functions. They produce energy, synthesise and secrete substances, divide to form new cells, and work together to maintain the proper functioning of the body",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "683b19f935a8",
+    "text": ". Every living being from a tiny bacterium to a giant tree is made up of cells. You are one of the products of these tiny hardworking cells. Ready to Go Beyond How do cells monitor their growth to maintain a balance? Cells also have natural ways of dying to maintain a balance. Programmed Cell Death (PCD) is a genetically regulated and organised process of selective cell destruction",
+    "page_num": 16,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "cad0ddcfb7c5",
+    "text": ". It is essential for normal development, cellular quality control and immune function. When an embryo develops, the PCD helps form fingers by eliminating cells between digits, without it we would have webbed hands. Explore different ways by which cells maintain themselves. How do cancer cells grow and spread? Normal cells grow, age and die in a controlled manner",
+    "page_num": 16,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "820899173ef0",
+    "text": ". Sometimes, this system breaks down, and abnormal cells start growing and dividing uncontrollably. This results in the formation of tumours, which may be benign or malignant. Cancerous tumours can invade nearby tissues and even spread to other parts of the body to form new tumours",
+    "page_num": 16,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 282,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "08b180720eb3",
+    "text": ". Threads of Curiosity Meet a Scientist In 1902, the Austrian botanist, Gottlieb Haberlandt, proposed that any living plant cell, even a fully mature cell from a permanent tissue, can develop into a complete plant if it is provided with suitable nutrients and favourable conditions. He suggested that plant cells have the ability to form different types of cells and also change them",
+    "page_num": 16,
+    "chunk_index": 9,
+    "source_file": "iesc102.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "ffe4ca9904c4",
+    "text": "Exploration|Grade 9 At a Glance y The cell is the basic structural and functional unit of all living organisms. y Prokaryotic cells do not have a well-defined nucleus, instead their genetic material is present in a region called the nucleoid. They also lack membrane-bound organelles. y Eukaryotic cells are larger and more complex",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "fbd14b94148e",
+    "text": ". y Eukaryotic cells are larger and more complex. They have a well- defined nucleus and several membrane-bound organelles. y All cells are surrounded by a cell membrane. In addition, cells of plants, fungi and bacteria have a cell wall outside the cell membrane",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 261,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "bbca1c4d330b",
+    "text": ". y The nucleus of eukaryotic cells contains chromosomes, which are composed of DNA and associated proteins, which carry genetic information. y All cells are filled with cytoplasm. In eukaryotic cells, cytoplasm contains several cell organelles, each performing a specific function",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 281,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "34c7d4947fa6",
+    "text": ". y Important cell organelles include the nucleus, endoplasmic reticulum, mitochondria, golgi apparatus, ribosomes and lysosomes. y Plant cells also contain special organelles called plastids, such as chloroplasts, leucoplasts and chromoplasts. y Mitosis produces two daughter cells identical to the parent cell",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "218f14518c64",
+    "text": ". y Mitosis produces two daughter cells identical to the parent cell. y Meiosis is a two-step division process which produces four daughter cells, each having half the number of chromosomes. y Normal cells grow in a controlled manner, perform their functions and die naturally, while cancer cells lose control and keep dividing uncontrollably leading to the formation of tumours",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "42a8287cd3ab",
+    "text": ". Revise, Reflect, Refine 1. Differentiate between the following pairs of terms based on the clues given in parentheses: (i) Cell membrane and cell wall (permeability) (ii) RER and SER (structure) (iii) Chloroplasts and chromoplasts (pigments) 2. Two similar animal cells are placed in two different solutions: y Cell X is placed in pure water. y Cell Y is placed in a concentrated salt solution.",
+    "page_num": 17,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "7a236c1db545",
+    "text": "Cell: The Building Block of Life Cells are observed after some time. Cell X swells, and Cell Y shrinks. Which statement provides the correct explanation for the above observations? (i) Salt molecules moved into Cell Y, causing it to shrink. (ii) Water moved into Cell X and more water moved out of Cell Y than the salt solution entered in it",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "bd2660c39f91",
+    "text": ". (iii) Water moved into Cell X and moved out of Cell Y through the cell membrane. (iv) Solute movement caused osmosis in both cells. 3. Look at the diagram of a cell in Fig. 2.20. Identify the parts labelled from (a) to (g) and correctly match them with their functions given below: (i) Controlling all the activities of a cell. (ii) Site of cellular respiration",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "093231fcaa56",
+    "text": ". (ii) Site of cellular respiration. (iii) Storage organelle that also provides rigidity to the cell. (iv) Separates the cell contents from surroundings. (v) Provides structural rigidity to the cell. (vi) Packs and stores materials received from ER. (vii) Helps in manufacturing food. 4",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "5b88bc2acfe4",
+    "text": ". (vii) Helps in manufacturing food. 4. Which of the following option(s) of the pairs of cell organelles are correctly placed under the given categories? Option Present in the plant cells Absent in the animal cells (i) Leucoplast Cell wall (ii) Mitochondria Ribosome (iii) Cell wall Golgi apparatus (iv) Lysosome Endoplasmic reticulum 5",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 336,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "85f2c9cb595c",
+    "text": ". Two students, Renu and Rohit, were having a discussion on the plastids. Renu emphasised that all parts of the plants, even roots, contain plastids. However, Rohit did not agree with the statement and told her that plastids are absent in plant roots since the roots are underground and do not need to perform photosynthesis. Who is correct? Justify your answer. 6",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "52d2655b54b7",
+    "text": ". Who is correct? Justify your answer. 6. Mitochondria and chloroplasts are two important organelles in a plant cell. Discuss how these two organelles are structurally and functionally similar to each other, and different from each other. 7",
+    "page_num": 18,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 240,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "73449076db6a",
+    "text": ". 7. Which of the following pairs of cell organelles contains DNA? (i) Chloroplasts, Ribosomes (ii) Mitochondria, Nucleus (iii) Golgi bodies, Ribosomes (iv) Nucleus, Lysosomes (a) (e) (f) (g) (b) (c) (d) Fig. 2.20",
+    "page_num": 18,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 213,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "dd38d9ac151a",
+    "text": "Exploration|Grade 9 8. A researcher carried out an experiment in which she took two carrots of similar size. She placed one carrot in plain water and the other carrot in concentrated salt solution (Fig. 2.21). After 24 hours she recorded her observations",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 254,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "81fda15df802",
+    "text": ". 2.21). After 24 hours she recorded her observations. (i) What hypothesis does she want to test through this experiment? (ii) What would you suggest for the improvement of this experiment? (iii) Why does the carrot in plain water stay stiff and crunchy, but the carrot in concentrated salt solution become rubbery and limp? 9",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "0902f0d9c8cd",
+    "text": ". Indicate the presence or absence of following structures in bacterial and animal cells: Structures in a cell Bacterial cell Animal cell Chromosome Nucleus Mitochondria Golgi complex Chromoplasts 10. Carry out the following experiment: Take four peeled potato halves and scoop each one out to make potato cups. One of these potato cups should be made from a boiled potato",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "c5d824fefaff",
+    "text": ". One of these potato cups should be made from a boiled potato. Place each of the potato cups in a beaker containing water (Fig. 2.22). Now, set up the experiment as follows: (a) Keep Cup A empty. (b) Add one teaspoon sugar in Cup B. (c) Add one teaspoon salt in Cup C. (d) Add one teaspoon sugar in the boiled potato in Cup D",
+    "page_num": 19,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "3ff5f6071d59",
+    "text": ". (d) Add one teaspoon sugar in the boiled potato in Cup D. Observe the four potato cups at least two hours and answer the following questions: (i) Explain why water gathers in the hollowed portion of Cup B and Cup C. (ii) Why is Cup A necessary for this experiment? (iii) Explain why water does not gather in the hollowed portions of Cups A and D. 11",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "94d40046619d",
+    "text": ". 11. Identify the pair that incorrectly matches the cell organelle with its function. (i) Ribosome — Protein synthesis (ii) SER — Lipid and cellulose synthesis (iii) Lysosome — Digestion of foreign agents 12. What outcome do you expect, if all the mitochondria are removed from a eukaryotic cell? 13",
+    "page_num": 19,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 300,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "51357da1ecc8",
+    "text": ". Which phenomenon inhibits the formation of tumors in the human body? Can plants also develop tumors? Explain. A B Fig. 2.21: Experimental set-up having carrot (a) in plain water, and (b) in salt solution Fig. 2.22: Experimental set-up",
+    "page_num": 19,
+    "chunk_index": 6,
+    "source_file": "iesc102.pdf",
+    "char_count": 236,
+    "estimated_tokens": 59
+  },
+  {
+    "chunk_id": "18fe5ce5a1fd",
+    "text": "Cell: The Building Block of Life The Journey Beyond y Use selected software or digital tools to create animations or simulations of cell division and share them in the class. y Create a model of any type of a ‘synthetic cell’ using low-cost eco-friendly material. y Build a mitosis or meiosis model with your classmates for your science project or exhibition",
+    "page_num": 20,
+    "chunk_index": 0,
+    "source_file": "iesc102.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "955e740f8cdf",
+    "text": ". How did teamwork contribute to the success of the activity? Did this activity change your perspective or understanding of the cell division topic in any way? If so, explain how? y Develop a nukkad natak for community awareness in simple dialogues about the different functions of cell organelles. 14. The cell membrane of a cell is made up of proteins and lipids",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "iesc102.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "c30cd10e4597",
+    "text": ". 14. The cell membrane of a cell is made up of proteins and lipids. Which cell organelles help in the synthesis of cell membrane? Write the path of these compounds from their site of synthesis to the cell membrane and show this through a labelled diagram. 15. What would happen if gametes are formed by mitotic divisions? 16",
+    "page_num": 20,
+    "chunk_index": 2,
+    "source_file": "iesc102.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "fa07df921e78",
+    "text": ". 15. What would happen if gametes are formed by mitotic divisions? 16. A farmer, Deepa, was very happy with the harvest of amla (Indian Gooseberry) and lemons on her farm. However, she could sell only one- fourth of the produce in the local market",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "iesc102.pdf",
+    "char_count": 248,
+    "estimated_tokens": 62
+  },
+  {
+    "chunk_id": "ba5c6515f2a3",
+    "text": ". However, she could sell only one- fourth of the produce in the local market. Recognising that a significant amount of produce may be lost post-harvest, she employed a traditional yet scientifically sound method to extend the shelf life of amla and lemons. She turned perishable produce into profitable products, such as pickles and sharbat",
+    "page_num": 20,
+    "chunk_index": 4,
+    "source_file": "iesc102.pdf",
+    "char_count": 341,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "aefe3c761ca1",
+    "text": ". She used the excess produce to prepare pickles, murabbas, and sharbat by adding appropriate amounts of salt, sugar, or jaggery to small pieces of fruit and their juices. These were then stored in small glass bottles for sale, helping her prevent the wastage of post-harvest produce",
+    "page_num": 20,
+    "chunk_index": 5,
+    "source_file": "iesc102.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "77127cffaeeb",
+    "text": ". Based on the above passage answer the following questions: (i) Which scientific concept has the farmer applied in the preservation of the farm produce? (ii) How does the addition of high concentrations of salt and sugar create an environment that prevents the growth of spoilage-causing bacteria and fungi? (iii) Suggest a healthy recipe of this kind for food preservation",
+    "page_num": 20,
+    "chunk_index": 7,
+    "source_file": "iesc102.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "2432b7c1868c",
+    "text": ". (iv) What are the scientific values addressed in this case? What is the future of the development of synthetic cells using non-living chemicals? If a synthetic cell is developed, what may be the related ethical issues? The Quest Continues …",
+    "page_num": 20,
+    "chunk_index": 8,
+    "source_file": "iesc102.pdf",
+    "char_count": 242,
+    "estimated_tokens": 60
+  }
+]
