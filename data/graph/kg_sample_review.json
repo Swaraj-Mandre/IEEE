@@ -1,0 +1,177 @@
+{
+  "instructions": "Review these 20 edges manually before Phase 3",
+  "high_confidence_edges": [
+    {
+      "prerequisite": "atoms",
+      "concept": "elements",
+      "weight": 2
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "nucleus",
+      "weight": 3
+    },
+    {
+      "prerequisite": "indivisible particles",
+      "concept": "atoms",
+      "weight": 2
+    },
+    {
+      "prerequisite": "nucleus",
+      "concept": "electrons",
+      "weight": 2
+    },
+    {
+      "prerequisite": "understanding of atomic structure",
+      "concept": "valence shell",
+      "weight": 2
+    },
+    {
+      "prerequisite": "thomson’s atomic model",
+      "concept": "rutherford’s atomic model",
+      "weight": 2
+    },
+    {
+      "prerequisite": "rutherford's model",
+      "concept": "bohr's model",
+      "weight": 2
+    },
+    {
+      "prerequisite": "atomic number",
+      "concept": "isotopes",
+      "weight": 3
+    },
+    {
+      "prerequisite": "atomic number",
+      "concept": "mass number",
+      "weight": 2
+    },
+    {
+      "prerequisite": "number of protons",
+      "concept": "atomic number",
+      "weight": 4
+    },
+    {
+      "prerequisite": "element",
+      "concept": "atomic mass",
+      "weight": 2
+    },
+    {
+      "prerequisite": "isotopes",
+      "concept": "average atomic mass",
+      "weight": 2
+    },
+    {
+      "prerequisite": "hydrogen atom",
+      "concept": "water molecule",
+      "weight": 2
+    },
+    {
+      "prerequisite": "oxygen atom",
+      "concept": "oxygen molecule",
+      "weight": 2
+    }
+  ],
+  "sample_edges": [
+    {
+      "prerequisite": "matter",
+      "concept": "atoms",
+      "weight": 1
+    },
+    {
+      "prerequisite": "matter",
+      "concept": "chemical reaction",
+      "weight": 1
+    },
+    {
+      "prerequisite": "observing or experiencing the physical world",
+      "concept": "matter",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "fundamental building blocks of matter",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "elements",
+      "weight": 2
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "incomplete valence shells",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "isotopes",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "molecules",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "chemical bond",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atoms",
+      "concept": "compounds",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "living beings",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "non-living things",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "naked eye",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "nucleus",
+      "weight": 3
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "electrons",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "protons and neutrons in the nucleus",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "neutrons",
+      "weight": 1
+    },
+    {
+      "prerequisite": "atom",
+      "concept": "number of electrons equals number of protons",
+      "weight": 1
+    },
+    {
+      "prerequisite": "unseen with naked eye",
+      "concept": "atoms",
+      "weight": 1
+    },
+    {
+      "prerequisite": "indivisible particles",
+      "concept": "atoms",
+      "weight": 2
+    }
+  ]
+}
