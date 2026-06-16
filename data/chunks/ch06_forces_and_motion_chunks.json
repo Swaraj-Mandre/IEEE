@@ -1,0 +1,1514 @@
+[
+  {
+    "chunk_id": "54c4af7596b3",
+    "text": ". But you did not consider what causes motion. Is there an underlying cause for a change in position and velocity of an object? What is the nature of this cause? Do all motions require a cause? In this chapter, we will investigate what causes changes in the motion of objects. We will also discuss Newton’s three laws of motion and learn how to apply them",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "a67b118ddfbd",
+    "text": ". We will also discuss Newton’s three laws of motion and learn how to apply them. 6.1 The Concept of Force You may recall learning earlier that a force can make an object move from rest, change the speed and direction of motion of a moving object, and can even change the shape of an object",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 290,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "49f55cc195d9",
+    "text": ". For example, a ball at rest starts moving when you apply a force, a force applied by a cricket bat on a cricket ball changes its direction, and a lemon can be squeezed by the force applied by your fingers (Fig. 6.1). (c) Squeezing a lemon Fig",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 244,
+    "estimated_tokens": 61
+  },
+  {
+    "chunk_id": "5b91c543ffa8",
+    "text": ". 6.1: Applying force on different objects (b) Striking a ball (a) Kicking a ball Grade 8 Curiosity Chapter 5 Think It Over y Why does a canoe move forward when the canoeist pushes water backwards with their paddle and why does it move faster when they push harder? y Suppose the same canoeist uses the same paddle force in two different canoes, one empty and one carrying another passenger",
+    "page_num": 1,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "a7a58d83af87",
+    "text": ". 6.2: Measuring the weight of an object using a spring balance While learning about force earlier, did you notice that whenever any type of force acting on an object was described, its direction was also specified? For example, the phrases used were, force of friction acting on an object in a direction opposite to the direction of its motion; like poles of a magnet repelling each other or unlike",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "2fc0157bb75f",
+    "text": "direction of its motion; like poles of a magnet repelling each other or unlike poles attracting each other due to the magnetic force; like charges repelling or unlike charges attracting each other due to the electrostatic force; the Earth attracting objects towards itself due to the gravitational force; buoyant force exerted by liquid in an upward direction on an object placed in it, and so on",
+    "page_num": 2,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "9dc6080d8cef",
+    "text": ". Force is a physical quantity for which we need to specify direction along with its magnitude and unit, just like for the physical quantities — position, displacement, velocity and acceleration of an object which were introduced in Chapter 4. The SI unit of force is the newton (written with a small ‘n’) and its symbol is N. The magnitude of the force expresses its strength",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "b1baad470782",
+    "text": ". The magnitude of the force expresses its strength. If either the magnitude or direction, or the both, of a force applied on an object changes, the effect of the force also changes. Note 6.1.1 Measuring the magnitude of a force How can we measure the magnitude of a force? Do you remember using a spring balance earlier to measure the weight of objects (Fig",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "6e58c9a5fed7",
+    "text": ". 6.2)? Do you also remember that the weight of an object is the gravitational force with which the Earth pulls the object? A spring balance can be used to measure not just the weight of an object but the magnitude of the force in general. If you pull on the free end of the spring balance, it measures the force with which you pull on the spring inside the balance",
+    "page_num": 2,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "d0b4f7ced893",
+    "text": ". In everyday life, the smallest forces we can directly feel are of the order of millinewtons (10–3 N), such as a light touch. Scientists, however, can measure forces far smaller than this, down to yoctonewtons (10 –24 N) in specialised experiments (as of 2026). Threads of Curiosity 6.2 Balanced and Unbalanced Forces In real life, situations seldom exist where only one force acts on an object",
+    "page_num": 2,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "f93a492ead7b",
+    "text": ". Usually, there is more than one force acting on an object. For example, when you are pushing a box placed on a surface then, apart from the force with which you are pushing it, the force of friction is also acting on the box in the direction opposite to that of the motion (Fig. 6.3a). Or, take the example of a ball floating on water (Fig. 6.3b)",
+    "page_num": 2,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "925eb405a756",
+    "text": ". 6.3a). Or, take the example of a ball floating on water (Fig. 6.3b). Two forces are acting upon it — gravitational force by the Earth acting downwards and buoyant force applied by the liquid acting upwards",
+    "page_num": 2,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 207,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "e0eb51511aa6",
+    "text": ". In such cases, what is the effect of forces when more than one force is acting on an object at rest or in motion? Have you ever played a game of tug of war where two teams pull at a rope in opposite directions? If both the teams pull the rope with equal Grade 8 Curiosity Chapter 5 Fig",
+    "page_num": 2,
+    "chunk_index": 9,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 287,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "ca96fd29f1ce",
+    "text": "Exploration|Grade 9 force, the rope does not move (Fig. 6.4a). Such two forces, which are equal in magnitude but opposite in direction are called balanced forces. However, if one team pulls harder, i.e., it applies a force of larger magnitude, the forces are no longer balanced and the rope moves in the direction of the larger force (Fig. 6.4b)",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "e622d902644e",
+    "text": ". 6.4b). The rope does not move if the forces applied on it are balanced but moves if the forces are unbalanced. If the forces applied on an object are not balanced, a non-zero net force acts on the object. When two forces are opposite in direction but unequal in magnitude (Fig",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 278,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "8cc7e3203884",
+    "text": ". When two forces are opposite in direction but unequal in magnitude (Fig. 6.4b), the magnitude of net force is equal to the difference between the magnitudes of two forces and the direction is along the force of the larger magnitude. Now, think of a situation where two people are applying forces in the same direction on a stalled car to make it move (Fig. 6.5)",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "49cb9fe56a20",
+    "text": ". 6.5). In this case, the magnitude of the net force applied by them on the car is the sum of the magnitudes of two forces. The direction of the net force is in the same direction as the two individual forces. Example 6.1: Two forces of 10 N and 6 N are acting on a block lying on the table as shown in Fig. 6.6",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "4b5e29fc1e91",
+    "text": ". 6.6. What is the magnitude and the direction of the net force acting on the block in each case? Fig. 6.6: Two forces acting on a block in three different manner 10 N 6 N (a) 10 N 6 N (b) 10 N 6 N (c) Answer: (a) Net force = 10 N + 6 N = 16 N, acting towards the right side. (b) Net force = 10 N – 6 N = 4 N, acting towards the right side",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 339,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "d325929d0dc4",
+    "text": ". (b) Net force = 10 N – 6 N = 4 N, acting towards the right side. (c) Net force = 10 N – 6 N = 4 N, acting towards the left side. There are situations in which forces do not act parallel or opposite to each other but act at an angle to each other. You will learn in higher grades how to calculate the net force in such cases",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 325,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "08e9e45fc4f1",
+    "text": ". You will learn in higher grades how to calculate the net force in such cases. Also, there are situations where equal and opposite forces are applied to the two ends of an extended object which make the object rotate (Fig. 6.7). For example, applying equal and opposite forces to a handlebar or a tap makes it turn. You will also learn about this in higher grades. Ready to Go Beyond Fig",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 388,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "90e67c8fa73b",
+    "text": ". You will also learn about this in higher grades. Ready to Go Beyond Fig. 6.7: Equal and opposite forces on an extended object Next Level Up (a) Fig. 6.4: Two forces applied in opposite direction of (a) equal magnitudes, (b) unequal magnitudes (b) Net force Fig. 6.5: Two forces applied in the same direction Net force",
+    "page_num": 3,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "01a70c7391c4",
+    "text": "How Forces Affect Motion 6.3 The Force of Friction: Often Overlooked but Always Present You have learnt about the force of friction in an earlier grade but now let us learn more about it. Suppose an object is kept at rest on the floor and you apply a force on it in the forward direction (Fig. 6.10)",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "526f217c6e46",
+    "text": ". 6.10). Will the force applied by you make the object move? Many a times, you might have experienced that on applying a force on an object, it did not move and you had to apply a larger force to move it. Why is it so? It is due to the force of friction arising between the bottom surface of the box and the floor acting in a direction opposite to the direction of the force applied by you",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "0aeaa99ccdd2",
+    "text": ". The box will start moving when the force applied by you is of larger magnitude than the force of friction, so that a net force acts on the box in the direction of its motion. Grade 8 Curiosity Chapter 5 For an object being pushed, apart from the applied force and the force of friction, some other forces may also be acting on it (Fig. 6.11)",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "63285c63a0fb",
+    "text": ". 6.11). One of these is the gravitational force (weight) and the other is the force exerted by the surface on which it is placed called the normal force. The weight acts in the downwards direction, whereas the normal force acts in the upward direction perpendicular to the surface. However, the two forces are balanced",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "1a5871a50870",
+    "text": ". However, the two forces are balanced. Air around the object also exerts a force of friction on the box when the box moves through the air, but in many cases its magnitude is so small that it can be neglected. Ready to Go Beyond Applied force Gravitational force Normal force Force of friction Fig. 6.11: Forces acting on an object For the situation shown in Fig",
+    "page_num": 4,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "534e69320c57",
+    "text": ". 6.11: Forces acting on an object For the situation shown in Fig. 6.10, once the box starts moving and you stop applying the force on it, the box slows down and comes to a stop. You must have experienced this in many cases around you. You stop pedalling a bicycle and after some time it comes to rest after travelling some distance",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "038c09f9fcdd",
+    "text": ". You stop pushing a ball and it also comes to rest after travelling some distance. Does it mean that you need to continuously apply a force to keep Fig. 6.10: A box being pushed Net force 1. A weightlifter lifts a barbell (Fig. 6.8). List two forces that are acting on the barbell. Are these forces balanced if the weightlifter keeps the barbell steady? 2",
+    "page_num": 4,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "2a8ef2e09379",
+    "text": ". Are these forces balanced if the weightlifter keeps the barbell steady? 2. Two players R and S are participating in an arm-wrestling match (Fig. 6.9). At the instant, when the arms tilt to the front direction (out of the page towards you), are the forces exerted by the players balanced? If not, which player exerted the larger force? Pause and Ponder Fig. 6.8: A weightlifter lifting barbell Fig",
+    "page_num": 4,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "10890acdb0a1",
+    "text": "Exploration|Grade 9 it moving? On a moving object, we have to continuously apply a force to counter the force of friction. Otherwise, the force of friction acting against the direction of motion brings the object to rest",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 220,
+    "estimated_tokens": 55
+  },
+  {
+    "chunk_id": "2c69a3623356",
+    "text": ". Do you remember doing an activity in an earlier grade where you found that the force of friction depends upon the nature of the surfaces in contact? Let us carry out a similar activity here. Activity 6.1: Let us investigate 1. Collect four coins of ` 10, one large strong rubber band and an adhesive tape",
+    "page_num": 5,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 306,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "a4950e1e343b",
+    "text": ". Collect four coins of ` 10, one large strong rubber band and an adhesive tape. Locate horizontal surfaces of different materials, such as wooden table top, cemented floor, laminated table top, and polished marble or tiled floor (you may also choose other surfaces). Check that the surfaces are level. 2",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 304,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "4237860efcc6",
+    "text": ". Check that the surfaces are level. 2. Stack the four coins on top of each other and secure them together with an adhesive tape around the sides. 3. Hold the rubber band slightly stretched between your forefinger and thumb on the wooden table top (Fig. 6.12a). Mark points A and B at its ends as shown in Fig. 6.12b. Make another mark C up to which you will stretch the rubber band. Fig",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "249079129a96",
+    "text": ". 6.12b. Make another mark C up to which you will stretch the rubber band. Fig. 6.12: (a) Rubber band slightly stretched between your forefinger and thumb, (b) marks A, B, C on the surface, and (c) rubber band stretched back to point C with stack of 4 coins (a) (b) (c) C A A B B C 4. Holding the ends of the rubber band at A and B, place the stack of coins near the middle of A and B",
+    "page_num": 5,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "076c4cd5d3e8",
+    "text": ". 6.12c). Then, release the stack of coins and observe its motion. Do you find that after losing contact with the rubber band, the velocity of the stack of coins decreases gradually and it comes to rest after travelling some distance? Measure the distance travelled from C and record it. Repeat this step twice. 5",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "533fac72299d",
+    "text": ". Repeat this step twice. 5. Repeat steps 3 and 4 for laminated table top while ensuring that the points A, B and C are marked at the same distances as earlier. Does the stack of coins travel a larger distance than it did on the wooden table top before coming to rest? Does its velocity decrease more slowly now? 6. Next, repeat step 5 on a horizontal polished marble or tile floor",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "2b3126b262a3",
+    "text": ". Next, repeat step 5 on a horizontal polished marble or tile floor. Does the stack of coins travel an even larger distance and its velocity decrease even more slowly? What conclusion do you draw from your observations? Before you release the stack of coins, it is stationary. It means that the forces acting upon it are balanced",
+    "page_num": 5,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "cbe05aeef7bf",
+    "text": ". It means that the forces acting upon it are balanced. Upon release, the force applied by you Grade 8 Curiosity Chapter 5 What if ... the force of friction disappears in the world? How will the motion of objects be impacted?",
+    "page_num": 5,
+    "chunk_index": 9,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 225,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "c6239bc34365",
+    "text": "How Forces Affect Motion Fig. 6.13: Force acting on the stack of coins (a) due to the stretched rubber band and friction upon release of rubber band, and (b) only due to friction (a) (b) Force of friction B B Force of friction Force due to rubber band vanishes and the force applied by the stretched rubber band in the forward direction on the stack of coins sets it moving",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 373,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "701964063493",
+    "text": ". The coins start moving means that the force applied by the rubber band is larger than the force of friction and a net force acts on stack of coins in the forward direction (Fig. 6.13a). Due to the net force, the velocity of stack of coins changes from zero to a certain value, i.e., the net force provides an acceleration in the forward direction",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "d08fb52fa16c",
+    "text": ". However, the moment the stack of coins loses contact with the rubber band, the force due to the rubber band is no longer acting upon it. But the force of friction continues to act upon the stack of coins in the direction opposite to their motion (Fig. 6.13b). It gradually decreases its velocity and finally brings it to rest",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "3d98c7c9b3e1",
+    "text": ". 6.13b). It gradually decreases its velocity and finally brings it to rest. Even though the rubber band is stretched by the same amount in each case, the distance travelled by the stack of coins on different surfaces changes. This indicates that the force of friction on these surfaces is different",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "d45c30ab6ac4",
+    "text": ". This indicates that the force of friction on these surfaces is different. But how can you check if the force of friction is indeed different for different surfaces? Activity 6.2: Let us measure 1. Take a spring balance and a wooden block. 2. Place the spring balance in a horizontal position on one of the surfaces used in Activity 6.1 and check that its scale reading is zero",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "936abeec2a97",
+    "text": ". Attach the wooden block to the hook of the spring balance as shown in Fig. 6.14. Fig. 6.14: A block being pulled by a spring balance 3. Pull the spring balance with gradually increasing force and note down the reading on it when the block just starts moving. What does this reading indicate? The forces acting on the block are the force applied by the spring on it and the force of friction",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "58ee04c6cefd",
+    "text": ". If the velocity of the block is neither increasing nor decreasing, what can you say about the net force acting on the block? Does the reading of the spring balance indicate the magnitude of the force of friction acting on the wooden block? 4. Now repeat step 3 on the remaining three surfaces from Activity 6.1. 5. Compare the readings of the spring balance for all surfaces",
+    "page_num": 6,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "bdfed8ef7311",
+    "text": ". Are the readings different? Is the reading smallest for the surface on which the stack of coins travelled the largest distance? Is the reading largest for which the distance travelled was the smallest? The reading of the spring balance gives an approximate measure of the force of friction acting between the surface of the block and the surface A A",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 351,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "28f8aac7dce6",
+    "text": "Exploration|Grade 9 on which it moves. A smaller reading indicates a smaller force of friction, while a larger reading indicates a larger force of friction. From Activities 6.1 and 6.2, we conclude that when the force of friction is smaller, the velocity of the stack of coins decreases more slowly, and it travels a larger distance before coming to rest. Now, conduct a thought experiment",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "794cdfb47cf0",
+    "text": ". Now, conduct a thought experiment. We do a thought experiment when the conditions required for the experiment are difficult to recreate in the real world. Suppose, you find an object and a horizontal floor having such smooth surfaces that the force of friction between them is zero",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "ddf39f2b740d",
+    "text": ". Imagine, what will happen if you repeat steps 3 and 4 of Activity 6.1 with such an object and a horizontal floor? Will the velocity of the object decrease? Will the object ever come to rest or continue moving forever? Think as a Scientist Meet a Scientist In ancient times, it was well recognised that a force was required to move a stationary object or to stop a moving object",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "758f1eaf763b",
+    "text": ". It was only in the 17th century that Galileo Galilei argued through a series of thought experiments that if a body moves along a horizontal plane and all impediments to its motion are removed, it will continue to move indefinitely",
+    "page_num": 7,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 232,
+    "estimated_tokens": 58
+  },
+  {
+    "chunk_id": "598143174d72",
+    "text": ". Meet a Scientist Isaac Newton used the word ‘inertia’ to describe the tendency of objects to resist change in their state of rest or uniform motion, and used this idea to frame his first law of motion. Along with this, Newton presented two more laws of motion in 1687. The formulation of these three laws of motion was a defining moment in the history of science",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "a804828984eb",
+    "text": ". The unit of force is named after Newton. Remember that when a unit is named after a person, its full form begins with the small case (newton and not Newton) while its symbol is capitalised (N and not n)",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 204,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "d838f6755905",
+    "text": ". 6.4 Newton’s First Law of Motion Newton’s first law of motion can be stated as: An object at rest remains at rest, and an object in motion continues to move with a constant velocity, unless a net force acts upon the object. In other words, we can say that if the net force acting on an object is zero, the body cannot begin to move or change its velocity. In such a case, its acceleration is zero",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "10f316064212",
+    "text": ". In such a case, its acceleration is zero. An object at rest means that it has zero velocity. Remember that constant velocity means that there is no change in the magnitude or the direction of velocity. If this constant velocity is non-zero, the motion is in a straight line in the same direction and the magnitude of velocity remains the same. Note",
+    "page_num": 7,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "b5f7e0997499",
+    "text": "How Forces Affect Motion Example 6.2: A person is exerting a force on a moving box in the forward direction which is equal to the force of friction acting between the bottom surface of the box and the floor. Will the box continue moving or will it come to rest after some time? Answer: The force of friction will be acting on the box in the backward direction",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 359,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "c4ac36a5e06d",
+    "text": ". The two forces acting on the box are equal and opposite, and thus, they balance each other. The net force acting on the box is zero and as per the Newton’s first law of motion, the box will continue moving with constant velocity. Example 6.3: Draw (i) position-time, and (ii) velocity-time graphs for an object on which no net force is acting",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "792a218692ff",
+    "text": ". Answer: When no net force is acting on an object, there are two possibilities — either the object is at rest or the object is moving with a constant velocity. If the object is at rest, its position will not change with time and its position-time graph is as shown in Fig. 6.15a. Its velocity will remain zero and its velocity-time graph is shown in Fig. 6.15b",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "3b51083de231",
+    "text": ". 6.15b. If the object is moving with constant velocity and no net force is acting upon it, it will continue moving with the same velocity and the velocity-time graph is shown in Fig. 6.16b. The position-time graph will be a straight line as shown in Fig. 6.16a. (a) (b) Fig. 6.15: When the object is at rest, its (a) position-time graph, (b) velocity-time graph (a) (b) Fig",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "e68e2ca94698",
+    "text": ". 6.16: When the object is moving with a constant velocity, its (a) position-time graph, (b) velocity-time graph Time Velocity Position Time Time Velocity Time Position 3. An object is moving with a constant velocity. Is there a net force acting upon it? 4. Suppose, no net force is acting on an object. Which of the following situations are possible? (i) Object remains at rest if at rest",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "c51d31e1a13b",
+    "text": ". (ii) Object keeps moving with a constant velocity if already moving. (iii) Object is moving with a constant acceleration. 5. In the real world, it is difficult to find a situation where no forces are acting on an object. But by applying additional forces, a condition can be achieved where the net force on the object is zero. Explain with the help of an example",
+    "page_num": 8,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "2ed4c7c79b28",
+    "text": ". Explain with the help of an example. Pause and Ponder Newton’s first law of motion describes the motion of objects in the absence of a net force. It is natural to ask what happens to the motion of an object when there is a net force acting upon it. Newton’s second law of motion addresses this issue",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "dd6f5b6b9de7",
+    "text": ". Newton’s second law of motion addresses this issue. Note If the force of friction is zero, a net force will have to be applied to an object at rest to set it moving. But once the object is moving, no further force is required to keep it moving with a constant velocity. However, to change the velocity (magnitude or direction), or to stop a moving object, a force will have to be applied.",
+    "page_num": 8,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "70523433e96d",
+    "text": "Exploration|Grade 9 6.5 Newton’s Second Law of Motion You know that a force can set an object in motion, bring it to rest, or change its velocity. A change in velocity means that the object is accelerating. Thus, a force produces acceleration",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 242,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "f179340d42c6",
+    "text": ". Thus, a force produces acceleration. But what is the relationship between the net force acting on an object and its acceleration? From our everyday experiences, you know that if a ball is pushed gently, it moves slowly starting from rest, i.e., the acceleration due to the force applied by you is small",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 304,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "2ed37f7b33a3",
+    "text": ". On the other hand, a strong push results in the ball starting to move fast, i.e., a larger acceleration due to the force applied by you. So based on your experiences, you can make a hypothesis — for the same object, a larger force results in larger acceleration (or a smaller force results in smaller acceleration)",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 316,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "355ae60cbafe",
+    "text": ". Now, how can you test your hypothesis? You will have to think of an activity where you can apply forces of different magnitudes on the same object and the same surface to find the resultant acceleration. How can you apply forces of different magnitudes? You have learnt in earlier grade about gravitational force with which the Earth pulls an object towards itself",
+    "page_num": 9,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "67b2c3848af0",
+    "text": ". It is called the weight of an object and is different for different objects. Hence, you can use weights of different magnitudes to apply forces of different magnitudes. Think as a Scientist Grade 8 Curiosity Chapter 5 Activity 6.3: Let us experiment (Demonstration activity) This activity is recommended to be performed as a classroom group activity facilitated by the teacher. 1",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "79474c739b10",
+    "text": ". 1. Take four ball bearing wheels, two pencils, an empty cardboard box (to make a cart), a paper cup, a piece of pipe (to use as a pulley), a length of thread, some coins or other objects (to place in cup) and a weighing scale to measure mass. 2. Insert two pencils through the sides of the box near the bottom, to function as axles and attach a wheel to each of their free ends as shown in Fig",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "9df99cc0d01a",
+    "text": ". 6.17a (if the wheels are loose, wrap some adhesive tape at the pencil ends to fit the wheels tightly). Attach a thread to the front end of the box with which you can pull the cart. 3. Draw a line at one end of the table, which will mark the starting point for the cart. Put the thread over a small pipe attached at the other end of the table (Fig. 6.17b)",
+    "page_num": 9,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "01c7cb1510ee",
+    "text": ". 6.17b). To this thread attach a cup in which you can put some objects. As you let the system go, the cup will move down due to the gravitational force by the Earth on it, and the thread will pull the cart with a constant force. 4. Measure the mass of the cup along with any other objects put inside it with the weighing scale. 5. Start recording a video of the cart in slow motion",
+    "page_num": 9,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "4623e1ae10ea",
+    "text": ". 5. Start recording a video of the cart in slow motion. Release the cart from the start line, and record the video until it reaches the pipe at the other end of the table. Fig. 6.17: (a) A cart, (b) a cart and pulley system (a) (b) Wheels Cart Cardboard box Paper cup Paper cup Pencils Thread Pulley",
+    "page_num": 9,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 300,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "fb5e177a3713",
+    "text": "How Forces Affect Motion 6. Read the time when you released the cart and when it reached the end of the table by seeing the slow-motion video, and record the difference as time T1. 7. Now double the mass of the cup with the objects inside it, and repeat steps 5 and 6 to record the time difference T2. Using the values of the time measured, let us do some analysis",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "156874baceba",
+    "text": ". If a1 and a2 are the accelerations in the two cases respectively, using kinematic equation, we obtain s a T = and s a T = Equating the two equations, we obtain a T a T = Substituting the values of T1 and T2 , you find that when you increased the force for the same mass of the cart, the acceleration increased",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "26efa0753d48",
+    "text": ". You may conclude that the acceleration of an object of fixed mass increases as the net force applied on it increases. Apart from force, does acceleration depends on any other factor? From everyday experiences, you know that with the same magnitude of force, it is easier to set lighter objects in motion than heavier ones",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "76862f748004",
+    "text": ". This leads to a second hypothesis, that for the same force, a smaller mass has a larger acceleration (or a larger mass has a smaller acceleration). Now how can you test your second hypothesis? Think as a Scientist Activity 6.4: Let us experiment (Demonstration activity) This activity is recommended to be performed as a classroom group activity facilitated by the teacher. 1",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "286388516a4e",
+    "text": ". 1. Repeat Activity 6.3 with a variation. Keep the mass of the cup and objects inside it constant. Double the mass of the cart by adding more objects in it. 2. Measure the mass of the cart along with the objects inside it with a weighing scale. 3. Carry out steps 5 and 6 of Activity 6.3. Using the values of time measured, find the ratio of acceleration for these two cases",
+    "page_num": 10,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "07a1448785c8",
+    "text": ". Do you find that for the same force, when you increased the mass of the cart, the acceleration decreased? This means that for a given magnitude of a force, the acceleration produced is inversely related to the mass of the object. The relation between force, mass and acceleration is expressed in the Newton’s second law, one of the most fundamental ideas in all of science",
+    "page_num": 10,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "caee8a27b5ca",
+    "text": ". Newton’s second law of motion can be stated as: When a net force acts on an object, the object accelerates in the direction of the net force. The magnitude of the acceleration is proportional to the magnitude of the net force and is inversely proportional to the mass of the object.",
+    "page_num": 10,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 284,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "fd64ba9a7259",
+    "text": "Exploration|Grade 9 Mathematically it can be expressed as = F a m (6.1) or F = ma (6.2) where a denotes acceleration, F denotes force, and m denotes mass of the object. The direction of acceleration is the same as the direction of net force. You know that the SI units of mass and acceleration are kg and m s–2 respectively. If m = 1 kg , a = 1 m s–2, then using Eq",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 365,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "ea4868fea3bd",
+    "text": ". If m = 1 kg , a = 1 m s–2, then using Eq. (6.2) we obtain F = (1 kg) × (1 m s–2) = 1 kg m s–2 = 1 N One newton of force is defined as the force that produces an acceleration of 1 m s–2 on an object of mass 1 kg. You know that under the influence of gravitational force, an object falls towards the Earth",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 305,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "0409f0de9cd0",
+    "text": ". During this motion, the acceleration involved is called the acceleration due to the gravitational force by the Earth and is denoted by g . Its unit is the same as that of acceleration, m s–2. Using Eq. (6.2), the gravitational force acting on an object of mass m is F = mg (6.3) The value of acceleration due to gravitational force by the Earth is g = 9.8 m s–2",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "6377523a02a6",
+    "text": ". It can be taken to be nearly constant near the surface of the Earth. For quick estimations, one can also take g = 10 m s–2. Threads of Curiosity As per Eq. (6.1), in Activity 6.3, doubling the force on the cart should have doubled the acceleration you measured. But in reality, you may have found the increase to be little less than a factor of two",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "a4eea54b67eb",
+    "text": ". Similarly in Activity 6.4, when you doubled the mass of the cart, the acceleration should have been halved but you might have found a slightly different value. Apart from measurement errors, the friction between the cart’s wheels and the surface can lead to such differences. The more complete form of Newton’s second law is expressed in terms of momentum",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "39a10ae6c368",
+    "text": ". The momentum of an object is defined as the product of its mass and velocity. The direction of the momentum is same as that of the velocity. Newton’s second law states that the rate of change of momentum of an object is proportional to the net force and takes place in the direction in which the net force acts",
+    "page_num": 11,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 312,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "aea8e3b12e77",
+    "text": ". Newton’s second law expressed in this form is applicable to situations even where the mass of the object is not constant. Ready to Go Beyond Newton’s second law of motion is considered to be a fundamental law of nature. Many events around us can be explained on the basis of Newton’s second law of motion",
+    "page_num": 11,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 306,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "fea1cbcd9a3f",
+    "text": ". In a game of cricket, you might have noticed that while catching a fast-moving ball, the fielder gradually pulls their hands backwards with the moving ball just after catching it (Fig. 6.18). In doing so, the time duration is increased during which the high velocity of the ball reduces to zero. This reduces the magnitude of the acceleration of the Fig",
+    "page_num": 11,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "c61eb184cbe2",
+    "text": ". This reduces the magnitude of the acceleration of the Fig. 6.18: Catching a cricket ball How much does a force of 1 N feel? If you hold a 100 g mass in your palm, the upward force your palm applies on the mass is around 1 N. Threads of Curiosity The acceleration due to gravitational force by the Earth ( g ) does not depend on the mass of the object. Note",
+    "page_num": 11,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 358,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "4914a7976b9d",
+    "text": "How Forces Affect Motion ball as it slows down, thus requiring a smaller force to be applied by the fielder to stop the ball. Applying a smaller force to the moving ball also minimises injury to the fielder. For a similar reason, airbags are provided in vehicles (Fig. 6.19)",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 274,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "a97cf74958ab",
+    "text": ". For a similar reason, airbags are provided in vehicles (Fig. 6.19). In the event of a collision and the vehicle coming to an abrupt halt, the airbag inflates quickly into a soft compressible cushion. Instead of directly hitting the hard steering wheel or dashboard, the passenger’s head and chest push into the bag, and the time over which the hitting occurs increases",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "35db4407c36f",
+    "text": ". Smaller acceleration means a reduced force exerted on the person, thereby lowering the risk of serious injuries, particularly when combined with the seat belt usage. Bridging Science and Society Fig. 6.19: Inflated airbag in a vehicle Fig",
+    "page_num": 12,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 240,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "f804afe5ea98",
+    "text": ". Bridging Science and Society Fig. 6.19: Inflated airbag in a vehicle Fig. 6.20: Cracking a coconut in one go Have you ever attempted cracking a fresh coconut in one go? It is brought down at a very high velocity to hit a hard surface (Fig. 6.20). When the coconut hits the ground, it stops in a very short time. To change its velocity so quickly, the ground must exert a very large force on it",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "e1e4b2a7ba88",
+    "text": ". This large force breaks the shell. Example 6.4: A weight lifter is holding a barbell with mass of 10 kg fixed on each side of the bar (Fig. 6.8). The mass of the bar itself is 10 kg. How much force is she applying to keep the barbell steady? Answer: The total mass of the barbell is 30 kg. The gravitational force due to the Earth, acting on the barbell in the downward direction is (using Eq",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "970dd2409eef",
+    "text": ". 6.3), F = mg = 30 kg × 9.8 m s–2 = 294 N To keep the barbell steady, the weightlifter has to apply an equal force in the opposite direction. So, she is applying 294 N in the upward direction. Example 6.5: A student is trying to push a stationary block of 25 kg on a horizontal floor. The maximum force of friction opposing this motion is 50 N",
+    "page_num": 12,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "3a99b363fb42",
+    "text": ". The maximum force of friction opposing this motion is 50 N. Determine the displacement of the block in 2 seconds if Rahul pushes it with a constant force of (i) 50 N and (ii) 55 N in the forward direction. Answer: (i) \u0007The force applied by the student is equal to the opposing force of friction. Thus, the two forces are balanced and the net force acting on the block is zero",
+    "page_num": 12,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "68f91b9b0f5c",
+    "text": ". 6.21. Calculate the force acting on the car during (i) 0 s to 5 s (ii) 5 s to 10 s (iii) 10 s to 15 s Answer: (i) During 0 s to 5 s: As the velocity-time graph is a straight line inclined to the time axis, it indicates that the sports car is moving with a constant acceleration during this time interval with u = 0 m s–1, v = 10 m s–1 and t = 5 s",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 348,
+    "estimated_tokens": 87
+  },
+  {
+    "chunk_id": "9997d3c48225",
+    "text": ". Using the kinematic equation v = u + at, we can find the acceleration, 10 m s–1 = 0 m s–1 + (a × 5 s) a = 2 m s–2 Now, using the Newton’s second law of the motion F = ma, we can find the force acting on the sports car as, F = 1500 kg × 2 m s–2 = 3000 N acting towards the east",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 278,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "fa80d3df42c6",
+    "text": ". (ii) During 5 s to 10 s: As the velocity-time graph is a straight line parallel to the time axis, it indicates that the sports car is moving with a constant velocity. Hence, no force is acting on the sports car",
+    "page_num": 13,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 212,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "ab8c492cec6d",
+    "text": ". Hence, no force is acting on the sports car. (iii) During 10 s to 15 s: As the velocity-time graph is a straight line inclined to the time axis, it indicates that the sports car is moving with a constant acceleration in this time interval with u = 10 m s–1, v = 0 m s–1 and t = 5 s",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "4c60c932186d",
+    "text": ". Using the kinematic equation v = u + at , we can find the acceleration, 0 m s–1 = 10 m s–1 + (a × 5 s) a = – 2 m s–2 Now, using the Newton’s second law of the motion F = ma , we can find the force acting on the sports car as, F = 1500 kg × (– 2 m s–2) = – 3000 N The negative sign shows that the force is acting in a direction opposite to the direction of motion, that is towards the west. 6",
+    "page_num": 13,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "8b9b18263aff",
+    "text": ". 6. A toy car of mass 100 g is moving with a constant velocity of 0.5 m s–1. What is the net force acting on the toy car? 7. Two children of different masses are sitting on identical swings. To impart identical initial acceleration, for which child would you require to apply a larger force? Explain why. 8",
+    "page_num": 13,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 307,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "aa0ce95fc7b1",
+    "text": ". 8. How are glass items packed for transportation using a bubble wrap or hay protected from damage? Pause and Ponder Time (s) 5.0 2.5 5.0 7.5 10.0 10.0 15.0 Fig. 6.21: Velocity-time graph for a sports car Velocity (m s–1)",
+    "page_num": 13,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 222,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "7fa318c485b6",
+    "text": "How Forces Affect Motion 6.6 Newton’s Third Law of Motion We have described the behaviour of an object when a net force acts on it. But do you remember learning earlier that at least two objects must interact for a force to come into play? Haven’t you experienced that when you push a ball with your foot, you feel a force applied by the ball on your foot (Fig",
+    "page_num": 14,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 360,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "5691acb5422e",
+    "text": ". 6.22)? It is then natural to ask how both the objects are affected in this process. Newton’s third law addresses this issue. Activity 6.5: Let us explore 1. Locate a chair with wheels and a large heavy table. 2. Sit on the chair with your legs raised above the floor",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 268,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "4c4e27b78390",
+    "text": ". 2. Sit on the chair with your legs raised above the floor. Now, using both your hands, push the table away from you, i.e., apply a force on the table in the forward direction as shown in Fig. 6.23a. What happens to you? Does the chair you are sitting upon move in the opposite direction? 3",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 291,
+    "estimated_tokens": 73
+  },
+  {
+    "chunk_id": "d9ea58daf07f",
+    "text": ". Now, try to pull the table towards you, i.e., apply a force on the table in the direction opposite to that in step 2 (Fig. 6.23b). In which direction does your chair move now? What conclusion can you draw from this activity? Each time, when you applied a force on the table, the table applied a force upon you in the opposite direction. You may have experienced this in various other situations",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "7dfc8d130d2f",
+    "text": ". You may have experienced this in various other situations. If you are sitting on a bicycle and you want to move forward without pedalling, what do you do (Fig. 6.24)? You push the ground in the backward direction with your feet causing both you and the bicycle to move forward",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 278,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "bf55614d0dfb",
+    "text": ". This is because your feet apply a force on the ground and the ground applies a force on your feet in the opposite direction. This causes you to move forward along with the bicycle. In fact, this is how you walk or run. Notice what you do while walking or running. You push the ground backwards with your feet (Fig. 6.25). The ground applies an opposite force on your feet to make you move forward",
+    "page_num": 14,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "5c0a2142ec82",
+    "text": ". The ground applies an opposite force on your feet to make you move forward. The force applied by the ground is in the form of friction. Thus, in this case friction helps you move rather than oppose you",
+    "page_num": 14,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 203,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "2b377445e275",
+    "text": ". Thus, in this case friction helps you move rather than oppose you. Bridging Science and Society While walking or running when you push the ground backwards with your foot, i.e., when your foot tries to slide backwards, the force of friction acts in the forward direction",
+    "page_num": 14,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 272,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "f4d788ce6397",
+    "text": ". Had there been no force of friction, your foot would have slipped backwards while attempting to push the ground and you would have fallen down. Grooves are made on the soles of footwear to increase the force of friction between the floor and soles. Similarly, treads on tyres of vehicles help increase the force of friction between the tyres and the road",
+    "page_num": 14,
+    "chunk_index": 8,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "753ff64707a0",
+    "text": ". Fig. 6.22: Kicking a ball Fig. 6.23: Applying force on a table in the (a) forward direction, (b) reverse direction (b) Force applied by the girl on the table Force applied by the table on the girl Force applied by the girl on the table Force applied by the table on the girl (a) Fig",
+    "page_num": 14,
+    "chunk_index": 10,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 284,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "a080c2849271",
+    "text": ". 6.24: Pushing the ground backwards Ground pushing the rider along with the bicycle forward Feet pushing the ground backwards Fig. 6.25: Walking Foot pushing the ground backwards Force of friction pushing the person forward Grade 8 Curiosity Chapter 5",
+    "page_num": 14,
+    "chunk_index": 11,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 252,
+    "estimated_tokens": 63
+  },
+  {
+    "chunk_id": "cbc4f2204333",
+    "text": "Exploration|Grade 9 It was found experimentally that the magnitudes of such two forces are equal. Can you also observe this in some other way? You know how to measure the magnitude of the force using a spring balance. Activity 6.6: Let us verify 1. Take two identical spring balances. 2. Place them in horizontal position on a table and connect them by their hooks as shown in Fig. 6.26",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "03286b9da248",
+    "text": ". 6.26. Fix the free end of one of the spring balances to an immovable object or hold it fixed by your hand. 3. Imagine that you are pulling the free end of the other spring balance with your other hand. Predict what will be the readings of their scales if the spring balances are stationary. 4. Now, carry out step 3. Repeat it multiple times by varying the magnitude of the force applied by you",
+    "page_num": 15,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "26ddef4f0a5a",
+    "text": ". Repeat it multiple times by varying the magnitude of the force applied by you. Is your observation same as your prediction? Fig. 6.26: Two spring balances connected together are pulled in opposite directions The readings of the scales of two spring balances are the same every time",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 283,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "31015beab594",
+    "text": ". What does it indicate? It indicates that the forces applied by them on each other in the opposite direction are equal in magnitude. All these observations are summed up in the Newton’s third law of motion, which can be stated as: Whenever one object is exerting a force on a second object, the second object is simultaneously exerting an equal and opposite force on the first object",
+    "page_num": 15,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "51713c284452",
+    "text": ". The forces always occur in pairs but remember that these two forces act on two different objects. Note Many daily life observations can be understood on the basis of the Newton’s third law of motion. You might have seen a person climbing a coconut tree or palm tree (Fig. 6.27). The legs of the person climbing the vertically erect tree push down against the trunk",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 366,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "77f8c31dea6e",
+    "text": ". The friction between the trunk and the legs of the person pushes the person upwards by an equal force. Thus, it is harder to climb up the smooth tree trunks that have lesser friction. Have you ever noticed how a boat or a canoe moves forward (Fig. 6.28)? When the canoeist pushes the water backwards with their paddle, the water pushes the paddle forward with an equal force",
+    "page_num": 15,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "daea796b7daf",
+    "text": ". The two forces are equal in magnitude but act on different objects, the paddle and the water, so they do not cancel each other. The force on the paddle makes the paddle and the canoe move forward. When the canoeist pushes harder on the water, the forward force on the paddle is larger, and the canoe’s velocity increases. Fig",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "48124e119a88",
+    "text": ". Fig. 6.28: Rowing a canoe Paddle pushing water backwards Water pushing the paddle and canoe forward Fig. 6.27: A person climbing a coconut tree Person pushing the trunk down Force of friction pushing a person up",
+    "page_num": 15,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 213,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "3e04e6c0e247",
+    "text": "How Forces Affect Motion Threads of Curiosity Apart from how hard one paddles, there are several other factors (drag, water currents, mass of the canoe, style of rowing, etc.) which impact the speed of a canoe. On television, you might have watched the rocket launches our country has done over the years. The launch of a rocket can also be explained on the basis of the Newton’s third law of motion",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "f9c45f1b6a17",
+    "text": ". To understand that, let us first do a fun activity. Activity 6.7: Let us understand 1. Collect a large balloon, a piece of drinking straw, adhesive tape, a long thread, and two nails or hooks on two walls. 2. Inflate the balloon and tie its neck with a small piece of thread. 3",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 279,
+    "estimated_tokens": 70
+  },
+  {
+    "chunk_id": "156799a51870",
+    "text": ". 2. Inflate the balloon and tie its neck with a small piece of thread. 3. Stick the piece of straw with an adhesive tape on the surface of the balloon such that, one end of the straw points towards the neck of the balloon, as shown in Fig. 6.29. 4. Pass the thread through the straw and tie its two ends to the nails, keeping the thread taut (Fig. 6.29). 5",
+    "page_num": 16,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "fae5b5e2c5db",
+    "text": ". 6.29). 5. Remove the thread tied to the neck of the balloon and observe in which direction the straw and the balloon move. Fig. 6.29: Air rushing out of the balloon Straw Air Balloon The stretched material of the balloon applies a force on the air molecules inside to expel them as it shrinks in size. The air rushing out exerts an equal force on the balloon material in the opposite direction",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "b92f3468d873",
+    "text": ". This force causes the balloon to start moving in a direction opposite to the direction in which the air is rushing out. A rocket moves in a similar manner (Fig. 6.30). Its engine produces gas and expels it in the downward direction, which in turn exerts an equal and opposite force on the rocket in the upward direction",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "0af9af22c2dd",
+    "text": ". This force on the rocket in the upward direction is larger than the weight of the rocket, so the net force is in the upward direction and the rocket lifts off. What will happen if the engine of a rocket moving in the space, fires in the direction of its motion? The exhaust gases will exert a force in the direction opposite to the direction of motion of the rocket, thereby slowing it down",
+    "page_num": 16,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "69e95e50f518",
+    "text": ". This process was used by the Vikram lander of Chandrayaan-3 to slow down and attain the necessary velocity for a soft landing near the south pole of the Moon. The pair of equal and opposite forces (as per the Newton’s third law of motion) acts on two different objects, thus, they do not balance each other",
+    "page_num": 16,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 308,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "5686b8e930ac",
+    "text": ". On the other hand, if two equal and opposite forces act on the same object, they balance each other. Note Exhaust gas pushing the rocket up Rocket engine expelling gas downwards Fig. 6.30: Rocket launching",
+    "page_num": 16,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 207,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "892d03dbf65b",
+    "text": "Exploration|Grade 9 Fig. 6.33: The Earth and the fruit applying equal and opposite gravitational forces on each other Force on the fruit by the Earth Force on the Earth by the fruit 9. Why does a fireperson sometimes struggle when holding the pipe issuing water? 10. Suppose a spacecraft is moving in a region of space where the gravitational force acting upon it is negligible",
+    "page_num": 17,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 377,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "ab315a2eb217",
+    "text": ". Suggest how can it change its velocity. Pause and Ponder You have learnt about contact and non-contact forces earlier. Is Newton’s third law applicable only for contact forces? Newton’s third law applies to all types of forces, contact or non-contact, that we come across in everyday mechanical situations (Figs. 6.31, 6.32, 6.33). Fig",
+    "page_num": 17,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 337,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "3d391c2dbe66",
+    "text": ". 6.31, 6.32, 6.33). Fig. 6.31: Two bar magnets applying equal and opposite magnetic forces on each other Fig. 6.32: Two similarly charged balloons applying equal and opposite electrostatic forces on each other Example 6.7: As shown in Fig. 6.33, the Earth and the fruit apply equal and opposite gravitational forces on each other",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "4eab2aaf70f2",
+    "text": ". Then why does the fruit move towards the Earth while the Earth doesn’t seem to move towards the fruit? Answer: Though the forces acting on both the Earth and the fruit are equal in magnitude; the mass of the Earth is so large (as compared to the fruit) that the acceleration of the Earth caused by the force is extremely small as per F a m   =    ",
+    "page_num": 17,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "b988cf7a80d5",
+    "text": ". Thus, its effect on the Earth is too small to be noticed. Example 6.8: When a 0.1 kg bullet is fired from a 5 kg gun with a force of 2 N, the gun recoils. What are the magnitudes of initial accelerations of the bullet and the gun? Answer: From the Newton’s third law of motion, the recoil force on the gun is also 2 N",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "cd49ca800e35",
+    "text": ". From the Newton’s second law of motion, the initial magnitudes of acceleration of gun 2 N force 0.4 m s mass of gun 5 kg − = = = While the initial acceleration of bullet 2 N force 20 m s mass of bullet 0.1 kg − = = = Even though the pair of forces are equal in magnitude, the magnitudes of accelerations are not equal because their masses are different",
+    "page_num": 17,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 354,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "e90aedd9bcfa",
+    "text": ". Grade 8 Curiosity Chapter 5 Note Even though the forces acting on the two interacting objects are always equal in magnitude, they do not, in general, produce equal acceleration. This is because the masses of the objects upon which they are acting may be different.",
+    "page_num": 17,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 266,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "84335c338f22",
+    "text": "How Forces Affect Motion 6.7 Forces Acting on a System of Objects Until now, you studied the three laws of Newton as applied to a single object. These laws allowed you to predict the position and velocities of the object as forces act on it",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 240,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "f5b396d4eb1a",
+    "text": ". But can we apply these laws to two or more objects connected together? Consider two boxes of masses m1 and m2 placed on a frictionless horizontal surface and connected by a string (Fig. 6.34). A force F pulls Box 1 to the right. Box 1 applies a force on Box 2 via the string. By Newton’s third law, Box 2 applies an equal and opposite force via the string on Box 1. We call this force tension T",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "6fb88b44375f",
+    "text": ". We call this force tension T. On Box 1, the force F acts to the right, while the tension force T acts to the left. On Box 2, the tension force T acts on the right. How can we find the acceleration of each box? Fig",
+    "page_num": 18,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 215,
+    "estimated_tokens": 54
+  },
+  {
+    "chunk_id": "79445cbc56a5",
+    "text": ". How can we find the acceleration of each box? Fig. 6.34: A system of two boxes attached together by a string Box 2 T F Box 1 One approach is to calculate the net force on each box separately and then use Newton’s second law to find acceleration. A simpler way is to consider the two boxes and the string as a single system",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 324,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "cbdc30ab8569",
+    "text": ". A simpler way is to consider the two boxes and the string as a single system. In this approach, the forces within the system (internal forces) need not be considered and only forces that act from the outside (external forces) matter. In our case, the tension T acting on both the boxes is the internal force, while the force F is the external force. Thus, using Newton’s second law (Eq",
+    "page_num": 18,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "a551a8940016",
+    "text": ". Thus, using Newton’s second law (Eq. 6.1) the acceleration of the system is ( ) mass of the system = = + F F a m m \b (6.4) The system of two boxes accelerates just like a single object of mass m1 + m2. If you had analysed the motion of the two boxes individually as you will learn to do in higher grades, the result would have been the same",
+    "page_num": 18,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "aaee49aa6a82",
+    "text": ". Treating connected objects as a system often simplifies the analysis. This highlights the power of Newton’s laws in studying even complicated systems of objects. In addition to F, the external forces will be gravitational force (m1 g + m2 g ) acting on the system downwards, which is balanced by the normal force (N1 + N2 ) acting on the system from the ground (Fig. 6.35). Fig",
+    "page_num": 18,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "99771b89d30f",
+    "text": ". 6.35). Fig. 6.35: External forces on a system of two boxes attached together by a string Box 2 N1 + N2 (m1 + m2) g Box 1 F Ready to Go Beyond While walking, your arms and legs move in a complex manner. Yet your overall motion can be studied by treating your body as a single object. Science often becomes simpler when we stop looking at parts and start looking at the whole",
+    "page_num": 18,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "17c9669ebb75",
+    "text": "Exploration|Grade 9 At a Glance y The force of friction acts on an object in the direction opposite to its direction of motion. y Newton’s first law of motion: An object at rest remains at rest, and an object in motion continues to move with a constant velocity, unless a net force acts upon the object",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 302,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "7d07d39c31a1",
+    "text": ". y Newton’s second law of motion: When a net force acts on an object, the object accelerates in the direction of the net force. The magnitude of the acceleration is proportional to the magnitude of the net force and is inversely proportional to the mass of the object",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 268,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "c8db4443ffb4",
+    "text": ". y Newton’s third law of motion: Whenever one object is exerting a force on a second object, the second object is simultaneously exerting an equal and opposite force on the first object. 1. Using a horizontal force F, a table is moved across the floor at a constant velocity. How much is the frictional force exerted by the floor on the table? 2",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 346,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "e6bb9e01a179",
+    "text": ". How much is the frictional force exerted by the floor on the table? 2. For a ball moving on a smooth frictionless surface, choose the appropriate option that will make the following statements physically correct. (i) If no net force is applied on the ball, the velocity of the ball will remain the same/increase/decrease",
+    "page_num": 19,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 322,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "f763aa7d7c4d",
+    "text": ". (ii) If a net force is applied on the ball in the direction of its motion, the magnitude of the velocity of the ball will remain the same/ increase/decrease. (iii) If a net force is applied on the ball in a direction opposite to the direction of its motion, the magnitude of the velocity of the ball will remain the same/increase/decrease. 3",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 343,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "13daf6872c29",
+    "text": ". 3. Two blocks P and Q on a smooth horizontal surface are shown in Fig. 6.36a and Fig. 6.36b. Two forces of magnitudes 4 N and 5 N are acting in opposite directions on block P, while block Q is moving with a constant velocity. Fig. 6.36 Q 5 N 4 N P (a) (b) Which of the following statement is correct? (i) P experiences a net force and Q does not experience a net force",
+    "page_num": 19,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "94e3be5e1037",
+    "text": "How Forces Affect Motion 4. While practising for the snake boat race (Vallum kalli in Kerala), 100 oarsmen are rowing a boat together. Out of these, 95 row backwards to propel the boat forward. But by mistake, 5 oarsmen row in the opposite direction. If each oarsman applies a horizontal force of 200 N, what is the net force on the snake boat? (Ignore drag forces, air friction, etc.) 5",
+    "page_num": 20,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "fd535170cc73",
+    "text": ". When a net force acts on an object, we observe that the object accelerates: (i) opposite to the direction of force, with acceleration proportional to the force acting on the object. (ii) opposite to the direction of force, with acceleration proportional to the mass of the object. (iii) in the direction of force, with acceleration inversely proportional to the force acting on the object",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "651281d167b7",
+    "text": ". (iv) in the direction of force, with acceleration proportional to the force acting on the object. 6. The position-time graph for four objects A, B, C and D moving along a straight line are given in Fig. 6.37. A net force acts on: (i) Object A (ii) Object B (iii) Object C (iv) Object D Position Time Time Position Time Position Time Position Fig. 6.37 Object A Object B Object C Object D 7",
+    "page_num": 20,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 391,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "0921d584dfbf",
+    "text": ". 6.37 Object A Object B Object C Object D 7. A sailor jumps out from a small boat to the shore (Fig. 6.38). As the sailor jumps forward, will the boat move? If yes, in which direction and why. Fig. 6.38: A sailor jumping forward Fig. 6.39: A landing mat for a high jump event 8. During a high jump event, a landing mat or sand bed is placed for the athlete to fall upon (Fig. 6.39)",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 382,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "337d19bc9efd",
+    "text": "Exploration|Grade 9 9. A hand cart loaded with vegetables collides with an identical but empty hand cart. During the collision: (i) the loaded cart exerts a force of larger magnitude on the empty cart. (ii) the empty cart exerts a force of larger magnitude on the loaded cart. (iii) neither cart exerts a force on the other",
+    "page_num": 21,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "780685976409",
+    "text": ". (iii) neither cart exerts a force on the other. (iv) the loaded cart and the empty cart, both exert an equal magnitude of force on each other. 10. The acceleration-mass graph for the acceleration produced by a force on objects of different masses is plotted in Fig. 6.40. Plot the force-mass graph for this case. Velocity (m s–1) Time (s) Fig. 6.41 Mass (kg) 2.5 5.0 7.5 10.0 Fig",
+    "page_num": 21,
+    "chunk_index": 1,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "e28aeab08578",
+    "text": ". Velocity (m s–1) Time (s) Fig. 6.41 Mass (kg) 2.5 5.0 7.5 10.0 Fig. 6.40 Acceleration (m s–2) 11. The velocity-time graph of an object of mass 10 kg moving along a straight line is shown in Fig. 6.41. Calculate the force acting on the object by using the graph. 12",
+    "page_num": 21,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 266,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "f36830fd45b0",
+    "text": ". 6.41. Calculate the force acting on the object by using the graph. 12. A bullet of mass 50 g moving with a speed of 100 m s–1 enters a heavy stationary wooden block and stops after penetrating a distance of 50 cm. Estimate the stopping force acting on the bullet (assume that the bullet undergoes constant acceleration within the block). 13",
+    "page_num": 21,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 342,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "1aa76aaa2a4c",
+    "text": ". 13. An ace footballer converted a penalty shot by kicking the football with a speed of 108 km h–1. The estimated force they imparted was 800 N. The mass of the football was 0.4 kg. Calculate the time of contact between their foot and the ball. 14. An object of mass 2 kg moving with a constant velocity of 10 m s–1 encounters a rough patch where the force of friction on the object is 7 N",
+    "page_num": 21,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 390,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "67d37896981f",
+    "text": ". At the same time, an additional constant force of 3 N opposing the motion is applied on the object. After entering the rough patch, how much distance does the object travel before coming to rest? 15. A tractor pulls a harrow (a ploughing tool) of mass m1 with a net force F resulting in an acceleration of a1",
+    "page_num": 21,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 310,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "42dc201909ec",
+    "text": ". The same tractor pulls a trolley of mass m2 with a force F producing an acceleration of a2. If the tractor now pulls the trolley with the harrow placed on it (with the same force F ), then obtain an expression for the resulting acceleration in terms of a1 and a2. Ignore friction. 16",
+    "page_num": 21,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 285,
+    "estimated_tokens": 71
+  },
+  {
+    "chunk_id": "9810362fdece",
+    "text": ". Ignore friction. 16. When the pole of a bar magnet is brought close to a magnetic compass, the bar magnet and the compass needle (which is also a magnet) exert a magnetic force on each other. As per Newton’s third law of motion, both the forces are equal in magnitude and opposite in direction. However, the compass needle moves, whereas the bar magnet does not move (Fig. 6.42). Explain why. Fig",
+    "page_num": 21,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "a5b52862ab3e",
+    "text": "How Forces Affect Motion In the real world, friction is always present whenever surfaces are in contact. Scientists have been trying to find ways to reduce friction between surfaces by using lubricants, coatings or texturing of surfaces, streamlining shapes of objects, and by using magnetic levitation",
+    "page_num": 22,
+    "chunk_index": 0,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 302,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "640f4c605747",
+    "text": ". Does it also depend on how hard the surfaces press each other? Is the friction acting on an object that is about to move larger than the friction after motion begins? Is the friction which acts on a rolling object less than that on a sliding object? Find answers to these questions and create an infographic",
+    "page_num": 22,
+    "chunk_index": 2,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 309,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "fb1f7ee5df1b",
+    "text": ". Such observations help explain why the invention of the wheel was a major milestone in human history. y Take two toy cars of equal mass and stick a bar magnet on top of each (Fig. 6.32). Fix a metre scale on a smooth surface. Place the cars near the midpoint of the metre scale with the like poles touching",
+    "page_num": 22,
+    "chunk_index": 3,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 308,
+    "estimated_tokens": 77
+  },
+  {
+    "chunk_id": "7518e1c8f6f0",
+    "text": ". Release the cars and record the time taken (using two stopwatches), and distance travelled by each before coming to a rest. Repeat the experiment after adding equal masses to both cars. Did the cars travel equal distances in opposite directions? Plot a graph of distance travelled versus mass. Analyse and discuss your findings. y Wrap a rope once around a rough tree branch or post",
+    "page_num": 22,
+    "chunk_index": 4,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "24116e2754f9",
+    "text": ". y Wrap a rope once around a rough tree branch or post. Attach a heavy bucket to one end and try to hold it by the other end (Fig. 6.43). Now, add one more turn of the rope and repeat. You will find that each extra turn increases the ‘grip’ between the rope and the branch, increasing the friction and reducing the force required, making it much easier to hold the same load",
+    "page_num": 22,
+    "chunk_index": 5,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "677a79058f4b",
+    "text": ". The reduction in effort is much larger than you might expect from just adding one turn. This shows that friction does not increase in a simple linear way, small changes in contact can lead to large changes in force. In the same way, friction between a rope and a post allows large ships to be held safely at a pier. y It is often instructive to examine how scientific ideas develop over time",
+    "page_num": 22,
+    "chunk_index": 6,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "d40293633a16",
+    "text": ". y It is often instructive to examine how scientific ideas develop over time. If you are interested, explore how Newton formulated the laws of motion by reading excerpts from his original work, the Principia. Both the original text and commentaries are available online. Newton’s laws describe motion across an enormous range of scales, from everyday objects to planets and stars",
+    "page_num": 22,
+    "chunk_index": 7,
+    "source_file": "ch06_forces_and_motion.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  }
+]

@@ -1,0 +1,1424 @@
+[
+  {
+    "chunk_id": "eb2edafbaa4e",
+    "text": ". And what a variety in motion we have in nature — flitting butterflies, slithering snakes, hopping hares, galloping horses, tendrils of climbers twinning around a support, closing of flytraps, dancing dust particles in a sunbeam, smoke particles moving in air, rising and falling of ocean tides, and gathering clouds! Isn’t motion in nature wonderful? But how do we study the wide variety of complex",
+    "page_num": 1,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "543b29d7dfcd",
+    "text": "motion in nature wonderful? But how do we study the wide variety of complex motions around us? As you have read in the first chapter, to explore a complex phenomenon, scientists first study it in its idealised simplified forms",
+    "page_num": 1,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 226,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "6469eb21e51b",
+    "text": ". Such types of motion are linear, circular, and oscillatory about which you learnt in earlier grades. In this chapter, you will learn more about linear motion (motion in a straight line) and uniform circular motion. Earlier, you learnt about some physical quantities, such as distance, time and speed",
+    "page_num": 1,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "a50ae30d72ae",
+    "text": ". Now, you will learn y How much distance should we maintain from the truck ahead to avoid a collision if it suddenly applies the brakes? y Does this distance depend upon the speed with which we are moving? Think It Over Grade 6 Curiosity Chapter 5 Grade 7 Curiosity Chapter 8",
+    "page_num": 1,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 276,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "c395f901f55c",
+    "text": "Describing Motion Around Us about some more physical quantities, such as displacement, average velocity and average acceleration. You will also learn to describe motion not only in words, but also with numbers, equations and graphs. 4.1 Motion in a Straight Line You have learnt that when an object moves in a straight line, its motion is called linear motion",
+    "page_num": 2,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 359,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "216e6701514e",
+    "text": ". It can also be called motion in a straight line. It is the simplest kind of motion. Have you noticed it around you, such as children in a swimming race, a vertically falling ball, a car moving along a straight stretch of a highway or a train moving on a straight track (Fig. 4.1)? Fig",
+    "page_num": 2,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 286,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "18c0b09be979",
+    "text": ". 4.1)? Fig. 4.1: Objects in a straight line motion To discuss about the motion of an object, you first need to describe its position at various instants of time. 4.1.1 Describing position How do we describe the position of an object? For that, as you learnt earlier, we first need to specify a fixed point as the reference point",
+    "page_num": 2,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "496574da9847",
+    "text": ". The distance and direction of the object with respect to the reference point, at any instant of time, describes the position of the object at that instant of time. Note that apart from the distance, we also specify the direction from the reference point in which the object is located to describe its position",
+    "page_num": 2,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "c5c08e09f399",
+    "text": ". And when do we say that an object is in motion? If the position of the object with respect to the reference point changes with time, the object is said to be in motion. On the other hand, the object is said to be at rest if its position with respect to the reference point does not change with time. Grade 6 Curiosity Chapter 5",
+    "page_num": 2,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "cb0057ed251c",
+    "text": "Exploration|Grade 9 Let us take the example of an athlete running on a straight track (Fig. 4.2). To describe the position of the athlete, let us take her starting point as the reference point. As shown in Fig. 4.3, let us make a straight line with distances marked on it and mark the reference point on it as the origin ʻOʼ",
+    "page_num": 3,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 324,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "e0a12673b7d4",
+    "text": ". The athlete starts running from O, and her positions at two instants of time are marked by points B and A. Fig. 4.3: Reference point and positions of the athlete at different instants of time on a straight line O B A 0 m 20 m 20 m 40 m 60 m 80 m 100 m To describe the position of an object, we also need to specify its direction",
+    "page_num": 3,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "b5dd06fd1cd9",
+    "text": ". For the object moving in a straight line, the object can move only in one of the two directions — forward and backward. Thus, the direction is represented by plus ( ) and minus (–) signs as shown in Fig. 4.3. Positions to the right of the reference point O are generally taken as positive, and to the left of O as negative (Fig. 4.3)",
+    "page_num": 3,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "19ecab3060dd",
+    "text": ". 4.3). 4.1.2 Distance travelled and displacement Suppose an athlete starts running from point O at time t = 0 s, reaches point B at t = 4 s, then reaches point A at t = 10 s, then runs back along the same path till point B reaching there at t = 16 s (Fig. 4.4)",
+    "page_num": 3,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 261,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "4d7913effb68",
+    "text": ". 4.4). How much is the total distance travelled by the athlete between the starting and stopping positions? The total distance travelled is OA + AB = 100 m + 60 m = 160 m. Let us now think about the distance between the starting and the stopping positions of the athlete. It is OB = 40 m, which is different from the total distance travelled by the athlete",
+    "page_num": 3,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 357,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "5bc4bcc511b9",
+    "text": ". So, let us now define another quantity — displacement. Displacement is the net change in the position of an object between the two given instants of time. A complete description of physical quantities like displacement requires specifying both a direction and its numerical value (with units). The numerical value (with units) of such a physical quantity is called its magnitude",
+    "page_num": 3,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 380,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "0bb14ae114d7",
+    "text": ". The magnitude of displacement is the distance between the object’s positions at the two instants. The direction of displacement is specified from the position at the first instant towards the position at the second instant. To describe the total distance travelled, Fig. 4.2: An athlete running on a straight track Fig",
+    "page_num": 3,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 320,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "6e16a3820ff6",
+    "text": ". 4.2: An athlete running on a straight track Fig. 4.4: Reference point and positions of athlete at different instants of time Total distance travelled Displacement 0 m O B A 20 m t = 0 s t = 4 s t = 10 s t = 16 s 40 m 60 m 80 m 100 m An instant of time and a time interval are not the same thing. An instant of time is a single reading of clock at a given point of time",
+    "page_num": 3,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "708e90f63680",
+    "text": ". An instant of time is a single reading of clock at a given point of time. Whereas, a time interval is the time duration between two instants of time, i.e., between two readings of a clock. Note Ready to Go Beyond Physical quantities which can be specified by just their numerical value are called scalars",
+    "page_num": 3,
+    "chunk_index": 8,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 306,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "41b67007c43a",
+    "text": "Describing Motion Around Us only the numerical value (with units) is required, not the direction of motion. The SI unit for both is the metre (m). For example, in Fig. 4.4, between t = 0 s and t = 16 s, the total distance travelled by the athlete is 160 m, but her displacement is 40 m in the positive direction",
+    "page_num": 4,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "c286a9f091b6",
+    "text": ". We find that between these two instants, the total distance travelled and the magnitude of displacement are not equal. Can these quantities ever be equal? Activity 4.1: Let us analyse 1. As shown in Fig. 4.5, a ball is thrown vertically upwards from O. It moves up straight till B and then falls back to O. Can this be considered a motion in a straight line? 2",
+    "page_num": 4,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 362,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "bfe3366c3f16",
+    "text": ". Can this be considered a motion in a straight line? 2. For this motion, fill up the values in Table 4.1. Table 4.1: Distance travelled and displacement of the ball S. No. Position Total distance travelled by the ball from O till that position Displacement of the ball from O till that position 1. O 0 cm 0 cm 2. A 40 cm 40 cm in upward direction 3. B 4. C 5. O 3",
+    "page_num": 4,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "42ad1b224c34",
+    "text": ". O 0 cm 0 cm 2. A 40 cm 40 cm in upward direction 3. B 4. C 5. O 3. Analyse the data filled in Table 4.1 and choose which of the following is true for displacement: (i) It is never zero. (ii) Its magnitude can be greater than the total distance travelled. (iii) Its magnitude is less than or equal to the total distance travelled",
+    "page_num": 4,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "6ae6d19f495f",
+    "text": ". Fig. 4.5: A ball in vertical motion (two separate lines are shown only for clarity; in reality, the object goes up and falls back in the same straight line) 0 cm 20 cm 40 cm 60 cm 80 cm 100 cm 120 cm 140 cm A C B A O For motion in a straight line, the total distance travelled and the magnitude of displacement are equal if the object moves without turning back, i.e., if it moves in one direction",
+    "page_num": 4,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "7a16e26280b7",
+    "text": ". Note 1. In the example of an athlete running back and forth on a straight track (Fig. 4.4), when will the displacement of the athlete be zero? What will be the total distance travelled in that case? 2. Fuel used up in a vehicle depends on which of the following? Justify your answer. (i) Total distance travelled (ii) Displacement 3. A ball rolls down an inclined track as shown in Fig. 4.6",
+    "page_num": 4,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "634cef34a0f3",
+    "text": ". A ball rolls down an inclined track as shown in Fig. 4.6. Is its motion, a straight line motion? Assuming the starting point of the ball (O) to be the origin, can its motion from O to D be depicted using a horizontal line as shown in Fig. 4.3? Are the values of total distance travelled and magnitude of displacement from O equal or different at positions A, B, C and D? Fig",
+    "page_num": 4,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 376,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "bd85b47db390",
+    "text": "Exploration|Grade 9 Motion, i.e., a change in the position of an object, can be described in terms of the total distance travelled by the object and its displacement. But how can you describe how fast or slow an object is moving? 4.1.3 Average speed and average velocity You have learnt about average speed in an earlier grade. It tells us how fast or slow an object moves",
+    "page_num": 5,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 372,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "931f5fbbff33",
+    "text": ". Thus, total distance travelled average speed = time interval \b (4.1) Since distance travelled has no direction (but only a numerical value), the average speed, which is calculated from distance travelled, also has no direction but only a numerical value",
+    "page_num": 5,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 255,
+    "estimated_tokens": 64
+  },
+  {
+    "chunk_id": "20c3d327366f",
+    "text": ". If an object moving in a straight line travels equal distances in equal intervals of time (for all possible choices of time intervals), it is said to be in uniform motion in a straight line. In this case, the object moves at a constant speed. On the other hand, if the object travels unequal distances in equal intervals of time, then it is in non-uniform motion in a straight line",
+    "page_num": 5,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "a72138aa6756",
+    "text": ". In this case, the object moves with increasing speed or decreasing speed, or a combination of both. If the distances travelled in the successive intervals of times are increasing, its speed is increasing",
+    "page_num": 5,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 205,
+    "estimated_tokens": 51
+  },
+  {
+    "chunk_id": "959686cd3edc",
+    "text": ". The concept that an object’s speed is the distance travelled divided by the time taken is well-established, dating back to ancient times even in India, as seen in the treatise Aryabhatiya (5th century CE). The following problem, based on this concept, is from a comprehensive mathematical text, the Ganitakaumudi (14th century CE). Indiaʼs Scientific Contributions Example 4.1: Consider two postmen",
+    "page_num": 5,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9522800913a8",
+    "text": ". Indiaʼs Scientific Contributions Example 4.1: Consider two postmen. They start walking towards each other from a distance of 210 yojanas (Yojana is a unit of distance used in ancient India). One travels 9 yojanas per day and the other covers 5 yojanas per day",
+    "page_num": 5,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 261,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "15812e2752de",
+    "text": ". One travels 9 yojanas per day and the other covers 5 yojanas per day. Can you determine in how many days they will meet each other? Answer: Total of distance covered by each postman in one day = 9 yojanas + 5 yojanas = 14 yojanas. To meet with each other, the postmen need to cover 210 yojanas together. Time taken by them to cover 210 yojanas together = = days",
+    "page_num": 5,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "055f2b77b448",
+    "text": ". Time taken by them to cover 210 yojanas together = = days. So, both postmen will meet each other after 15 days. (In 15 days, first postman will cover 135 yojanas and the second postman will cover 75 yojanas). The speed tells us how fast an object is moving but it provides no information about the direction of motion",
+    "page_num": 5,
+    "chunk_index": 8,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 319,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "9e17f7e6051e",
+    "text": ". There are many situations where along with the speed, you also need to know the direction of motion to get a complete picture, particularly in case of complicated real-world motions. Grade 7 Curiosity Chapter 8",
+    "page_num": 5,
+    "chunk_index": 9,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 212,
+    "estimated_tokens": 53
+  },
+  {
+    "chunk_id": "f9945120f794",
+    "text": "Describing Motion Around Us Let us define another physical quantity, average velocity, which describes how fast the position of an object is changing and in which direction. The average velocity of an object in a time interval is the change in the position (or displacement) divided by the time interval in which the change in position (or displacement) occurs",
+    "page_num": 6,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 360,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "00ee3a7006f1",
+    "text": ". Thus, change in position displacement average velocity = = time interval time interval (4.2a) If we represent average velocity by vav , displacement by s and time interval by t , then Eq. (4.2a) can be written as av s v = t \b (4.2b) To express the average velocity, you need to specify its magnitude as well as the direction",
+    "page_num": 6,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 326,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "fb86c4ccc7cf",
+    "text": ". How do we associate direction with velocity when the motion is in a straight line? The direction of the velocity is the same as the direction of displacement and is indicated by a ʻ ʼ or ʻ–ʼ sign. The SI unit of average speed and average velocity are the same. It is metre per second which is represented by m s–1 or m/s. It is also commonly measured in kilometre per hour (km h–1)",
+    "page_num": 6,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "8e06c107180c",
+    "text": ". It is also commonly measured in kilometre per hour (km h–1). To describe how fast or slow a change in a physical quantity happens, we use the idea of a rate of change. The ratio of change in one quantity to the corresponding change in time is called the rate of change. To calculate average velocity, we find the ratio of change in position to the time taken (Eq. 4.2a)",
+    "page_num": 6,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "6f492fcbc894",
+    "text": ". 4.2a). So, we can say that average velocity is the average rate of change of position of an object with respect to time. Example 4.2: Sarang takes 50 seconds to swim from one end to the other end and back in the swimming pool shown in Fig. 4.7. Find his average speed and average velocity within the time interval of 50 s",
+    "page_num": 6,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "185a2f598874",
+    "text": ". Answer: Total distance travelled by Sarang in 50 s = 50 m displacement of Sarang in 50 s = 0 m total distance travelled 50 m average speed = = = 1 m s time interval 50 s − displacement 0 m average velocity = = = 0 m s time interval 50 s − During the 50 s time interval, the average speed of Sarang is approximately 1 m s –1 while his average velocity is 0 m s –1. 4",
+    "page_num": 6,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "32c7ef987249",
+    "text": ". Find the average speed and average velocity for your entire trip. 5. Under what condition(s) is the (i) magnitude of average velocity of an object equal to its average speed? (ii) magnitude of average velocity of an object zero while its average speed is not zero? Pause and Ponder Fig",
+    "page_num": 6,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 287,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "942369e18a3d",
+    "text": "Exploration|Grade 9 The average velocity of an object over a large time interval may differ from its velocity at a particular instant. Throughout this chapter, we will use the term ‘velocity’ to mean the velocity of an object at a particular instant. Ready to Go Beyond What we simply called ‘velocity at an instant’ is known as ‘instantaneous velocity’",
+    "page_num": 7,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "78ae533429a5",
+    "text": ". As the time interval around an instant is made progressively smaller (Eqn. 4.2b), the change in average velocity gets smaller and smaller. When the time interval becomes infinitesimally small, the average value of velocity approaches a fixed value called the instantaneous velocity. You will learn more about this physical quantity in higher grades",
+    "page_num": 7,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 350,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "c7fd083e02b8",
+    "text": ". You will learn more about this physical quantity in higher grades. Next Level Up The velocity of an object can be constant or it can change with time. How can we express the change in velocity of an object? 4.1.4 Average acceleration When you sit in a vehicle and it suddenly moves from rest, you feel a noticeable jolt",
+    "page_num": 7,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 321,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "6d35c3ad270e",
+    "text": ". Similarly, when the vehicle is in motion and suddenly stops, you experience a jolt. These occurrences capture the feeling of the change in velocity. You can find the change in velocity if you know the velocity at two different instants of time. Let us now learn another physical quantity, the average acceleration",
+    "page_num": 7,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 315,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "383a73b159eb",
+    "text": ". That is, change in velocity average acceleration = time interval \b (4.3a) final velocity initial velocity average acceleration = time interval − \b (4.3b) If the velocity of an object changes from an initial value u at time t1 to the final value v at time t2, the average acceleration a is, v u a t t − = − \b (4.3c) The SI unit of average acceleration is m s –2 or m/s2",
+    "page_num": 7,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 370,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "da70d1e6c073",
+    "text": ". Like displacement and velocity, we need to specify the magnitude as well as the direction of acceleration. For motion in a straight line, if the magnitude of velocity is increasing in a given time interval, the average acceleration is in the direction of velocity (Fig. 4.8). Whereas, the average acceleration is opposite to the direction of velocity if the magnitude of velocity is decreasing",
+    "page_num": 7,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 395,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "ebba0fa272cf",
+    "text": ". Velocity Velocity Acceleration Acceleration Fig. 4.8: Direction of average acceleration when magnitude of velocity is (a) increasing, and (b) decreasing Car is speeding up Car is slowing down The reading of the speedometer of a vehicle is nearly (but not exactly) the same as the magnitude of the velocity at an instant while the direction of tyres gives the direction of velocity at that instant",
+    "page_num": 7,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "01bf09ee9bdd",
+    "text": "Describing Motion Around Us The average acceleration can result from change in the magnitude of velocity or change in its direction, or both. Later in Section 4.4, we will discuss an example of acceleration resulting from only the change of direction of the motion while the speed remains constant. Activity 4.2: Let us calculate 1",
+    "page_num": 8,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "f26f918f8ac0",
+    "text": ". Activity 4.2: Let us calculate 1. The magnitude of average acceleration of cars is generally specified as the time taken by the car to go from 0 km h–1 to 100 km h–1. Look it up on the internet and find this time for various cars, and record those in Table 4.2. 2. Calculate the magnitude of average acceleration for each car",
+    "page_num": 8,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "5818fd3cf7b3",
+    "text": ". 2. Calculate the magnitude of average acceleration for each car. Table 4.2: The magnitude of average acceleration in a time interval Car type Time interval during which the speed goes from 0 to 100 km h–1 Magnitude of average acceleration (m s–2) Example 4.3: A bus is moving on a long straight highway (Fig. 4.9) with a velocity of 36 km h–1",
+    "page_num": 8,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 344,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "f136dbb2600a",
+    "text": ". 4.9) with a velocity of 36 km h–1. The driver presses the accelerator for a time interval of 10 s and velocity of the bus increases to 54 km h–1. For some time, the bus moves at a constant velocity. Then, the driver notices an obstacle on the road ahead and presses the brake. The bus comes to a stop in a time interval of 5 s",
+    "page_num": 8,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 328,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "cd190467b76f",
+    "text": ". The bus comes to a stop in a time interval of 5 s. Find the average acceleration in the two time intervals, (i) when the accelerator was pressed, and (ii) when the brakes were pressed. Fig. 4.9: A bus moving on a long straight highway Answer: (i) When the driver presses the accelerator u = 36 km h–1 1000 m = 36 × = 60×60 s 10 m s–1, v = 54 km h–1 = 15 m s–1, t = 10 s, a = ? Using Eq",
+    "page_num": 8,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 387,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "d05de6a59ab8",
+    "text": ". (4.3c) again, we obtain 0 m s 15 m s 15 m s = = = 3 m s 5 s 5 s a − − − − − − − The minus sign indicates that the acceleration is acting opposite to the direction of velocity (since the magnitude of velocity of the bus is decreasing). An object can be moving very fast and yet have zero acceleration",
+    "page_num": 8,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 301,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "b1fd9a462231",
+    "text": ". An object can be moving very fast and yet have zero acceleration. Acceleration depends not on how fast an object is moving, but on how quickly its velocity is changing. For example, a bus moving on a straight highway at constant velocity has zero acceleration, even though its velocity may be high. Note",
+    "page_num": 8,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 305,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "dc8a5f34da59",
+    "text": "Exploration|Grade 9 The average acceleration during different time intervals can either be constant or changing. For an object moving in a straight line in the same direction, if the magnitude of its velocity increases or decreases by equal amounts in equal intervals of time (for all possible choices of time intervals), the acceleration of the object is constant",
+    "page_num": 9,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 364,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "b5efa46cabe4",
+    "text": ". Example 4.4: As we learnt earlier, when an object is dropped from a height, it takes a straight vertical path downwards before touching the ground. While coming down, the velocity of the object increases as shown in Fig. 4.10 at different instants. Find the magnitude of the average acceleration of the object in every successive interval of a second",
+    "page_num": 9,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "602bdac8b956",
+    "text": ". Is the average acceleration constant across all intervals? What is the direction of this average acceleration? Answer: The magnitude of the average acceleration in every successive interval is ( ) ( ) 9.8 0 m s average acceleration between 0 s and 1 s 9.8 m s 1 0 s − − − = = − ( ) ( ) 19.6 9.8 m s average acceleration between 1 s and 2 s 9.8 m s 2 1 s − − − = = − ( ) ( ) 29.4 19.6 m s average",
+    "page_num": 9,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "905033d52149",
+    "text": ". As the velocity is increasing in the direction of motion, the acceleration is in the direction of motion. This acceleration is called the acceleration due to gravitational force by the Earth and is denoted by g. Did you notice that in Fig. 4.5, we chose the origin at the ground level while in Fig",
+    "page_num": 9,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "ac5b8465857a",
+    "text": ". 4.5, we chose the origin at the ground level while in Fig. 4.10, we chose the origin at the point from where the object is dropped? In this example, we use down side as positive. We can choose the origin and positive direction as per our convenience. However, once chosen, it should not be changed while solving a problem",
+    "page_num": 9,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "3c82255b3b81",
+    "text": ". However, once chosen, it should not be changed while solving a problem. Just like we can specify the velocity of an object at an instant, we can specify the acceleration of an object at an instant. 4.2 Graphical Representation of Motion One useful way of representing motion can be a graphical representation",
+    "page_num": 9,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 310,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "55c0663e7196",
+    "text": ". It provides a visual representation of how position, velocity, and acceleration change with time. Such graphs help in comparing the motion of two objects, in calculating physical quantities, or in identifying whether the motion is uniform or non-uniform. As you have learnt in Mathematics, graphs come in various forms, each suited to different types of data representation",
+    "page_num": 9,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "3d0a8c1e9c3c",
+    "text": ". To describe motion, we will use graphs to show dependence of one physical quantity, such as position, velocity or acceleration, on another quantity, such as time. Let us learn to plot and interpret line graphs for motion. Grade 8 Curiosity Chapter 5 Grade 8 Ganita Prakash Ganita Prakash Part II Chapter 5 Fig",
+    "page_num": 9,
+    "chunk_index": 8,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 311,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "4f386d78678f",
+    "text": "Describing Motion Around Us Note All the graphs that we will discuss in this chapter are for motion in a straight line in one direction only. In this special case, distance travelled and magnitude of displacement are equal, and speed and magnitude of velocity are also equal",
+    "page_num": 10,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 274,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "65174b71ac1b",
+    "text": ". If position is zero at time zero, then the position-time graph is same as the distance-time graph and the velocity-time graph is same as the speed-time graph. 4.2.1 Plotting graph To plot a graph, let us use the data given in Table 4.3 for a vehicle moving on a straight road",
+    "page_num": 10,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 277,
+    "estimated_tokens": 69
+  },
+  {
+    "chunk_id": "9ec6245991cb",
+    "text": ". Table 4.3: Positions of vehicle at different instants of time Time 0 s 1 s 2 s 3 s 4 s 5 s 6 s Position 0 m 20 m 40 m 60 m 80 m 100 m 120 m Fig. 4.11(a): Marking origin, X and Y axes on graph paper O Time (s) Position (m) X Y Activity 4.3: Let us plot a graph 1. Take a sheet of graph paper. This paper is pre-divided into small squares (Fig. 4.11a), making it easier to plot data accurately. 2",
+    "page_num": 10,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 396,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "5d7a2512de41",
+    "text": ". 4.11a), making it easier to plot data accurately. 2. On the graph paper, draw two lines perpendicular to each other as shown in Fig. 4.11a. Their point of intersection is known as origin O. Mark the horizontal line as OX. It is known as the X-axis. Similarly, mark the vertical line as OY. It is called the Y-axis. 3. Refer to Table 4.3",
+    "page_num": 10,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 338,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "47ca4554aab2",
+    "text": ". It is called the Y-axis. 3. Refer to Table 4.3. We need to decide which quantity (time or position) to be shown along each axis. For the data we have (Table 4.3), we will show time along the X-axis and position along the Y-axis. 4. Determine a suitable scale for each quantity to represent it on the graph paper",
+    "page_num": 10,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 313,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "a972d66f8a70",
+    "text": ". We need to choose scales that allow us to represent the data effectively and conveniently while utilising the available space. The scale can be X-axis: 5 divisions = 1 s Y-axis: 5 divisions = 20 m 5. Use the chosen scale to mark values for time (1 s, 2 s, …) along the X-axis from the origin. Similarly, mark values for position (20 m, 40 m, …) along the Y-axis (Fig. 4.11b). 6",
+    "page_num": 10,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 379,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "32cfecc4b0a1",
+    "text": ". 4.11b). 6. Begin plotting points on the graph paper to represent each set of time and position values from Table 4.3. (i) Table 4.3 shows that at time 0 s, the position is also 0 m. The point corresponding to this set of values on the graph will therefore be the origin itself. (ii) At 1 s, the position of vehicle is at 20 m",
+    "page_num": 10,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 327,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "7862b858715f",
+    "text": ". (ii) At 1 s, the position of vehicle is at 20 m. To mark these values, look for the point that represents 1 s on the X-axis. Draw a line parallel to the Y-axis at Fig. 4.11(b): Plotting points on the graph Position (m) Time (s) (1 s, 20 m) (2 s, 40 m) (3 s, 60 m)",
+    "page_num": 10,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 265,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "4fa69839b020",
+    "text": "Exploration|Grade 9 this point. Then, draw a line parallel to the X-axis from the point corresponding to distance 20 m on the Y-axis. The point where these two lines intersect represents the position 20 m at time t = 1 s on the graph (Fig. 4.11b). (iii) Similarly, plot on the graph paper all points corresponding to positions of the vehicle at different instants of time. 7",
+    "page_num": 11,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "7de08012bc32",
+    "text": ". 7. Once all points are plotted, connect them to create the position-time graph for the vehicle’s motion (Fig. 4.11c). It is a straight line for the data given in Table 4.3. This was an example of plotting a position-time graph. Similar procedure can be used to plot the other graphs which you will be learning ahead",
+    "page_num": 11,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "8a4eba5e0892",
+    "text": ". Ready to Go Beyond The intermediate points represent possible values for position of vehicle at intermediate times. They are correct if vehicle is moving with a constant speed. Example 4.5: For a vehicle starting from rest and speeding up, the data for position and time are given in Table 4.4. Plot the position-time graph corresponding to it",
+    "page_num": 11,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 345,
+    "estimated_tokens": 86
+  },
+  {
+    "chunk_id": "93182263cf6e",
+    "text": ". Table 4.4: Positions of vehicle at different instants of time Time Position 0 s 0 m 2 s 1 m 4 s 4 m 6 s 9 m 8 s 16 m 10 s 25 m 12 s 36 m Answer: Choosing the scale to be X-axis: 5 divisions = 2 s Y-axis: 5 divisions = 5 m and following the procedure of Activity 4.3, all points corresponding to positions of the vehicle at different instants of time are marked. Unlike Fig",
+    "page_num": 11,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "524c994da1f3",
+    "text": ". Unlike Fig. 4.11c, the points do not fall on a straight line. The points can be joined by a curve as shown in Fig. 4.12. Now that you know how to plot a graph from the data given for the motion of an object, let us learn to interpret the graphs. Remember, a graph is not a route map. It does not show the route but how the position of the object changes with time with respect to the origin",
+    "page_num": 11,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "557e35a80e9e",
+    "text": "Describing Motion Around Us 4.2.2 Position-time graphs The position-time graph represents the motion of object, i.e., the change in its position with time. You have already plotted two position-time graphs (Figs. 4.11c and 4.12)",
+    "page_num": 12,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 228,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "84caabb45ba4",
+    "text": ". Now, what information can you obtain from these graphs about the motion of the object? What does the shape of the position-time graph indicate about the nature of motion? (a) Constant velocity Position (m) Time (s) (b) Changing velocity Position (m) Time (s) In equal intervals of time (say, between two instants 2 – 3 s and 5 – 6 s) the magnitudes of displacements of object are equal (20 m)",
+    "page_num": 12,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "993ccd0d0871",
+    "text": "2 – 3 s and 5 – 6 s) the magnitudes of displacements of object are equal (20 m) magnitude of velocity is constant In equal intervals of time (say, 4 – 6 s and 10 – 12 s) the magnitudes of displacements of object are increasing magnitude of velocity is increasing Fig",
+    "page_num": 12,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 266,
+    "estimated_tokens": 66
+  },
+  {
+    "chunk_id": "370991ec6333",
+    "text": ". 4.13: Position-time graph of a moving object As we can see in Fig. 4.13a, a straight line position-time graph indicates that the object is moving with a constant velocity. On the other hand, a curved position-time graph as in Fig. 4.13b, indicates that the velocity is not constant, and thus, the object is in accelerated motion",
+    "page_num": 12,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "428d8f93d91b",
+    "text": ". Which physical quantities can be obtained from a position-time graph? From the position-time graph, you can find the position of an object at each instant of time. Does the graph provide information about any other physical quantity as well? In fact, you can also calculate how fast the position is changing, i.e., the magnitude of velocity of the object",
+    "page_num": 12,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "b0c4341036a8",
+    "text": ". How can you do that? Activity 4.4: Let us calculate 1. In the position-time graph we plotted (Fig. 4.11c), consider a part (say, AB) of the graph as shown in Fig. 4.14. From A, draw a line parallel to X-axis and another line parallel to Y-axis. Repeat the same from B. 2. Extend the horizontal line from A and a triangle ABC is formed",
+    "page_num": 12,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 336,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "be8431fbda6f",
+    "text": ". 2. Extend the horizontal line from A and a triangle ABC is formed. What do the sides BC and CA of the triangle represent? BC represents the change in position (s2 – s1), and AC represents the change in time (t2 – t1). Fig. 4.14: Calculating velocity from a position-time graph Position (m) Time (s) s2 B C A s1 t1 t2",
+    "page_num": 12,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 318,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "0cf9404fbc08",
+    "text": ". By extracting values of time t1 and t2, and distances s1 and s2 from the graph, the magnitude of average velocity can be calculated as v − − = = = − 80 m 40 m 40 m 20 m s 4 s 2 s 2 s From a position-time graph, by finding the positions of the object at two instants of time, you can calculate the average velocity by using Eq. (4.2a)",
+    "page_num": 13,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "8ff958e6ccfe",
+    "text": ". (4.2a). Geometrically, BC CA is called the slope of line AB connecting initial position A and final position B in Fig. 4.14. The slope of a line is the steepness of the line. The slope of a graph gives information about the rate of change of the quantity shown on Y-axis with respect to the quantity shown on X-axis",
+    "page_num": 13,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 317,
+    "estimated_tokens": 79
+  },
+  {
+    "chunk_id": "d6829e025ebf",
+    "text": ". For the case of a curve also, the velocity at any instant can be calculated geometrically from the position-time graph. You will learn how to do it in higher grades. Ready to Go Beyond Next Level Up Example 4.6: What does the graph shown in Fig. 4.15 indicate about the nature of motion of the vehicle? Answer: The position of the vehicle is 40 m from the origin and is not changing with time",
+    "page_num": 13,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 394,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "ea0d4ca8109a",
+    "text": ". Thus, the vehicle is at rest at 40 m from the origin. A straight line parallel to the time axis on a position-time graph represents a stationary object (In this case, the position-time graph is not the distance-time graph). Example 4.7: The position-time graphs of two objects A and B are given in Fig. 4.16a",
+    "page_num": 13,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 310,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "f6c0ab669f9a",
+    "text": ". 4.16a. The magnitude of average velocity of which object is higher? Answer: By making lines parallel to axes as shown in Fig. 4.16b, it is found that the displacement of object B is more than object A for the same time interval. That is, the slope of line for B is steeper than the slope for line A. Thus, the velocity of B is higher than that of A. Fig",
+    "page_num": 13,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 355,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "634c62ca2e86",
+    "text": ". Thus, the velocity of B is higher than that of A. Fig. 4.16(a): Position-time graph of two objects Position Time B A Fig. 4.16(b): Comparing displacement of two objects from position-time graph Position Time Time interval t Displacement of B in time interval t Displacement of A in time interval t B A Fig. 4.15: Position-time graph of a vehicle Position (m) Time (s)",
+    "page_num": 13,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 369,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "0ade4cdb0d9a",
+    "text": "Describing Motion Around Us 4.2.3 Velocity-time graphs The velocity-time graph of an object in motion represents the change in its velocity with time. In a manner similar to the position-time graph, you can plot velocity-time graphs following the steps of Activity 4.3",
+    "page_num": 14,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 268,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "550641fdd7c6",
+    "text": ". Let us take the example of a car moving in the same direction on a straight stretch of a highway at a steady velocity of 72 km h–1 or 20 m s–1. The velocity-time graph corresponding to it is shown in Fig. 4.17a. Consider another car that starts moving from rest and its velocity increases with time as shown in Table 4.5. The velocity-time graph plotted for this case is shown in Fig. 4.17b",
+    "page_num": 14,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "c1ecb2bdb155",
+    "text": ". The velocity-time graph plotted for this case is shown in Fig. 4.17b. Consider yet another car moving with a velocity of 15.0 m s–1. Its velocity decreases with time as shown in Table 4.6 and its velocity-time graph is shown in Fig. 4.17c. What does the shape of the velocity-time graph indicate about the nature of motion? Fig",
+    "page_num": 14,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 329,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "06b8c161da4b",
+    "text": ". 4.17: Velocity-time graph of a moving car In equal intervals of time velocity is increasing by equal amounts acceleration is constant and in the direction of velocity 2.5 5.0 7.5 10.0 12.5 15.0 20 25 Velocity (m s–1) Time (s) (b) Increasing velocity with constant acceleration In equal intervals of time velocity is decreasing by equal amounts acceleration is constant and opposite to the direction",
+    "page_num": 14,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "8bbf95b2e212",
+    "text": "by equal amounts acceleration is constant and opposite to the direction of velocity 2.5 5.0 7.5 10.0 12.5 15.0 20 25 Velocity (m s–1) Time (s) (c) Decreasing velocity with constant acceleration Velocity is not changing with time velocity is constant acceleration is zero Velocity (m s–1) Time (s) (a) Constant velocity When the velocity of the car is constant, the velocity-time graph is a straight",
+    "page_num": 14,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "e31d641114ad",
+    "text": ". 4.17a) and acceleration is zero. A straight line velocity-time graph as shown in Fig. 4.17b indicates that the velocity is increasing with a constant acceleration (in the direction of velocity). Whereas, a straight line velocity-time graph as shown in Fig. 4.17c indicates that the velocity is decreasing with a constant acceleration (opposite to the direction of velocity)",
+    "page_num": 14,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 375,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "3f660dcf6c44",
+    "text": "Exploration|Grade 9 Which physical quantities can be obtained from a velocity-time graph? Apart from finding the magnitude of velocity of the object at each instant of time, what other physical quantities can be calculated from the velocity-time graph? Slope of the straight line on graph In Section 4.2.2, we found that velocity can be determined from the slope of the straight line on position-time",
+    "page_num": 15,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "c6a22338a66b",
+    "text": ". What can you find from the slope of the straight line on a velocity-time graph? The slope of the line on velocity-time graph gives how fast the velocity is changing with time, i.e., the acceleration. For the graph shown in Fig. 4.17a, there is no change in the height of the line from the X-axis, i.e., its slope is zero. Hence, the velocity is constant and the acceleration is zero in this case",
+    "page_num": 15,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 397,
+    "estimated_tokens": 99
+  },
+  {
+    "chunk_id": "0370bd07536d",
+    "text": ". Hence, the velocity is constant and the acceleration is zero in this case. Now consider the graph shown in Fig. 4.17d which is the same as Fig. 4.17b, except for some markings. Consider a part of the line, AB. Suppose at time t1 corresponding to point A, the velocity is denoted by ‘u ’, and at time t2 corresponding to point B, it is represented by ‘v ’",
+    "page_num": 15,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 356,
+    "estimated_tokens": 89
+  },
+  {
+    "chunk_id": "3065c3f93f36",
+    "text": ". By dividing the change in velocity (BC) by the change in time (CA), you get, BC CA v u a t t − = = − Substituting the values from graph, we obtain the magnitude of average acceleration between the time interval from 10 s to 20 s 10 m s 5 m s 5 m s 0 5 m s 20 s 10 s 10 s a − − − − − = = = − . If we follow the above steps for the graph shown in Fig. 4.17e which is same as Fig",
+    "page_num": 15,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 378,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "37669147dbf3",
+    "text": ". 4.17e which is same as Fig. 4.17c, we obtain average acceleration to be – 0.5 m s–2. The minus sign indicates that the direction of acceleration is opposite to the direction of velocity (as the velocity is decreasing). Can you calculate some other physical quantity from the velocity-time graph? Area enclosed by the line on graph and time axis The graphs shown in Fig. 4.18 are same as Fig",
+    "page_num": 15,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "6f71b2010605",
+    "text": ". 4.18 are same as Fig. 4.17, except that some parts between the line on graph and the time axis are shaded. Does the area of the shaded part represent some physical quantity? In Fig. 4.18a, OA is magnitude of the velocity and OC is the time interval. So, area of rectangle OABC = OA × OC = velocity × time interval (Since, in this case the velocity is constant, it is equal to the average velocity)",
+    "page_num": 15,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 399,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "79df7f6e1f82",
+    "text": "Describing Motion Around Us This is the displacement of the car from the origin in 6 seconds. You have found that the area enclosed by the velocity-time graph and the time axis for a desired time interval is equal to the displacement in that time interval. How can you determine the displacement from the graph given in Fig",
+    "page_num": 16,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 323,
+    "estimated_tokens": 81
+  },
+  {
+    "chunk_id": "864f91cb83bc",
+    "text": ". How can you determine the displacement from the graph given in Fig. 4.18b? Suppose you want to find the displacement between 10 s to 20 s, corresponding to which the graph points are A and B. We calculate the area between AB and the time axis to obtain the displacement of the object which is moving with a constant acceleration",
+    "page_num": 16,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "8a589f894989",
+    "text": ". We learnt that by finding the slope and area from velocity-time graph for motion with constant acceleration, we can determine acceleration and displacement, respectively. You learnt how to represent motion by graphs. Let us now learn about the equations which describe the motion of an object",
+    "page_num": 16,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 294,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "5829ccd47ab6",
+    "text": ". Let us now learn about the equations which describe the motion of an object. 4.3 Kinematic Equations for Motion in a Straight Line with Constant Acceleration Let us consider the special case of motion with constant acceleration and try to derive some equations for analysing such motions",
+    "page_num": 16,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 289,
+    "estimated_tokens": 72
+  },
+  {
+    "chunk_id": "5dfaaa384573",
+    "text": ". (4.3c), − = v u a t where u is initial velocity at t = 0 s, v is final velocity at time t , time interval is t – 0 = t, over which the change in velocity occurs and a is the acceleration, we can write at = v – u v = u + at (4.4a) This equation allows us to calculate velocity (v ) at all times if initial velocity (u ) and acceleration (a ) are known. The velocity-time graph of Eq",
+    "page_num": 16,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 383,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "1689b3f0e31e",
+    "text": ". The velocity-time graph of Eq. (4.4a) is as shown in Fig. 4.19. This is similar to the graph shown in Fig. 4.18 but now the initial velocity of the object is not zero. The initial velocity (represented by AO) is u and the final velocity at time t (represented by EO) is v. The graph is a straight line indicating that the velocity changes with constant acceleration",
+    "page_num": 16,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 367,
+    "estimated_tokens": 92
+  },
+  {
+    "chunk_id": "5f4023ec69e7",
+    "text": ". The slope of the graph gives the acceleration. Grade 8 Ganita Prakash Ganita Prakash Part II Chapter 7 Velocity Fig. 4.19: Velocity-time graph where the initial velocity of object is not zero Time A C B E D O u v t Velocity (m s–1) 2.5 5.0 7.5 10.0 12.5 15.0 20 25 Fig. 4.18(b): Velocity-time graph of an object moving with changing velocity with constant acceleration Time (s) A E B C D",
+    "page_num": 16,
+    "chunk_index": 8,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "2593ed060441",
+    "text": ". 4.4a and Eq. 4.4b) are the primary equations. Combining these equations in different ways, we can obtain three more equations. Let us derive one of those by eliminating t in Eq. (4.4b) (the remaining two equations are given as an exercise in ‘ The Journey Beyond’ at the end of the chapter). From Eq. (4.4a), we get − = v u t a Substituting this in Eq",
+    "page_num": 17,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "c3d20eaa889f",
+    "text": "(t ), initial velocity (u ), final velocity (v ) and acceleration (a ), can be related by the following set of equations, v = u + at \b (4.4a) s ut at = + \b (4.4b) v 2 = u 2 + 2as\b (4.4c) These are known as kinematic equations",
+    "page_num": 17,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 225,
+    "estimated_tokens": 56
+  },
+  {
+    "chunk_id": "baf053f891fb",
+    "text": "Describing Motion Around Us Using these equations, it is possible to predict position or velocity of the object at a future time. Note These kinematic equations are valid only when the acceleration is constant",
+    "page_num": 18,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 209,
+    "estimated_tokens": 52
+  },
+  {
+    "chunk_id": "d2e6f20ce995",
+    "text": ". While using kinematic equations for motion in a straight line in one direction, remember that distance travelled and magnitude of displacement are equal, and speed and magnitude of velocity are also equal. In motion in a straight line in both directions, the sign of u, v, a, and s in these equations tells us about the direction of that particular quantity",
+    "page_num": 18,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 359,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "847d78a0c236",
+    "text": ". How much will be the distance travelled by the car before coming to a stop, if the car was moving with a velocity of (i) 54 km h–1, and (ii) 108 km h–1 when the brakes were applied? Answer: Given: a = – 4 m s–2, v = 0 m s–1 Suppose the initial velocity is u and the distance travelled is s. (i) u = 54 km h–1 = 15 m s–1 (ii) u = 108 km h–1 = 30 m s–1 Using Eq",
+    "page_num": 18,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 361,
+    "estimated_tokens": 90
+  },
+  {
+    "chunk_id": "743a7ccb6442",
+    "text": ". The distance travelled depends upon the velocity of the vehicle when the brakes are applied, the road surface (wet/dry, etc.), the braking capacity of the vehicle (the negative acceleration caused by the brakes) as well as the driver’s reaction time. Can you now understand why it is important to maintain a safe distance from the vehicle moving ahead of your vehicle (Fig",
+    "page_num": 18,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 374,
+    "estimated_tokens": 94
+  },
+  {
+    "chunk_id": "0eaf27eca20b",
+    "text": ". 4.20) and how this distance needs to be adjusted given your initial velocity? Fig. 4.20: Safe distance between two moving vehicles There is a vehicle-to-vehicle (V2V) communication technology, now being developed in many countries including India, which allows vehicles to exchange signals and warns drivers of possible collisions",
+    "page_num": 18,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "8d6fc0a90bef",
+    "text": "Exploration|Grade 9 4.4 Motion in a Plane Motion in a plane, such as a vehicle overtaking another, the path of a kicked ball or a satellite moving in a circular path, is called motion in two dimensions (Fig. 4.21). Fig",
+    "page_num": 19,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 218,
+    "estimated_tokens": 54
+  },
+  {
+    "chunk_id": "a272b556332c",
+    "text": ". 4.21). Fig. 4.21: Motion in a plane 4.4.1 Uniform circular motion Do you remember learning about circular motion in an earlier grade? When an object moves in a circular path, its motion is called circular motion. Suppose a child is sitting on a moving merry-go-around. The child, moving on a circular path, moves from A to B to C as shown in Fig. 4.22",
+    "page_num": 19,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "17c58a2327a0",
+    "text": ". 4.22. What is the distance travelled by the child? What is their displacement from their original position? The distance travelled by the child is the curve ABC and displacement is the straight-line AC. As you can see both are not equal. What is the distance travelled by the child in making one revolution (going round the circle once)? It is equal to the circumference of the circle",
+    "page_num": 19,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "855e2199ff7d",
+    "text": ". So, if the radius of the circular path is R, the distance travelled by the child in making one revolution is 2 R. On the other hand, the displacement is zero, since the child comes back to its original position after making one revolution. If an object takes time T to make one revolution, its average speed vav will be (using Eq",
+    "page_num": 19,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 331,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "c6128183f263",
+    "text": ". 4.1) av R v T π = (4.5) while the average velocity during the time interval T will be 0, since the displacement is 0. Let us now consider a particular case of circular motion where the speed of the object is constant. When an object moves in a circular path with constant (uniform) speed, its motion is called uniform circular motion",
+    "page_num": 19,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 335,
+    "estimated_tokens": 84
+  },
+  {
+    "chunk_id": "de4a11090767",
+    "text": ". In case of uniform circular motion, the speed is constant but what about the direction of velocity at an instant? Is it changing? Fig. 4.23: An athlete running along (a) a rectangular track, (b) a hexagonal track, and (c) a circular track v v v v (a) v v v v v v (b) v v v v v v v v (c) A B C Fig",
+    "page_num": 19,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 298,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "a33e3987e837",
+    "text": ". 4.22: Top view of merry-go-round in circular motion Grade 6 Curiosity Chapter 5 Note We calculated the average speed (Eq. 4.5) for one revolution but for uniform circular motion since the speed is constant, its value is the same at every point on the circle.",
+    "page_num": 19,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 260,
+    "estimated_tokens": 65
+  },
+  {
+    "chunk_id": "04981d4a2c49",
+    "text": "Describing Motion Around Us Ready to Go Beyond Motion in space, such as a car climbing up a mountain road (Fig. 4.26), bird flying in the sky or an aircraft moving through air, is called motion in three dimensions. You will learn about it in higher grades. Next Level Up Fig. 4.26: A mountain road Imagine an athlete running along a closed path. In Fig",
+    "page_num": 20,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "fd4bf27fd757",
+    "text": ". 4.26: A mountain road Imagine an athlete running along a closed path. In Fig. 4.23a, the athlete follows a rectangular track (ABCD), running at a uniform speed on the straight sections (AB, BC, CD and DA). The athlete changes direction four times to complete one round. In Fig. 4.23b, the athlete is running along a hexagonal path",
+    "page_num": 20,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "d309000ff602",
+    "text": ". In Fig. 4.23b, the athlete is running along a hexagonal path. In this case, the athlete changes direction six times to complete one round. What happens if we go on increasing the number of sides indefinitely? As the number of sides increases, the athlete has to take turns more and more frequently",
+    "page_num": 20,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 299,
+    "estimated_tokens": 75
+  },
+  {
+    "chunk_id": "5733b8f206f0",
+    "text": ". Finally, the track approaches a circle, with each side decreasing to a point and the direction of athlete’s velocity changes continuously. Activity 4.5: Let us investigate 1. Take a ring, such as an adhesive tape ring and one marble. 2. Place the ring flat on a smooth surface and throw the marble inside the ring in a way that it rotates along the inner boundary of the ring (Fig. 4.24). 3",
+    "page_num": 20,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 392,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "968fb4d6fa9f",
+    "text": ". 4.24). 3. Predict what will happen if you lift the ring while the marble is moving. 4. Now, after one or two complete revolutions of the marble, pick up the ring without disturbing the motion of the marble. What do you observe? Does the marble continue moving in a circular motion? Or does it move in some other manner? 5. Repeat the activity multiple times to confirm the result",
+    "page_num": 20,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "f40d6705ce69",
+    "text": ". Repeat the activity multiple times to confirm the result. When the marble is released by lifting the ring, it moves in a straight line. Why does this happen? This is because once the marble is released, it continues to move in the direction it has been moving at the instant the ring was removed. You will learn the reason for this in a later chapter",
+    "page_num": 20,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 352,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "0e600a74dfb1",
+    "text": ". You will learn the reason for this in a later chapter. The velocity at a point is along the tangent to the circle at that point, in the direction of motion. A straight line that meets the circle at one and only point is called a tangent to the circle at that point (Fig. 4.25). You will learn more about it in Mathematics. Ready to Go Beyond A B C Fig",
+    "page_num": 20,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 353,
+    "estimated_tokens": 88
+  },
+  {
+    "chunk_id": "34e04ddde638",
+    "text": ". You will learn more about it in Mathematics. Ready to Go Beyond A B C Fig. 4.25: Tangent to a circle at point B You know that acceleration is non-zero if the velocity of an object changes. The velocity changes if either its magnitude or direction, or both changes. In uniform circular motion, the motion of the object is accelerated because the direction of its velocity continuously changes. Fig",
+    "page_num": 20,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "00a91e3362a8",
+    "text": ". Note In everyday life, we say that a vehicle is accelerating when the magnitude of its velocity is changing but we often fail to recognise that there can be acceleration when there is only a change in the direction of velocity.",
+    "page_num": 20,
+    "chunk_index": 9,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 229,
+    "estimated_tokens": 57
+  },
+  {
+    "chunk_id": "69838af43ffb",
+    "text": "Exploration|Grade 9 In real world, the conditions for uniform circular motion — constant speed and a circular path — are often not met. So, uniform circular motion is an idealised model of the real-world situations",
+    "page_num": 21,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 214,
+    "estimated_tokens": 54
+  },
+  {
+    "chunk_id": "df55702afd03",
+    "text": ". So, uniform circular motion is an idealised model of the real-world situations. Still, it is a useful model as it serves as the foundation for more complex real-world situations, such as motion of planets revolving around the Sun or a vehicle making a circular turn",
+    "page_num": 21,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 267,
+    "estimated_tokens": 67
+  },
+  {
+    "chunk_id": "21265f9e830f",
+    "text": ". y The distance and direction of an object with respect to the reference point, at any instant of time, describes the position of the object at that instant of time. y If the position of the object with respect to a reference point changes with time, the object is said to be in motion. y Displacement is the net change in the position of the object between two given instants of time",
+    "page_num": 21,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "3164f7eade04",
+    "text": ". y The average speed of an object is the total distance travelled divided by the time interval during which this distance is covered. y The average velocity of an object in a time interval is the change in position (also known as displacement) divided by the time interval in which the change in position (or displacement) occurs",
+    "page_num": 21,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 330,
+    "estimated_tokens": 82
+  },
+  {
+    "chunk_id": "e32c428bf558",
+    "text": ". y For the motion of an object in a straight line with constant acceleration, the five physical quantities — displacement (s ), time interval (t ), initial velocity (u ), final velocity (v ) and acceleration (a ), can be related by the following set of kinematic equations, v = u + at s ut at = + v 2 = u 2 + 2as y When an object moves in a circular path with constant (uniform) speed, its motion is",
+    "page_num": 21,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "84aa355c2ca4",
+    "text": ". At a Glance Revise, Reflect, Refine 1. My father went to a shop from home which is located at a distance of 250 m on a straight road. On reaching there, he discovered that he forgot to carry a cloth bag. He came home to take it, went to the shop again, bought provisions and came back home. How much was the total distance travelled by him? What was his displacement from home? 2",
+    "page_num": 21,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 381,
+    "estimated_tokens": 95
+  },
+  {
+    "chunk_id": "cb96f401fb27",
+    "text": ". A student runs from the ground floor to the fourth floor of a school building to collect a book and then comes down to their classroom on the second floor. If the height of each floor is 3 m, find: (i) the total vertical distance travelled, and (ii) their displacement from the starting point.",
+    "page_num": 21,
+    "chunk_index": 8,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 295,
+    "estimated_tokens": 74
+  },
+  {
+    "chunk_id": "12c0b4f7751e",
+    "text": "Describing Motion Around Us 3. A girl is riding her scooter and finds that its speedometer reading is constant. Is it possible for her scooter to be accelerating and if so, how? 4. A car starts from rest and its velocity reaches 24 m s–1 in 6 s. Find the average acceleration and the distance travelled in these 6 s. 5",
+    "page_num": 22,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 318,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "e7d9f0ebdd59",
+    "text": ". Find the average acceleration and the distance travelled in these 6 s. 5. A motorbike moving with initial velocity 28 m s–1 and constant acceleration stops after travelling 98 m. Find the acceleration of the motorbike and the time taken to come to a stop. 6. Fig. 4.27 shows a position-time graph of two objects A and B that are moving along the parallel tracks in the same direction",
+    "page_num": 22,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "057cc30fe45f",
+    "text": ". Do objects A and B ever have equal velocity? Justify your answer. Position (m) Fig. 4.28 Time (s) A B Position (m) Fig. 4.27 Time (s) A B 7. A graph in Fig. 4.28 shows the change in position with time for two objects A and B moving in a straight line from 0 to 10 seconds. Choose the correct option(s)",
+    "page_num": 22,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 303,
+    "estimated_tokens": 76
+  },
+  {
+    "chunk_id": "1520b93b319e",
+    "text": ". Choose the correct option(s). (i) The average velocity of both over the 10 s time interval is equal since they have the same initial and final positions. (ii) The average speeds of both over the 10 s time interval are equal since both cover equal distance in equal time",
+    "page_num": 22,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 271,
+    "estimated_tokens": 68
+  },
+  {
+    "chunk_id": "0ceedcf348c1",
+    "text": ". (iii) The average speed of A over the 10 s time interval is lower than that of B since it covers a shorter distance than B in 10 seconds. (iv) The average speed of A over the 10 s time interval is greater than that of B since B’s speed is lower than A’s in some segments. 8. A truck driver driving at the speed of 54 km h–1 notices a road sign with a speed limit of 40 km h–1 (Fig. 4.29) for trucks",
+    "page_num": 22,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 400,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "9f4538e0d975",
+    "text": ". 4.29) for trucks. He slows down to 36 km h–1 in 36 s. What was the distance travelled by him during this time? Assume the acceleration to be constant while slowing down. 9. A car starts from rest and accelerates uniformly to 20 m s–1 in 5 seconds. It then travels at 20 m s–1 for 10 seconds and finally applies the brake (with uniform acceleration) to stop in 6 seconds",
+    "page_num": 22,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 371,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "67331a7de82e",
+    "text": ". Find the total distance travelled. 10. A bus is travelling at 36 km h–1 when the driver sees an obstacle 30 m ahead. The driver takes 0.5 seconds to react before pressing the brake. Once the brake is applied, the velocity of the bus reduces with constant acceleration of 2.5 m s–2. Will the bus be able to stop before reaching the obstacle? Fig. 4.29 Speed Limit गति सीमा",
+    "page_num": 22,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 373,
+    "estimated_tokens": 93
+  },
+  {
+    "chunk_id": "b99bda4d3bc0",
+    "text": "Exploration|Grade 9 11. A student said, “The Earth moves around the Sun”. In this context, discuss whether an object kept on the Earth can be considered to be at rest. 12. The velocity-time graph from 0 s to 120 s for a cyclist is shown in Fig. 4.30. Shade the areas (in different colours) representing the displacement of the cyclist (i) while cyclist is moving with constant velocity",
+    "page_num": 23,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 385,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "fecebfefb733",
+    "text": ". (ii) when the velocity of cyclist is decreasing. Also, calculate the displacement and average acceleration in the 120 s time interval. Velocity (m s–1) 60 80 100 120 Fig. 4.30 Time (s) Velocity (Km h–1) 2.5 5.0 7.5 Fig. 4.31 Time (h) 13. A girl is preparing for her first marathon by running on a straight road. She uses a smartwatch to calculate her running speed at different intervals",
+    "page_num": 23,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 389,
+    "estimated_tokens": 97
+  },
+  {
+    "chunk_id": "e58ff74f88ae",
+    "text": ". She uses a smartwatch to calculate her running speed at different intervals. The graph (Fig. 4.31) depicts her velocity versus time. Estimate the distance she ran based on the graph. 14. On entering a state highway, a car continues to move with a constant velocity of 6 m s–1 for 2 minutes and then accelerates with a constant acceleration 1 m s–2 for 6 seconds",
+    "page_num": 23,
+    "chunk_index": 2,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 363,
+    "estimated_tokens": 91
+  },
+  {
+    "chunk_id": "d1a3da0a90d2",
+    "text": ". Find the displacement of the car on the state highway in the 2 min 6 s time interval by drawing a velocity-time graph for its motion. 15. Two cars A and B start moving with a constant acceleration from rest, in a straight line. Car A attains a velocity of 5 m s–1 in 5 s. Car B attains a velocity of 3 m s–1 in 10 s. Plot the velocity-time graphs for both the cars in the same graph",
+    "page_num": 23,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 384,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "5b86a85351a7",
+    "text": ". Plot the velocity-time graphs for both the cars in the same graph. Using the graph, calculate the displacement in the two time intervals mentioned (Hint: Calculate the acceleration in both cases. Then calculate their velocities at five instants of time to plot the graph). 16. Rohan studies science from 6 PM to 7:30 PM at home. Consider the tip of the minute’s hand of the wall clock",
+    "page_num": 23,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 386,
+    "estimated_tokens": 96
+  },
+  {
+    "chunk_id": "5f263d542e88",
+    "text": ". Consider the tip of the minute’s hand of the wall clock. During the given time interval, what is its: (i) distance travelled, (ii) displacement, (iii) speed, and (iv) velocity. The length of the minute’s hand is 7 cm (Fig. 4.32). Fig. 4.32",
+    "page_num": 23,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 241,
+    "estimated_tokens": 60
+  },
+  {
+    "chunk_id": "850c25158d0f",
+    "text": "Describing Motion Around Us y Take a cardboard disc (radius ~ 8 cm) (Fig. 4.33). Write numbers 1 to 12 on the outer part (7 cm from the centre) and the letters ‘ABCDEF’ on the inner part (4 cm from the centre), using the same font size. Spin the disc slowly, then faster, and observe how the numbers and letters appear",
+    "page_num": 24,
+    "chunk_index": 0,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 318,
+    "estimated_tokens": 80
+  },
+  {
+    "chunk_id": "46bff4088f32",
+    "text": ". Why do the numbers fade or disappear while the letters remain visible? Are the speeds of the numbers and letters the same or different? Justify your answer. y Many smartphones have an inbuilt accelerometer that can detect very small accelerations. Install an app, such as Phyphox (phyphox.org) and open ‘Accelerometer (without g)’",
+    "page_num": 24,
+    "chunk_index": 1,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 332,
+    "estimated_tokens": 83
+  },
+  {
+    "chunk_id": "3082dcc37d93",
+    "text": ". What differences do you observe? What does this tell you about motion and acceleration in real situations? (Such tiny, involuntary movements are also studied in medical research, for example, in movement disorders) This activity is recommended to be performed as a classroom group activity facilitated by teacher",
+    "page_num": 24,
+    "chunk_index": 3,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 314,
+    "estimated_tokens": 78
+  },
+  {
+    "chunk_id": "814d8461c1d8",
+    "text": ". y For motion in a straight line with constant acceleration, we derived two primary equations given by Eq. (4.4a) and (4.4b). Using these two equations, three more equations can be derived, out of which we derived one given in Eq. (4.4c). Derive the remaining two equations given below = − s vt at ( ) s u v t = + In mathematics, you have learnt the formula for calculating the area of a trapezium",
+    "page_num": 24,
+    "chunk_index": 4,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 398,
+    "estimated_tokens": 100
+  },
+  {
+    "chunk_id": "36ffafb1a2c9",
+    "text": ". Using that formula, derive the second equation given above. y Plot graphs for data given in Table 4.4, using different X and Y scales, on different graph papers. Compare the graphs to find how the appearance of graph is affected by the choice of scales and decide which scale is better and why. Now repeat this with any graph plotting app",
+    "page_num": 24,
+    "chunk_index": 5,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 340,
+    "estimated_tokens": 85
+  },
+  {
+    "chunk_id": "4908f63518d3",
+    "text": ". Now repeat this with any graph plotting app. Such apps generally automatically adjust the axes to fit the data well on the screen. y Talk to a motor mechanic about how a vehicle’s braking or stopping distance is affected by: (i) wet roads, (ii) worn-out tyres, (iii) higher vehicle mass, (iv) driving at night, (v) fog, (vi) severe weather (rain, snow, storm), and (vii) driver reaction time",
+    "page_num": 24,
+    "chunk_index": 6,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 393,
+    "estimated_tokens": 98
+  },
+  {
+    "chunk_id": "7aaaa13a3f5c",
+    "text": ". Using this information, design safety posters for your school and prepare a short skit to present it in the assembly. The Journey Beyond B C E F A D Fig. 4.33 Grade 8 Ganita Prakash Ganita Prakash Part II Chapter 7",
+    "page_num": 24,
+    "chunk_index": 7,
+    "source_file": "ch04_describing_motion.pdf",
+    "char_count": 216,
+    "estimated_tokens": 54
+  }
+]
