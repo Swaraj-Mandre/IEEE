@@ -31,7 +31,7 @@ class LearningSession:
 def get_prerequisite_chain(
     G: nx.DiGraph,
     target_concept: str,
-    max_depth: int = 8,
+    max_depth: int = 3,
 ) -> list[str]:
     """
     Build an ordered prerequisite chain from roots to target concept.

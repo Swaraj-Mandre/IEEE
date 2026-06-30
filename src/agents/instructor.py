@@ -42,11 +42,12 @@ def build_prompt(concept: str, supporting_text: str, level: str = "simple") -> s
     else:
         style = "Give a structured explanation with definition, example, and formula if applicable."
 
-    prompt = SYSTEM_PROMPT
-    prompt += "\n\nContext from textbook:\n" + supporting_text[:500]
-    prompt += "\n\nConcept to explain: " + concept
-    prompt += "\nStyle: " + style
-    prompt += "\n\nYour explanation:"
+    user_content = SYSTEM_PROMPT
+    user_content += "\n\nContext from textbook:\n" + supporting_text[:500]
+    user_content += "\n\nConcept to explain: " + concept
+    user_content += "\nStyle: " + style
+
+    prompt = "<|user|>\n" + user_content + "<|end|>\n<|assistant|>\n"
     return prompt
 
 
@@ -63,11 +64,11 @@ def generate_explanation(
     prompt = build_prompt(concept, supporting_text, level)
 
     response = model(
-        prompt,
-        max_tokens=300,
-        temperature=0.7,
-        stop=["Student:", "Question:", "\n\n\n"],
-        echo=False,
+    prompt,
+    max_tokens=300,
+    temperature=0.7,
+    stop=["<|end|>", "<|assistant|>", "<|user|>", "Inquiry:", "Student:", "\n\n\n"],
+    echo=False,
     )
 
     explanation = response["choices"][0]["text"].strip()
