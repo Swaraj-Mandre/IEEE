@@ -1,0 +1,13 @@
+{
+  "student_id": "test_student",
+  "target_concept": "newton’s three laws of motion",
+  "prerequisite_chain": [
+    "understanding of motion",
+    "newton’s three laws of motion"
+  ],
+  "current_position": 0,
+  "mastered_concepts": [],
+  "confused_concepts": [],
+  "backtrack_count": 0,
+  "exchange_count": 2
+}
