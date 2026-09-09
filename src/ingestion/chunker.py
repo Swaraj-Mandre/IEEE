@@ -54,6 +54,8 @@ def chunk_pages(pages: list[dict], chunk_size: int = 400, overlap: int = 80) -> 
                 "text": chunk_text,
                 "page_num": page["page_num"],
                 "chunk_index": i,
+                # Section the chunk came from, used to steer concept extraction.
+                "section": page.get("section"),
                 "source_file": page["source_file"],
                 "char_count": total_chars,
                 "estimated_tokens": round(estimated_tokens),

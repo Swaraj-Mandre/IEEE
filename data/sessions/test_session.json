@@ -1,13 +1,19 @@
 {
   "student_id": "student01",
-  "target_concept": "newton\u2019s three laws of motion",
+  "target_concept": "newton",
   "prerequisite_chain": [
-    "understanding of motion",
-    "newton\u2019s three laws of motion"
+    "balance",
+    "force-mass graph",
+    "magnitude",
+    "motion",
+    "object",
+    "mass",
+    "force",
+    "newton"
   ],
   "current_position": 1,
   "mastered_concepts": [
-    "understanding of motion"
+    "balance"
   ],
   "confused_concepts": [],
   "backtrack_count": 0,

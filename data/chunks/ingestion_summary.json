@@ -1,0 +1,16 @@
+[
+  {
+    "file": "ch04_describing_motion.pdf",
+    "total_pages": 24,
+    "valid_pages": 24,
+    "total_chunks": 147,
+    "avg_tokens": 85
+  },
+  {
+    "file": "ch06_forces_and_motion.pdf",
+    "total_pages": 22,
+    "valid_pages": 22,
+    "total_chunks": 154,
+    "avg_tokens": 85
+  }
+]

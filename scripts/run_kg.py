@@ -5,8 +5,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.graph.extractor import load_model, extract_triples_from_chunk
+from src.graph.extractor import load_model, load_grammar, extract_triples_from_chunk
 from src.graph.graph_builder import build_graph, save_graph, save_audit_json, get_graph_stats
+from src.graph.cycle_cleaner import remove_cycles
 from src.ingestion.chunker import load_chunks
 
 # Chapters the graph is built from. Add more chunk files here to widen coverage.
@@ -36,6 +37,7 @@ def run_kg_pipeline():
 
     # Load SLM
     model = load_model()
+    grammar = load_grammar()
 
     # Extract triples from each chunk
     all_triples = []
@@ -56,7 +58,7 @@ def run_kg_pipeline():
                   f"| ~{remaining:.0f}s remaining "
                   f"| {len(all_triples)} triples so far")
 
-        triples = extract_triples_from_chunk(model, chunk)
+        triples = extract_triples_from_chunk(model, chunk, grammar)
 
         if triples:
             all_triples.extend(triples)
@@ -79,6 +81,11 @@ def run_kg_pipeline():
     # Build graph
     print("\nBuilding knowledge graph...")
     G = build_graph(all_triples)
+
+    # Cycles are extraction errors, not real prerequisites, so strip them before saving.
+    G, cycle_stats = remove_cycles(G)
+    print(f"  Cycle removal: {cycle_stats['edges_before']} -> {cycle_stats['edges_after']} edges "
+          f"({cycle_stats['mutual_removed']} mutual, {cycle_stats['cycles_broken']} longer cycles)")
 
     # Print stats
     stats = get_graph_stats(G)

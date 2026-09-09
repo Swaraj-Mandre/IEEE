@@ -2,176 +2,206 @@
   "instructions": "Review these 20 edges manually before Phase 3",
   "high_confidence_edges": [
     {
-      "prerequisite": "atoms",
-      "concept": "elements",
+      "prerequisite": "distance",
+      "concept": "displacement",
       "weight": 2
     },
     {
-      "prerequisite": "atom",
-      "concept": "nucleus",
+      "prerequisite": "speed",
+      "concept": "velocity",
+      "weight": 6
+    },
+    {
+      "prerequisite": "speed",
+      "concept": "average speed",
+      "weight": 2
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "displacement",
+      "weight": 2
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "force",
+      "weight": 9
+    },
+    {
+      "prerequisite": "circular motion",
+      "concept": "uniform circular motion",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "acceleration",
+      "weight": 28
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "average velocity",
+      "weight": 5
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "change in velocity",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "average acceleration",
+      "weight": 5
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "velocity-time graph",
+      "weight": 7
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "magnitude",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "displacement",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "initial velocity",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "final velocity",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "force of friction",
+      "weight": 2
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "net force",
+      "weight": 2
+    },
+    {
+      "prerequisite": "position",
+      "concept": "motion",
       "weight": 3
     },
     {
-      "prerequisite": "indivisible particles",
-      "concept": "atoms",
-      "weight": 2
+      "prerequisite": "position",
+      "concept": "displacement",
+      "weight": 6
     },
     {
-      "prerequisite": "nucleus",
-      "concept": "electrons",
-      "weight": 2
-    },
-    {
-      "prerequisite": "understanding of atomic structure",
-      "concept": "valence shell",
-      "weight": 2
-    },
-    {
-      "prerequisite": "thomson’s atomic model",
-      "concept": "rutherford’s atomic model",
-      "weight": 2
-    },
-    {
-      "prerequisite": "rutherford's model",
-      "concept": "bohr's model",
-      "weight": 2
-    },
-    {
-      "prerequisite": "atomic number",
-      "concept": "isotopes",
-      "weight": 3
-    },
-    {
-      "prerequisite": "atomic number",
-      "concept": "mass number",
-      "weight": 2
-    },
-    {
-      "prerequisite": "number of protons",
-      "concept": "atomic number",
-      "weight": 4
-    },
-    {
-      "prerequisite": "element",
-      "concept": "atomic mass",
-      "weight": 2
-    },
-    {
-      "prerequisite": "isotopes",
-      "concept": "average atomic mass",
-      "weight": 2
-    },
-    {
-      "prerequisite": "hydrogen atom",
-      "concept": "water molecule",
-      "weight": 2
-    },
-    {
-      "prerequisite": "oxygen atom",
-      "concept": "oxygen molecule",
+      "prerequisite": "position",
+      "concept": "distance travelled",
       "weight": 2
     }
   ],
   "sample_edges": [
     {
-      "prerequisite": "matter",
-      "concept": "atoms",
+      "prerequisite": "distance",
+      "concept": "distance-time graph",
       "weight": 1
     },
     {
-      "prerequisite": "matter",
-      "concept": "chemical reaction",
-      "weight": 1
-    },
-    {
-      "prerequisite": "observing or experiencing the physical world",
-      "concept": "matter",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atoms",
-      "concept": "fundamental building blocks of matter",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atoms",
-      "concept": "elements",
+      "prerequisite": "distance",
+      "concept": "displacement",
       "weight": 2
     },
     {
-      "prerequisite": "atoms",
-      "concept": "incomplete valence shells",
+      "prerequisite": "speed",
+      "concept": "distance",
       "weight": 1
     },
     {
-      "prerequisite": "atoms",
-      "concept": "isotopes",
-      "weight": 1
+      "prerequisite": "speed",
+      "concept": "velocity",
+      "weight": 6
     },
     {
-      "prerequisite": "atoms",
-      "concept": "molecules",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atoms",
-      "concept": "chemical bond",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atoms",
-      "concept": "compounds",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "living beings",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "non-living things",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "naked eye",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "nucleus",
-      "weight": 3
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "electrons",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "protons and neutrons in the nucleus",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "neutrons",
-      "weight": 1
-    },
-    {
-      "prerequisite": "atom",
-      "concept": "number of electrons equals number of protons",
-      "weight": 1
-    },
-    {
-      "prerequisite": "unseen with naked eye",
-      "concept": "atoms",
-      "weight": 1
-    },
-    {
-      "prerequisite": "indivisible particles",
-      "concept": "atoms",
+      "prerequisite": "speed",
+      "concept": "average speed",
       "weight": 2
+    },
+    {
+      "prerequisite": "speed",
+      "concept": "speed-time graph",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "linear motion",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "distance",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "displacement",
+      "weight": 2
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "distance travelled",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "speed",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "graphs",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "position-time graph",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "equations",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "circular motion",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "force",
+      "weight": 9
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "cause",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "forces",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "laws of newton",
+      "weight": 1
+    },
+    {
+      "prerequisite": "motion",
+      "concept": "friction",
+      "weight": 1
     }
   ]
 }

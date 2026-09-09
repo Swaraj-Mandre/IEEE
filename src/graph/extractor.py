@@ -1,8 +1,42 @@
 import json
 import re
-from llama_cpp import Llama
+
+from llama_cpp import Llama, LlamaGrammar
 
 from src import config
+
+# Forces the model to emit a JSON array of 1-4 {concept, prerequisite} objects.
+# Invalid tokens are masked during sampling, so malformed output cannot happen.
+# An empty array is deliberately not allowed: given the choice, Phi-3 returns []
+# for every chunk. Ungrounded triples are dropped afterwards instead.
+TRIPLE_GRAMMAR = r"""
+root   ::= "[" ws pair (ws "," ws pair)? (ws "," ws pair)? (ws "," ws pair)? ws "]"
+pair   ::= "{" ws "\"concept\"" ws ":" ws string ws "," ws "\"prerequisite\"" ws ":" ws string ws "}"
+string ::= "\"" ([^"\\\x7F\x00-\x1F])+ "\""
+ws     ::= | " " | "\n" [ \t]*
+"""
+
+EXTRACTION_PROMPT = """You are an expert STEM educator analyzing a textbook passage.
+Your task is to extract concept-prerequisite relationships from the given text.
+
+Rules:
+1. A "concept" is a key STEM idea explicitly mentioned in the passage.
+2. A "prerequisite" is another concept that must be understood BEFORE the concept.
+3. Both must be short noun phrases of 1 to 3 words, not sentences.
+4. Both must appear in or be directly implied by the passage.
+5. Extract 1 to 4 pairs maximum. Do not invent concepts not in the text.
+6. If no clear prerequisite relationship exists, output an empty array.
+
+Output format:
+[
+  {{"concept": "acceleration", "prerequisite": "velocity"}},
+  {{"concept": "velocity", "prerequisite": "speed"}}
+]
+{section_hint}
+Passage:
+{chunk_text}
+
+JSON output:"""
 
 
 def load_model() -> Llama:
@@ -28,58 +62,60 @@ def load_model() -> Llama:
     print("Model loaded successfully.\n")
     return model
 
-EXTRACTION_PROMPT = """You are an expert STEM educator analyzing a textbook passage.
-Your task is to extract concept-prerequisite relationships from the given text.
 
-Rules:
-1. A "concept" is a key STEM idea explicitly mentioned in the passage.
-2. A "prerequisite" is another concept that must be understood BEFORE the concept.
-3. Both concept and prerequisite must appear in or be directly implied by the passage.
-4. Extract 1 to 4 pairs maximum. Do not invent concepts not in the text.
-5. Output ONLY a JSON array. No explanation. No markdown. No extra text.
+def load_grammar() -> LlamaGrammar:
+    """Compile the extraction grammar.
 
-Output format:
-[
-  {{"concept": "concept name", "prerequisite": "prerequisite name"}},
-  {{"concept": "concept name", "prerequisite": "prerequisite name"}}
-]
+    from_string() prints parse errors instead of raising and hands back a broken
+    object that crashes the sampler later, so the result is checked here.
+    """
+    grammar = LlamaGrammar.from_string(TRIPLE_GRAMMAR, verbose=False)
+    if not getattr(grammar, "_grammar", None):
+        raise RuntimeError("Extraction grammar failed to compile - check TRIPLE_GRAMMAR syntax.")
+    return grammar
 
-If no clear prerequisite relationships exist in the passage, output:
-[]
 
-Passage:
-{chunk_text}
+def is_grounded(phrase: str, chunk_text: str) -> bool:
+    """True if the phrase, or all of its words, appear in the passage."""
+    text = chunk_text.lower()
+    phrase = phrase.lower()
+    if phrase in text:
+        return True
+    return all(word in text for word in phrase.split())
 
-JSON output:"""
+
+def build_prompt(chunk: dict) -> str:
+    section = chunk.get("section")
+    hint = f"\nThe passage is from the section \"{section}\".\n" if section else "\n"
+    return EXTRACTION_PROMPT.format(section_hint=hint, chunk_text=chunk["text"])
 
 
 def extract_triples_from_chunk(
     model: Llama,
     chunk: dict,
-    max_retries: int = 2
+    grammar: LlamaGrammar,
+    max_retries: int = 2,
 ) -> list[dict]:
     """
     Extract concept-prerequisite triples from a single chunk.
 
-    Retries up to max_retries times if output is malformed.
-    Returns empty list if all retries fail — never crashes the pipeline.
+    Retries on failure and returns an empty list if every attempt fails,
+    so one bad chunk never stops the pipeline.
     """
-    prompt = EXTRACTION_PROMPT.format(chunk_text=chunk["text"])
+    prompt = build_prompt(chunk)
 
     for attempt in range(max_retries + 1):
         try:
             response = model(
                 prompt,
-                max_tokens=256,      # Enough for 4 triples in JSON
-                temperature=0.1,     # Low temperature = more deterministic output
-                stop=["Passage:", "Rules:", "\n\n\n"],  # Stop tokens
+                max_tokens=256,
+                temperature=0.1,
+                grammar=grammar,
                 echo=False,
             )
 
             raw_output = response["choices"][0]["text"].strip()
-
-            # Parse and validate JSON
-            triples = parse_and_validate_output(raw_output, chunk["chunk_id"])
+            triples = parse_and_validate_output(raw_output, chunk["chunk_id"], chunk["text"])
 
             if triples is not None:
                 # Attach chunk metadata to each triple
@@ -87,6 +123,7 @@ def extract_triples_from_chunk(
                     t["chunk_id"] = chunk["chunk_id"]
                     t["source_file"] = chunk["source_file"]
                     t["page_num"] = chunk["page_num"]
+                    t["section"] = chunk.get("section")
                 return triples
 
         except Exception as e:
@@ -98,9 +135,9 @@ def extract_triples_from_chunk(
     return []
 
 
-def parse_and_validate_output(raw: str, chunk_id: str) -> list[dict] | None:
+def parse_and_validate_output(raw: str, chunk_id: str, chunk_text: str) -> list[dict] | None:
     """
-    Parse SLM output and validate it matches expected structure.
+    Parse model output and keep only well-formed triples.
 
     Returns:
         List of valid triples, or None if parsing fails.
@@ -108,15 +145,7 @@ def parse_and_validate_output(raw: str, chunk_id: str) -> list[dict] | None:
     if not raw or raw.strip() == "":
         return []
 
-    # Sometimes the SLM wraps output in markdown code blocks
-    # Strip them before parsing
-    raw = re.sub(r"```json\s*", "", raw)
-    raw = re.sub(r"```\s*", "", raw)
-    raw = raw.strip()
-
-    # Extract JSON array from output
-    # SLM sometimes adds text before/after the array
-    match = re.search(r"\[.*?\]", raw, re.DOTALL)
+    match = re.search(r"\[.*\]", raw, re.DOTALL)
     if not match:
         print(f"    [WARN] No JSON array found in output for chunk {chunk_id}")
         return None
@@ -130,23 +159,28 @@ def parse_and_validate_output(raw: str, chunk_id: str) -> list[dict] | None:
     if not isinstance(data, list):
         return None
 
-    # Validate each triple has required fields with non-empty strings
     valid_triples = []
     for item in data:
         if not isinstance(item, dict):
             continue
-        concept = item.get("concept", "").strip()
-        prerequisite = item.get("prerequisite", "").strip()
+
+        # Phi-3 sometimes returns a JSON null, so coerce before stripping.
+        concept = (item.get("concept") or "").strip()
+        prerequisite = (item.get("prerequisite") or "").strip()
 
         if not concept or not prerequisite:
             continue
 
-        # Reject self-loops — a concept cannot be its own prerequisite
+        # Reject self-loops - a concept cannot be its own prerequisite
         if concept.lower() == prerequisite.lower():
             continue
 
-        # Reject if concept and prerequisite are identical after normalization
         if len(concept) < 3 or len(prerequisite) < 3:
+            continue
+
+        # The grammar cannot express "no relationship here", so it forces a pair
+        # out of every chunk. Anything not actually in the passage is invented.
+        if not is_grounded(concept, chunk_text) or not is_grounded(prerequisite, chunk_text):
             continue
 
         valid_triples.append({

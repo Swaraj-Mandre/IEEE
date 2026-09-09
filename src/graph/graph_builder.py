@@ -1,8 +1,40 @@
 import pickle
 import json
+import re
 import networkx as nx
 from collections import defaultdict
 from pathlib import Path
+
+# Filler words the SLM occasionally returns instead of a concept.
+GARBAGE_CONCEPTS = {
+    "none", "n/a", "na", "null", "unknown", "nothing", "not mentioned",
+    "the", "a", "an", "it", "this", "that", "these", "those",
+    "example", "examples", "text", "passage", "question", "answer",
+}
+
+# Cross-references and book furniture, e.g. "fig. 4.18b", "table 4.1", "grade 9".
+CROSS_REFERENCE = re.compile(
+    r"\b(fig|figure|table|activity|chapter|section|grade|page|exercise)\b", re.I
+)
+
+# 5 words keeps "newton's second law of motion" while still rejecting sentences.
+MAX_CONCEPT_WORDS = 5
+
+
+def is_valid_concept(name: str) -> bool:
+    """Reject filler words, book cross-references and sentence fragments."""
+    name = name.strip().lower()
+
+    if len(name) < 3 or name in GARBAGE_CONCEPTS:
+        return False
+    if CROSS_REFERENCE.search(name):
+        return False
+    if len(name.split()) > MAX_CONCEPT_WORDS:
+        return False
+    # A concept needs at least one real word; "20 m 0 m" and similar are diagram text.
+    if not re.search(r"[a-z]{3}", name):
+        return False
+    return True
 
 
 def build_graph(all_triples: list[dict]) -> nx.DiGraph:
@@ -28,6 +60,7 @@ def build_graph(all_triples: list[dict]) -> nx.DiGraph:
 
     # Track weighting
     edge_support = defaultdict(list)
+    rejected = 0
 
     for triple in all_triples:
         # Normalize to lowercase for deduplication
@@ -35,6 +68,11 @@ def build_graph(all_triples: list[dict]) -> nx.DiGraph:
         concept = triple["concept"].strip().lower()
         prerequisite = triple["prerequisite"].strip().lower()
         chunk_id = triple.get("chunk_id", "unknown")
+
+        # Filter here rather than at read time so kg.pkl is clean on disk.
+        if not is_valid_concept(concept) or not is_valid_concept(prerequisite):
+            rejected += 1
+            continue
 
         if not G.has_node(concept):
             G.add_node(concept,
@@ -67,6 +105,9 @@ def build_graph(all_triples: list[dict]) -> nx.DiGraph:
             weight=len(supporting_chunks),
             source_chunks=supporting_chunks,
         )
+
+    if rejected:
+        print(f"  Rejected {rejected}/{len(all_triples)} triples as non-concepts")
 
     return G
 

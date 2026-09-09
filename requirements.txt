@@ -2,7 +2,8 @@
 # Transitive dependencies are resolved by pip and deliberately not listed.
 
 # Ingestion
-PyMuPDF==1.27.2.3
+pymupdf4llm==1.28.2
+PyMuPDF==1.28.2
 langchain-text-splitters==1.1.2
 
 # Knowledge graph
