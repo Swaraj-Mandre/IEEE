@@ -1,3 +1,30 @@
+import re
+
+# Phrases are matched whole-word and longest-first, so "not clear" is consumed
+# before plain "clear" gets a chance to match the same words.
+CONFUSION_SIGNALS = [
+    "i do not understand", "i don't understand", "i dont understand",
+    "do not understand", "don't understand", "dont understand",
+    "does not make sense", "doesn't make sense", "makes no sense",
+    "nothing is clear", "not very clear", "not clear", "unclear",
+    "i don't get it", "i dont get it", "don't get", "dont get",
+    "what do you mean", "can you explain", "explain again", "say it again",
+    "one more time", "no idea", "not sure",
+    "confusing", "confused", "too hard", "difficult",
+    "huh", "nope", "no",
+]
+
+UNDERSTANDING_SIGNALS = [
+    "makes sense", "make sense",
+    "i understand", "understand now", "understood",
+    "i get it", "get it now", "got it",
+    "already know", "i know", "i knew", "i see",
+    "thank you", "thanks",
+    "crystal clear", "very clear", "clear",
+    "okay", "yes", "yeah", "yep", "sure", "easy", "ok",
+]
+
+
 def compute_gap_score(mastered: int, total: int) -> float:
     if total == 0:
         return 0.0
@@ -5,42 +32,21 @@ def compute_gap_score(mastered: int, total: int) -> float:
     return round(score, 4)
 
 
+def _count_signals(text: str, signals: list[str]) -> tuple[int, str]:
+    """Count whole-word matches and blank each one out so shorter phrases cannot re-match it."""
+    count = 0
+    for signal in sorted(signals, key=len, reverse=True):
+        text, hits = re.subn(rf"\b{re.escape(signal)}\b", " ", text)
+        count += hits
+    return count, text
+
+
 def analyse_response(student_reply: str, current_concept: str) -> dict:
     reply_lower = student_reply.lower().strip()
 
-    confusion_signals = [
-        "don't understand",
-        "dont understand",
-        "not clear",
-        "confused",
-        "what do you mean",
-        "i don't get",
-        "i dont get",
-        "can you explain",
-        "what is",
-        "huh",
-        "?",
-        "no",
-        "nope",
-    ]
-
-    understanding_signals = [
-        "i understand",
-        "i get it",
-        "got it",
-        "makes sense",
-        "okay",
-        "ok",
-        "yes",
-        "understood",
-        "clear",
-        "thanks",
-        "thank you",
-        "i see",
-    ]
-
-    confusion_count = sum(1 for signal in confusion_signals if signal in reply_lower)
-    understanding_count = sum(1 for signal in understanding_signals if signal in reply_lower)
+    # Confusion runs first so a negated phrase wins over the positive word inside it.
+    confusion_count, remaining = _count_signals(reply_lower, CONFUSION_SIGNALS)
+    understanding_count, _ = _count_signals(remaining, UNDERSTANDING_SIGNALS)
 
     if confusion_count > understanding_count:
         verdict = "confused"

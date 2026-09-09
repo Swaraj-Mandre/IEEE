@@ -1,17 +1,14 @@
 import pickle
-import re
 import networkx as nx
 from sentence_transformers import SentenceTransformer
-from src.retrieval.vector_store import (
-    get_collection,
-    query_vector_store,
-    get_embedding_model,
-)
+
+from src import config
+from src.retrieval.vector_store import query_vector_store
 
 
-def load_graph(graph_path: str = "data/graph/kg.pkl") -> nx.DiGraph:
+def load_graph(graph_path=None) -> nx.DiGraph:
     """Load the knowledge graph from disk."""
-    with open(graph_path, "rb") as f:
+    with open(graph_path or config.GRAPH_PATH, "rb") as f:
         G = pickle.load(f)
     return G
 
@@ -28,7 +25,9 @@ def extract_concepts_from_chunks(
     Simple string matching — fast and sufficient for our graph size.
     """
     concept_scores = {}
-    graph_nodes = set(G.nodes())
+    # Sorted, not set order: Python randomises string hashing per run, which made
+    # equally-scored concepts come out in a different order on every restart.
+    graph_nodes = sorted(G.nodes())
 
     for chunk in chunks:
         text_lower = chunk["text"].lower()
@@ -46,12 +45,8 @@ def extract_concepts_from_chunks(
                 # Weight by similarity score of the chunk
                 concept_scores[node] += similarity
 
-    # Sort by accumulated score
-    ranked = sorted(
-        concept_scores.items(),
-        key=lambda x: x[1],
-        reverse=True,
-    )
+    # Ties break on concept name so the same question always gives the same answer.
+    ranked = sorted(concept_scores.items(), key=lambda x: (-x[1], x[0]))
     return ranked
 
 
@@ -87,12 +82,7 @@ def reciprocal_rank_fusion(
         fused_scores[concept] = fused_scores.get(concept, 0)
         fused_scores[concept] += 1 / (k + rank + 1)
 
-    # Sort by fused score
-    ranked = sorted(
-        fused_scores.items(),
-        key=lambda x: x[1],
-        reverse=True,
-    )
+    ranked = sorted(fused_scores.items(), key=lambda x: (-x[1], x[0]))
 
     # Build final result with metadata
     results = []

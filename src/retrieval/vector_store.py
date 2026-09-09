@@ -1,13 +1,11 @@
-import os
 import json
 import chromadb
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
 
-load_dotenv()
+from src import config
 
-VECTORSTORE_PATH = os.getenv("VECTORSTORE_PATH", "data/vectorstore")
+VECTORSTORE_PATH = str(config.VECTORSTORE_PATH)
 COLLECTION_NAME = "vidhya_setu_chunks"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 

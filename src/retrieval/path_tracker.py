@@ -32,20 +32,17 @@ def get_prerequisite_chain(
     G: nx.DiGraph,
     target_concept: str,
     max_depth: int = 3,
+    max_length: int = 8,
 ) -> list[str]:
     """
-    Build an ordered prerequisite chain from roots to target concept.
+    Build an ordered prerequisite chain leading up to the target concept.
 
-    Uses BFS backwards from target to find all ancestors,
-    then topological sort to order them correctly.
+    Walks backwards from the target one level at a time. max_depth limits how far
+    back it looks; max_length caps the chain, because a single concept can have
+    hundreds of ancestors and no student will work through those.
 
     Example output for "acceleration":
         ["distance", "time", "speed", "velocity", "acceleration"]
-
-    Args:
-        G: Knowledge graph
-        target_concept: The concept the student wants to learn
-        max_depth: Maximum prerequisite depth to traverse
 
     Returns:
         Ordered list from most foundational to target concept
@@ -54,29 +51,34 @@ def get_prerequisite_chain(
         # Concept not in graph — return just the concept itself
         return [target_concept]
 
-    # BFS backwards to collect all ancestors within max_depth
-    ancestors = set()
+    ancestors: list[str] = []
+    seen = {target_concept}
     frontier = {target_concept}
 
-    for depth in range(max_depth):
-        next_frontier = set()
+    for _ in range(max_depth):
+        if len(ancestors) >= max_length - 1:
+            break
+
+        # Collect this level's prerequisites, keeping the strongest edge when a
+        # concept is reached from more than one place.
+        candidates: dict[str, int] = {}
         for node in frontier:
             for pred in G.predecessors(node):
-                # Filter garbage nodes
-                if pred.lower() in GARBAGE_NODES:
+                if pred in seen or pred.lower() in GARBAGE_NODES or len(pred) < 3:
                     continue
-                if len(pred) < 3:
-                    continue
-                if pred not in ancestors:
-                    ancestors.add(pred)
-                    next_frontier.add(pred)
-        if not next_frontier:
-            break
-        frontier = next_frontier
+                weight = G.edges[pred, node]["weight"]
+                candidates[pred] = max(candidates.get(pred, 0), weight)
 
-    # Build subgraph of ancestors + target
-    relevant_nodes = ancestors | {target_concept}
-    subgraph = G.subgraph(relevant_nodes).copy()
+        if not candidates:
+            break
+
+        # Edges confirmed by more chunks are more trustworthy, so they fill the chain first.
+        ranked = sorted(candidates, key=lambda n: (-candidates[n], n))
+        seen.update(ranked)
+        ancestors.extend(ranked[: max_length - 1 - len(ancestors)])
+        frontier = set(ranked)
+
+    subgraph = G.subgraph(set(ancestors) | {target_concept}).copy()
 
     # Topological sort gives correct learning order
     try:
@@ -87,7 +89,7 @@ def get_prerequisite_chain(
         ordered.append(target_concept)
     except nx.NetworkXUnfeasible:
         # Fallback if subgraph somehow has cycles
-        ordered = list(ancestors) + [target_concept]
+        ordered = ancestors + [target_concept]
 
     return ordered
 
@@ -111,8 +113,8 @@ def create_session(
     print(f"Target concept: {target_concept}")
     print(f"Prerequisite chain ({len(chain)} steps):")
     for i, concept in enumerate(chain):
-        marker = " ← START" if i == 0 else ""
-        marker = " ← TARGET" if concept == target_concept else marker
+        marker = " <- START" if i == 0 else ""
+        marker = " <- TARGET" if concept == target_concept else marker
         print(f"  {i+1}. {concept}{marker}")
 
     return session

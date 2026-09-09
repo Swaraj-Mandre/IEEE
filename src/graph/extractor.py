@@ -1,39 +1,28 @@
 import json
 import re
-import os
-from pathlib import Path
 from llama_cpp import Llama
-from dotenv import load_dotenv
 
-load_dotenv()
+from src import config
 
 
 def load_model() -> Llama:
-    """
-    Load Phi-3 Mini GGUF model for local inference.
-    GPU layers set to 0 for CPU-only deployment simulation.
-    During build-time, set n_gpu_layers=-1
-    to offload all layers — extraction will be ~8x faster.
-    """
-    model_path = os.getenv("MODEL_PATH")
-
-    if not model_path or not Path(model_path).exists():
+    """Load Phi-3 Mini for triple extraction. Set N_GPU_LAYERS=-1 in .env to use a GPU."""
+    if not config.MODEL_PATH.exists():
         raise FileNotFoundError(
-            f"Model not found at: {model_path}\n"
+            f"Model not found at: {config.MODEL_PATH}\n"
             f"Update MODEL_PATH in your .env file.\n"
             f"Download from: https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf"
         )
 
-    print(f"Loading model from: {model_path}")
+    print(f"Loading model from: {config.MODEL_PATH}")
     print("This takes 10-30 seconds on first load...")
 
     model = Llama(
-        model_path=model_path,
-        n_ctx=2048,          # Context window — enough for prompt + chunk
-        n_gpu_layers=-1,     # -1 = offload all layers to GPU (RTX 4060)
-                             # Change to 0 for CPU-only deployment testing
-        n_threads=4,         # CPU threads for non-GPU operations
-        verbose=False,       # Suppress llama.cpp logs during extraction
+        model_path=str(config.MODEL_PATH),
+        n_ctx=config.N_CTX,
+        n_gpu_layers=config.N_GPU_LAYERS,
+        n_threads=config.N_THREADS,
+        verbose=False,
     )
 
     print("Model loaded successfully.\n")

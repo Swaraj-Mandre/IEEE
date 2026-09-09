@@ -18,7 +18,7 @@ TARGET_CHUNKS = [
 
 def run_kg_pipeline():
     print("=" * 60)
-    print("VIDHYA-SETU — KNOWLEDGE GRAPH CONSTRUCTION")
+    print("VIDHYA-SETU - KNOWLEDGE GRAPH CONSTRUCTION")
     print("=" * 60)
 
     # Load chunks
@@ -113,20 +113,20 @@ Open data/graph/kg_audit.json in VS Code.
 Check 'all_edges' section. For each edge ask:
   1. Does the prerequisite make sense to learn before the concept?
   2. Are both terms real STEM concepts (not vague words)?
-  3. Is the direction correct? (prerequisite → concept)
+  3. Is the direction correct? (prerequisite -> concept)
 
-Good example:   speed → velocity         (correct direction)
-Bad example:    newton's law → force      (direction wrong — force
+Good example:   speed -> velocity         (correct direction)
+Bad example:    newton's law -> force      (direction wrong - force
                                            is needed to understand laws)
-Bad example:    matter → matter           (self-loop, rejected already)
-Bad example:    the → displacement        (not a concept)
+Bad example:    matter -> matter           (self-loop, rejected already)
+Bad example:    the -> displacement        (not a concept)
 
-Check 'high_confidence_edges' first — these appear in 2+ chunks
+Check 'high_confidence_edges' first - these appear in 2+ chunks
 and are almost certainly correct.
 
 Record how many edges you accept vs reject.
 Target: >70% acceptance rate on high_confidence_edges.
-If below 70%, the prompt needs tuning — tell your advisor.
+If below 70%, the prompt needs tuning - tell your advisor.
 """)
 
     # Save a quick-view sample for manual review

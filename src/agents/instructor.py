@@ -1,9 +1,6 @@
-import os
 from llama_cpp import Llama
-from dotenv import load_dotenv
-from pathlib import Path
 
-load_dotenv()
+from src import config
 
 SYSTEM_PROMPT = """You are Vidhya, a patient and encouraging STEM tutor for Class 9 students in rural India.
 Your job is to explain one concept at a time in simple, clear language.
@@ -18,18 +15,17 @@ Rules:
 
 
 def load_model() -> Llama:
-    model_path = os.getenv("MODEL_PATH")
-    if not model_path or not Path(model_path).exists():
+    if not config.MODEL_PATH.exists():
         raise FileNotFoundError(
-            "Model not found at: " + str(model_path) +
-            "\nUpdate MODEL_PATH in your .env file."
+            f"Model not found at: {config.MODEL_PATH}\n"
+            "Update MODEL_PATH in your .env file."
         )
     print("Loading model...")
     model = Llama(
-        model_path=model_path,
-        n_ctx=2048,
-        n_gpu_layers=0,
-        n_threads=4,
+        model_path=str(config.MODEL_PATH),
+        n_ctx=config.N_CTX,
+        n_gpu_layers=config.N_GPU_LAYERS,
+        n_threads=config.N_THREADS,
         verbose=False,
     )
     print("Model loaded.")

@@ -1,0 +1,25 @@
+# Pinned to the versions this project is verified working on (Python 3.11).
+# Transitive dependencies are resolved by pip and deliberately not listed.
+
+# Ingestion
+PyMuPDF==1.27.2.3
+langchain-text-splitters==1.1.2
+
+# Knowledge graph
+networkx==3.6.1
+
+# Retrieval
+chromadb==1.5.9
+sentence-transformers==5.5.1
+
+# Language model
+llama-cpp-python==0.3.28
+
+# Agents
+langgraph==1.2.5
+
+# Interface
+gradio==6.19.0
+
+# Config
+python-dotenv==1.2.2
