@@ -1,5 +1,4 @@
 import sys
-import json
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -13,7 +12,7 @@ from src.retrieval.path_tracker import (
     get_current_concept,
     advance,
     backtrack,
-    session_to_dict,
+    save_session_checkpoint,
 )
 from src.retrieval.retriever import load_graph, retrieve
 from src.retrieval.vector_store import get_collection, get_embedding_model
@@ -47,10 +46,7 @@ def start_session(topic):
     explanation = generate_explanation(MODEL, concept, SESSION["chunks"], level="normal")
 
     chain_text = " -> ".join(session.prerequisite_chain)
-
-    Path("data/sessions").mkdir(parents=True, exist_ok=True)
-    with open("data/sessions/ui_student_session.json", "w", encoding="utf-8") as f:
-        json.dump(session_to_dict(session), f, indent=2, ensure_ascii=False)
+    save_session_checkpoint(session)
 
     return explanation, chain_text, concept
 
@@ -88,8 +84,7 @@ def respond_to_student(student_reply):
         explanation = generate_explanation(MODEL, new_concept, SESSION["chunks"], level="normal")
         status_line += " | Action: RE-EXPLAIN same concept"
 
-    with open("data/sessions/ui_student_session.json", "w", encoding="utf-8") as f:
-        json.dump(session_to_dict(session), f, indent=2, ensure_ascii=False)
+    save_session_checkpoint(session)
 
     return explanation, status_line, new_concept
 

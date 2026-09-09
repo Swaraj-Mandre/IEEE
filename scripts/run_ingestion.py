@@ -13,7 +13,11 @@ def run_ingestion():
     chunks_dir = Path("data/chunks")
     chunks_dir.mkdir(parents=True, exist_ok=True)
 
-    pdf_files = list(raw_pdf_dir.rglob("*.pdf"))
+    # Folders starting with "_" hold superseded sources and are not ingested.
+    pdf_files = [
+        p for p in raw_pdf_dir.rglob("*.pdf")
+        if not any(part.startswith("_") for part in p.relative_to(raw_pdf_dir).parts)
+    ]
 
     if not pdf_files:
         print("ERROR: No PDFs found in data/raw_pdfs/")

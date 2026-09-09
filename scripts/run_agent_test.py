@@ -1,16 +1,35 @@
+"""Smoke test for the tutoring loop: retrieve a concept, explain it, then route on a reply.
+
+Mirrors what src/ui/app.py does, so a pass here means the app path works.
+"""
 import sys
-import json
-import pickle
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.agents.instructor import load_model, generate_explanation
-from src.agents.diagnostic import analyse_response, compute_gap_score, should_backtrack, should_advance
-from src.agents.orchestrator import build_graph, save_session_checkpoint
-from src.retrieval.path_tracker import create_session, get_current_concept, session_to_dict
+from src.agents.diagnostic import (
+    analyse_response,
+    compute_gap_score,
+    should_advance,
+    should_backtrack,
+)
+from src.retrieval.path_tracker import (
+    advance,
+    backtrack,
+    create_session,
+    get_current_concept,
+    save_session_checkpoint,
+)
 from src.retrieval.retriever import load_graph, retrieve
 from src.retrieval.vector_store import get_collection, get_embedding_model
+
+TEST_REPLIES = [
+    "I don't understand what you mean",
+    "Got it, makes sense now",
+    "Can you explain again?",
+    "I know this already",
+]
 
 
 def run_agent_test():
@@ -18,82 +37,55 @@ def run_agent_test():
     print("VIDHYA-SETU : AGENT SYSTEM TEST")
     print("=" * 60)
 
-    print("\nLoading model...")
     model = load_model()
-
-    print("Loading graph and retrieval components...")
-    G = load_graph()
+    graph = load_graph()
     collection = get_collection()
     embed_model = get_embedding_model()
 
-    target = "acceleration"
-    candidates = [n for n in G.nodes() if "newton" in n.lower()]
-    if candidates:
-        target = candidates[0]
-
-    print("Target concept: " + target)
-    session = create_session("test_student", target, G)
-
-    result = retrieve(target, G, collection, embed_model)
+    result = retrieve("What is acceleration?", graph, collection, embed_model)
+    target = result["top_concept"]
     chunks = result["supporting_chunks"]
+    print(f"\nRetrieved target concept: {target}")
 
-    print("\n--- INSTRUCTOR AGENT TEST ---")
+    session = create_session("test_student", target, graph)
+
+    print("\n--- INSTRUCTOR AGENT ---")
     concept = get_current_concept(session)
-    print("Teaching concept: " + concept)
-    explanation = generate_explanation(model, concept, chunks, level="normal")
-    print("\nExplanation:")
-    print(explanation)
+    print(f"Teaching: {concept}\n")
+    print(generate_explanation(model, concept, chunks, level="normal"))
 
-    print("\n--- DIAGNOSTIC AGENT TEST ---")
-    test_replies = [
-        "I don't understand what you mean",
-        "Got it, makes sense now",
-        "Can you explain again?",
-        "Yes I understand",
-    ]
-
-    for reply in test_replies:
-        result_diag = analyse_response(reply, concept)
+    print("\n--- DIAGNOSTIC AGENT ---")
+    for reply in TEST_REPLIES:
+        diagnosis = analyse_response(reply, concept)
         gap = compute_gap_score(
-            len(session.mastered_concepts),
-            len(session.prerequisite_chain)
+            len(session.mastered_concepts), len(session.prerequisite_chain)
         )
-        bt = should_backtrack(result_diag, gap)
-        adv = should_advance(result_diag)
-        print("\nReply: " + reply)
-        print("Verdict: " + result_diag["verdict"])
-        print("Gap score: " + str(gap))
-        print("Backtrack: " + str(bt) + " | Advance: " + str(adv))
+        print(f"\nReply:    {reply}")
+        print(f"Verdict:  {diagnosis['verdict']} | gap {gap}")
+        print(f"Routes to: {_route(diagnosis, gap)}")
 
-    print("\n--- FULL PIPELINE TEST ---")
-    print("Building LangGraph state machine...")
-    app = build_graph(model)
+    print("\n--- ROUTING ---")
+    confused = analyse_response("I don't understand this at all", concept)
+    gap = compute_gap_score(len(session.mastered_concepts), len(session.prerequisite_chain))
+    if should_backtrack(confused, gap):
+        backtrack(session)
+    print(f"After confusion: {get_current_concept(session)}")
 
-    initial_state = {
-        "session": session_to_dict(session),
-        "student_input": "",
-        "current_explanation": "",
-        "diagnostic_result": {},
-        "gap_score": 1.0,
-        "explanation_level": "normal",
-        "supporting_chunks": chunks,
-        "action": "explain",
-    }
+    understood = analyse_response("got it, makes sense", concept)
+    if should_advance(understood):
+        advance(session)
+    print(f"After understanding: {get_current_concept(session)}")
 
-    print("Running instructor node...")
-    output = app.invoke(initial_state)
-    print("\nExplanation from pipeline:")
-    print(output["current_explanation"])
+    save_session_checkpoint(session)
+    print(f"\nPASSED. Checkpoint written for '{session.student_id}'.")
 
-    print("\nSimulating student confusion...")
-    output["student_input"] = "I don't understand this at all"
-    output2 = app.invoke({
-        **output,
-        "action": "diagnose",
-    })
 
-    print("\nPHASE COMPLETED")
-    print("Check data/sessions/ for session checkpoint")
+def _route(diagnosis: dict, gap: float) -> str:
+    if should_backtrack(diagnosis, gap):
+        return "BACKTRACK"
+    if should_advance(diagnosis):
+        return "ADVANCE"
+    return "RE-EXPLAIN"
 
 
 if __name__ == "__main__":

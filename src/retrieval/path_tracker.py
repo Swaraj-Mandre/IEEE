@@ -1,6 +1,8 @@
-import pickle
+import json
 import networkx as nx
 from dataclasses import dataclass, field
+
+from src import config
 
 
 # Garbage nodes the SLM occasionally produces
@@ -80,9 +82,10 @@ def get_prerequisite_chain(
 
     subgraph = G.subgraph(set(ancestors) | {target_concept}).copy()
 
-    # Topological sort gives correct learning order
+    # Lexicographical sort, not plain topological: several orderings are valid here
+    # and the plain version picks a different one on every run.
     try:
-        ordered = list(nx.topological_sort(subgraph))
+        ordered = list(nx.lexicographical_topological_sort(subgraph))
         # Ensure target is last
         if target_concept in ordered:
             ordered.remove(target_concept)
@@ -218,3 +221,11 @@ def session_from_dict(data: dict) -> LearningSession:
         backtrack_count=data["backtrack_count"],
         exchange_count=data["exchange_count"],
     )
+
+
+def save_session_checkpoint(session: LearningSession) -> None:
+    """Write the session to disk after every exchange so a power cut loses at most one turn."""
+    config.SESSION_DIR.mkdir(parents=True, exist_ok=True)
+    path = config.SESSION_DIR / f"{session.student_id}_session.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(session_to_dict(session), f, indent=2, ensure_ascii=False)
