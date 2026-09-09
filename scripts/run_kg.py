@@ -9,10 +9,10 @@ from src.graph.extractor import load_model, extract_triples_from_chunk
 from src.graph.graph_builder import build_graph, save_graph, save_audit_json, get_graph_stats
 from src.ingestion.chunker import load_chunks
 
-# Add more files here after validation passes
+# Chapters the graph is built from. Add more chunk files here to widen coverage.
 TARGET_CHUNKS = [
-    "data/chunks/iesc108_chunks.json",  # Chapter 8: Motion
-    "data/chunks/iesc109_chunks.json",  # Chapter 9: Force and Laws of Motion
+    "data/chunks/ch04_describing_motion_chunks.json",
+    "data/chunks/ch06_forces_and_motion_chunks.json",
 ]
 
 
