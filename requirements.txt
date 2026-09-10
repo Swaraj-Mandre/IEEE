@@ -10,8 +10,9 @@ langchain-text-splitters==1.1.2
 networkx==3.6.1
 
 # Retrieval
-chromadb==1.5.9
 sentence-transformers==5.5.1
+rank-bm25==0.2.2
+numpy==2.4.6
 
 # Language model
 llama-cpp-python==0.3.28

@@ -49,7 +49,7 @@ def run_retrieval_test():
         print("Top concept: " + str(result["top_concept"]))
         print("Top 3 results:")
         for r in result["fused_results"][:3]:
-            print("  " + r["concept"] + " | score: " + str(round(r["fused_score"], 4)))
+            print("  " + r["concept"] + " | score: " + str(round(r["score"], 4)))
         if result["supporting_chunks"]:
             chunk = result["supporting_chunks"][0]
             print("Best chunk: " + chunk["text"][:150])

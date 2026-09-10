@@ -1,9 +1,20 @@
+import math
 import pickle
+
 import networkx as nx
 from sentence_transformers import SentenceTransformer
 
 from src import config
-from src.retrieval.vector_store import query_vector_store
+from src.retrieval.vector_store import (
+    VectorStore,
+    keyword_search,
+    query_vector_store,
+    tokenize,
+)
+
+RRF_K = 60
+# How much to favour a concept the student named in their own question.
+QUESTION_MATCH_BOOST = 3.0
 
 
 def load_graph(graph_path=None) -> nx.DiGraph:
@@ -13,123 +24,121 @@ def load_graph(graph_path=None) -> nx.DiGraph:
     return G
 
 
+def reciprocal_rank_fusion(*rankings: list[dict], k: int = RRF_K) -> list[dict]:
+    """
+    Merge several chunk rankings into one.
+
+    RRF scores by position rather than by score, because BM25 and cosine
+    similarity are on scales that cannot be compared directly.
+    """
+    scores: dict[str, float] = {}
+    by_id: dict[str, dict] = {}
+
+    for ranking in rankings:
+        for rank, chunk in enumerate(ranking):
+            chunk_id = chunk["chunk_id"]
+            scores[chunk_id] = scores.get(chunk_id, 0.0) + 1 / (k + rank + 1)
+            by_id.setdefault(chunk_id, chunk)
+
+    ordered = sorted(scores.items(), key=lambda x: (-x[1], x[0]))
+    return [{**by_id[cid], "fused_score": round(score, 6)} for cid, score in ordered]
+
+
+def concept_frequencies(store: VectorStore, G: nx.DiGraph) -> dict[str, int]:
+    """Count how many chunks mention each concept. Computed once, then cached on the store."""
+    if store.concept_df is None:
+        nodes = [n for n in G.nodes() if len(n) >= 3]
+        counts = dict.fromkeys(nodes, 0)
+        for chunk in store.chunks:
+            text = chunk["text"].lower()
+            for node in nodes:
+                if node in text:
+                    counts[node] += 1
+        store.concept_df = counts
+    return store.concept_df
+
+
 def extract_concepts_from_chunks(
     chunks: list[dict],
     G: nx.DiGraph,
+    concept_df: dict[str, int] | None = None,
+    total_chunks: int = 0,
+    question: str = "",
 ) -> list[tuple[str, float]]:
     """
-    Given retrieved chunks, find which graph nodes they mention.
-    Returns list of (concept, relevance_score) tuples.
+    Find which graph concepts the retrieved chunks talk about.
 
-    Strategy: check if any graph node name appears in the chunk text.
-    Simple string matching — fast and sufficient for our graph size.
+    Three signals decide the winner:
+      - how strongly the top chunks mention it, longest match only, so a chunk
+        about "newton's second law of motion" does not also credit "motion"
+      - how rare it is in the corpus, or "object" wins every time
+      - whether the student's own words name it
     """
-    concept_scores = {}
-    # Sorted, not set order: Python randomises string hashing per run, which made
-    # equally-scored concepts come out in a different order on every restart.
-    graph_nodes = sorted(G.nodes())
+    nodes = sorted(G.nodes(), key=len, reverse=True)
+    concept_scores: dict[str, float] = {}
 
-    for chunk in chunks:
+    for rank, chunk in enumerate(chunks):
         text_lower = chunk["text"].lower()
-        similarity = chunk["similarity"]
+        weight = 1 / (RRF_K + rank + 1)
+        matched: list[str] = []
 
-        for node in graph_nodes:
-            # Skip garbage nodes
-            if node in ("none", "n/a", "") or len(node) < 3:
+        for node in nodes:
+            if len(node) < 3 or node not in text_lower:
                 continue
+            if any(node in longer for longer in matched):
+                continue
+            matched.append(node)
+            concept_scores[node] = concept_scores.get(node, 0.0) + weight
 
-            # Check if concept appears in chunk text
-            if node in text_lower:
-                if node not in concept_scores:
-                    concept_scores[node] = 0
-                # Weight by similarity score of the chunk
-                concept_scores[node] += similarity
+    question_words = set(tokenize(question))
+    for node, score in concept_scores.items():
+        if concept_df and total_chunks:
+            df = concept_df.get(node, 1) or 1
+            score *= math.log(1 + total_chunks / df)
+        if question_words:
+            node_words = tokenize(node)
+            overlap = sum(w in question_words for w in node_words) / len(node_words)
+            score *= 1 + QUESTION_MATCH_BOOST * overlap
+        concept_scores[node] = score
 
     # Ties break on concept name so the same question always gives the same answer.
-    ranked = sorted(concept_scores.items(), key=lambda x: (-x[1], x[0]))
-    return ranked
-
-
-def reciprocal_rank_fusion(
-    graph_results: list[tuple[str, float]],
-    vector_chunks: list[dict],
-    G: nx.DiGraph,
-    k: int = 60,
-) -> list[dict]:
-    """
-    Fuse graph-based concept ranking with vector search results.
-
-    Reciprocal Rank Fusion formula: score = 1 / (k + rank)
-    Higher score = more relevant.
-
-    This is the core of GraphRAG — neither source alone is sufficient:
-    - Graph alone: finds structurally connected concepts but may miss
-      semantically relevant ones not well-connected in the graph.
-    - Vector alone: finds semantically similar chunks but ignores
-      conceptual structure and prerequisite order.
-    - Fusion: balances both signals.
-    """
-    fused_scores = {}
-
-    # Score from graph-based concept matching
-    for rank, (concept, score) in enumerate(graph_results[:20]):
-        fused_scores[concept] = fused_scores.get(concept, 0)
-        fused_scores[concept] += 1 / (k + rank + 1)
-
-    # Score from vector search — extract concepts mentioned in top chunks
-    vector_concepts = extract_concepts_from_chunks(vector_chunks, G)
-    for rank, (concept, score) in enumerate(vector_concepts[:20]):
-        fused_scores[concept] = fused_scores.get(concept, 0)
-        fused_scores[concept] += 1 / (k + rank + 1)
-
-    ranked = sorted(fused_scores.items(), key=lambda x: (-x[1], x[0]))
-
-    # Build final result with metadata
-    results = []
-    for concept, score in ranked[:10]:
-        results.append({
-            "concept": concept,
-            "fused_score": round(score, 6),
-            "in_degree": G.in_degree(concept),   # How many prerequisites
-            "out_degree": G.out_degree(concept),  # How many depend on it
-        })
-
-    return results
+    return sorted(concept_scores.items(), key=lambda x: (-x[1], x[0]))
 
 
 def retrieve(
     question: str,
     G: nx.DiGraph,
-    collection,
+    store: VectorStore,
     embed_model: SentenceTransformer,
-    n_vector_results: int = 5,
+    n_results: int = 5,
 ) -> dict:
     """
-    Main retrieval function. Given a student question, returns:
-    - top_concept: best matching concept in the graph
-    - fused_results: ranked list of relevant concepts
-    - supporting_chunks: text chunks that support the answer
-    - query: original question
+    Answer a student question with a starting concept and the text to explain it from.
 
-    This is called by the Instructor Agent.
+    Runs two independent searches - dense embeddings for meaning, BM25 for exact
+    wording - fuses them, then resolves the result against the knowledge graph.
     """
-    # Vector search
-    vector_chunks = query_vector_store(
-        collection, embed_model, question, n_results=n_vector_results
+    dense_hits = query_vector_store(store, embed_model, question, n_results=n_results)
+    keyword_hits = keyword_search(store, question, n_results=n_results)
+    fused_chunks = reciprocal_rank_fusion(dense_hits, keyword_hits)[:n_results]
+
+    ranked_concepts = extract_concepts_from_chunks(
+        fused_chunks, G, concept_frequencies(store, G), store.count(), question
     )
 
-    # Extract concepts mentioned in retrieved chunks
-    graph_results = extract_concepts_from_chunks(vector_chunks, G)
-
-    # Fuse rankings
-    fused_results = reciprocal_rank_fusion(graph_results, vector_chunks, G)
-
-    # Select top concept
-    top_concept = fused_results[0]["concept"] if fused_results else None
+    results = [
+        {
+            "concept": concept,
+            "score": round(score, 6),
+            "in_degree": G.in_degree(concept),
+            "out_degree": G.out_degree(concept),
+        }
+        for concept, score in ranked_concepts[:10]
+    ]
 
     return {
         "query": question,
-        "top_concept": top_concept,
-        "fused_results": fused_results,
-        "supporting_chunks": vector_chunks,
+        "top_concept": results[0]["concept"] if results else None,
+        "fused_results": results,
+        "supporting_chunks": fused_chunks,
     }

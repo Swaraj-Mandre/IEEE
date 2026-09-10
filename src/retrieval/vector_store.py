@@ -1,200 +1,151 @@
+"""Flat vector index over the textbook chunks.
+
+The corpus is a few hundred chunks, so an exact brute-force search is both
+faster and more accurate than an approximate index, and the store is two plain
+files that survive any library upgrade.
+"""
 import json
-import chromadb
-from pathlib import Path
+import re
+from dataclasses import dataclass, field
+
+import numpy as np
+from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
 from src import config
 
-VECTORSTORE_PATH = str(config.VECTORSTORE_PATH)
-COLLECTION_NAME = "vidhya_setu_chunks"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
+
+# BGE models are trained with this prefix on queries only, never on documents.
+QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
+
+EMBEDDINGS_FILE = "embeddings.npy"
+CHUNKS_FILE = "chunks.json"
+
+
+@dataclass
+class VectorStore:
+    """Chunk embeddings and their metadata, row-aligned, plus a keyword index."""
+    embeddings: np.ndarray
+    chunks: list[dict]
+    bm25: BM25Okapi = field(init=False, repr=False)
+    # Filled in by the retriever on first use; see concept_frequencies().
+    concept_df: dict[str, int] | None = field(default=None, repr=False)
+
+    def __post_init__(self):
+        self.bm25 = BM25Okapi([tokenize(c["text"]) for c in self.chunks])
+
+    def count(self) -> int:
+        return len(self.chunks)
+
+
+def tokenize(text: str) -> list[str]:
+    """Lowercase word tokens. Keeps digits so "9.8" and "1 kg" stay searchable."""
+    return re.findall(r"[a-z0-9]+", text.lower())
 
 
 def get_embedding_model() -> SentenceTransformer:
-    """
-    Load sentence-transformers model for chunk embedding.
-    22MB model, downloads once and caches locally.
-    CPU inference is fast enough — no GPU needed for embeddings.
-    """
     print(f"Loading embedding model: {EMBEDDING_MODEL}")
     model = SentenceTransformer(EMBEDDING_MODEL)
     print("Embedding model loaded.\n")
     return model
 
 
-def get_chroma_client() -> chromadb.PersistentClient:
-    """
-    Get ChromaDB persistent client pointed at D drive.
-    PersistentClient saves to disk — survives restarts.
-    """
-    Path(VECTORSTORE_PATH).mkdir(parents=True, exist_ok=True)
-    client = chromadb.PersistentClient(path=VECTORSTORE_PATH)
-    return client
+def embed(model: SentenceTransformer, texts: list[str], is_query: bool = False) -> np.ndarray:
+    if is_query:
+        texts = [QUERY_PREFIX + t for t in texts]
+    return model.encode(
+        texts,
+        batch_size=32,
+        show_progress_bar=False,
+        normalize_embeddings=True,  # lets cosine similarity be a plain dot product
+    ).astype(np.float32)
 
 
-def build_vector_store(
-    chunk_files: list[str],
-    force_rebuild: bool = False
-) -> chromadb.Collection:
-    """
-    Embed all chunks and store in ChromaDB.
+def build_vector_store(chunk_files: list[str], force_rebuild: bool = False) -> VectorStore:
+    """Embed every chunk and write the index to disk."""
+    if not force_rebuild and (config.VECTORSTORE_PATH / EMBEDDINGS_FILE).exists():
+        store = get_collection()
+        print(f"Vector store already has {store.count()} chunks. Use force_rebuild=True to regenerate.")
+        return store
 
-    Args:
-        chunk_files: List of paths to chunk JSON files
-        force_rebuild: If True, delete existing collection and rebuild
-
-    Returns:
-        ChromaDB collection ready for querying
-    """
-    client = get_chroma_client()
-
-    # Handle force rebuild
-    if force_rebuild:
-        try:
-            client.delete_collection(COLLECTION_NAME)
-            print("Deleted existing collection for rebuild.")
-        except Exception:
-            pass
-
-    # Check if collection already exists with data
-    try:
-        collection = client.get_collection(COLLECTION_NAME)
-        existing_count = collection.count()
-        if existing_count > 0 and not force_rebuild:
-            print(f"Vector store already has {existing_count} chunks.")
-            print("Skipping rebuild. Use force_rebuild=True to regenerate.")
-            return collection
-    except Exception:
-        pass
-
-    # Create fresh collection
-    collection = client.get_or_create_collection(
-        name=COLLECTION_NAME,
-        metadata={"hnsw:space": "cosine"},  # Cosine similarity for text
-    )
-
-    # Load embedding model
-    embed_model = get_embedding_model()
-
-    # Load and embed all chunks
     all_chunks = []
     for chunk_file in chunk_files:
-        if not Path(chunk_file).exists():
+        path = config.PROJECT_ROOT / chunk_file
+        if not path.exists():
             print(f"WARNING: {chunk_file} not found, skipping.")
             continue
-        with open(chunk_file, encoding="utf-8") as f:
-            chunks = json.load(f)
+        chunks = json.loads(path.read_text(encoding="utf-8"))
         all_chunks.extend(chunks)
         print(f"Loaded {len(chunks)} chunks from {chunk_file}")
 
+    if not all_chunks:
+        raise RuntimeError("No chunks found. Run scripts/run_ingestion.py first.")
+
     print(f"\nTotal chunks to embed: {len(all_chunks)}")
-    print("Embedding chunks (this takes ~2 minutes)...")
+    model = get_embedding_model()
+    embeddings = embed(model, [c["text"] for c in all_chunks])
 
-    # Process in batches to avoid memory issues
-    # ChromaDB has a 41665 item limit per add() call
-    batch_size = 100
-    total_batches = (len(all_chunks) + batch_size - 1) // batch_size
+    config.VECTORSTORE_PATH.mkdir(parents=True, exist_ok=True)
+    np.save(config.VECTORSTORE_PATH / EMBEDDINGS_FILE, embeddings)
+    (config.VECTORSTORE_PATH / CHUNKS_FILE).write_text(
+        json.dumps(all_chunks, ensure_ascii=False), encoding="utf-8"
+    )
 
-    for batch_idx in range(total_batches):
-        start = batch_idx * batch_size
-        end = min(start + batch_size, len(all_chunks))
-        batch = all_chunks[start:end]
-
-        # Extract texts for embedding
-        texts = [c["text"] for c in batch]
-
-        # Generate embeddings
-        embeddings = embed_model.encode(
-            texts,
-            batch_size=32,
-            show_progress_bar=False,
-            normalize_embeddings=True,  # Normalize for cosine similarity
-        ).tolist()
-
-        # Prepare ChromaDB inputs
-        ids = [c["chunk_id"] for c in batch]
-        metadatas = [
-            {
-                "page_num": c["page_num"],
-                "source_file": c["source_file"],
-                "chunk_index": c["chunk_index"],
-                "estimated_tokens": c["estimated_tokens"],
-            }
-            for c in batch
-        ]
-
-        # Add to ChromaDB
-        collection.add(
-            ids=ids,
-            embeddings=embeddings,
-            documents=texts,
-            metadatas=metadatas,
-        )
-
-        if (batch_idx + 1) % 5 == 0 or batch_idx == total_batches - 1:
-            print(f"  Embedded {end}/{len(all_chunks)} chunks")
-
-    final_count = collection.count()
-    print(f"\nVector store built: {final_count} chunks indexed.")
-    print(f"Stored at: {VECTORSTORE_PATH}")
-    return collection
+    print(f"\nVector store built: {len(all_chunks)} chunks, {embeddings.nbytes / 1e6:.1f} MB")
+    print(f"Stored at: {config.VECTORSTORE_PATH}")
+    return VectorStore(embeddings, all_chunks)
 
 
-def get_collection() -> chromadb.Collection:
-    """
-    Get existing ChromaDB collection for querying.
-    Call this in retriever — does not rebuild.
-    """
-    client = get_chroma_client()
-    try:
-        collection = client.get_collection(COLLECTION_NAME)
-        return collection
-    except Exception:
+def get_collection() -> VectorStore:
+    """Load the index for querying. Does not rebuild."""
+    embeddings_path = config.VECTORSTORE_PATH / EMBEDDINGS_FILE
+    chunks_path = config.VECTORSTORE_PATH / CHUNKS_FILE
+
+    if not embeddings_path.exists() or not chunks_path.exists():
         raise RuntimeError(
-            "Vector store not found. Run scripts/run_retrieval_test.py first "
+            "Vector store not found. Run scripts/run_retreival_test.py first "
             "to build the vector store."
         )
 
+    return VectorStore(
+        embeddings=np.load(embeddings_path),
+        chunks=json.loads(chunks_path.read_text(encoding="utf-8")),
+    )
+
 
 def query_vector_store(
-    collection: chromadb.Collection,
+    store: VectorStore,
     embed_model: SentenceTransformer,
     query: str,
     n_results: int = 5,
 ) -> list[dict]:
-    """
-    Query vector store for semantically similar chunks.
+    """Return the n most similar chunks, scored by cosine similarity."""
+    query_vec = embed(embed_model, [query], is_query=True)[0]
+    scores = store.embeddings @ query_vec
 
-    Returns:
-        List of dicts with text, metadata, and similarity score
-    """
-    # Embed the query
-    query_embedding = embed_model.encode(
-        [query],
-        normalize_embeddings=True,
-    ).tolist()[0]
+    return _top_hits(store, scores, n_results)
 
-    # Query ChromaDB
-    results = collection.query(
-        query_embeddings=[query_embedding],
-        n_results=n_results,
-        include=["documents", "metadatas", "distances"],
-    )
 
-    # Format results
-    formatted = []
-    for i in range(len(results["ids"][0])):
-        # ChromaDB cosine distance: 0 = identical, 2 = opposite
-        # Convert to similarity: 1 - (distance/2)
-        distance = results["distances"][0][i]
-        similarity = round(1 - (distance / 2), 4)
+def keyword_search(store: VectorStore, query: str, n_results: int = 5) -> list[dict]:
+    """Return the n best chunks by BM25. Catches exact terms like "F = ma" that embeddings blur."""
+    scores = np.asarray(store.bm25.get_scores(tokenize(query)), dtype=np.float32)
+    return _top_hits(store, scores, n_results)
 
-        formatted.append({
-            "chunk_id": results["ids"][0][i],
-            "text": results["documents"][0][i],
-            "source_file": results["metadatas"][0][i]["source_file"],
-            "page_num": results["metadatas"][0][i]["page_num"],
-            "similarity": similarity,
-        })
 
-    return formatted
+def _top_hits(store: VectorStore, scores: np.ndarray, n_results: int) -> list[dict]:
+    n_results = min(n_results, len(scores))
+    top = np.argpartition(-scores, n_results - 1)[:n_results]
+    top = top[np.argsort(-scores[top])]
+
+    return [
+        {
+            "chunk_id": store.chunks[i]["chunk_id"],
+            "text": store.chunks[i]["text"],
+            "source_file": store.chunks[i]["source_file"],
+            "page_num": store.chunks[i]["page_num"],
+            "section": store.chunks[i].get("section"),
+            "similarity": round(float(scores[i]), 4),
+        }
+        for i in top
+    ]
