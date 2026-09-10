@@ -7,6 +7,7 @@ files that survive any library upgrade.
 import json
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 
 import numpy as np
 from rank_bm25 import BM25Okapi
@@ -62,7 +63,7 @@ def embed(model: SentenceTransformer, texts: list[str], is_query: bool = False) 
     ).astype(np.float32)
 
 
-def build_vector_store(chunk_files: list[str], force_rebuild: bool = False) -> VectorStore:
+def build_vector_store(chunk_files=None, force_rebuild: bool = False) -> VectorStore:
     """Embed every chunk and write the index to disk."""
     if not force_rebuild and (config.VECTORSTORE_PATH / EMBEDDINGS_FILE).exists():
         store = get_collection()
@@ -70,14 +71,16 @@ def build_vector_store(chunk_files: list[str], force_rebuild: bool = False) -> V
         return store
 
     all_chunks = []
-    for chunk_file in chunk_files:
-        path = config.PROJECT_ROOT / chunk_file
+    for chunk_file in chunk_files or config.CHUNK_FILES:
+        path = Path(chunk_file)
+        if not path.is_absolute():
+            path = config.PROJECT_ROOT / path
         if not path.exists():
-            print(f"WARNING: {chunk_file} not found, skipping.")
+            print(f"WARNING: {path.name} not found, skipping.")
             continue
         chunks = json.loads(path.read_text(encoding="utf-8"))
         all_chunks.extend(chunks)
-        print(f"Loaded {len(chunks)} chunks from {chunk_file}")
+        print(f"Loaded {len(chunks)} chunks from {path.name}")
 
     if not all_chunks:
         raise RuntimeError("No chunks found. Run scripts/run_ingestion.py first.")
@@ -104,8 +107,7 @@ def get_collection() -> VectorStore:
 
     if not embeddings_path.exists() or not chunks_path.exists():
         raise RuntimeError(
-            "Vector store not found. Run scripts/run_retreival_test.py first "
-            "to build the vector store."
+            "Vector store not found. Run scripts/build_vectorstore.py to build it."
         )
 
     return VectorStore(

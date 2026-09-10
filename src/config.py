@@ -18,8 +18,17 @@ MODEL_PATH = _path("MODEL_PATH", "models/Phi-3-mini-4k-instruct-q4.gguf")
 GRAPH_PATH = _path("GRAPH_PATH", "data/graph/kg.pkl")
 VECTORSTORE_PATH = _path("VECTORSTORE_PATH", "data/vectorstore")
 SESSION_DIR = _path("SESSION_DIR", "data/sessions")
+CHUNK_DIR = _path("CHUNK_DIR", "data/chunks")
 
-# Phi-3 Mini was trained at 4096 tokens; anything lower throws away context.
-N_CTX = int(os.getenv("N_CTX", 4096))
+# Chapters the graph and the index are built from. Add a chunk file here to
+# widen coverage; the graph build and the index build both read this list.
+CHUNK_FILES = [
+    CHUNK_DIR / "ch04_describing_motion_chunks.json",
+    CHUNK_DIR / "ch06_forces_and_motion_chunks.json",
+]
+
+# The longest prompt either agent builds is 639 tokens, so 2048 leaves 3x room.
+# The window is pure KV cache: Phi-3's full 4096 costs about 800 MB more RAM.
+N_CTX = int(os.getenv("N_CTX", 2048))
 N_THREADS = int(os.getenv("N_THREADS", 4))
 N_GPU_LAYERS = int(os.getenv("N_GPU_LAYERS", 0))

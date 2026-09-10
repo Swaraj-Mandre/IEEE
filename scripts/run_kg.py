@@ -5,16 +5,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from src import config
 from src.graph.extractor import load_model, load_grammar, extract_triples_from_chunk
 from src.graph.graph_builder import build_graph, save_graph, save_audit_json, get_graph_stats
 from src.graph.cycle_cleaner import remove_cycles
 from src.ingestion.chunker import load_chunks
-
-# Chapters the graph is built from. Add more chunk files here to widen coverage.
-TARGET_CHUNKS = [
-    "data/chunks/ch04_describing_motion_chunks.json",
-    "data/chunks/ch06_forces_and_motion_chunks.json",
-]
 
 
 def run_kg_pipeline():
@@ -24,13 +19,13 @@ def run_kg_pipeline():
 
     # Load chunks
     all_chunks = []
-    for chunk_file in TARGET_CHUNKS:
-        if not Path(chunk_file).exists():
-            print(f"ERROR: {chunk_file} not found. Run Phase 1 first.")
+    for chunk_file in config.CHUNK_FILES:
+        if not chunk_file.exists():
+            print(f"ERROR: {chunk_file.name} not found. Run scripts/run_ingestion.py first.")
             return
-        chunks = load_chunks(chunk_file)
+        chunks = load_chunks(str(chunk_file))
         all_chunks.extend(chunks)
-        print(f"Loaded {len(chunks)} chunks from {chunk_file}")
+        print(f"Loaded {len(chunks)} chunks from {chunk_file.name}")
 
     print(f"\nTotal chunks to process: {len(all_chunks)}")
     print("Estimated time: 15-40 minutes on CPU, 2-5 minutes with GPU\n")
@@ -106,62 +101,54 @@ def run_kg_pipeline():
 
     # Save outputs
     print("\nSaving outputs...")
-    Path("data/graph").mkdir(parents=True, exist_ok=True)
-    save_graph(G, "data/graph/kg.pkl")
-    save_audit_json(G, all_triples, "data/graph/kg_audit.json")
+    graph_dir = config.GRAPH_PATH.parent
+    graph_dir.mkdir(parents=True, exist_ok=True)
+    save_graph(G, str(config.GRAPH_PATH))
+    save_audit_json(G, all_triples, str(graph_dir / "kg_audit.json"))
+    save_sample_review(G, graph_dir / "kg_sample_review.json")
 
-    # Manual validation instructions
     print("\n" + "=" * 60)
-    print("MANUAL VALIDATION REQUIRED BEFORE PHASE 3")
+    print("NEXT STEPS")
     print("=" * 60)
     print("""
-Open data/graph/kg_audit.json in VS Code.
+1. Rebuild the index so it matches the new graph:
+     python scripts/build_vectorstore.py
 
-Check 'all_edges' section. For each edge ask:
-  1. Does the prerequisite make sense to learn before the concept?
-  2. Are both terms real STEM concepts (not vague words)?
-  3. Is the direction correct? (prerequisite -> concept)
+2. Confirm nothing regressed:
+     python scripts/run_checks.py
 
-Good example:   speed -> velocity         (correct direction)
-Bad example:    newton's law -> force      (direction wrong - force
-                                           is needed to understand laws)
-Bad example:    matter -> matter           (self-loop, rejected already)
-Bad example:    the -> displacement        (not a concept)
-
-Check 'high_confidence_edges' first - these appear in 2+ chunks
-and are almost certainly correct.
-
-Record how many edges you accept vs reject.
-Target: >70% acceptance rate on high_confidence_edges.
-If below 70%, the prompt needs tuning - tell your advisor.
+3. Spot-check the extraction by hand in data/graph/kg_sample_review.json.
+   For each edge ask: is the prerequisite really needed first, are both
+   ends real concepts, and is the direction right (prerequisite -> concept)?
+   Correct:   speed -> velocity
+   Wrong:     newton's law -> force   (force is needed to understand the law)
+   Aim for 70%+ acceptance on the high-confidence edges. Below that, the
+   extraction prompt in src/graph/extractor.py needs work.
 """)
 
-    # Save a quick-view sample for manual review
-    sample_path = "data/graph/kg_sample_review.json"
+
+def save_sample_review(G, output_path: Path) -> None:
+    """Write a short, hand-checkable slice of the graph. The full graph is too big to read."""
+    edges = sorted(G.edges(), key=lambda e: (-G.edges[e]["weight"], e))
+
     sample = {
-        "instructions": "Review these 20 edges manually before Phase 3",
-        "high_confidence_edges": stats.get("high_confidence_edges", [])[:20]
-        if "high_confidence_edges" in stats
-        else [],
+        "how_to_review": (
+            "Check each edge: is the prerequisite genuinely needed before the "
+            "concept, are both ends real concepts, and is the direction right?"
+        ),
+        "high_confidence_edges": [
+            {"prerequisite": u, "concept": v, "weight": G.edges[u, v]["weight"]}
+            for u, v in edges
+            if G.edges[u, v]["weight"] >= 2
+        ][:20],
         "sample_edges": [
             {"prerequisite": u, "concept": v, "weight": G.edges[u, v]["weight"]}
-            for u, v in list(G.edges())[:20]
+            for u, v in edges[:20]
         ],
     }
 
-    # Get high confidence from audit
-    hc = [
-        {"prerequisite": u, "concept": v, "weight": G.edges[u, v]["weight"]}
-        for u, v in G.edges()
-        if G.edges[u, v]["weight"] >= 2
-    ]
-    sample["high_confidence_edges"] = hc[:20]
-
-    with open(sample_path, "w", encoding="utf-8") as f:
-        json.dump(sample, f, indent=2, ensure_ascii=False)
-
-    print(f"20-edge sample saved to {sample_path}")
-    print("Review this file before proceeding to Phase 3.\n")
+    output_path.write_text(json.dumps(sample, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  Sample review saved to {output_path}")
 
 
 if __name__ == "__main__":

@@ -1,25 +1,20 @@
 {
-  "instructions": "Review these 20 edges manually before Phase 3",
+  "how_to_review": "Check each edge: is the prerequisite genuinely needed before the concept, are both ends real concepts, and is the direction right?",
   "high_confidence_edges": [
     {
-      "prerequisite": "distance",
-      "concept": "displacement",
-      "weight": 2
+      "prerequisite": "velocity",
+      "concept": "acceleration",
+      "weight": 28
     },
     {
-      "prerequisite": "speed",
-      "concept": "velocity",
-      "weight": 6
+      "prerequisite": "force",
+      "concept": "acceleration",
+      "weight": 16
     },
     {
-      "prerequisite": "speed",
-      "concept": "average speed",
-      "weight": 2
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "displacement",
-      "weight": 2
+      "prerequisite": "mass",
+      "concept": "force",
+      "weight": 14
     },
     {
       "prerequisite": "motion",
@@ -27,24 +22,29 @@
       "weight": 9
     },
     {
-      "prerequisite": "circular motion",
-      "concept": "uniform circular motion",
-      "weight": 2
+      "prerequisite": "velocity",
+      "concept": "velocity-time graph",
+      "weight": 7
     },
     {
-      "prerequisite": "velocity",
-      "concept": "acceleration",
-      "weight": 28
+      "prerequisite": "position",
+      "concept": "displacement",
+      "weight": 6
     },
     {
-      "prerequisite": "velocity",
-      "concept": "average velocity",
+      "prerequisite": "speed",
+      "concept": "velocity",
+      "weight": 6
+    },
+    {
+      "prerequisite": "force",
+      "concept": "friction",
       "weight": 5
     },
     {
-      "prerequisite": "velocity",
-      "concept": "change in velocity",
-      "weight": 2
+      "prerequisite": "force",
+      "concept": "net force",
+      "weight": 5
     },
     {
       "prerequisite": "velocity",
@@ -53,38 +53,28 @@
     },
     {
       "prerequisite": "velocity",
-      "concept": "velocity-time graph",
-      "weight": 7
+      "concept": "average velocity",
+      "weight": 5
     },
     {
-      "prerequisite": "velocity",
-      "concept": "magnitude",
-      "weight": 2
-    },
-    {
-      "prerequisite": "velocity",
-      "concept": "displacement",
-      "weight": 2
-    },
-    {
-      "prerequisite": "velocity",
-      "concept": "initial velocity",
-      "weight": 2
-    },
-    {
-      "prerequisite": "velocity",
-      "concept": "final velocity",
-      "weight": 2
-    },
-    {
-      "prerequisite": "velocity",
-      "concept": "force of friction",
-      "weight": 2
-    },
-    {
-      "prerequisite": "velocity",
+      "prerequisite": "forces",
       "concept": "net force",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "prerequisite": "object",
+      "concept": "force",
+      "weight": 4
+    },
+    {
+      "prerequisite": "force",
+      "concept": "tension",
+      "weight": 3
+    },
+    {
+      "prerequisite": "object",
+      "concept": "mass",
+      "weight": 3
     },
     {
       "prerequisite": "position",
@@ -93,90 +83,40 @@
     },
     {
       "prerequisite": "position",
-      "concept": "displacement",
-      "weight": 6
+      "concept": "velocity",
+      "weight": 3
     },
     {
-      "prerequisite": "position",
-      "concept": "distance travelled",
+      "prerequisite": "area",
+      "concept": "displacement",
+      "weight": 2
+    },
+    {
+      "prerequisite": "circular motion",
+      "concept": "uniform circular motion",
+      "weight": 2
+    },
+    {
+      "prerequisite": "displacement",
+      "concept": "average velocity",
       "weight": 2
     }
   ],
   "sample_edges": [
     {
-      "prerequisite": "distance",
-      "concept": "distance-time graph",
-      "weight": 1
+      "prerequisite": "velocity",
+      "concept": "acceleration",
+      "weight": 28
     },
     {
-      "prerequisite": "distance",
-      "concept": "displacement",
-      "weight": 2
+      "prerequisite": "force",
+      "concept": "acceleration",
+      "weight": 16
     },
     {
-      "prerequisite": "speed",
-      "concept": "distance",
-      "weight": 1
-    },
-    {
-      "prerequisite": "speed",
-      "concept": "velocity",
-      "weight": 6
-    },
-    {
-      "prerequisite": "speed",
-      "concept": "average speed",
-      "weight": 2
-    },
-    {
-      "prerequisite": "speed",
-      "concept": "speed-time graph",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "linear motion",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "distance",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "displacement",
-      "weight": 2
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "distance travelled",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "speed",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "graphs",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "position-time graph",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "equations",
-      "weight": 1
-    },
-    {
-      "prerequisite": "motion",
-      "concept": "circular motion",
-      "weight": 1
+      "prerequisite": "mass",
+      "concept": "force",
+      "weight": 14
     },
     {
       "prerequisite": "motion",
@@ -184,24 +124,84 @@
       "weight": 9
     },
     {
-      "prerequisite": "motion",
-      "concept": "cause",
-      "weight": 1
+      "prerequisite": "velocity",
+      "concept": "velocity-time graph",
+      "weight": 7
     },
     {
-      "prerequisite": "motion",
-      "concept": "forces",
-      "weight": 1
+      "prerequisite": "position",
+      "concept": "displacement",
+      "weight": 6
     },
     {
-      "prerequisite": "motion",
-      "concept": "laws of newton",
-      "weight": 1
+      "prerequisite": "speed",
+      "concept": "velocity",
+      "weight": 6
     },
     {
-      "prerequisite": "motion",
+      "prerequisite": "force",
       "concept": "friction",
-      "weight": 1
+      "weight": 5
+    },
+    {
+      "prerequisite": "force",
+      "concept": "net force",
+      "weight": 5
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "average acceleration",
+      "weight": 5
+    },
+    {
+      "prerequisite": "velocity",
+      "concept": "average velocity",
+      "weight": 5
+    },
+    {
+      "prerequisite": "forces",
+      "concept": "net force",
+      "weight": 4
+    },
+    {
+      "prerequisite": "object",
+      "concept": "force",
+      "weight": 4
+    },
+    {
+      "prerequisite": "force",
+      "concept": "tension",
+      "weight": 3
+    },
+    {
+      "prerequisite": "object",
+      "concept": "mass",
+      "weight": 3
+    },
+    {
+      "prerequisite": "position",
+      "concept": "motion",
+      "weight": 3
+    },
+    {
+      "prerequisite": "position",
+      "concept": "velocity",
+      "weight": 3
+    },
+    {
+      "prerequisite": "area",
+      "concept": "displacement",
+      "weight": 2
+    },
+    {
+      "prerequisite": "circular motion",
+      "concept": "uniform circular motion",
+      "weight": 2
+    },
+    {
+      "prerequisite": "displacement",
+      "concept": "average velocity",
+      "weight": 2
     }
   ]
 }
