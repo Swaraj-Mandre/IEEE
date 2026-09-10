@@ -17,6 +17,7 @@ from src.agents.diagnostic import (
 from src.retrieval.path_tracker import (
     advance,
     backtrack,
+    can_backtrack,
     create_session,
     get_current_concept,
     save_session_checkpoint,
@@ -67,17 +68,23 @@ def run_agent_test():
     print("\n--- ROUTING ---")
     confused = analyse_response("I don't understand this at all", concept)
     gap = compute_gap_score(len(session.mastered_concepts), len(session.prerequisite_chain))
+    session.exchange_count += 1
     if should_backtrack(confused, gap):
         backtrack(session)
-    print(f"After confusion: {get_current_concept(session)}")
+    print(f"After confusion: {get_current_concept(session)} "
+          f"(can step back further: {can_backtrack(session)})")
 
     understood = analyse_response("got it, makes sense", concept)
+    session.exchange_count += 1
     if should_advance(understood):
         advance(session)
     print(f"After understanding: {get_current_concept(session)}")
 
+    assert session.exchange_count == 2, "exchange counter did not move"
     save_session_checkpoint(session)
-    print(f"\nPASSED. Checkpoint written for '{session.student_id}'.")
+    print(f"\nCounters: {session.exchange_count} exchanges, "
+          f"{session.backtrack_count} backtracks")
+    print(f"PASSED. Checkpoint written for '{session.student_id}'.")
 
 
 def _route(diagnosis: dict, gap: float) -> str:

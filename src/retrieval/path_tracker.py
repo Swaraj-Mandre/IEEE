@@ -146,27 +146,32 @@ def advance(session: LearningSession) -> str:
     return session.target_concept
 
 
+def can_backtrack(session: LearningSession) -> bool:
+    """True if there is an earlier concept to step back to."""
+    return session.current_position > 0
+
+
 def backtrack(session: LearningSession) -> str:
     """
-    Step back to an easier prerequisite.
-    Called when diagnostic agent detects confusion.
-    This is the core novelty claim of the paper.
+    Step back to an easier prerequisite when the student is confused.
 
-    Returns the simpler concept to explain instead.
+    At the start of the chain there is nowhere to go, so the same concept is
+    returned and the caller falls back to an analogy instead.
     """
-    if session.current_position > 0:
-        session.current_position -= 1
-        session.backtrack_count += 1
-        confused = get_current_concept(session)
+    confused = get_current_concept(session)
+    if confused not in session.confused_concepts:
         session.confused_concepts.append(confused)
-        print(f"  [BACKTRACK #{session.backtrack_count}] "
-              f"Stepping back to: {confused}")
-        return confused
-    else:
-        # Already at root — cannot go further back
-        print("  [BACKTRACK] Already at root concept. "
+
+    if not can_backtrack(session):
+        print("  [BACKTRACK] Already at the first concept. "
               "Switching to analogy-based explanation.")
-        return get_current_concept(session)
+        return confused
+
+    session.current_position -= 1
+    session.backtrack_count += 1
+    simpler = get_current_concept(session)
+    print(f"  [BACKTRACK #{session.backtrack_count}] Stepping back to: {simpler}")
+    return simpler
 
 
 def compute_gap_score(session: LearningSession) -> float:

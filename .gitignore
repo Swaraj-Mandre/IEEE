@@ -8,3 +8,4 @@
 models/
 data/raw_pdfs/
 data/vectorstore/
+data/sessions/
