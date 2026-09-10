@@ -1,299 +1,138 @@
+<div align="center">
+
 # Vidhya-Setu
 
-**A Localized Multi-Agent Framework Using GraphRAG for Adaptive STEM Learning in Low-Resource Environments**
+**An offline AI tutor that teaches the prerequisites first, not just the answer.**
 
-Vidhya-Setu is a fully offline intelligent tutoring system designed for rural and under-resourced Indian schools. It runs entirely on local hardware with no internet connection, no cloud APIs, and no subscription cost. The system reads NCERT Class 9 Science textbooks, automatically builds a concept-prerequisite knowledge graph, and uses a two-agent architecture to deliver adaptive, step-by-step explanations that adjust in real time based on whether a student understands or is confused.
+GraphRAG based adaptive tutoring for NCERT Class 9 Science. Runs on a single
+laptop with no internet, no cloud API and no running cost.
 
-This project was built as part of an IEEE TechForGood internship initiative, targeting deployment on old, low-spec school hardware with no GPU. See [Hardware Requirements](#hardware-requirements) for what it actually costs to run today.
+![Python](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Offline](https://img.shields.io/badge/runs-100%25%20offline-success)
+![Hardware](https://img.shields.io/badge/hardware-CPU%20only-lightgrey)
+![Cost](https://img.shields.io/badge/API%20cost-%E2%82%B90-blue)
+![Checks](https://img.shields.io/badge/checks-46%20passing-brightgreen)
 
----
-
-## Table of Contents
-
-- [Why This Project Exists](#why-this-project-exists)
-- [How It Works](#how-it-works)
-- [System Architecture](#system-architecture)
-- [Current Project Status](#current-project-status)
-- [Tech Stack](#tech-stack)
-- [Hardware Requirements](#hardware-requirements)
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
-- [Running the System](#running-the-system)
-- [Knowledge Graph Stats](#knowledge-graph-stats)
-- [Known Limitations](#known-limitations)
-- [Team](#team)
-- [License](#license)
+</div>
 
 ---
 
-## Why This Project Exists
+## The problem it solves
 
-Students in rural India studying NCERT Science have no access to personalized academic support outside the classroom. Existing AI tutoring tools require internet connectivity, cloud subscriptions, or modern hardware that rural schools simply do not have. Vidhya-Setu is built around a different assumption: the student-facing machine is an old donated desktop with no internet and no GPU, and the system still has to work.
+A student who cannot follow acceleration usually has a gap further back, in
+velocity or in speed. A normal chatbot answers the question that was asked and
+the gap stays. Vidhya-Setu finds the gap and walks the student up to the answer.
 
-## How It Works
-
-When a student asks a question, the system does not just search for matching text. It identifies where that question fits within a structured map of prerequisite concepts built from the textbook itself, then walks the student through that map step by step. If the student shows signs of confusion, the system automatically steps back to a simpler, foundational concept before trying again, rather than repeating the same explanation or pushing forward regardless.
-
-A student asking about acceleration is not handed a definition of acceleration. They are handed this path, and taken along it one concept at a time:
+Ask it about **acceleration** and it does not start with acceleration:
 
 ```
-mass -> motion -> speed -> velocity -> momentum -> force -> net force -> acceleration
+mass  ->  motion  ->  speed  ->  velocity  ->  momentum  ->  force  ->  net force  ->  acceleration
 ```
 
-## System Architecture
+That chain is not written by hand. It is read out of a knowledge graph the
+system builds from the textbook itself.
 
-The system is split into two environments by design.
-
-**Build environment** (developer machine, run once): reads NCERT PDFs, extracts concept-prerequisite pairs using a local language model, builds a directed knowledge graph, and creates a search index of the textbook content.
-
-**Deployment environment** (school hardware, runs every session): loads the pre-built knowledge graph and index, and uses a quantized language model to retrieve the right concept and generate explanations, entirely offline.
-
-```
-BUILD (developer machine, once)
-
-  NCERT PDFs
-      |
-      v
-  PDF ingestion (PyMuPDF) --> cleaned text chunks
-      |
-      v
-  Triple extraction (Phi-3 Mini + GBNF grammar) --> concept/prerequisite pairs
-      |
-      v
-  Graph construction + cycle removal (NetworkX) --> kg.pkl (a DAG)
-      |
-      v
-  Embedding (BGE-small) --> embeddings.npy + chunks.json
-
-
-DEPLOY (school machine, every session)
-
-  Student question
-      |
-      v
-  Hybrid retrieval: dense vector search + BM25 keyword search
-      |
-      v
-  Reciprocal rank fusion --> best chunks --> matching graph concept
-      |
-      v
-  Path tracker --> prerequisite chain, capped at 8 steps
-      |
-      v
-  Instructor agent (Phi-3 Mini) --> explanation for the current concept
-      |
-      v
-  Student reply --> Diagnostic agent (rule-based)
-      |
-      +-- understood --> advance to the next concept
-      +-- confused   --> step back to an easier one, explain with an analogy
-      +-- unclear    --> re-explain the same concept
-      |
-      v
-  Session checkpoint written to disk after every exchange
-```
+Say "I don't understand" at any point and it steps **back** one concept and
+re-explains with a simpler analogy. Say "got it" and it moves forward.
 
 ---
 
-## Current Project Status
+## How a session works
 
-The table below reflects what is actually working today, not the full target scope.
+```mermaid
+flowchart TD
+    Q["Student asks a question"] --> R["Hybrid search<br/>vectors + BM25 keywords"]
+    R --> C["Match it to a concept<br/>in the knowledge graph"]
+    C --> P["Build the prerequisite chain<br/>capped at 8 steps"]
+    P --> E["Explain the current concept<br/>Phi-3 Mini, offline"]
+    E --> S{"Read the reply"}
+    S -->|understood| A["Move forward one concept"]
+    S -->|confused| B["Step back one concept<br/>and use a simpler analogy"]
+    S -->|unclear| D["Explain the same concept again"]
+    A --> E
+    B --> E
+    D --> E
+```
 
-| Component | Status |
-|---|---|
-| PDF ingestion pipeline | Working |
-| Knowledge graph construction | Working — valid DAG, cycle-free |
-| Hybrid retrieval (vector + keyword fusion) | Working |
-| Path tracker with backtracking | Working |
-| Instructor agent | Working |
-| Diagnostic agent | Working |
-| Gradio web UI, one session per browser tab | Working |
-| Regression checks (`scripts/run_checks.py`) | Working — 46 checks |
-| Quantitative evaluation (BLEU / ROUGE-L) | Not started |
-| Teacher dashboard | Not started |
-| Multilingual support | Not started |
-| Mobile deployment | Out of scope for this version |
+The session is written to disk after every exchange, so a power cut costs at
+most one turn.
 
-Currently validated on two NCERT Class 9 Science chapters: **Chapter 4 — Describing Motion Around Us** and **Chapter 6 — How Forces Affect Motion**. Expansion to the full syllabus is planned.
+Everything above the tutoring loop is build work that runs once on a developer
+machine. The school machine only loads the finished graph, the index and the
+model.
 
----
-
-## Tech Stack
-
-All components are open-source, run entirely offline, and cost nothing to license.
-
-| Layer | Technology | Why |
+| Stage | Runs | What it produces |
 |---|---|---|
-| Language model | Phi-3 Mini 3.8B, Q4_K_M GGUF (llama-cpp-python) | MIT licensed, so it can be resold; runs CPU-only |
-| Constrained decoding | GBNF grammar (llama.cpp) | Makes malformed JSON structurally impossible during extraction |
-| Knowledge graph | NetworkX directed graph | Pure Python, pickles to 24 KB |
-| Search index | numpy flat index + rank-bm25 | 301 chunks is small enough for exact search; two plain files, no database to migrate |
-| Embeddings | BAAI/bge-small-en-v1.5 (384-dim) | Small, strong on short retrieval queries |
-| Ranking | Reciprocal rank fusion | Merges vector and keyword rankings by position, not by incomparable scores |
-| PDF processing | PyMuPDF / pymupdf4llm | Keeps section headings, which the extractor uses as hints |
-| Web interface | Gradio | Local browser UI with no frontend build step |
-| Language | Python 3.11 | |
-
-Nothing here calls out to a network at runtime. The full check suite passes with
-`HF_HUB_OFFLINE=1` and `TRANSFORMERS_OFFLINE=1` set.
+| Ingestion | Build time | Clean text chunks from NCERT PDFs |
+| Triple extraction | Build time | Concept and prerequisite pairs, using a GBNF grammar so the output is always valid JSON |
+| Graph construction | Build time | `kg.pkl`, a cycle free DAG |
+| Indexing | Build time | `embeddings.npy` and `chunks.json` |
+| Tutoring | Every session | Explanations, routing, session checkpoints |
 
 ---
 
-## Hardware Requirements
-
-Measured on the development machine (Windows 11, CPU-only, 4 threads), loading exactly what
-the tutor loads:
-
-| | RAM |
-|---|---|
-| Python and imports | 436 MB |
-| + Phi-3 Mini Q4_K_M (`N_CTX=2048`) | 3,887 MB |
-| Peak during one explanation | 5,072 MB |
-
-**Practical minimum: 8 GB RAM.** The original 4 GB target is not met — the language model
-accounts for essentially all of it, while the knowledge graph, search index and BM25 index
-together come to about 20 MB. Reaching 4 GB needs a smaller model, which is tracked as
-future work rather than assumed.
-
-Disk: 2.4 GB, almost entirely the model file.
-
-Timings on the same machine: retrieval ~18 ms, explanation ~15 s for 120 words, graph
-rebuild ~17 minutes for 301 chunks.
-
----
-
-## Project Structure
-
-```
-IEEE Project/
-├── data/
-│   ├── raw_pdfs/          NCERT source PDFs (not tracked in git)
-│   ├── chunks/            Extracted and chunked text (JSON)
-│   ├── graph/             Knowledge graph (kg.pkl) and audit files
-│   ├── vectorstore/       Search index (not tracked in git, rebuild locally)
-│   └── sessions/          Student session checkpoints (not tracked in git)
-├── models/                GGUF model file (not tracked in git, download separately)
-├── src/
-│   ├── config.py          All paths and model settings, read from .env
-│   ├── ingestion/         PDF extraction and text chunking
-│   ├── graph/             Triple extraction, graph construction, cycle removal
-│   ├── retrieval/         Hybrid retriever, search index, path tracker
-│   ├── agents/            Instructor agent and diagnostic agent
-│   └── ui/                Gradio web interface
-├── scripts/               Pipeline runners and checks
-├── requirements.txt
-├── .env.example
-└── README.md
-```
-
----
-
-## Setup Instructions
-
-### Prerequisites
-
-- Python 3.11
-- 8 GB RAM (see [Hardware Requirements](#hardware-requirements))
-- About 8 GB free disk space (model, dependencies, and data)
-- Windows, Linux, or macOS
-
-### 1. Clone the repository
+## Quick start
 
 ```bash
 git clone https://github.com/Swaraj-Mandre/IEEE.git
 cd IEEE
+python -m venv .venv && .venv\Scripts\activate.bat
+pip install -r requirements.txt
 ```
 
-### 2. Create and activate a virtual environment
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate.bat      # Windows
-source .venv/bin/activate       # Linux / macOS
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-### 4. Download the language model
-
-The model is not included in this repository due to size.
+Download the model (2.4 GB, one time):
 
 ```bash
 python -c "from huggingface_hub import hf_hub_download; hf_hub_download(repo_id='microsoft/Phi-3-mini-4k-instruct-gguf', filename='Phi-3-mini-4k-instruct-q4.gguf', local_dir='models')"
 ```
 
-### 5. Configure environment variables
-
-Copy `.env.example` to `.env` and update `MODEL_PATH` to match your downloaded model location.
-
-### 6. Build the search index
-
-The knowledge graph (`data/graph/kg.pkl`) is committed, so it does not need rebuilding. The index is not, so build it once:
+Copy `.env.example` to `.env`, then build the search index and start the tutor:
 
 ```bash
 python scripts/build_vectorstore.py
-```
-
----
-
-## Running the System
-
-### Start the tutor
-
-```bash
 python src/ui/app.py
 ```
 
-Open the printed local URL (usually `http://127.0.0.1:7860`) in any browser. Each browser tab is an independent student session.
-
-### Verify nothing is broken
-
-Run this after any change. It takes under a minute and loads no language model.
-
-```bash
-python scripts/run_checks.py
-```
-
-### Rebuilding the pipeline from scratch
-
-Only needed when adding chapters or changing source data. Put the new PDFs in `data/raw_pdfs/`, add the chunk file to `CHUNK_FILES` in `src/config.py`, then:
-
-```bash
-python scripts/run_ingestion.py        # PDFs to text chunks
-python scripts/run_kg.py               # Build the knowledge graph (~17 min on CPU)
-python scripts/build_vectorstore.py    # Rebuild the search index
-python scripts/run_checks.py           # Confirm nothing regressed
-python scripts/run_agent_test.py       # End-to-end smoke test, loads the model
-```
-
-Official PDF source: [ncert.nic.in/textbook.php](https://ncert.nic.in/textbook.php)
+Open `http://127.0.0.1:7860`. Each browser tab is a separate student session.
 
 ---
 
-## Knowledge Graph Stats
+## Commands
 
-Built from Chapters 4 and 6, using the current pipeline:
+| Command | What it does | Time |
+|---|---|---|
+| `python src/ui/app.py` | Start the tutor | 10 s to load |
+| `python scripts/run_checks.py` | 46 regression checks, no model loaded | under 1 min |
+| `python scripts/build_vectorstore.py` | Rebuild the search index | 30 s |
+| `python scripts/run_ingestion.py` | PDFs to text chunks | 1 min |
+| `python scripts/run_kg.py` | Rebuild the knowledge graph | 17 min on CPU |
+| `python scripts/run_agent_test.py` | End to end smoke test, loads the model | 2 min |
 
-| Metric | Value |
+To add a chapter: drop the PDF in `data/raw_pdfs/`, add its chunk file to
+`CHUNK_FILES` in `src/config.py`, then run ingestion, graph and index in that
+order.
+
+---
+
+## What is inside
+
+Built from NCERT Class 9 Science, Chapter 4 (Describing Motion) and Chapter 6
+(How Forces Affect Motion).
+
+| | |
 |---|---|
-| Source chunks | 301 (147 from Ch. 4, 154 from Ch. 6) |
-| Concepts (nodes) | 175 |
-| Prerequisite relationships (edges) | 197 |
-| High-confidence edges (2+ supporting chunks) | 43 |
-| Valid DAG (cycle-free) | Yes |
-| Most connected concept | force (degree 24) |
-| Average degree | 2.25 |
-| Root concepts (no prerequisites) | 69 |
-| Graph file size | 24 KB |
-| Index size on disk | 0.63 MB |
-| Median retrieval time | ~18 ms |
+| Source chunks | 301 |
+| Concepts in the graph | 175 |
+| Prerequisite links | 197 |
+| Links confirmed by 2 or more chunks | 43 |
+| Cycle free DAG | Yes |
+| Most connected concept | `force`, degree 24 |
+| Graph file | 24 KB |
+| Search index | 0.63 MB |
+| Retrieval time | about 18 ms |
 
-Strongest extracted relationships, by number of supporting chunks:
+Strongest links the extractor found, ranked by how many chunks back them up:
 
 | Prerequisite | Concept | Chunks |
 |---|---|---|
@@ -303,37 +142,110 @@ Strongest extracted relationships, by number of supporting chunks:
 | motion | force | 9 |
 | velocity | velocity-time graph | 7 |
 
-The full edge list is in `data/graph/kg_audit.json`; a 20-edge sample for manual review is in `data/graph/kg_sample_review.json`.
+Full edge list: [`data/graph/kg_audit.json`](data/graph/kg_audit.json).
+Sample for manual review: [`data/graph/kg_sample_review.json`](data/graph/kg_sample_review.json).
 
 ---
 
-## Known Limitations
+## Stack
 
-- **Two chapters only.** Full syllabus coverage is planned but not done.
-- **Coverage gaps follow the textbook.** `inertia` appears in only one chunk across both chapters, so it never became a graph node, and a question about it lands on a neighbouring concept. This is a source-coverage limit, not a pipeline bug; adding Chapter 5 would fix it.
-- **Singular and plural are separate concepts.** `surface` and `surfaces` are distinct nodes. Merging them needs word stemming, which is not in yet.
-- **The diagnostic agent is rule-based.** It matches phrases like "I don't understand" and "makes sense" rather than judging comprehension. It is fast, predictable and free, but it can be fooled by an unusual reply, which it labels `unclear` and handles by re-explaining.
-- **English only.** Multilingual support is future work.
-- **No quantitative evaluation yet.** Validation to date is functional: 46 automated checks plus manual review of the graph.
-- **CPU-only by default.** GPU acceleration needs a CUDA-enabled `llama-cpp-python` build. CPU works everywhere but the graph build takes about 17 minutes instead of a few.
-- **Needs 8 GB RAM, not the 4 GB originally targeted.** Phi-3 Mini accounts for effectively all of it. Getting under 4 GB means a smaller model, and that trade-off has not been evaluated yet.
+| Layer | Choice | Why this one |
+|---|---|---|
+| Language model | [Phi-3 Mini 3.8B Q4_K_M](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf) via [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | MIT licensed, so the product can be sold. Runs on CPU. |
+| Structured output | [GBNF grammar](https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md) | Invalid JSON becomes impossible during sampling, not just unlikely |
+| Knowledge graph | [NetworkX](https://networkx.org/) | Pure Python, pickles to 24 KB |
+| Search index | numpy + [rank-bm25](https://github.com/dorianbrown/rank_bm25) | 301 chunks is small enough for exact search. Two plain files, nothing to migrate later. |
+| Embeddings | [BGE-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) | 384 dimensions, strong on short queries |
+| Ranking | [Reciprocal rank fusion](https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf) | Merges vector and keyword results by rank, because their scores are not comparable |
+| PDF parsing | [pymupdf4llm](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) | Keeps section headings, which the extractor uses as hints |
+| Interface | [Gradio](https://www.gradio.app/) | Browser UI with no frontend build step |
+
+Nothing calls the network at runtime. The full check suite passes with
+`HF_HUB_OFFLINE=1` and `TRANSFORMERS_OFFLINE=1`.
 
 ---
 
-## Team
+## Hardware
 
-| Member | Role |
+Measured on Windows 11, CPU only, 4 threads.
+
+| | |
 |---|---|
-| Swaraj Mandre | AI Systems Developer and SLM Engineer |
-| Siddhant Pawar | Agent Systems and Evaluation Developer |
-| Yash Patil | Data Pipeline Engineer and Technical Writer |
+| RAM after loading | 3.9 GB |
+| RAM peak during one explanation | 5.1 GB |
+| **Practical minimum** | **8 GB RAM** |
+| Disk | 2.4 GB, nearly all of it the model file |
+| Explanation speed | about 15 s for 120 words |
 
-Project mentor: Prof. Bhagyashri Thorat
-
-Built as part of an IEEE TechForGood internship project, MIT School of Computing, MIT-ADT University.
+The model accounts for almost all of that. The graph, the search index and the
+BM25 index together come to about 20 MB.
 
 ---
 
-## License
+## Layout
 
-This project uses NCERT textbook content, which is publicly available educational material from the National Council of Educational Research and Training, Government of India. The codebase is intended for academic and research purposes as part of an IEEE-track internship submission.
+```
+src/
+  config.py        paths and model settings, read from .env
+  ingestion/       PDF extraction and chunking
+  graph/           triple extraction, graph build, cycle removal
+  retrieval/       hybrid retriever, search index, path tracker
+  agents/          instructor and diagnostic
+  ui/app.py        Gradio interface
+scripts/           pipeline runners and checks
+data/
+  chunks/          extracted text
+  graph/           kg.pkl and audit files
+  vectorstore/     search index, not tracked, build locally
+  sessions/        student checkpoints, not tracked
+```
+
+---
+
+## Limitations
+
+These are known and measured, not guesses.
+
+- **Two chapters only.** Everything else in the syllabus is future work.
+- **Coverage follows the textbook.** `inertia` shows up in one chunk across both
+  chapters, so it never became a node. Adding Chapter 5 would fix it.
+- **Singular and plural are separate nodes.** `surface` and `surfaces` are two
+  concepts. Merging them needs stemming, which is not in yet.
+- **The diagnostic agent is rule based.** It matches phrases like "I don't
+  understand" rather than judging comprehension. Fast and predictable, but an
+  unusual reply gets labelled unclear and the concept is simply re-explained.
+- **Needs 8 GB RAM, not the 4 GB originally targeted.** Getting under 4 GB means
+  a smaller model, and that trade-off has not been tested.
+- **English only.**
+- **No BLEU or ROUGE numbers yet.** Validation so far is 46 automated checks
+  plus manual review of the graph.
+
+---
+
+## Licensing
+
+Source code in this repository is **MIT**. See [LICENSE](LICENSE).
+
+Dependencies:
+
+| Component | License | Commercial use |
+|---|---|---|
+| Phi-3 Mini | MIT | Yes |
+| BGE-small-en-v1.5 | MIT | Yes |
+| llama-cpp-python, langchain-text-splitters | MIT | Yes |
+| Gradio, sentence-transformers, rank-bm25 | Apache 2.0 | Yes |
+| NetworkX, numpy, python-dotenv | BSD | Yes |
+| **PyMuPDF and pymupdf4llm** | **AGPL-3.0 or paid Artifex licence** | **Read below** |
+
+**One thing to know before selling this.** PyMuPDF is AGPL-3.0. It runs only in
+`scripts/run_ingestion.py` when you turn PDFs into chunks. It never runs on a
+school machine. So a deployed tutor does not carry AGPL, but this repository
+does, because the ingestion code lives here. Before shipping a closed source
+product, either buy the [Artifex commercial licence](https://artifex.com/licensing/)
+or swap PyMuPDF for an MIT alternative such as
+[pdfplumber](https://github.com/jsvine/pdfplumber).
+
+**Textbook content.** NCERT material is copyright of the National Council of
+Educational Research and Training, Government of India. Source PDFs are not
+tracked in this repository. Get them from
+[ncert.nic.in](https://ncert.nic.in/textbook.php).

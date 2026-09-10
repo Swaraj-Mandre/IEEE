@@ -17,8 +17,8 @@ GARBAGE_NODES = {
 class LearningSession:
     """
     Tracks a student's learning state across the session.
-    This object is serialized to JSON for session checkpointing
-    — survives power cuts, restarts, and browser refreshes.
+    Serialized to JSON after every exchange, so a power cut, a restart or a
+    browser refresh loses at most one turn.
     """
     student_id: str
     target_concept: str                    # What the student asked about
@@ -50,7 +50,7 @@ def get_prerequisite_chain(
         Ordered list from most foundational to target concept
     """
     if target_concept not in G.nodes():
-        # Concept not in graph — return just the concept itself
+        # Not in the graph, so the chain is just the concept itself.
         return [target_concept]
 
     ancestors: list[str] = []

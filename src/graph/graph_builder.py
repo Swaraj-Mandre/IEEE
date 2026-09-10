@@ -128,7 +128,7 @@ def get_graph_stats(G: nx.DiGraph) -> dict:
     else:
         most_connected = "none"
 
-    # Check for cycles — cycles in a prerequisite graph are logical errors
+    # Check for cycles. A cycle in a prerequisite graph is a logical error,
     # e.g., A requires B and B requires A is impossible
     has_cycles = not nx.is_directed_acyclic_graph(G)
     cycle_count = 0
@@ -161,7 +161,7 @@ def save_graph(G: nx.DiGraph, output_path: str) -> None:
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
     # Convert sets to lists before pickling
-    # Sets are not JSON-serializable — needed for audit export
+    # Sets are not JSON-serializable, and the audit export needs them as lists.
     for node in G.nodes():
         if isinstance(G.nodes[node].get("original_forms"), set):
             G.nodes[node]["original_forms"] = list(
