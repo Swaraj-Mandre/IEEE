@@ -105,8 +105,8 @@ turn, and the student picks up where they left off.
 ## Quick start
 
 ```bash
-git clone https://github.com/Swaraj-Mandre/IEEE.git
-cd IEEE
+git clone https://github.com/Swaraj-Mandre/Vidhya-Setu.git
+cd Vidhya-Setu
 python -m venv .venv
 .venv\Scripts\activate.bat      # Windows
 source .venv/bin/activate       # macOS or Linux
