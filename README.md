@@ -154,7 +154,7 @@ reads them.
 
 | Piece | What it is | Size |
 |---|---|---|
-| **The knowledge graph**<br/>`data/graph/kg.pkl` | 175 concepts joined by 197 "learn this one first" links, pulled out of the textbook by the model | 24 KB |
+| **The knowledge graph**<br/>`data/graph/kg.json` | 175 concepts joined by 197 "learn this one first" links, pulled out of the textbook by the model | 67 KB |
 | **The search index**<br/>`data/vectorstore/` | 301 passages of NCERT text, stored so the system can find the right one in milliseconds | 0.63 MB |
 | **The language model**<br/>`models/*.gguf` | Phi-3 Mini, writes the actual explanations. Downloaded separately | 2.4 GB |
 
@@ -192,7 +192,7 @@ smaller hand-checkable sample in [`kg_sample_review.json`](data/graph/kg_sample_
 |---|---|---|
 | Language model | [Phi-3 Mini 3.8B Q4_K_M](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf) via [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | Small enough for CPU, good enough to teach |
 | Structured output | [GBNF grammar](https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md) | Broken JSON becomes impossible during sampling, not just unlikely |
-| Knowledge graph | [NetworkX](https://networkx.org/) | Pure Python, the whole graph pickles to 24 KB |
+| Knowledge graph | [NetworkX](https://networkx.org/) | Pure Python, and the whole graph saves to a 67 KB JSON file you can read by eye |
 | Search | numpy + [rank-bm25](https://github.com/dorianbrown/rank_bm25) | 301 passages is small enough for exact search. Two plain files, no database to migrate later. |
 | Embeddings | [BGE-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) | 384 dimensions, strong on short questions |
 | Ranking | [Reciprocal rank fusion](https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf) | Merges keyword and meaning results by rank, because their scores are not comparable |

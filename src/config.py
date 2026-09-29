@@ -15,7 +15,7 @@ def _path(var: str, default: str) -> Path:
 
 
 MODEL_PATH = _path("MODEL_PATH", "models/Phi-3-mini-4k-instruct-q4.gguf")
-GRAPH_PATH = _path("GRAPH_PATH", "data/graph/kg.pkl")
+GRAPH_PATH = _path("GRAPH_PATH", "data/graph/kg.json")
 VECTORSTORE_PATH = _path("VECTORSTORE_PATH", "data/vectorstore")
 SESSION_DIR = _path("SESSION_DIR", "data/sessions")
 CHUNK_DIR = _path("CHUNK_DIR", "data/chunks")

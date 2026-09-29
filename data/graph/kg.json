@@ -1,0 +1,3977 @@
+{
+ "directed": true,
+ "edges": [
+  {
+   "source": "distance",
+   "source_chunks": [
+    "65174b71ac1b"
+   ],
+   "target": "distance-time graph",
+   "weight": 1
+  },
+  {
+   "source": "distance",
+   "source_chunks": [
+    "bc37d695193f",
+    "84aa355c2ca4"
+   ],
+   "target": "displacement",
+   "weight": 2
+  },
+  {
+   "source": "speed",
+   "source_chunks": [
+    "698f744dbfa6"
+   ],
+   "target": "distance",
+   "weight": 1
+  },
+  {
+   "source": "speed",
+   "source_chunks": [
+    "bd85b47db390",
+    "fb86c4ccc7cf",
+    "942369e18a3d",
+    "01bf09ee9bdd",
+    "12c0b4f7751e",
+    "5b86a85351a7"
+   ],
+   "target": "velocity",
+   "weight": 6
+  },
+  {
+   "source": "speed",
+   "source_chunks": [
+    "fb86c4ccc7cf",
+    "32c7ef987249"
+   ],
+   "target": "average speed",
+   "weight": 2
+  },
+  {
+   "source": "speed",
+   "source_chunks": [
+    "65174b71ac1b"
+   ],
+   "target": "speed-time graph",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "6469eb21e51b"
+   ],
+   "target": "linear motion",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "41b67007c43a"
+   ],
+   "target": "distance",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "41b67007c43a",
+    "7a16e26280b7"
+   ],
+   "target": "displacement",
+   "weight": 2
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "7a16e26280b7"
+   ],
+   "target": "distance travelled",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "bd85b47db390"
+   ],
+   "target": "speed",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "cd465c67718a"
+   ],
+   "target": "graphs",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "557e35a80e9e"
+   ],
+   "target": "position-time graph",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "8a589f894989"
+   ],
+   "target": "equations",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "5733b8f206f0"
+   ],
+   "target": "circular motion",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "be985ab8efbe",
+    "49f55cc195d9",
+    "0c749531e73f",
+    "d838f6755905",
+    "b5f7e0997499",
+    "4914a7976b9d",
+    "0af9af22c2dd",
+    "c8db4443ffb4",
+    "f763aa7d7c4d"
+   ],
+   "target": "force",
+   "weight": 9
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "a67b118ddfbd"
+   ],
+   "target": "cause",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "01a70c7391c4"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "84335c338f22"
+   ],
+   "target": "laws of newton",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "17c9669ebb75"
+   ],
+   "target": "friction",
+   "weight": 1
+  },
+  {
+   "source": "motion",
+   "source_chunks": [
+    "17c9669ebb75"
+   ],
+   "target": "net force",
+   "weight": 1
+  },
+  {
+   "source": "variety",
+   "source_chunks": [
+    "eb2edafbaa4e"
+   ],
+   "target": "motion",
+   "weight": 1
+  },
+  {
+   "source": "study",
+   "source_chunks": [
+    "543b29d7dfcd"
+   ],
+   "target": "motion",
+   "weight": 1
+  },
+  {
+   "source": "circular motion",
+   "source_chunks": [
+    "6469eb21e51b",
+    "c6128183f263"
+   ],
+   "target": "uniform circular motion",
+   "weight": 2
+  },
+  {
+   "source": "circular motion",
+   "source_chunks": [
+    "5733b8f206f0"
+   ],
+   "target": "revolution",
+   "weight": 1
+  },
+  {
+   "source": "distance and time",
+   "source_chunks": [
+    "6469eb21e51b"
+   ],
+   "target": "speed",
+   "weight": 1
+  },
+  {
+   "source": "acceleration",
+   "source_chunks": [
+    "743a7ccb6442"
+   ],
+   "target": "braking capacity",
+   "weight": 1
+  },
+  {
+   "source": "acceleration",
+   "source_chunks": [
+    "f36830fd45b0"
+   ],
+   "target": "stopping force",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "c395f901f55c",
+    "6d35c3ad270e",
+    "d05de6a59ab8",
+    "b1fd9a462231",
+    "602bdac8b956",
+    "b32339bdfdb9",
+    "3d0a8c1e9c3c",
+    "55b6089b7388",
+    "06b8c161da4b",
+    "9bbba062c3e9",
+    "c6a22338a66b",
+    "0370bd07536d",
+    "df263981bb49",
+    "34e04ddde638",
+    "90ec2f373e1e",
+    "12c0b4f7751e",
+    "e7d9f0ebdd59",
+    "67331a7de82e",
+    "fecebfefb733",
+    "e58ff74f88ae",
+    "d1a3da0a90d2",
+    "d838f6755905",
+    "10f316064212",
+    "70523433e96d",
+    "c61eb184cbe2",
+    "35db4407c36f",
+    "c75cd83a2b3e",
+    "fa80d3df42c6"
+   ],
+   "target": "acceleration",
+   "weight": 28
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "f9945120f794",
+    "00ee3a7006f1",
+    "fb86c4ccc7cf",
+    "32c7ef987249",
+    "c7fd083e02b8"
+   ],
+   "target": "average velocity",
+   "weight": 5
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "fb86c4ccc7cf"
+   ],
+   "target": "direction",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "c7fd083e02b8"
+   ],
+   "target": "instantaneous velocity",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "0a80f0353e8a",
+    "0370bd07536d"
+   ],
+   "target": "change in velocity",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "383a73b159eb",
+    "da70d1e6c073",
+    "01bf09ee9bdd",
+    "5818fd3cf7b3",
+    "3164f7eade04"
+   ],
+   "target": "average acceleration",
+   "weight": 5
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "b5efa46cabe4"
+   ],
+   "target": "instantaneous acceleration",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "65174b71ac1b",
+    "0ade4cdb0d9a",
+    "550641fdd7c6",
+    "c1ecb2bdb155",
+    "5dfaaa384573",
+    "3b51083de231",
+    "9997d3c48225"
+   ],
+   "target": "velocity-time graph",
+   "weight": 7
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "993ccd0d0871"
+   ],
+   "target": "accelerated motion",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "37669147dbf3",
+    "f763aa7d7c4d"
+   ],
+   "target": "magnitude",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "ef5abbbe7281",
+    "b99bda4d3bc0"
+   ],
+   "target": "displacement",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "df263981bb49",
+    "5dfaaa384573"
+   ],
+   "target": "initial velocity",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "df263981bb49",
+    "5dfaaa384573"
+   ],
+   "target": "final velocity",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "5dfaaa384573"
+   ],
+   "target": "constant acceleration",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "743a7ccb6442"
+   ],
+   "target": "distance travelled",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "c6239bc34365",
+    "28f8aac7dce6"
+   ],
+   "target": "force of friction",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "d45c30ab6ac4",
+    "4c60c932186d"
+   ],
+   "target": "net force",
+   "weight": 2
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "aea8e3b12e77"
+   ],
+   "target": "momentum",
+   "weight": 1
+  },
+  {
+   "source": "velocity",
+   "source_chunks": [
+    "1aa76aaa2a4c"
+   ],
+   "target": "object motion",
+   "weight": 1
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "216e6701514e",
+    "496574da9847",
+    "df55702afd03"
+   ],
+   "target": "motion",
+   "weight": 3
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "19ecab3060dd"
+   ],
+   "target": "direction",
+   "weight": 1
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "4d7913effb68",
+    "0bb14ae114d7",
+    "6e16a3820ff6",
+    "42ad1b224c34",
+    "a272b556332c",
+    "21265f9e830f"
+   ],
+   "target": "displacement",
+   "weight": 6
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "5bc4bcc511b9",
+    "42ad1b224c34"
+   ],
+   "target": "distance travelled",
+   "weight": 2
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "8e06c107180c",
+    "55b6089b7388",
+    "370991ec6333"
+   ],
+   "target": "velocity",
+   "weight": 3
+  },
+  {
+   "source": "position",
+   "source_chunks": [
+    "65174b71ac1b",
+    "7de08012bc32"
+   ],
+   "target": "position-time graph",
+   "weight": 2
+  },
+  {
+   "source": "reference point",
+   "source_chunks": [
+    "18c0b09be979"
+   ],
+   "target": "position",
+   "weight": 1
+  },
+  {
+   "source": "instant of time",
+   "source_chunks": [
+    "e0a12673b7d4"
+   ],
+   "target": "time interval",
+   "weight": 1
+  },
+  {
+   "source": "clock",
+   "source_chunks": [
+    "e0a12673b7d4"
+   ],
+   "target": "instant of time",
+   "weight": 1
+  },
+  {
+   "source": "time interval",
+   "source_chunks": [
+    "3164f7eade04"
+   ],
+   "target": "average velocity",
+   "weight": 1
+  },
+  {
+   "source": "time interval",
+   "source_chunks": [
+    "3164f7eade04"
+   ],
+   "target": "average acceleration",
+   "weight": 1
+  },
+  {
+   "source": "physical quantities",
+   "source_chunks": [
+    "b5dd06fd1cd9"
+   ],
+   "target": "scalars",
+   "weight": 1
+  },
+  {
+   "source": "physical quantities",
+   "source_chunks": [
+    "b5dd06fd1cd9"
+   ],
+   "target": "vectors",
+   "weight": 1
+  },
+  {
+   "source": "displacement",
+   "source_chunks": [
+    "185a2f598874",
+    "3164f7eade04"
+   ],
+   "target": "average velocity",
+   "weight": 2
+  },
+  {
+   "source": "distance travelled",
+   "source_chunks": [
+    "effc861b734a"
+   ],
+   "target": "displacement",
+   "weight": 1
+  },
+  {
+   "source": "distance travelled",
+   "source_chunks": [
+    "2e08c6a9e621",
+    "21265f9e830f"
+   ],
+   "target": "average speed",
+   "weight": 2
+  },
+  {
+   "source": "distance travelled",
+   "source_chunks": [
+    "d2e6f20ce995"
+   ],
+   "target": "magnitude of displacement",
+   "weight": 1
+  },
+  {
+   "source": "straight line",
+   "source_chunks": [
+    "bfe3366c3f16"
+   ],
+   "target": "motion in a straight line",
+   "weight": 1
+  },
+  {
+   "source": "change in position",
+   "source_chunks": [
+    "bd85b47db390"
+   ],
+   "target": "motion",
+   "weight": 1
+  },
+  {
+   "source": "change in position",
+   "source_chunks": [
+    "8e06c107180c"
+   ],
+   "target": "position",
+   "weight": 1
+  },
+  {
+   "source": "constant speed",
+   "source_chunks": [
+    "931f5fbbff33"
+   ],
+   "target": "uniform motion",
+   "weight": 1
+  },
+  {
+   "source": "constant speed",
+   "source_chunks": [
+    "69838af43ffb"
+   ],
+   "target": "uniform circular motion",
+   "weight": 1
+  },
+  {
+   "source": "rate of change",
+   "source_chunks": [
+    "8e06c107180c"
+   ],
+   "target": "velocity",
+   "weight": 1
+  },
+  {
+   "source": "change in a physical quantity",
+   "source_chunks": [
+    "8e06c107180c"
+   ],
+   "target": "rate of change",
+   "weight": 1
+  },
+  {
+   "source": "rate of change of position",
+   "source_chunks": [
+    "6f492fcbc894"
+   ],
+   "target": "average velocity",
+   "weight": 1
+  },
+  {
+   "source": "total distance travelled",
+   "source_chunks": [
+    "185a2f598874"
+   ],
+   "target": "average speed",
+   "weight": 1
+  },
+  {
+   "source": "change in velocity",
+   "source_chunks": [
+    "0a80f0353e8a"
+   ],
+   "target": "average acceleration",
+   "weight": 1
+  },
+  {
+   "source": "instantaneous acceleration",
+   "source_chunks": [
+    "b5efa46cabe4"
+   ],
+   "target": "average acceleration",
+   "weight": 1
+  },
+  {
+   "source": "data representation",
+   "source_chunks": [
+    "55b6089b7388"
+   ],
+   "target": "graphs",
+   "weight": 1
+  },
+  {
+   "source": "magnitude of velocity",
+   "source_chunks": [
+    "4f386d78678f",
+    "d2e6f20ce995"
+   ],
+   "target": "speed",
+   "weight": 2
+  },
+  {
+   "source": "position-time graph",
+   "source_chunks": [
+    "0cf9404fbc08"
+   ],
+   "target": "average velocity",
+   "weight": 1
+  },
+  {
+   "source": "position-time graph",
+   "source_chunks": [
+    "d6829e025ebf",
+    "3f660dcf6c44"
+   ],
+   "target": "velocity",
+   "weight": 2
+  },
+  {
+   "source": "position-time graph",
+   "source_chunks": [
+    "ea0d4ca8109a"
+   ],
+   "target": "stationary object",
+   "weight": 1
+  },
+  {
+   "source": "velocity-time graph",
+   "source_chunks": [
+    "79df7f6e1f82"
+   ],
+   "target": "displacement",
+   "weight": 1
+  },
+  {
+   "source": "intersection",
+   "source_chunks": [
+    "5d7a2512de41"
+   ],
+   "target": "origin",
+   "weight": 1
+  },
+  {
+   "source": "axis",
+   "source_chunks": [
+    "47ca4554aab2"
+   ],
+   "target": "y-axis",
+   "weight": 1
+  },
+  {
+   "source": "axis",
+   "source_chunks": [
+    "47ca4554aab2"
+   ],
+   "target": "x-axis",
+   "weight": 1
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "32cfecc4b0a1"
+   ],
+   "target": "position",
+   "weight": 1
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "4fa69839b020"
+   ],
+   "target": "position change",
+   "weight": 1
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "524c994da1f3"
+   ],
+   "target": "instant of time",
+   "weight": 1
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "428d8f93d91b",
+    "0370bd07536d"
+   ],
+   "target": "change in time",
+   "weight": 2
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "37669147dbf3"
+   ],
+   "target": "time interval",
+   "weight": 1
+  },
+  {
+   "source": "time",
+   "source_chunks": [
+    "fb5e177a3713"
+   ],
+   "target": "time difference",
+   "weight": 1
+  },
+  {
+   "source": "quantity",
+   "source_chunks": [
+    "47ca4554aab2"
+   ],
+   "target": "time",
+   "weight": 1
+  },
+  {
+   "source": "quantity",
+   "source_chunks": [
+    "47ca4554aab2"
+   ],
+   "target": "position",
+   "weight": 1
+  },
+  {
+   "source": "quantity",
+   "source_chunks": [
+    "37669147dbf3"
+   ],
+   "target": "area",
+   "weight": 1
+  },
+  {
+   "source": "data",
+   "source_chunks": [
+    "a972d66f8a70"
+   ],
+   "target": "scale",
+   "weight": 1
+  },
+  {
+   "source": "data",
+   "source_chunks": [
+    "c20f4ac2422d"
+   ],
+   "target": "graph",
+   "weight": 1
+  },
+  {
+   "source": "data",
+   "source_chunks": [
+    "4908f63518d3"
+   ],
+   "target": "graphs",
+   "weight": 1
+  },
+  {
+   "source": "graph",
+   "source_chunks": [
+    "84caabb45ba4"
+   ],
+   "target": "position-time graph",
+   "weight": 1
+  },
+  {
+   "source": "graph",
+   "source_chunks": [
+    "3065c3f93f36",
+    "864f91cb83bc"
+   ],
+   "target": "area",
+   "weight": 2
+  },
+  {
+   "source": "position change",
+   "source_chunks": [
+    "4fa69839b020"
+   ],
+   "target": "graph",
+   "weight": 1
+  },
+  {
+   "source": "points",
+   "source_chunks": [
+    "7de08012bc32"
+   ],
+   "target": "position",
+   "weight": 1
+  },
+  {
+   "source": "graph plotting",
+   "source_chunks": [
+    "8a4eba5e0892"
+   ],
+   "target": "position-time graph",
+   "weight": 1
+  },
+  {
+   "source": "position and time data",
+   "source_chunks": [
+    "93182263cf6e"
+   ],
+   "target": "position-time graph",
+   "weight": 1
+  },
+  {
+   "source": "straight line position-time graph",
+   "source_chunks": [
+    "84caabb45ba4"
+   ],
+   "target": "constant velocity",
+   "weight": 1
+  },
+  {
+   "source": "slope",
+   "source_chunks": [
+    "8ff958e6ccfe"
+   ],
+   "target": "rate of change",
+   "weight": 1
+  },
+  {
+   "source": "line",
+   "source_chunks": [
+    "8ff958e6ccfe"
+   ],
+   "target": "slope",
+   "weight": 1
+  },
+  {
+   "source": "area",
+   "source_chunks": [
+    "864f91cb83bc",
+    "15283a3244fb"
+   ],
+   "target": "displacement",
+   "weight": 2
+  },
+  {
+   "source": "magnitude",
+   "source_chunks": [
+    "26efa0753d48",
+    "337d19bc9efd"
+   ],
+   "target": "force",
+   "weight": 2
+  },
+  {
+   "source": "magnitude",
+   "source_chunks": [
+    "cbc4f2204333"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "area of rectangle oabc",
+   "source_chunks": [
+    "6f71b2010605"
+   ],
+   "target": "displacement",
+   "weight": 1
+  },
+  {
+   "source": "constant acceleration",
+   "source_chunks": [
+    "baf053f891fb"
+   ],
+   "target": "kinematic equations",
+   "weight": 1
+  },
+  {
+   "source": "rectangle",
+   "source_chunks": [
+    "15283a3244fb"
+   ],
+   "target": "area",
+   "weight": 1
+  },
+  {
+   "source": "vehicle communication",
+   "source_chunks": [
+    "0eaf27eca20b"
+   ],
+   "target": "v2v communication",
+   "weight": 1
+  },
+  {
+   "source": "motion in a plane",
+   "source_chunks": [
+    "8d6fc0a90bef"
+   ],
+   "target": "circular motion",
+   "weight": 1
+  },
+  {
+   "source": "path",
+   "source_chunks": [
+    "a272b556332c"
+   ],
+   "target": "distance travelled",
+   "weight": 1
+  },
+  {
+   "source": "radius",
+   "source_chunks": [
+    "17c58a2327a0"
+   ],
+   "target": "circumference",
+   "weight": 1
+  },
+  {
+   "source": "circle",
+   "source_chunks": [
+    "f40d6705ce69"
+   ],
+   "target": "tangent",
+   "weight": 1
+  },
+  {
+   "source": "circular path",
+   "source_chunks": [
+    "69838af43ffb"
+   ],
+   "target": "uniform circular motion",
+   "weight": 1
+  },
+  {
+   "source": "movement",
+   "source_chunks": [
+    "3082dcc37d93"
+   ],
+   "target": "motion",
+   "weight": 1
+  },
+  {
+   "source": "trapezium",
+   "source_chunks": [
+    "36ffafb1a2c9"
+   ],
+   "target": "area",
+   "weight": 1
+  },
+  {
+   "source": "vehicle's stopping distance",
+   "source_chunks": [
+    "7aaaa13a3f5c"
+   ],
+   "target": "braking distance",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "4b5e29fc1e91",
+    "d838f6755905",
+    "c4ac36a5e06d",
+    "3a99b363fb42",
+    "13daf6872c29"
+   ],
+   "target": "net force",
+   "weight": 5
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "526f217c6e46"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "534e69320c57",
+    "5c0a2142ec82",
+    "2b377445e275",
+    "77f8c31dea6e",
+    "24116e2754f9"
+   ],
+   "target": "friction",
+   "weight": 5
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "10890acdb0a1"
+   ],
+   "target": "motion of objects",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "a804828984eb"
+   ],
+   "target": "newton",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "f179340d42c6",
+    "2ed37f7b33a3",
+    "156874baceba",
+    "26efa0753d48",
+    "76862f748004",
+    "07a1448785c8",
+    "caee8a27b5ca",
+    "a4eea54b67eb",
+    "ab315a2eb217",
+    "4eab2aaf70f2",
+    "cd49ca800e35",
+    "7d07d39c31a1",
+    "fd535170cc73",
+    "651281d167b7",
+    "67d37896981f",
+    "42dc201909ec"
+   ],
+   "target": "acceleration",
+   "weight": 16
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "6377523a02a6",
+    "e1e4b2a7ba88"
+   ],
+   "target": "gravitational force",
+   "weight": 2
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "aea8e3b12e77"
+   ],
+   "target": "change of momentum",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "5691acb5422e"
+   ],
+   "target": "newton's third law",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "31015beab594",
+    "9810362fdece"
+   ],
+   "target": "newton's third law of motion",
+   "weight": 2
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "3e04e6c0e247"
+   ],
+   "target": "rocket launches",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "b988cf7a80d5"
+   ],
+   "target": "recoil force",
+   "weight": 1
+  },
+  {
+   "source": "force",
+   "source_chunks": [
+    "f5b396d4eb1a",
+    "6fb88b44375f",
+    "79445cbc56a5"
+   ],
+   "target": "tension",
+   "weight": 3
+  },
+  {
+   "source": "position and velocity",
+   "source_chunks": [
+    "a67b118ddfbd"
+   ],
+   "target": "motion",
+   "weight": 1
+  },
+  {
+   "source": "charges",
+   "source_chunks": [
+    "a7a58d83af87"
+   ],
+   "target": "electrostatic force",
+   "weight": 1
+  },
+  {
+   "source": "gravitational force",
+   "source_chunks": [
+    "6e58c9a5fed7"
+   ],
+   "target": "weight",
+   "weight": 1
+  },
+  {
+   "source": "gravitational force",
+   "source_chunks": [
+    "355ae60cbafe"
+   ],
+   "target": "forces of different magnitudes",
+   "weight": 1
+  },
+  {
+   "source": "gravitational force",
+   "source_chunks": [
+    "0409f0de9cd0"
+   ],
+   "target": "acceleration due to gravitational force",
+   "weight": 1
+  },
+  {
+   "source": "earth",
+   "source_chunks": [
+    "a7a58d83af87"
+   ],
+   "target": "gravitational force",
+   "weight": 1
+  },
+  {
+   "source": "liquid",
+   "source_chunks": [
+    "a7a58d83af87",
+    "925eb405a756"
+   ],
+   "target": "buoyant force",
+   "weight": 2
+  },
+  {
+   "source": "physical quantity",
+   "source_chunks": [
+    "2fc0157bb75f"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "strength",
+   "source_chunks": [
+    "9dc6080d8cef"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "object",
+   "source_chunks": [
+    "f93a492ead7b",
+    "0aeaa99ccdd2",
+    "1a5871a50870",
+    "10890acdb0a1"
+   ],
+   "target": "force",
+   "weight": 4
+  },
+  {
+   "source": "object",
+   "source_chunks": [
+    "e0eb51511aa6"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "object",
+   "source_chunks": [
+    "fb5e177a3713",
+    "26efa0753d48",
+    "07a1448785c8"
+   ],
+   "target": "mass",
+   "weight": 3
+  },
+  {
+   "source": "forces",
+   "source_chunks": [
+    "8cc7e3203884",
+    "49cb9fe56a20",
+    "d325929d0dc4",
+    "08e9e45fc4f1"
+   ],
+   "target": "net force",
+   "weight": 4
+  },
+  {
+   "source": "equal magnitude forces",
+   "source_chunks": [
+    "ca96fd29f1ce"
+   ],
+   "target": "balanced forces",
+   "weight": 1
+  },
+  {
+   "source": "net force",
+   "source_chunks": [
+    "2ed4c7c79b28"
+   ],
+   "target": "newton's first law of motion",
+   "weight": 1
+  },
+  {
+   "source": "net force",
+   "source_chunks": [
+    "6fb88b44375f"
+   ],
+   "target": "acceleration",
+   "weight": 1
+  },
+  {
+   "source": "unbalanced forces",
+   "source_chunks": [
+    "e622d902644e"
+   ],
+   "target": "net force",
+   "weight": 1
+  },
+  {
+   "source": "friction",
+   "source_chunks": [
+    "936abeec2a97"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "friction",
+   "source_chunks": [
+    "7518e1c8f6f0"
+   ],
+   "target": "grip",
+   "weight": 1
+  },
+  {
+   "source": "motion of objects",
+   "source_chunks": [
+    "10890acdb0a1"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "surfaces in contact",
+   "source_chunks": [
+    "2c69a3623356"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "surfaces in contact",
+   "source_chunks": [
+    "4f994291bc0b"
+   ],
+   "target": "friction",
+   "weight": 1
+  },
+  {
+   "source": "coin",
+   "source_chunks": [
+    "a4950e1e343b"
+   ],
+   "target": "rubber band",
+   "weight": 1
+  },
+  {
+   "source": "balance",
+   "source_chunks": [
+    "533fac72299d"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "surface",
+   "source_chunks": [
+    "701964063493",
+    "d08fb52fa16c"
+   ],
+   "target": "force of friction",
+   "weight": 2
+  },
+  {
+   "source": "surface",
+   "source_chunks": [
+    "794cdfb47cf0",
+    "b5f7e0997499"
+   ],
+   "target": "friction",
+   "weight": 2
+  },
+  {
+   "source": "surface",
+   "source_chunks": [
+    "e6bb9e01a179"
+   ],
+   "target": "frictional force",
+   "weight": 1
+  },
+  {
+   "source": "surface",
+   "source_chunks": [
+    "e6bb9e01a179"
+   ],
+   "target": "frictionless surface",
+   "weight": 1
+  },
+  {
+   "source": "force applied by spring",
+   "source_chunks": [
+    "3d98c7c9b3e1"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "spring balance reading",
+   "source_chunks": [
+    "d45c30ab6ac4"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "no net force",
+   "source_chunks": [
+    "c51d31e1a13b"
+   ],
+   "target": "constant velocity",
+   "weight": 1
+  },
+  {
+   "source": "push",
+   "source_chunks": [
+    "2ed37f7b33a3"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "forces of different magnitudes",
+   "source_chunks": [
+    "355ae60cbafe"
+   ],
+   "target": "resultant acceleration",
+   "weight": 1
+  },
+  {
+   "source": "cart",
+   "source_chunks": [
+    "9df99cc0d01a"
+   ],
+   "target": "box",
+   "weight": 1
+  },
+  {
+   "source": "wheels",
+   "source_chunks": [
+    "79474c739b10"
+   ],
+   "target": "cart",
+   "weight": 1
+  },
+  {
+   "source": "box",
+   "source_chunks": [
+    "79474c739b10"
+   ],
+   "target": "axles",
+   "weight": 1
+  },
+  {
+   "source": "box",
+   "source_chunks": [
+    "9df99cc0d01a"
+   ],
+   "target": "thread",
+   "weight": 1
+  },
+  {
+   "source": "ball bearing wheels",
+   "source_chunks": [
+    "79474c739b10"
+   ],
+   "target": "wheels",
+   "weight": 1
+  },
+  {
+   "source": "mass",
+   "source_chunks": [
+    "01c7cb1510ee"
+   ],
+   "target": "gravitational force",
+   "weight": 1
+  },
+  {
+   "source": "mass",
+   "source_chunks": [
+    "156874baceba",
+    "26efa0753d48",
+    "76862f748004",
+    "07a1448785c8",
+    "caee8a27b5ca",
+    "fd64ba9a7259",
+    "f804afe5ea98",
+    "e1e4b2a7ba88",
+    "ab315a2eb217",
+    "4eab2aaf70f2",
+    "7d07d39c31a1",
+    "fd535170cc73",
+    "780685976409",
+    "67d37896981f"
+   ],
+   "target": "force",
+   "weight": 14
+  },
+  {
+   "source": "units",
+   "source_chunks": [
+    "fd64ba9a7259"
+   ],
+   "target": "mass",
+   "weight": 1
+  },
+  {
+   "source": "momentum",
+   "source_chunks": [
+    "39a10ae6c368"
+   ],
+   "target": "acceleration",
+   "weight": 1
+  },
+  {
+   "source": "momentum",
+   "source_chunks": [
+    "aea8e3b12e77"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "fundamental law of nature",
+   "source_chunks": [
+    "fea1cbcd9a3f"
+   ],
+   "target": "newton's second law of motion",
+   "weight": 1
+  },
+  {
+   "source": "collision",
+   "source_chunks": [
+    "a97cf74958ab"
+   ],
+   "target": "airbag",
+   "weight": 1
+  },
+  {
+   "source": "newton's third law",
+   "source_chunks": [
+    "3d391c2dbe66"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "magnitude of force",
+   "source_chunks": [
+    "26ddef4f0a5a"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "newton's third law of motion",
+   "source_chunks": [
+    "51713c284452"
+   ],
+   "target": "forces",
+   "weight": 1
+  },
+  {
+   "source": "newton's third law of motion",
+   "source_chunks": [
+    "f9c45f1b6a17"
+   ],
+   "target": "rocket launch",
+   "weight": 1
+  },
+  {
+   "source": "adhesive tape",
+   "source_chunks": [
+    "156799a51870"
+   ],
+   "target": "straw",
+   "weight": 1
+  },
+  {
+   "source": "stretched material",
+   "source_chunks": [
+    "fae5b5e2c5db"
+   ],
+   "target": "balloon material",
+   "weight": 1
+  },
+  {
+   "source": "rocket",
+   "source_chunks": [
+    "0af9af22c2dd"
+   ],
+   "target": "exhaust gases",
+   "weight": 1
+  },
+  {
+   "source": "engine",
+   "source_chunks": [
+    "0af9af22c2dd"
+   ],
+   "target": "rocket",
+   "weight": 1
+  },
+  {
+   "source": "contact and non-contact forces",
+   "source_chunks": [
+    "3d391c2dbe66"
+   ],
+   "target": "newton's third law",
+   "weight": 1
+  },
+  {
+   "source": "fruit and earth",
+   "source_chunks": [
+    "3d391c2dbe66"
+   ],
+   "target": "gravitational forces",
+   "weight": 1
+  },
+  {
+   "source": "ground",
+   "source_chunks": [
+    "aaee49aa6a82"
+   ],
+   "target": "normal force",
+   "weight": 1
+  },
+  {
+   "source": "force-mass graph",
+   "source_chunks": [
+    "e28aeab08578"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "mass and acceleration",
+   "source_chunks": [
+    "f36830fd45b0"
+   ],
+   "target": "force",
+   "weight": 1
+  },
+  {
+   "source": "object motion",
+   "source_chunks": [
+    "1aa76aaa2a4c"
+   ],
+   "target": "force of friction",
+   "weight": 1
+  },
+  {
+   "source": "surfaces",
+   "source_chunks": [
+    "430235118e6d"
+   ],
+   "target": "friction",
+   "weight": 1
+  },
+  {
+   "source": "human history",
+   "source_chunks": [
+    "640f4c605747"
+   ],
+   "target": "wheel",
+   "weight": 1
+  },
+  {
+   "source": "equal mass",
+   "source_chunks": [
+    "640f4c605747"
+   ],
+   "target": "toy cars",
+   "weight": 1
+  },
+  {
+   "source": "time taken",
+   "source_chunks": [
+    "fb1f7ee5df1b"
+   ],
+   "target": "distance travelled",
+   "weight": 1
+  },
+  {
+   "source": "scale of motion",
+   "source_chunks": [
+    "d40293633a16"
+   ],
+   "target": "massive objects",
+   "weight": 1
+  }
+ ],
+ "graph": {},
+ "multigraph": false,
+ "nodes": [
+  {
+   "id": "distance",
+   "mention_count": 5,
+   "original_forms": [
+    "distance"
+   ],
+   "source_chunks": [
+    "698f744dbfa6",
+    "41b67007c43a",
+    "65174b71ac1b",
+    "bc37d695193f",
+    "84aa355c2ca4"
+   ]
+  },
+  {
+   "id": "speed",
+   "mention_count": 17,
+   "original_forms": [
+    "speed"
+   ],
+   "source_chunks": [
+    "698f744dbfa6",
+    "6469eb21e51b",
+    "bd85b47db390",
+    "bd85b47db390",
+    "fb86c4ccc7cf",
+    "fb86c4ccc7cf",
+    "32c7ef987249",
+    "942369e18a3d",
+    "01bf09ee9bdd",
+    "4f386d78678f",
+    "65174b71ac1b",
+    "d2e6f20ce995",
+    "d2e6f20ce995",
+    "855e2199ff7d",
+    "c6128183f263",
+    "12c0b4f7751e",
+    "5b86a85351a7"
+   ]
+  },
+  {
+   "id": "motion",
+   "mention_count": 33,
+   "original_forms": [
+    "motion"
+   ],
+   "source_chunks": [
+    "eb2edafbaa4e",
+    "543b29d7dfcd",
+    "6469eb21e51b",
+    "216e6701514e",
+    "496574da9847",
+    "41b67007c43a",
+    "41b67007c43a",
+    "7a16e26280b7",
+    "7a16e26280b7",
+    "bd85b47db390",
+    "bd85b47db390",
+    "55b6089b7388",
+    "cd465c67718a",
+    "557e35a80e9e",
+    "8a589f894989",
+    "5733b8f206f0",
+    "df55702afd03",
+    "3082dcc37d93",
+    "be985ab8efbe",
+    "a67b118ddfbd",
+    "a67b118ddfbd",
+    "49f55cc195d9",
+    "0c749531e73f",
+    "01a70c7391c4",
+    "d838f6755905",
+    "b5f7e0997499",
+    "4914a7976b9d",
+    "0af9af22c2dd",
+    "84335c338f22",
+    "17c9669ebb75",
+    "17c9669ebb75",
+    "c8db4443ffb4",
+    "f763aa7d7c4d"
+   ]
+  },
+  {
+   "id": "variety",
+   "mention_count": 1,
+   "original_forms": [
+    "variety"
+   ],
+   "source_chunks": [
+    "eb2edafbaa4e"
+   ]
+  },
+  {
+   "id": "study",
+   "mention_count": 1,
+   "original_forms": [
+    "study"
+   ],
+   "source_chunks": [
+    "543b29d7dfcd"
+   ]
+  },
+  {
+   "id": "linear motion",
+   "mention_count": 1,
+   "original_forms": [
+    "linear motion"
+   ],
+   "source_chunks": [
+    "6469eb21e51b"
+   ]
+  },
+  {
+   "id": "uniform circular motion",
+   "mention_count": 4,
+   "original_forms": [
+    "uniform circular motion"
+   ],
+   "source_chunks": [
+    "6469eb21e51b",
+    "c6128183f263",
+    "69838af43ffb",
+    "69838af43ffb"
+   ]
+  },
+  {
+   "id": "circular motion",
+   "mention_count": 5,
+   "original_forms": [
+    "circular motion"
+   ],
+   "source_chunks": [
+    "6469eb21e51b",
+    "8d6fc0a90bef",
+    "c6128183f263",
+    "5733b8f206f0",
+    "5733b8f206f0"
+   ]
+  },
+  {
+   "id": "distance and time",
+   "mention_count": 1,
+   "original_forms": [
+    "distance and time"
+   ],
+   "source_chunks": [
+    "6469eb21e51b"
+   ]
+  },
+  {
+   "id": "acceleration",
+   "mention_count": 48,
+   "original_forms": [
+    "acceleration"
+   ],
+   "source_chunks": [
+    "c395f901f55c",
+    "6d35c3ad270e",
+    "d05de6a59ab8",
+    "b1fd9a462231",
+    "602bdac8b956",
+    "b32339bdfdb9",
+    "3d0a8c1e9c3c",
+    "55b6089b7388",
+    "06b8c161da4b",
+    "9bbba062c3e9",
+    "c6a22338a66b",
+    "0370bd07536d",
+    "df263981bb49",
+    "743a7ccb6442",
+    "34e04ddde638",
+    "90ec2f373e1e",
+    "12c0b4f7751e",
+    "e7d9f0ebdd59",
+    "67331a7de82e",
+    "fecebfefb733",
+    "e58ff74f88ae",
+    "d1a3da0a90d2",
+    "d838f6755905",
+    "10f316064212",
+    "70523433e96d",
+    "f179340d42c6",
+    "2ed37f7b33a3",
+    "156874baceba",
+    "26efa0753d48",
+    "76862f748004",
+    "07a1448785c8",
+    "caee8a27b5ca",
+    "a4eea54b67eb",
+    "39a10ae6c368",
+    "c61eb184cbe2",
+    "35db4407c36f",
+    "c75cd83a2b3e",
+    "fa80d3df42c6",
+    "ab315a2eb217",
+    "4eab2aaf70f2",
+    "cd49ca800e35",
+    "6fb88b44375f",
+    "7d07d39c31a1",
+    "fd535170cc73",
+    "651281d167b7",
+    "f36830fd45b0",
+    "67d37896981f",
+    "42dc201909ec"
+   ]
+  },
+  {
+   "id": "velocity",
+   "mention_count": 83,
+   "original_forms": [
+    "velocity"
+   ],
+   "source_chunks": [
+    "c395f901f55c",
+    "bd85b47db390",
+    "f9945120f794",
+    "00ee3a7006f1",
+    "fb86c4ccc7cf",
+    "fb86c4ccc7cf",
+    "fb86c4ccc7cf",
+    "8e06c107180c",
+    "8e06c107180c",
+    "32c7ef987249",
+    "942369e18a3d",
+    "c7fd083e02b8",
+    "c7fd083e02b8",
+    "6d35c3ad270e",
+    "0a80f0353e8a",
+    "383a73b159eb",
+    "da70d1e6c073",
+    "01bf09ee9bdd",
+    "01bf09ee9bdd",
+    "5818fd3cf7b3",
+    "d05de6a59ab8",
+    "b1fd9a462231",
+    "b5efa46cabe4",
+    "602bdac8b956",
+    "b32339bdfdb9",
+    "3d0a8c1e9c3c",
+    "55b6089b7388",
+    "55b6089b7388",
+    "65174b71ac1b",
+    "993ccd0d0871",
+    "370991ec6333",
+    "d6829e025ebf",
+    "f6c0ab669f9a",
+    "0ade4cdb0d9a",
+    "550641fdd7c6",
+    "c1ecb2bdb155",
+    "06b8c161da4b",
+    "3f660dcf6c44",
+    "9bbba062c3e9",
+    "c6a22338a66b",
+    "0370bd07536d",
+    "0370bd07536d",
+    "37669147dbf3",
+    "ef5abbbe7281",
+    "df263981bb49",
+    "df263981bb49",
+    "df263981bb49",
+    "5dfaaa384573",
+    "5dfaaa384573",
+    "5dfaaa384573",
+    "5dfaaa384573",
+    "743a7ccb6442",
+    "855e2199ff7d",
+    "c6128183f263",
+    "34e04ddde638",
+    "3164f7eade04",
+    "90ec2f373e1e",
+    "12c0b4f7751e",
+    "12c0b4f7751e",
+    "e7d9f0ebdd59",
+    "67331a7de82e",
+    "b99bda4d3bc0",
+    "fecebfefb733",
+    "e58ff74f88ae",
+    "d1a3da0a90d2",
+    "5b86a85351a7",
+    "c6239bc34365",
+    "d45c30ab6ac4",
+    "28f8aac7dce6",
+    "d838f6755905",
+    "10f316064212",
+    "3b51083de231",
+    "3b51083de231",
+    "70523433e96d",
+    "aea8e3b12e77",
+    "c61eb184cbe2",
+    "35db4407c36f",
+    "c75cd83a2b3e",
+    "9997d3c48225",
+    "fa80d3df42c6",
+    "4c60c932186d",
+    "f763aa7d7c4d",
+    "1aa76aaa2a4c"
+   ]
+  },
+  {
+   "id": "position",
+   "mention_count": 24,
+   "original_forms": [
+    "position"
+   ],
+   "source_chunks": [
+    "216e6701514e",
+    "18c0b09be979",
+    "496574da9847",
+    "19ecab3060dd",
+    "4d7913effb68",
+    "5bc4bcc511b9",
+    "0bb14ae114d7",
+    "6e16a3820ff6",
+    "42ad1b224c34",
+    "42ad1b224c34",
+    "8e06c107180c",
+    "8e06c107180c",
+    "55b6089b7388",
+    "55b6089b7388",
+    "65174b71ac1b",
+    "47ca4554aab2",
+    "32cfecc4b0a1",
+    "7de08012bc32",
+    "7de08012bc32",
+    "370991ec6333",
+    "428d8f93d91b",
+    "a272b556332c",
+    "df55702afd03",
+    "21265f9e830f"
+   ]
+  },
+  {
+   "id": "reference point",
+   "mention_count": 1,
+   "original_forms": [
+    "reference point"
+   ],
+   "source_chunks": [
+    "18c0b09be979"
+   ]
+  },
+  {
+   "id": "instant of time",
+   "mention_count": 3,
+   "original_forms": [
+    "instant of time"
+   ],
+   "source_chunks": [
+    "e0a12673b7d4",
+    "e0a12673b7d4",
+    "524c994da1f3"
+   ]
+  },
+  {
+   "id": "clock",
+   "mention_count": 1,
+   "original_forms": [
+    "clock"
+   ],
+   "source_chunks": [
+    "e0a12673b7d4"
+   ]
+  },
+  {
+   "id": "time interval",
+   "mention_count": 4,
+   "original_forms": [
+    "time interval"
+   ],
+   "source_chunks": [
+    "e0a12673b7d4",
+    "37669147dbf3",
+    "3164f7eade04",
+    "3164f7eade04"
+   ]
+  },
+  {
+   "id": "scalars",
+   "mention_count": 1,
+   "original_forms": [
+    "scalars"
+   ],
+   "source_chunks": [
+    "b5dd06fd1cd9"
+   ]
+  },
+  {
+   "id": "physical quantities",
+   "mention_count": 2,
+   "original_forms": [
+    "physical quantities"
+   ],
+   "source_chunks": [
+    "b5dd06fd1cd9",
+    "b5dd06fd1cd9"
+   ]
+  },
+  {
+   "id": "vectors",
+   "mention_count": 1,
+   "original_forms": [
+    "vectors"
+   ],
+   "source_chunks": [
+    "b5dd06fd1cd9"
+   ]
+  },
+  {
+   "id": "direction",
+   "mention_count": 2,
+   "original_forms": [
+    "direction"
+   ],
+   "source_chunks": [
+    "19ecab3060dd",
+    "fb86c4ccc7cf"
+   ]
+  },
+  {
+   "id": "displacement",
+   "mention_count": 20,
+   "original_forms": [
+    "displacement"
+   ],
+   "source_chunks": [
+    "4d7913effb68",
+    "0bb14ae114d7",
+    "6e16a3820ff6",
+    "41b67007c43a",
+    "42ad1b224c34",
+    "effc861b734a",
+    "7a16e26280b7",
+    "185a2f598874",
+    "f6c0ab669f9a",
+    "6f71b2010605",
+    "79df7f6e1f82",
+    "864f91cb83bc",
+    "ef5abbbe7281",
+    "15283a3244fb",
+    "a272b556332c",
+    "21265f9e830f",
+    "3164f7eade04",
+    "bc37d695193f",
+    "84aa355c2ca4",
+    "b99bda4d3bc0"
+   ]
+  },
+  {
+   "id": "distance travelled",
+   "mention_count": 11,
+   "original_forms": [
+    "distance travelled"
+   ],
+   "source_chunks": [
+    "5bc4bcc511b9",
+    "42ad1b224c34",
+    "effc861b734a",
+    "7a16e26280b7",
+    "2e08c6a9e621",
+    "d2e6f20ce995",
+    "d2e6f20ce995",
+    "743a7ccb6442",
+    "a272b556332c",
+    "21265f9e830f",
+    "fb1f7ee5df1b"
+   ]
+  },
+  {
+   "id": "motion in a straight line",
+   "mention_count": 1,
+   "original_forms": [
+    "motion in a straight line"
+   ],
+   "source_chunks": [
+    "bfe3366c3f16"
+   ]
+  },
+  {
+   "id": "straight line",
+   "mention_count": 1,
+   "original_forms": [
+    "straight line"
+   ],
+   "source_chunks": [
+    "bfe3366c3f16"
+   ]
+  },
+  {
+   "id": "change in position",
+   "mention_count": 3,
+   "original_forms": [
+    "change in position"
+   ],
+   "source_chunks": [
+    "bd85b47db390",
+    "8e06c107180c",
+    "428d8f93d91b"
+   ]
+  },
+  {
+   "id": "average speed",
+   "mention_count": 5,
+   "original_forms": [
+    "average speed"
+   ],
+   "source_chunks": [
+    "2e08c6a9e621",
+    "fb86c4ccc7cf",
+    "185a2f598874",
+    "32c7ef987249",
+    "21265f9e830f"
+   ]
+  },
+  {
+   "id": "uniform motion",
+   "mention_count": 1,
+   "original_forms": [
+    "uniform motion"
+   ],
+   "source_chunks": [
+    "931f5fbbff33"
+   ]
+  },
+  {
+   "id": "constant speed",
+   "mention_count": 2,
+   "original_forms": [
+    "constant speed"
+   ],
+   "source_chunks": [
+    "931f5fbbff33",
+    "69838af43ffb"
+   ]
+  },
+  {
+   "id": "average velocity",
+   "mention_count": 10,
+   "original_forms": [
+    "average velocity"
+   ],
+   "source_chunks": [
+    "f9945120f794",
+    "00ee3a7006f1",
+    "fb86c4ccc7cf",
+    "6f492fcbc894",
+    "185a2f598874",
+    "32c7ef987249",
+    "c7fd083e02b8",
+    "0cf9404fbc08",
+    "3164f7eade04",
+    "3164f7eade04"
+   ]
+  },
+  {
+   "id": "rate of change",
+   "mention_count": 3,
+   "original_forms": [
+    "rate of change"
+   ],
+   "source_chunks": [
+    "8e06c107180c",
+    "8e06c107180c",
+    "8ff958e6ccfe"
+   ]
+  },
+  {
+   "id": "change in a physical quantity",
+   "mention_count": 1,
+   "original_forms": [
+    "change in a physical quantity"
+   ],
+   "source_chunks": [
+    "8e06c107180c"
+   ]
+  },
+  {
+   "id": "rate of change of position",
+   "mention_count": 1,
+   "original_forms": [
+    "rate of change of position"
+   ],
+   "source_chunks": [
+    "6f492fcbc894"
+   ]
+  },
+  {
+   "id": "total distance travelled",
+   "mention_count": 1,
+   "original_forms": [
+    "total distance travelled"
+   ],
+   "source_chunks": [
+    "185a2f598874"
+   ]
+  },
+  {
+   "id": "instantaneous velocity",
+   "mention_count": 1,
+   "original_forms": [
+    "instantaneous velocity"
+   ],
+   "source_chunks": [
+    "c7fd083e02b8"
+   ]
+  },
+  {
+   "id": "change in velocity",
+   "mention_count": 3,
+   "original_forms": [
+    "change in velocity"
+   ],
+   "source_chunks": [
+    "0a80f0353e8a",
+    "0a80f0353e8a",
+    "0370bd07536d"
+   ]
+  },
+  {
+   "id": "average acceleration",
+   "mention_count": 8,
+   "original_forms": [
+    "average acceleration"
+   ],
+   "source_chunks": [
+    "0a80f0353e8a",
+    "383a73b159eb",
+    "da70d1e6c073",
+    "01bf09ee9bdd",
+    "5818fd3cf7b3",
+    "b5efa46cabe4",
+    "3164f7eade04",
+    "3164f7eade04"
+   ]
+  },
+  {
+   "id": "instantaneous acceleration",
+   "mention_count": 2,
+   "original_forms": [
+    "instantaneous acceleration"
+   ],
+   "source_chunks": [
+    "b5efa46cabe4",
+    "b5efa46cabe4"
+   ]
+  },
+  {
+   "id": "graphs",
+   "mention_count": 3,
+   "original_forms": [
+    "graphs"
+   ],
+   "source_chunks": [
+    "55b6089b7388",
+    "cd465c67718a",
+    "4908f63518d3"
+   ]
+  },
+  {
+   "id": "data representation",
+   "mention_count": 1,
+   "original_forms": [
+    "data representation"
+   ],
+   "source_chunks": [
+    "55b6089b7388"
+   ]
+  },
+  {
+   "id": "magnitude of velocity",
+   "mention_count": 3,
+   "original_forms": [
+    "magnitude of velocity"
+   ],
+   "source_chunks": [
+    "4f386d78678f",
+    "d2e6f20ce995",
+    "d2e6f20ce995"
+   ]
+  },
+  {
+   "id": "position-time graph",
+   "mention_count": 11,
+   "original_forms": [
+    "position-time graph"
+   ],
+   "source_chunks": [
+    "65174b71ac1b",
+    "7de08012bc32",
+    "8a4eba5e0892",
+    "93182263cf6e",
+    "557e35a80e9e",
+    "84caabb45ba4",
+    "0cf9404fbc08",
+    "d6829e025ebf",
+    "ea0d4ca8109a",
+    "3f660dcf6c44",
+    "3b51083de231"
+   ]
+  },
+  {
+   "id": "distance-time graph",
+   "mention_count": 1,
+   "original_forms": [
+    "distance-time graph"
+   ],
+   "source_chunks": [
+    "65174b71ac1b"
+   ]
+  },
+  {
+   "id": "velocity-time graph",
+   "mention_count": 8,
+   "original_forms": [
+    "velocity-time graph"
+   ],
+   "source_chunks": [
+    "65174b71ac1b",
+    "0ade4cdb0d9a",
+    "550641fdd7c6",
+    "c1ecb2bdb155",
+    "79df7f6e1f82",
+    "5dfaaa384573",
+    "3b51083de231",
+    "9997d3c48225"
+   ]
+  },
+  {
+   "id": "speed-time graph",
+   "mention_count": 1,
+   "original_forms": [
+    "speed-time graph"
+   ],
+   "source_chunks": [
+    "65174b71ac1b"
+   ]
+  },
+  {
+   "id": "origin",
+   "mention_count": 1,
+   "original_forms": [
+    "origin"
+   ],
+   "source_chunks": [
+    "5d7a2512de41"
+   ]
+  },
+  {
+   "id": "intersection",
+   "mention_count": 1,
+   "original_forms": [
+    "intersection"
+   ],
+   "source_chunks": [
+    "5d7a2512de41"
+   ]
+  },
+  {
+   "id": "y-axis",
+   "mention_count": 1,
+   "original_forms": [
+    "Y-axis"
+   ],
+   "source_chunks": [
+    "47ca4554aab2"
+   ]
+  },
+  {
+   "id": "axis",
+   "mention_count": 2,
+   "original_forms": [
+    "axis"
+   ],
+   "source_chunks": [
+    "47ca4554aab2",
+    "47ca4554aab2"
+   ]
+  },
+  {
+   "id": "x-axis",
+   "mention_count": 1,
+   "original_forms": [
+    "X-axis"
+   ],
+   "source_chunks": [
+    "47ca4554aab2"
+   ]
+  },
+  {
+   "id": "time",
+   "mention_count": 8,
+   "original_forms": [
+    "time"
+   ],
+   "source_chunks": [
+    "47ca4554aab2",
+    "32cfecc4b0a1",
+    "4fa69839b020",
+    "524c994da1f3",
+    "428d8f93d91b",
+    "0370bd07536d",
+    "37669147dbf3",
+    "fb5e177a3713"
+   ]
+  },
+  {
+   "id": "quantity",
+   "mention_count": 3,
+   "original_forms": [
+    "quantity"
+   ],
+   "source_chunks": [
+    "47ca4554aab2",
+    "47ca4554aab2",
+    "37669147dbf3"
+   ]
+  },
+  {
+   "id": "scale",
+   "mention_count": 1,
+   "original_forms": [
+    "scale"
+   ],
+   "source_chunks": [
+    "a972d66f8a70"
+   ]
+  },
+  {
+   "id": "data",
+   "mention_count": 3,
+   "original_forms": [
+    "data"
+   ],
+   "source_chunks": [
+    "a972d66f8a70",
+    "c20f4ac2422d",
+    "4908f63518d3"
+   ]
+  },
+  {
+   "id": "graph",
+   "mention_count": 5,
+   "original_forms": [
+    "graph"
+   ],
+   "source_chunks": [
+    "4fa69839b020",
+    "c20f4ac2422d",
+    "84caabb45ba4",
+    "3065c3f93f36",
+    "864f91cb83bc"
+   ]
+  },
+  {
+   "id": "position change",
+   "mention_count": 2,
+   "original_forms": [
+    "position change"
+   ],
+   "source_chunks": [
+    "4fa69839b020",
+    "4fa69839b020"
+   ]
+  },
+  {
+   "id": "points",
+   "mention_count": 1,
+   "original_forms": [
+    "points"
+   ],
+   "source_chunks": [
+    "7de08012bc32"
+   ]
+  },
+  {
+   "id": "graph plotting",
+   "mention_count": 1,
+   "original_forms": [
+    "graph plotting"
+   ],
+   "source_chunks": [
+    "8a4eba5e0892"
+   ]
+  },
+  {
+   "id": "position and time data",
+   "mention_count": 1,
+   "original_forms": [
+    "position and time data"
+   ],
+   "source_chunks": [
+    "93182263cf6e"
+   ]
+  },
+  {
+   "id": "constant velocity",
+   "mention_count": 2,
+   "original_forms": [
+    "constant velocity"
+   ],
+   "source_chunks": [
+    "84caabb45ba4",
+    "c51d31e1a13b"
+   ]
+  },
+  {
+   "id": "straight line position-time graph",
+   "mention_count": 1,
+   "original_forms": [
+    "straight line position-time graph"
+   ],
+   "source_chunks": [
+    "84caabb45ba4"
+   ]
+  },
+  {
+   "id": "accelerated motion",
+   "mention_count": 1,
+   "original_forms": [
+    "accelerated motion"
+   ],
+   "source_chunks": [
+    "993ccd0d0871"
+   ]
+  },
+  {
+   "id": "change in time",
+   "mention_count": 2,
+   "original_forms": [
+    "change in time"
+   ],
+   "source_chunks": [
+    "428d8f93d91b",
+    "0370bd07536d"
+   ]
+  },
+  {
+   "id": "slope",
+   "mention_count": 2,
+   "original_forms": [
+    "slope"
+   ],
+   "source_chunks": [
+    "8ff958e6ccfe",
+    "8ff958e6ccfe"
+   ]
+  },
+  {
+   "id": "line",
+   "mention_count": 1,
+   "original_forms": [
+    "line"
+   ],
+   "source_chunks": [
+    "8ff958e6ccfe"
+   ]
+  },
+  {
+   "id": "stationary object",
+   "mention_count": 1,
+   "original_forms": [
+    "stationary object"
+   ],
+   "source_chunks": [
+    "ea0d4ca8109a"
+   ]
+  },
+  {
+   "id": "area",
+   "mention_count": 7,
+   "original_forms": [
+    "area"
+   ],
+   "source_chunks": [
+    "3065c3f93f36",
+    "37669147dbf3",
+    "864f91cb83bc",
+    "864f91cb83bc",
+    "15283a3244fb",
+    "15283a3244fb",
+    "36ffafb1a2c9"
+   ]
+  },
+  {
+   "id": "magnitude",
+   "mention_count": 5,
+   "original_forms": [
+    "magnitude"
+   ],
+   "source_chunks": [
+    "37669147dbf3",
+    "26efa0753d48",
+    "cbc4f2204333",
+    "f763aa7d7c4d",
+    "337d19bc9efd"
+   ]
+  },
+  {
+   "id": "area of rectangle oabc",
+   "mention_count": 1,
+   "original_forms": [
+    "area of rectangle OABC"
+   ],
+   "source_chunks": [
+    "6f71b2010605"
+   ]
+  },
+  {
+   "id": "equations",
+   "mention_count": 1,
+   "original_forms": [
+    "equations"
+   ],
+   "source_chunks": [
+    "8a589f894989"
+   ]
+  },
+  {
+   "id": "initial velocity",
+   "mention_count": 2,
+   "original_forms": [
+    "initial velocity"
+   ],
+   "source_chunks": [
+    "df263981bb49",
+    "5dfaaa384573"
+   ]
+  },
+  {
+   "id": "final velocity",
+   "mention_count": 2,
+   "original_forms": [
+    "final velocity"
+   ],
+   "source_chunks": [
+    "df263981bb49",
+    "5dfaaa384573"
+   ]
+  },
+  {
+   "id": "constant acceleration",
+   "mention_count": 2,
+   "original_forms": [
+    "constant acceleration"
+   ],
+   "source_chunks": [
+    "5dfaaa384573",
+    "baf053f891fb"
+   ]
+  },
+  {
+   "id": "rectangle",
+   "mention_count": 1,
+   "original_forms": [
+    "rectangle"
+   ],
+   "source_chunks": [
+    "15283a3244fb"
+   ]
+  },
+  {
+   "id": "kinematic equations",
+   "mention_count": 1,
+   "original_forms": [
+    "kinematic equations"
+   ],
+   "source_chunks": [
+    "baf053f891fb"
+   ]
+  },
+  {
+   "id": "magnitude of displacement",
+   "mention_count": 2,
+   "original_forms": [
+    "magnitude of displacement"
+   ],
+   "source_chunks": [
+    "d2e6f20ce995",
+    "d2e6f20ce995"
+   ]
+  },
+  {
+   "id": "braking capacity",
+   "mention_count": 1,
+   "original_forms": [
+    "braking capacity"
+   ],
+   "source_chunks": [
+    "743a7ccb6442"
+   ]
+  },
+  {
+   "id": "v2v communication",
+   "mention_count": 1,
+   "original_forms": [
+    "V2V communication"
+   ],
+   "source_chunks": [
+    "0eaf27eca20b"
+   ]
+  },
+  {
+   "id": "vehicle communication",
+   "mention_count": 1,
+   "original_forms": [
+    "vehicle communication"
+   ],
+   "source_chunks": [
+    "0eaf27eca20b"
+   ]
+  },
+  {
+   "id": "motion in a plane",
+   "mention_count": 1,
+   "original_forms": [
+    "motion in a plane"
+   ],
+   "source_chunks": [
+    "8d6fc0a90bef"
+   ]
+  },
+  {
+   "id": "path",
+   "mention_count": 1,
+   "original_forms": [
+    "path"
+   ],
+   "source_chunks": [
+    "a272b556332c"
+   ]
+  },
+  {
+   "id": "circumference",
+   "mention_count": 1,
+   "original_forms": [
+    "circumference"
+   ],
+   "source_chunks": [
+    "17c58a2327a0"
+   ]
+  },
+  {
+   "id": "radius",
+   "mention_count": 1,
+   "original_forms": [
+    "radius"
+   ],
+   "source_chunks": [
+    "17c58a2327a0"
+   ]
+  },
+  {
+   "id": "revolution",
+   "mention_count": 1,
+   "original_forms": [
+    "revolution"
+   ],
+   "source_chunks": [
+    "5733b8f206f0"
+   ]
+  },
+  {
+   "id": "tangent",
+   "mention_count": 1,
+   "original_forms": [
+    "tangent"
+   ],
+   "source_chunks": [
+    "f40d6705ce69"
+   ]
+  },
+  {
+   "id": "circle",
+   "mention_count": 1,
+   "original_forms": [
+    "circle"
+   ],
+   "source_chunks": [
+    "f40d6705ce69"
+   ]
+  },
+  {
+   "id": "circular path",
+   "mention_count": 1,
+   "original_forms": [
+    "circular path"
+   ],
+   "source_chunks": [
+    "69838af43ffb"
+   ]
+  },
+  {
+   "id": "movement",
+   "mention_count": 1,
+   "original_forms": [
+    "movement"
+   ],
+   "source_chunks": [
+    "3082dcc37d93"
+   ]
+  },
+  {
+   "id": "trapezium",
+   "mention_count": 1,
+   "original_forms": [
+    "trapezium"
+   ],
+   "source_chunks": [
+    "36ffafb1a2c9"
+   ]
+  },
+  {
+   "id": "braking distance",
+   "mention_count": 1,
+   "original_forms": [
+    "braking distance"
+   ],
+   "source_chunks": [
+    "7aaaa13a3f5c"
+   ]
+  },
+  {
+   "id": "vehicle's stopping distance",
+   "mention_count": 1,
+   "original_forms": [
+    "vehicle's stopping distance"
+   ],
+   "source_chunks": [
+    "7aaaa13a3f5c"
+   ]
+  },
+  {
+   "id": "force",
+   "mention_count": 77,
+   "original_forms": [
+    "force"
+   ],
+   "source_chunks": [
+    "be985ab8efbe",
+    "49f55cc195d9",
+    "0c749531e73f",
+    "2fc0157bb75f",
+    "9dc6080d8cef",
+    "f93a492ead7b",
+    "4b5e29fc1e91",
+    "526f217c6e46",
+    "0aeaa99ccdd2",
+    "1a5871a50870",
+    "534e69320c57",
+    "10890acdb0a1",
+    "10890acdb0a1",
+    "533fac72299d",
+    "a804828984eb",
+    "d838f6755905",
+    "d838f6755905",
+    "b5f7e0997499",
+    "c4ac36a5e06d",
+    "f179340d42c6",
+    "2ed37f7b33a3",
+    "2ed37f7b33a3",
+    "156874baceba",
+    "156874baceba",
+    "26efa0753d48",
+    "26efa0753d48",
+    "26efa0753d48",
+    "76862f748004",
+    "76862f748004",
+    "07a1448785c8",
+    "07a1448785c8",
+    "caee8a27b5ca",
+    "caee8a27b5ca",
+    "fd64ba9a7259",
+    "6377523a02a6",
+    "a4eea54b67eb",
+    "aea8e3b12e77",
+    "aea8e3b12e77",
+    "4914a7976b9d",
+    "f804afe5ea98",
+    "e1e4b2a7ba88",
+    "e1e4b2a7ba88",
+    "3a99b363fb42",
+    "5691acb5422e",
+    "5c0a2142ec82",
+    "2b377445e275",
+    "31015beab594",
+    "77f8c31dea6e",
+    "3e04e6c0e247",
+    "0af9af22c2dd",
+    "ab315a2eb217",
+    "ab315a2eb217",
+    "4eab2aaf70f2",
+    "4eab2aaf70f2",
+    "b988cf7a80d5",
+    "b988cf7a80d5",
+    "cd49ca800e35",
+    "f5b396d4eb1a",
+    "6fb88b44375f",
+    "79445cbc56a5",
+    "7d07d39c31a1",
+    "7d07d39c31a1",
+    "c8db4443ffb4",
+    "f763aa7d7c4d",
+    "13daf6872c29",
+    "fd535170cc73",
+    "fd535170cc73",
+    "651281d167b7",
+    "337d19bc9efd",
+    "780685976409",
+    "e28aeab08578",
+    "f36830fd45b0",
+    "67d37896981f",
+    "67d37896981f",
+    "42dc201909ec",
+    "9810362fdece",
+    "24116e2754f9"
+   ]
+  },
+  {
+   "id": "cause",
+   "mention_count": 1,
+   "original_forms": [
+    "cause"
+   ],
+   "source_chunks": [
+    "a67b118ddfbd"
+   ]
+  },
+  {
+   "id": "position and velocity",
+   "mention_count": 1,
+   "original_forms": [
+    "position and velocity"
+   ],
+   "source_chunks": [
+    "a67b118ddfbd"
+   ]
+  },
+  {
+   "id": "electrostatic force",
+   "mention_count": 1,
+   "original_forms": [
+    "electrostatic force"
+   ],
+   "source_chunks": [
+    "a7a58d83af87"
+   ]
+  },
+  {
+   "id": "charges",
+   "mention_count": 1,
+   "original_forms": [
+    "charges"
+   ],
+   "source_chunks": [
+    "a7a58d83af87"
+   ]
+  },
+  {
+   "id": "gravitational force",
+   "mention_count": 7,
+   "original_forms": [
+    "gravitational force"
+   ],
+   "source_chunks": [
+    "a7a58d83af87",
+    "6e58c9a5fed7",
+    "355ae60cbafe",
+    "01c7cb1510ee",
+    "0409f0de9cd0",
+    "6377523a02a6",
+    "e1e4b2a7ba88"
+   ]
+  },
+  {
+   "id": "earth",
+   "mention_count": 1,
+   "original_forms": [
+    "Earth"
+   ],
+   "source_chunks": [
+    "a7a58d83af87"
+   ]
+  },
+  {
+   "id": "buoyant force",
+   "mention_count": 2,
+   "original_forms": [
+    "buoyant force"
+   ],
+   "source_chunks": [
+    "a7a58d83af87",
+    "925eb405a756"
+   ]
+  },
+  {
+   "id": "liquid",
+   "mention_count": 2,
+   "original_forms": [
+    "liquid"
+   ],
+   "source_chunks": [
+    "a7a58d83af87",
+    "925eb405a756"
+   ]
+  },
+  {
+   "id": "physical quantity",
+   "mention_count": 1,
+   "original_forms": [
+    "physical quantity"
+   ],
+   "source_chunks": [
+    "2fc0157bb75f"
+   ]
+  },
+  {
+   "id": "strength",
+   "mention_count": 1,
+   "original_forms": [
+    "strength"
+   ],
+   "source_chunks": [
+    "9dc6080d8cef"
+   ]
+  },
+  {
+   "id": "weight",
+   "mention_count": 1,
+   "original_forms": [
+    "weight"
+   ],
+   "source_chunks": [
+    "6e58c9a5fed7"
+   ]
+  },
+  {
+   "id": "object",
+   "mention_count": 8,
+   "original_forms": [
+    "object"
+   ],
+   "source_chunks": [
+    "f93a492ead7b",
+    "e0eb51511aa6",
+    "0aeaa99ccdd2",
+    "1a5871a50870",
+    "10890acdb0a1",
+    "fb5e177a3713",
+    "26efa0753d48",
+    "07a1448785c8"
+   ]
+  },
+  {
+   "id": "forces",
+   "mention_count": 10,
+   "original_forms": [
+    "forces"
+   ],
+   "source_chunks": [
+    "e0eb51511aa6",
+    "8cc7e3203884",
+    "49cb9fe56a20",
+    "d325929d0dc4",
+    "08e9e45fc4f1",
+    "01a70c7391c4",
+    "cbc4f2204333",
+    "26ddef4f0a5a",
+    "51713c284452",
+    "3d391c2dbe66"
+   ]
+  },
+  {
+   "id": "balanced forces",
+   "mention_count": 1,
+   "original_forms": [
+    "balanced forces"
+   ],
+   "source_chunks": [
+    "ca96fd29f1ce"
+   ]
+  },
+  {
+   "id": "equal magnitude forces",
+   "mention_count": 1,
+   "original_forms": [
+    "equal magnitude forces"
+   ],
+   "source_chunks": [
+    "ca96fd29f1ce"
+   ]
+  },
+  {
+   "id": "net force",
+   "mention_count": 15,
+   "original_forms": [
+    "net force"
+   ],
+   "source_chunks": [
+    "e622d902644e",
+    "8cc7e3203884",
+    "49cb9fe56a20",
+    "4b5e29fc1e91",
+    "d325929d0dc4",
+    "08e9e45fc4f1",
+    "d45c30ab6ac4",
+    "d838f6755905",
+    "c4ac36a5e06d",
+    "2ed4c7c79b28",
+    "3a99b363fb42",
+    "4c60c932186d",
+    "6fb88b44375f",
+    "17c9669ebb75",
+    "13daf6872c29"
+   ]
+  },
+  {
+   "id": "unbalanced forces",
+   "mention_count": 1,
+   "original_forms": [
+    "unbalanced forces"
+   ],
+   "source_chunks": [
+    "e622d902644e"
+   ]
+  },
+  {
+   "id": "force of friction",
+   "mention_count": 11,
+   "original_forms": [
+    "force of friction"
+   ],
+   "source_chunks": [
+    "526f217c6e46",
+    "10890acdb0a1",
+    "2c69a3623356",
+    "c6239bc34365",
+    "701964063493",
+    "d08fb52fa16c",
+    "3d98c7c9b3e1",
+    "d45c30ab6ac4",
+    "936abeec2a97",
+    "28f8aac7dce6",
+    "1aa76aaa2a4c"
+   ]
+  },
+  {
+   "id": "friction",
+   "mention_count": 12,
+   "original_forms": [
+    "friction"
+   ],
+   "source_chunks": [
+    "534e69320c57",
+    "936abeec2a97",
+    "794cdfb47cf0",
+    "b5f7e0997499",
+    "5c0a2142ec82",
+    "2b377445e275",
+    "77f8c31dea6e",
+    "17c9669ebb75",
+    "430235118e6d",
+    "7518e1c8f6f0",
+    "24116e2754f9",
+    "4f994291bc0b"
+   ]
+  },
+  {
+   "id": "motion of objects",
+   "mention_count": 2,
+   "original_forms": [
+    "motion of objects"
+   ],
+   "source_chunks": [
+    "10890acdb0a1",
+    "10890acdb0a1"
+   ]
+  },
+  {
+   "id": "surfaces in contact",
+   "mention_count": 2,
+   "original_forms": [
+    "surfaces in contact"
+   ],
+   "source_chunks": [
+    "2c69a3623356",
+    "4f994291bc0b"
+   ]
+  },
+  {
+   "id": "rubber band",
+   "mention_count": 1,
+   "original_forms": [
+    "rubber band"
+   ],
+   "source_chunks": [
+    "a4950e1e343b"
+   ]
+  },
+  {
+   "id": "coin",
+   "mention_count": 1,
+   "original_forms": [
+    "coin"
+   ],
+   "source_chunks": [
+    "a4950e1e343b"
+   ]
+  },
+  {
+   "id": "balance",
+   "mention_count": 1,
+   "original_forms": [
+    "balance"
+   ],
+   "source_chunks": [
+    "533fac72299d"
+   ]
+  },
+  {
+   "id": "surface",
+   "mention_count": 6,
+   "original_forms": [
+    "surface"
+   ],
+   "source_chunks": [
+    "701964063493",
+    "d08fb52fa16c",
+    "794cdfb47cf0",
+    "b5f7e0997499",
+    "e6bb9e01a179",
+    "e6bb9e01a179"
+   ]
+  },
+  {
+   "id": "force applied by spring",
+   "mention_count": 1,
+   "original_forms": [
+    "force applied by spring"
+   ],
+   "source_chunks": [
+    "3d98c7c9b3e1"
+   ]
+  },
+  {
+   "id": "spring balance reading",
+   "mention_count": 1,
+   "original_forms": [
+    "spring balance reading"
+   ],
+   "source_chunks": [
+    "d45c30ab6ac4"
+   ]
+  },
+  {
+   "id": "newton",
+   "mention_count": 1,
+   "original_forms": [
+    "Newton"
+   ],
+   "source_chunks": [
+    "a804828984eb"
+   ]
+  },
+  {
+   "id": "no net force",
+   "mention_count": 1,
+   "original_forms": [
+    "no net force"
+   ],
+   "source_chunks": [
+    "c51d31e1a13b"
+   ]
+  },
+  {
+   "id": "newton's first law of motion",
+   "mention_count": 1,
+   "original_forms": [
+    "Newton's first law of motion"
+   ],
+   "source_chunks": [
+    "2ed4c7c79b28"
+   ]
+  },
+  {
+   "id": "push",
+   "mention_count": 1,
+   "original_forms": [
+    "push"
+   ],
+   "source_chunks": [
+    "2ed37f7b33a3"
+   ]
+  },
+  {
+   "id": "resultant acceleration",
+   "mention_count": 1,
+   "original_forms": [
+    "resultant acceleration"
+   ],
+   "source_chunks": [
+    "355ae60cbafe"
+   ]
+  },
+  {
+   "id": "forces of different magnitudes",
+   "mention_count": 2,
+   "original_forms": [
+    "forces of different magnitudes"
+   ],
+   "source_chunks": [
+    "355ae60cbafe",
+    "355ae60cbafe"
+   ]
+  },
+  {
+   "id": "cart",
+   "mention_count": 2,
+   "original_forms": [
+    "cart"
+   ],
+   "source_chunks": [
+    "79474c739b10",
+    "9df99cc0d01a"
+   ]
+  },
+  {
+   "id": "wheels",
+   "mention_count": 2,
+   "original_forms": [
+    "wheels"
+   ],
+   "source_chunks": [
+    "79474c739b10",
+    "79474c739b10"
+   ]
+  },
+  {
+   "id": "axles",
+   "mention_count": 1,
+   "original_forms": [
+    "axles"
+   ],
+   "source_chunks": [
+    "79474c739b10"
+   ]
+  },
+  {
+   "id": "box",
+   "mention_count": 3,
+   "original_forms": [
+    "box"
+   ],
+   "source_chunks": [
+    "79474c739b10",
+    "9df99cc0d01a",
+    "9df99cc0d01a"
+   ]
+  },
+  {
+   "id": "ball bearing wheels",
+   "mention_count": 1,
+   "original_forms": [
+    "ball bearing wheels"
+   ],
+   "source_chunks": [
+    "79474c739b10"
+   ]
+  },
+  {
+   "id": "thread",
+   "mention_count": 1,
+   "original_forms": [
+    "thread"
+   ],
+   "source_chunks": [
+    "9df99cc0d01a"
+   ]
+  },
+  {
+   "id": "mass",
+   "mention_count": 19,
+   "original_forms": [
+    "mass"
+   ],
+   "source_chunks": [
+    "01c7cb1510ee",
+    "fb5e177a3713",
+    "156874baceba",
+    "26efa0753d48",
+    "26efa0753d48",
+    "76862f748004",
+    "07a1448785c8",
+    "07a1448785c8",
+    "caee8a27b5ca",
+    "fd64ba9a7259",
+    "fd64ba9a7259",
+    "f804afe5ea98",
+    "e1e4b2a7ba88",
+    "ab315a2eb217",
+    "4eab2aaf70f2",
+    "7d07d39c31a1",
+    "fd535170cc73",
+    "780685976409",
+    "67d37896981f"
+   ]
+  },
+  {
+   "id": "time difference",
+   "mention_count": 1,
+   "original_forms": [
+    "time difference"
+   ],
+   "source_chunks": [
+    "fb5e177a3713"
+   ]
+  },
+  {
+   "id": "units",
+   "mention_count": 1,
+   "original_forms": [
+    "units"
+   ],
+   "source_chunks": [
+    "fd64ba9a7259"
+   ]
+  },
+  {
+   "id": "acceleration due to gravitational force",
+   "mention_count": 1,
+   "original_forms": [
+    "acceleration due to gravitational force"
+   ],
+   "source_chunks": [
+    "0409f0de9cd0"
+   ]
+  },
+  {
+   "id": "momentum",
+   "mention_count": 3,
+   "original_forms": [
+    "momentum"
+   ],
+   "source_chunks": [
+    "39a10ae6c368",
+    "aea8e3b12e77",
+    "aea8e3b12e77"
+   ]
+  },
+  {
+   "id": "change of momentum",
+   "mention_count": 1,
+   "original_forms": [
+    "change of momentum"
+   ],
+   "source_chunks": [
+    "aea8e3b12e77"
+   ]
+  },
+  {
+   "id": "newton's second law of motion",
+   "mention_count": 1,
+   "original_forms": [
+    "Newton's second law of motion"
+   ],
+   "source_chunks": [
+    "fea1cbcd9a3f"
+   ]
+  },
+  {
+   "id": "fundamental law of nature",
+   "mention_count": 1,
+   "original_forms": [
+    "fundamental law of nature"
+   ],
+   "source_chunks": [
+    "fea1cbcd9a3f"
+   ]
+  },
+  {
+   "id": "airbag",
+   "mention_count": 1,
+   "original_forms": [
+    "airbag"
+   ],
+   "source_chunks": [
+    "a97cf74958ab"
+   ]
+  },
+  {
+   "id": "collision",
+   "mention_count": 1,
+   "original_forms": [
+    "collision"
+   ],
+   "source_chunks": [
+    "a97cf74958ab"
+   ]
+  },
+  {
+   "id": "newton's third law",
+   "mention_count": 3,
+   "original_forms": [
+    "Newton's third law"
+   ],
+   "source_chunks": [
+    "5691acb5422e",
+    "3d391c2dbe66",
+    "3d391c2dbe66"
+   ]
+  },
+  {
+   "id": "magnitude of force",
+   "mention_count": 1,
+   "original_forms": [
+    "magnitude of force"
+   ],
+   "source_chunks": [
+    "26ddef4f0a5a"
+   ]
+  },
+  {
+   "id": "newton's third law of motion",
+   "mention_count": 5,
+   "original_forms": [
+    "Newton's third law of motion"
+   ],
+   "source_chunks": [
+    "31015beab594",
+    "51713c284452",
+    "f9c45f1b6a17",
+    "b988cf7a80d5",
+    "9810362fdece"
+   ]
+  },
+  {
+   "id": "rocket launches",
+   "mention_count": 1,
+   "original_forms": [
+    "rocket launches"
+   ],
+   "source_chunks": [
+    "3e04e6c0e247"
+   ]
+  },
+  {
+   "id": "rocket launch",
+   "mention_count": 1,
+   "original_forms": [
+    "rocket launch"
+   ],
+   "source_chunks": [
+    "f9c45f1b6a17"
+   ]
+  },
+  {
+   "id": "straw",
+   "mention_count": 1,
+   "original_forms": [
+    "straw"
+   ],
+   "source_chunks": [
+    "156799a51870"
+   ]
+  },
+  {
+   "id": "adhesive tape",
+   "mention_count": 1,
+   "original_forms": [
+    "adhesive tape"
+   ],
+   "source_chunks": [
+    "156799a51870"
+   ]
+  },
+  {
+   "id": "balloon material",
+   "mention_count": 1,
+   "original_forms": [
+    "balloon material"
+   ],
+   "source_chunks": [
+    "fae5b5e2c5db"
+   ]
+  },
+  {
+   "id": "stretched material",
+   "mention_count": 1,
+   "original_forms": [
+    "stretched material"
+   ],
+   "source_chunks": [
+    "fae5b5e2c5db"
+   ]
+  },
+  {
+   "id": "exhaust gases",
+   "mention_count": 1,
+   "original_forms": [
+    "exhaust gases"
+   ],
+   "source_chunks": [
+    "0af9af22c2dd"
+   ]
+  },
+  {
+   "id": "rocket",
+   "mention_count": 2,
+   "original_forms": [
+    "rocket"
+   ],
+   "source_chunks": [
+    "0af9af22c2dd",
+    "0af9af22c2dd"
+   ]
+  },
+  {
+   "id": "engine",
+   "mention_count": 1,
+   "original_forms": [
+    "engine"
+   ],
+   "source_chunks": [
+    "0af9af22c2dd"
+   ]
+  },
+  {
+   "id": "contact and non-contact forces",
+   "mention_count": 1,
+   "original_forms": [
+    "contact and non-contact forces"
+   ],
+   "source_chunks": [
+    "3d391c2dbe66"
+   ]
+  },
+  {
+   "id": "gravitational forces",
+   "mention_count": 1,
+   "original_forms": [
+    "gravitational forces"
+   ],
+   "source_chunks": [
+    "3d391c2dbe66"
+   ]
+  },
+  {
+   "id": "fruit and earth",
+   "mention_count": 1,
+   "original_forms": [
+    "fruit and Earth"
+   ],
+   "source_chunks": [
+    "3d391c2dbe66"
+   ]
+  },
+  {
+   "id": "recoil force",
+   "mention_count": 1,
+   "original_forms": [
+    "recoil force"
+   ],
+   "source_chunks": [
+    "b988cf7a80d5"
+   ]
+  },
+  {
+   "id": "laws of newton",
+   "mention_count": 1,
+   "original_forms": [
+    "laws of Newton"
+   ],
+   "source_chunks": [
+    "84335c338f22"
+   ]
+  },
+  {
+   "id": "tension",
+   "mention_count": 3,
+   "original_forms": [
+    "tension"
+   ],
+   "source_chunks": [
+    "f5b396d4eb1a",
+    "6fb88b44375f",
+    "79445cbc56a5"
+   ]
+  },
+  {
+   "id": "normal force",
+   "mention_count": 1,
+   "original_forms": [
+    "normal force"
+   ],
+   "source_chunks": [
+    "aaee49aa6a82"
+   ]
+  },
+  {
+   "id": "ground",
+   "mention_count": 1,
+   "original_forms": [
+    "ground"
+   ],
+   "source_chunks": [
+    "aaee49aa6a82"
+   ]
+  },
+  {
+   "id": "frictional force",
+   "mention_count": 1,
+   "original_forms": [
+    "frictional force"
+   ],
+   "source_chunks": [
+    "e6bb9e01a179"
+   ]
+  },
+  {
+   "id": "frictionless surface",
+   "mention_count": 1,
+   "original_forms": [
+    "frictionless surface"
+   ],
+   "source_chunks": [
+    "e6bb9e01a179"
+   ]
+  },
+  {
+   "id": "force-mass graph",
+   "mention_count": 1,
+   "original_forms": [
+    "force-mass graph"
+   ],
+   "source_chunks": [
+    "e28aeab08578"
+   ]
+  },
+  {
+   "id": "stopping force",
+   "mention_count": 1,
+   "original_forms": [
+    "stopping force"
+   ],
+   "source_chunks": [
+    "f36830fd45b0"
+   ]
+  },
+  {
+   "id": "mass and acceleration",
+   "mention_count": 1,
+   "original_forms": [
+    "mass and acceleration"
+   ],
+   "source_chunks": [
+    "f36830fd45b0"
+   ]
+  },
+  {
+   "id": "object motion",
+   "mention_count": 2,
+   "original_forms": [
+    "object motion"
+   ],
+   "source_chunks": [
+    "1aa76aaa2a4c",
+    "1aa76aaa2a4c"
+   ]
+  },
+  {
+   "id": "surfaces",
+   "mention_count": 1,
+   "original_forms": [
+    "surfaces"
+   ],
+   "source_chunks": [
+    "430235118e6d"
+   ]
+  },
+  {
+   "id": "wheel",
+   "mention_count": 1,
+   "original_forms": [
+    "wheel"
+   ],
+   "source_chunks": [
+    "640f4c605747"
+   ]
+  },
+  {
+   "id": "human history",
+   "mention_count": 1,
+   "original_forms": [
+    "human history"
+   ],
+   "source_chunks": [
+    "640f4c605747"
+   ]
+  },
+  {
+   "id": "toy cars",
+   "mention_count": 1,
+   "original_forms": [
+    "toy cars"
+   ],
+   "source_chunks": [
+    "640f4c605747"
+   ]
+  },
+  {
+   "id": "equal mass",
+   "mention_count": 1,
+   "original_forms": [
+    "equal mass"
+   ],
+   "source_chunks": [
+    "640f4c605747"
+   ]
+  },
+  {
+   "id": "time taken",
+   "mention_count": 1,
+   "original_forms": [
+    "time taken"
+   ],
+   "source_chunks": [
+    "fb1f7ee5df1b"
+   ]
+  },
+  {
+   "id": "grip",
+   "mention_count": 1,
+   "original_forms": [
+    "grip"
+   ],
+   "source_chunks": [
+    "7518e1c8f6f0"
+   ]
+  },
+  {
+   "id": "massive objects",
+   "mention_count": 1,
+   "original_forms": [
+    "massive objects"
+   ],
+   "source_chunks": [
+    "d40293633a16"
+   ]
+  },
+  {
+   "id": "scale of motion",
+   "mention_count": 1,
+   "original_forms": [
+    "scale of motion"
+   ],
+   "source_chunks": [
+    "d40293633a16"
+   ]
+  }
+ ]
+}

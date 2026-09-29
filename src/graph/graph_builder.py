@@ -1,4 +1,3 @@
-import pickle
 import json
 import re
 import networkx as nx
@@ -69,7 +68,7 @@ def build_graph(all_triples: list[dict]) -> nx.DiGraph:
         prerequisite = triple["prerequisite"].strip().lower()
         chunk_id = triple.get("chunk_id", "unknown")
 
-        # Filter here rather than at read time so kg.pkl is clean on disk.
+        # Filter here rather than at read time so the saved graph is clean on disk.
         if not is_valid_concept(concept) or not is_valid_concept(prerequisite):
             rejected += 1
             continue
@@ -155,21 +154,23 @@ def get_graph_stats(G: nx.DiGraph) -> dict:
 
 def save_graph(G: nx.DiGraph, output_path: str) -> None:
     """
-    Save graph as pickle for fast loading in Phase 3.
-    Pickle preserves all node/edge attributes including sets.
+    Save the graph as JSON.
+
+    Deliberately not pickle: loading a pickle runs whatever code is inside it,
+    and this file ships in the repo for other people to open.
     """
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
-    # Convert sets to lists before pickling
-    # Sets are not JSON-serializable, and the audit export needs them as lists.
+    # Sets do not survive JSON, and the audit export wants lists anyway.
     for node in G.nodes():
         if isinstance(G.nodes[node].get("original_forms"), set):
-            G.nodes[node]["original_forms"] = list(
+            G.nodes[node]["original_forms"] = sorted(
                 G.nodes[node]["original_forms"]
             )
 
-    with open(output_path, "wb") as f:
-        pickle.dump(G, f)
+    data = nx.node_link_data(G, edges="edges")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1, sort_keys=True)
 
     print(f"  Graph saved to {output_path}")
     print(f"  File size: {Path(output_path).stat().st_size / 1024:.1f} KB")

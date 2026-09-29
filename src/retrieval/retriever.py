@@ -1,5 +1,5 @@
+import json
 import math
-import pickle
 
 import networkx as nx
 from sentence_transformers import SentenceTransformer
@@ -19,9 +19,9 @@ QUESTION_MATCH_BOOST = 3.0
 
 def load_graph(graph_path=None) -> nx.DiGraph:
     """Load the knowledge graph from disk."""
-    with open(graph_path or config.GRAPH_PATH, "rb") as f:
-        G = pickle.load(f)
-    return G
+    with open(graph_path or config.GRAPH_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    return nx.node_link_graph(data, directed=True, edges="edges")
 
 
 def reciprocal_rank_fusion(*rankings: list[dict], k: int = RRF_K) -> list[dict]:

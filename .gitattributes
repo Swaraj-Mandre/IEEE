@@ -1,7 +1,6 @@
-# Keep line endings consistent so diffs stay clean across Windows and Linux.
+﻿# Keep line endings consistent so diffs stay clean across Windows and Linux.
 * text=auto eol=lf
 
-*.pkl binary
 *.gguf binary
 *.npy binary
 *.pdf binary
