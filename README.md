@@ -4,7 +4,7 @@
 
 **An offline AI tutor that teaches the prerequisites first, not just the answer.**
 
-GraphRAG based adaptive tutoring for NCERT Class 9 and Class 10 Science.
+GraphRAG based adaptive tutoring for NCERT Science, built from two Class 9 chapters.
 Runs on one ordinary laptop. No internet, no cloud API, no running cost.
 
 ![Python](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)
